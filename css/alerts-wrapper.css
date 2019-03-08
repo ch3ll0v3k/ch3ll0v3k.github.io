@@ -1,0 +1,103 @@
+.alerts-wrapper, #alerts-wrapper{
+    z-index: 1000000; position: absolute; width: 100%; text-align: center; box-sizing: border-box; margin-top: 10px; height: 1px;
+}
+
+/* [alertify] */
+.alertify .ajs-body { padding: 10px !important; box-sizing: border-box !important; }
+.ajs-content{ font-size: 14px !important; }
+.ajs-content { padding: 5px !important; }
+/* .navbar-left{ display: none; } */
+/* .alertify .ajs-dialog{ padding: 5px; } */
+
+/* /[alertify] */
+
+.hidden-input{ width: 1px; height: 1px; overflow: hidden; border: none; border: none; }
+.text-center{ text-align: center !important; }
+.text-left{ text-align: left !important; }
+.text-right{ text-align: right !important; }
+.float-right{ float: right !important; }
+.float-left{ float: left !important; }
+
+.red{ color: #c22 !important; }
+.green{ color: #2c2 !important; }
+.blue{ color: #22c !important; }
+.gray{ color: #555 !important; }
+.white{ color: #eee !important; }
+.yellow{ color: #cc2 !important; }
+.orange{ color: #c52 !important; }
+.black{ color: #111 !important; }
+
+.bold{ font-weight: bold !important; }
+.italic{ font-style: italic !important; }
+.monospace{ font-family: 'monospace' !important; }
+
+.font-10, .font-10px{ font-size: 10px !important; }
+.font-11, .font-11px{ font-size: 11px !important; }
+.font-12, .font-12px{ font-size: 12px !important; }
+.font-13, .font-13px{ font-size: 13px !important; }
+.font-14, .font-14px{ font-size: 14px !important; }
+.font-15, .font-15px{ font-size: 15px !important; }
+.font-16, .font-16px{ font-size: 16px !important; }
+.font-17, .font-17px{ font-size: 17px !important; }
+.font-18, .font-18px{ font-size: 18px !important; }
+.font-19, .font-19px{ font-size: 19px !important; }
+.font-20, .font-20px{ font-size: 20px !important; }
+.font-21, .font-21px{ font-size: 21px !important; }
+.font-22, .font-22px{ font-size: 22px !important; }
+.font-23, .font-23px{ font-size: 23px !important; }
+.font-24, .font-24px{ font-size: 24px !important; }
+.font-25, .font-25px{ font-size: 25px !important; }
+.font-26, .font-26px{ font-size: 26px !important; }
+.font-27, .font-27px{ font-size: 27px !important; }
+.font-28, .font-28px{ font-size: 28px !important; }
+.font-29, .font-29px{ font-size: 29px !important; }
+.font-30, .font-30px{ font-size: 30px !important; }
+
+/* ------------------------------------------------------------------ */
+
+.w_10px{ min-width: 10px !important; }
+.w_20px{ min-width: 20px !important; }
+.w_30px{ min-width: 30px !important; }
+.w_40px{ min-width: 40px !important; }
+.w_50px{ min-width: 50px !important; }
+.w_60px{ min-width: 60px !important; }
+.w_70px{ min-width: 70px !important; }
+.w_80px{ min-width: 80px !important; }
+.w_90px{ min-width: 90px !important; }
+.w_100px{ min-width: 100px !important; }
+.w_110px{ min-width: 110px !important; }
+.w_120px{ min-width: 120px !important; }
+.w_130px{ min-width: 130px !important; }
+.w_140px{ min-width: 140px !important; }
+.w_150px{ min-width: 150px !important; }
+.w_160px{ min-width: 160px !important; }
+.w_170px{ min-width: 170px !important; }
+.w_180px{ min-width: 180px !important; }
+.w_190px{ min-width: 190px !important; }
+.w_200px{ min-width: 200px !important; }
+
+/* -------------------------------------------------------------------- */
+.alert{ box-sizing: border-box; padding: 10px; line-height: 24px !important; text-align: left;   }
+
+/*.alert-success { color: #3c763d; background-color: #dff0d8; border-color: #d6e9c6; }
+.alert-info { color: #31708f; background-color: #d9edf7; border-color: #bce8f1; }
+.alert-warning { color: #8a6d3b; background-color: #fcf8e3; border-color: #faebcc; }
+.alert-danger { color: #a94442; background-color: #f2dede; border-color: #ebccd1; }
+*/
+.alert-close-btn{ float: right; border: none; background: transparent; cursor: pointer; }
+
+/* -------------------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+

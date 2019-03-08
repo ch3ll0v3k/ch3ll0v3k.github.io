@@ -1,0 +1,59 @@
+// INFO => http://www.passivestaking.com/
+
+
+// Round 5 ended on 04-Dec-2018 11:00:04 UTC and took 26.29 days
+// Round 4 ended on 08-Nov-2018 04:00:09 UTC and took 1.86 days
+// Round 3 ended on 06-Nov-2018 07:18:04 UTC and took 13.72 days
+// Round 2 ended on 23-Oct-2018 14:06:47 UTC and took 1.98 days
+
+TTL => ( 7 * 500 + 669 ) / 500.0 == 8.338 STAKS
+
+Round 6 => '04-dec-2018 11:00:04 UTC' => 7 STAKS
+
+
+
+// NON-STAK
+'09-dec-2018 10:55' => 669 ONT => 
+
+
+
+
+// 1 sec => 0.029044635
+// 2 sec => 0.029054670
+
+// R = (0.029054670 - 0.029044635).toFixed(8) => 0.00001004 ONG
+
+// R = 0.00001004 ONG * ( 1 Day ) == 0.00001004 * 86400.0 => 0.86745600 ONG
+
+
+RrCONST = 0.86745600 ONG/Day / F: 669.0 ONT == 0.86745600 / 669.0 =>  RrCONST == 0.00129665
+
+Total ONTs in Hold:
+    1000 ONTs * RrCONST => ONGs Reward each 24-H
+    500 ONTs * RrCONST => ONGs Reward each 24-H
+
+
+    (7 * 500 + 669) * RrCONST => (7 * 500 + 669) * (0.86745600 / 669.0) => 5.405 ONGs /24-H
+
+
+(COEF-OF-500-ONT-A-DAY => 0.2160) * (days 30.5) * (staks 8) => 52.704 ONG
+
+'09-dec-2018 => 10:00-11:00' => ONT 669 => ONG 0
+'10-dec-2018 => 10:00-11:00' => ONT 669 => ONG 0.2954 == 0.2954 / 669.0 ==  FCOnst == 0.000441554559043
+
+
+
+'10-dec-2018 => 10:00-11:00'
+ONT 669 => ONG 0.2954 == 0.2954 / 669.0 == 0.000441554559043
+
+
+
+
+
+
+
+
+
+
+
+

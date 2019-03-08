@@ -1,0 +1,55 @@
+body { font-family: "Lato", sans-serif; padding: 0; margin: 0; width: 100%; height: 100%; }
+
+/* --------- [main] --------- */
+#wrapper{ 
+    transition: all 0.25s;
+    box-sizing: border-box; margin-top: 7px; margin-left: 230px; font-size: 18px; padding: 10px; width: calc(100% -230px); 
+}
+
+.m-head{
+    box-sizing: border-box; font-size: 18px; border-left: solid 3px #07F; padding: 3px 0 3px 10px; margin-bottom: 20px;
+}
+
+.m-row{
+    box-sizing: border-box; padding: 5px 10px; margin-bottom: 22px;
+}
+
+.m-footer{
+    font-size: 14px; box-sizing: border-box; padding: 2px 13px; 
+}
+
+
+#sidenav {
+    transition: all 0.25s;
+    position: fixed; width: 230px; z-index: 1; overflow-x: hidden; margin-top: 55px;
+}
+#sidenav a:hover { color: #2196F3; }
+.sidenav-item{ display: block; box-sizing: border-box; padding: 2px 5px; margin-bottom: 2px; }
+.sidenav-item i, .sidenav-item a{ display: inline-block; vertical-align: top; font-size: 18px !important; }
+.sidenav-item i{ width: 24px; height: 24px; text-align: center; line-height: 22px; }
+
+.body-img{
+    max-width: 750px; width: 100%; box-shadow: 0 0 2px #333; padding: 3px; border: solid 4px #FFF;
+    margin: 30px auto; display: block;
+}
+
+.body-img-left{ /* float: left; */ }
+.body-img-right{ /* float: right; */ }
+
+/* --------- [top-bar] --------- */
+#top-bar{
+    box-sizing: border-box; width: 100%; height: 48px; padding: 6px;
+    background: #fff; box-shadow: 0 0 2px #333;
+}
+
+.top-bar-item{
+    background: #eee; box-sizing: border-box; display: inline-block; vertical-align: top; margin: 0 4px; 
+    min-width: 32px; min-height: 28px; text-align: center; padding: 7px 8px;
+}
+
+.top-bar-btn-item{
+    background: #eee; box-sizing: border-box; display: inline-block; vertical-align: top; margin: 0 4px; 
+    min-width: 32px; min-height: 28px; text-align: center; padding: 0;
+}
+
+
