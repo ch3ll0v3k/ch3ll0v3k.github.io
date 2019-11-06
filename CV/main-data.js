@@ -173,7 +173,8 @@ const CVData = {
   },
   i18n: ( data, lang )=>{
     try{
-      return i18nData[ (''+lang).trim().toUpperCase() ][ data ];
+      const res = i18nData[ (''+lang).trim().toUpperCase() ][ data ];
+      return res || data;
     }catch(e){}
     return data;
   }
