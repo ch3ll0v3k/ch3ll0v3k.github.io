@@ -6,26 +6,30 @@ window.addEventListener('load', function() {
 
     // ----------------------------------------------------------------
     // side-menu
-    let menu_t = [
-        { target: '', icon: 'fa fa-home', href:'/index.html', name: 'Main'},
-        { target: '_blank', icon: 'fa fa-globe', href: REP_ROOT+'/JS-Universe/index.html', name: 'JS-Universe'},
-        { target: '', icon: 'fa fa-info', href: REP_ROOT+'/MiiCanvas/index.html', name: 'MiiCanvas'},
-        { target: '', icon: 'fa fa-list', href: REP_ROOT+'/infinity-data-scroll-feed/index.html', name: 'Infinity scroll feed'},
-        { target: '', icon: 'fa fa-btc', href: REP_ROOT+'/ONTONGCalc/index.html', name: 'ONTONGCalc'},
-    ];
 
-    for( let mi in menu_t ){
+    if( !$('#sidenav').attr('disabled') ){
 
-        let item = menu_t[ mi ];
-        if( location.pathname == '/'+item.href ) document.title += ' - '+item.name;
+        let menu_t = [
+            { target: '', icon: 'fa fa-home', href:'/index.html', name: 'Main'},
+            { target: '_blank', icon: 'fa fa-globe', href: REP_ROOT+'/JS-Universe/index.html', name: 'JS-Universe'},
+            { target: '', icon: 'fa fa-info', href: REP_ROOT+'/MiiCanvas/index.html', name: 'MiiCanvas'},
+            { target: '', icon: 'fa fa-list', href: REP_ROOT+'/infinity-data-scroll-feed/index.html', name: 'Infinity scroll feed'},
+            { target: '', icon: 'fa fa-btc', href: REP_ROOT+'/ONTONGCalc/index.html', name: 'ONTONGCalc'},
+        ];
 
-        $('#sidenav').append(''
-            +'<div class="sidenav-item">'
-            +'    <i class="sidenav-item-icon '+item.icon+'"></i>'
-            +'    <a target="'+item.target+'" class="sidenav-item-link" href="'+item.href+'">'+item.name+'</a>'
-            +'</div>'
-        );
+        for( let mi in menu_t ){
 
+            let item = menu_t[ mi ];
+            if( location.pathname == '/'+item.href ) document.title += ' - '+item.name;
+
+            $('#sidenav').append(''
+                +'<div class="sidenav-item">'
+                +'    <i class="sidenav-item-icon '+item.icon+'"></i>'
+                +'    <a target="'+item.target+'" class="sidenav-item-link" href="'+item.href+'">'+item.name+'</a>'
+                +'</div>'
+            );
+
+        }
     }
 
     // ----------------------------------------------------------------
@@ -88,7 +92,7 @@ window.addEventListener('load', function() {
     // if( localStorage.getItem('side-menu-trigger-btn') == 'closed' )
     //     $('#side-menu-trigger-btn').trigger('click');
 
-    $('#side-menu-trigger-btn').trigger('click');
+    // $('#side-menu-trigger-btn').trigger('click');
 
 });
 

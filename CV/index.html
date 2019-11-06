@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+  <title></title>
+  <meta charset="utf-8"/>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+
+  <script type="text/javascript" src="/vendor/jquery/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="/vendor/viewerjs-1.1.0/dist/viewer.min.js"></script>
+  <script type="text/javascript" src="/vendor/viewerjs-1.1.0/dist/viewer.min.js"></script>
+  <script type="text/javascript" src="/vendor/json2.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
+  <script type="text/javascript" src="/js/main-menu.js"></script>
+  <script type="text/javascript" src="/js/live-html.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="/vendor/font-awesome-4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" href="/vendor/bootstrap/v3.3.7/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/layout.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/tmx.media-v3.0.0.css"/>
+
+</head>
+
+<body>
+
+  <div id="dev-info-box">.</div>
+
+  <div id="sidenav" disabled> <!--[ js/main-menu.js ]--> </div>
+
+  <div id="wrapper">
+
+    <div class="m-row">
+      <div class="m-head"> Curriculum vitae (CV) </div>
+      <div class="m-row">
+
+      </div>
+      <div class="m-footer"> <i class="fa fa-eye"></i> 34,254 <i class="fa fa-calendar"> [-]</i>  </div>
+    </div>
+
+    <div class="m-row">
+      <a href="/CV/"></a>
+    </div>
+
+  </div>
+
+  <script type="text/javascript">
+    // $('#side-menu-trigger-btn').trigger('click');
+
+    window.addEventListener('load', ()=>{
+
+      const date = (new Date()).toISOString().split('T')[0];
+      $('.fa-calendar').each((i, el)=>{
+        $(el).html(` ${date}`);
+      });
+
+    });
+
+  </script>
+
+</body>
+</html>
+
