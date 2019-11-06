@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+  <title></title>
+  <meta charset="utf-8"/>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+
+  <script type="text/javascript" src="/vendor/jquery/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="/vendor/viewerjs-1.1.0/dist/viewer.min.js"></script>
+  <script type="text/javascript" src="/vendor/viewerjs-1.1.0/dist/viewer.min.js"></script>
+  <script type="text/javascript" src="/vendor/json2.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
+  <!-- <script type="text/javascript" src="/js/main-menu.js"></script> -->
+  <!-- <script type="text/javascript" src="/js/live-html.js"></script> -->
+
+  <link rel="stylesheet" type="text/css" href="/vendor/font-awesome-4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" href="/vendor/bootstrap/v3.3.7/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/layout.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/tmx.media-v3.0.0.css"/>
+
+  <style type="text/css">
+    body{
+      background-color: #F0F0F0 !important;
+    }
+    #wrapper{
+      background-color: #fff !important;
+      box-shadow: 0 0 3px #777;
+      margin-left: auto !important;
+      margin-right: auto !important;
+      width: 100% !important;
+      max-width: 1024px !important;
+    }
+
+    .cv-header-left, .cv-header-right{
+      display: inline-block; vertical-align: top;
+    }
+
+    .cv-header-left{
+      width: 220px;
+      /* box-shadow: 0 0 2px #F00;  */
+    }
+
+    .cv-header-right{
+      width: calc( 100% - 250px ); margin-left: 20px;
+      /* box-shadow: 0 0 2px #0F0;  */
+    }
+
+    .cv-header-photo{
+      width: 180px; height: 180px; margin: 0px auto !important; display: block; 
+    }
+
+    @media all and (max-width: 768px) {
+
+      .cv-header-right{
+        width: 100%; margin-left: 0px; margin-top: 20px;
+        /* box-shadow: 0 0 2px #0F0;  */
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div id="wrapper">
+
+    <!-- [personal info] -->
+
+    <div class="m-row m-row-dashed">
+      <div class="m-head"> Curriculum vitae (CV) </div>
+
+      <div class="m-info-row" style="">
+
+        <div class="cv-header-left">
+          <img class="cv-header-photo" id="photo" />
+        </div>
+
+        <div class="cv-header-right">
+
+          <div class="m-info-row" style="">
+            <div class="m-head" id="user-title"> <!-- [js] --> </div>
+            <div class="m-info-row" id="user-data"> <!-- [js] --> </div>
+          </div>
+
+          <div class="m-info-row" style="">
+            <div class="m-head" id="spoken_language-title"> <!-- [js] --> </div>
+            <div class="m-info-row" id="spoken_language-data"> <!-- [js] --> </div>
+          </div>
+
+        </div>
+
+      </div>
+      <!-- <div class="m-footer"> <i class="fa fa-eye"></i> 34,254 <i class="fa fa-calendar"> [-]</i>  </div> -->
+    </div>
+
+    <!-- [programming_skills] -->
+
+    <div class="m-row m-row-dashed">
+
+      <div class="m-info-row" style="">
+
+        <div class="cv-header-left">
+        </div>
+
+        <div class="cv-header-right">
+          <div class="m-head" id="programming_skills-title"> </div>
+          <div class="m-info-row" id="programming_skills-data"> <!-- [js] --> </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- [***] -->
+
+    <div class="m-row m-row-dashed">
+
+      <div class="m-info-row" style="">
+
+        <div class="cv-header-left">
+        </div>
+
+        <div class="cv-header-right">
+          <div class="m-head" id="work_experience-title"> </div>
+          <div class="m-info-row" id="work_experience-data"> <!-- [js] --> </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </div>
+
+  <script type="text/javascript" src="/CV/i18n-data.js"></script>
+  <script type="text/javascript" src="/CV/main-data.js"></script>
+  <script type="text/javascript">
+    // $('#side-menu-trigger-btn').trigger('click');
+
+    window.addEventListener('load', ()=>{
+
+      const LANG = getQuery('lang') ? getQuery('lang').trim().toUpperCase() : 'EN';
+
+      // $('#photo').html( CVData.user.data.Name );
+      $('#photo').attr( 'src', CVData.user.meta.photo );
+
+      $('#user-title').html( CVData.i18n( CVData.user.title, LANG ) );
+      $('#user-data').html('');
+
+      Object.keys( CVData.user.data ).map((prop)=>{
+        $('#user-data').append(`
+          <div class="m-info-row">
+            <b>${ prop }</b>: ${ parseLinks( CVData.user.data[ prop ] ) }
+          </div>
+        `);
+      });
+
+      $('#spoken_language-title').html( CVData.i18n( CVData.spoken_language.title, LANG ) );
+      $('#spoken_language-data').html('');
+
+      Object.keys( CVData.spoken_language.data ).map((lang)=>{
+        $('#spoken_language-data').append(`
+          <div class="m-info-row">
+            ${ lang }: <b>${ CVData.i18n( CVData.spoken_language.data[ lang ], LANG ) }</b>
+          </div>
+        `);
+      });
+
+
+      $('#programming_skills-title').html( CVData.i18n( CVData.programming_skills.title, LANG ) );
+      $('#programming_skills-data').html('');
+
+      Object.keys( CVData.programming_skills.data ).map((type)=>{
+        $('#programming_skills-data').append(
+          `<div class="m-sub-head"> ${ CVData.i18n(type, LANG ) } </div>`
+        );
+
+        CVData.programming_skills.data[ type ].map((subItem)=>{
+          $('#programming_skills-data').append(`
+            <div class="m-info-row pl-30"> &bull; ${ subItem } </div>
+          `);
+        });
+
+        $('#programming_skills-data').append(
+          `<hr/>`
+        );
+      });
+
+      $('#work_experience-title').html( CVData.i18n( CVData.work_experience.title, LANG ) );
+      $('#work_experience-data').html('');
+
+      CVData.work_experience.data.map((Item)=>{
+
+        $('#work_experience-data').append(`
+          <div class="m-sub-head">
+            ${ CVData.i18n( Item.Company.title, LANG ) }: <b>${ Item.Company.data }</b> <br/>
+            <!-- [<b>${ Item['Work period'].data.from } - ${ Item['Work period'].data.upto }</b> ]-->
+          </div>
+        `);
+
+        $('#work_experience-data').append(`
+          <div class="m-info-row pl-30">
+            &bull; ${ CVData.i18n( Item['Work period'].title, LANG) }: ${ Item['Work period'].data.from } - ${ Item['Work period'].data.upto }<br/>
+            &bull; ${ CVData.i18n( Item['Position'].title, LANG ) }: <b>${ Item['Position'].data }</b><br/>
+          </div>
+        `);
+
+        $('#work_experience-data').append(`
+          <div class="m-info-row pl-30">
+            &bull; ${ CVData.i18n( Item['description'].title, LANG ) }:<br/>
+            <div class="pl-30">
+              ${ Item['description'][ LANG ] }<br/>
+           </div>
+          </div>
+        `);
+
+        $('#work_experience-data').append(`
+          <div class="m-info-row pl-30">
+            &bull; ${ CVData.i18n( Item['used'].title, LANG ) }:<br/>
+            <div class="pl-30">
+              ${ Item['used'].data.map((item)=>{ return `${item}, `; }) }
+            </div>
+
+          </div>
+        `);
+
+        // CVData.work_experience.data[ type ].map((subItem)=>{
+        //   $('#work_experience-data').append(`
+        //     <div class="m-info-row pl-30"> &bull; ${ subItem } </div>
+        //   `);
+        // });
+
+        $('#work_experience-data').append(
+          `<hr/>`
+        );
+
+
+      });
+      
+
+
+
+
+
+
+
+
+
+
+
+      const date = (new Date()).toISOString().split('T')[0];
+      $('.fa-calendar').each((i, el)=>{
+        $(el).html(` ${date}`);
+      });
+
+    });
+
+  </script>
+
+</body>
+</html>
+

@@ -1,4 +1,4 @@
-{
+const CVData = {
 
   user: {
 
@@ -38,7 +38,7 @@
         'Linux ( Debian, Ubuntu, any other: (Debian Based) )',
       ],
 
-      'Main dev-stack': [
+      'Main languages/tools stack': [
         'Docker, NodeJS, JS (ECMAScript), (MongoDB, MariaDB)',
         'Sockets: ( Web/JS/Socket.io )',
         'NginX, Apache, ExpressJS ',
@@ -62,7 +62,7 @@
         'C#',
       ],
 
-      Tools: [],
+      Tools: ['Any: required by project'],
     },
 
   },
@@ -71,7 +71,7 @@
     title: 'Work experience',
     data: [
       {
-        'Work period':{ title: 'Work period', data:{from: 'May-2014', upto: 'Apr-2016' },
+        'Work period':{ title: 'Work period', data:{from: 'May-2014', upto: 'Apr-2016' }},
         'Company': { title: 'Company', data: 'Zergo.Co' },
         'Position': { title: 'Position', data: 'Leading developer', },
         'description': { 
@@ -86,13 +86,16 @@
           `
         },
 
-        'In developing used': [
-          'PHP', 'MySQL', 'Linux(Ubuntu)', 'Git', 'Custom UI',
-        ],
+        'used': {
+          title: 'During development, used',
+          data:[
+            'PHP', 'MySQL', 'Linux(Ubuntu)', 'Git', 'Custom UI',
+          ]
+        },
       },
 
       {
-        'Work period':{ title: 'Work period', data:{from: 'Aug 2016', upto: 'Feb 2017', },
+        'Work period':{ title: 'Work period', data:{from: 'Aug 2016', upto: 'Feb 2017', }},
         'Company': { title: 'Company', data: 'Freelance' },
         'Position': { title: 'Position', data: 'Freelance', },
         'description': { 
@@ -100,11 +103,16 @@
           EN: 'Freelance/Freelance',
           RU: 'Фриланс/Фриланс',
         },
+        'used': {
+          title: 'During development, used',
+          data:[]
+        },
+
       },
 
       {
 
-        'Work period':{ title: 'Work period', data:{from: 'Sep 2017', upto: 'Apr 2019', },
+        'Work period':{ title: 'Work period', data:{from: 'Sep 2017', upto: 'Apr 2019', }},
         'Company': { title: 'Company', data: 'Fundplatform' },
         'Position': { title: 'Position', data: 'Leading developer', },
         'description': { 
@@ -112,16 +120,20 @@
           EN: `
             Investment platform, ICO platform, cryptocurrency integration and processing.
             Trading terminal, custom cryptocurrency wallets, NEM-Blockchain integration.
-          `
+          `,
 
           RU: `
             Инвестиционная платформа, платформа ICO, интеграция и обработка криптовалюты.
             Торговый терминал, пользовательские криптовалютные кошельки, интеграция NEM-Blockchain.
-          `
+          `,
         },
-        'In developing used': [
-          'NodeJS', 'Docker', 'PHP', 'MySQL', 'Linux(Ubuntu)', 'Git',
-        ],
+
+        'used': {
+          title: 'During development, used',
+          data:[
+            'NodeJS', 'Docker', 'PHP', 'MySQL', 'Linux(Ubuntu)', 'Git',
+          ]
+        },
       },
 
       {
@@ -135,23 +147,34 @@
           `,
           RU: `
             Разработка бэкенда под приложение для мониторинга и управления личными данными лошадиных скачек.
-          `
+          `,
         },
-        'In developing used': [
-          'React-Native', 'BongoDB', 'NodeJS', 'Docker', 'PHP', 'Linux(Ubuntu)', 'Git',
-        ],
-      },
 
+        'used': {
+          title: 'During development, used',
+          data:[
+          'React-Native', 'BongoDB', 'NodeJS', 'Docker', 'PHP', 'Linux(Ubuntu)', 'Git',
+          ]
+        },
+      },
 
       // {
       //   'Work period':{ title: 'Work period', data:{ from: '', upto: ''}, },
       //   'Company': { title: 'Company', data: '' },
       //   'Position': { title: 'Position', data: 'Leading developer' },
       //   'Description': { title: 'Description', EN: ``, RU: `` },
-      //   'In developing used': [],
+      //   'used': {
+      //     title: 'During development, used',
+      //     data:[ ]
+      //   },
       // },
 
     ],
   },
-  
+  i18n: ( data, lang )=>{
+    try{
+      return i18nData[ (''+lang).trim().toUpperCase() ][ data ];
+    }catch(e){}
+    return data;
+  }
 }

@@ -1,4 +1,4 @@
-body { font-family: "Lato", sans-serif; padding: 0; margin: 0; width: 100%; height: 100%; }
+body { font-family: "Lato", sans-serif; padding: 0; margin: 0; width: 100%; height: 100%; font-size: 15px; }
 
 /* --------- [main] --------- */
 #wrapper{ 
@@ -7,11 +7,23 @@ body { font-family: "Lato", sans-serif; padding: 0; margin: 0; width: 100%; heig
 }
 
 .m-head{
-    box-sizing: border-box; font-size: 18px; border-left: solid 3px #07F; padding: 3px 0 3px 10px; margin-bottom: 20px;
+    box-sizing: border-box; font-size: 20px; border-left: solid 3px #07F; padding: 3px 0 3px 10px; margin-bottom: 20px;
+}
+
+.m-sub-head{
+    box-sizing: border-box; font-size: 18px; border-left: solid 3px #F70; padding: 3px 0 3px 10px; margin-bottom: 10px; margin-left: 10px; 
 }
 
 .m-row{
-    box-sizing: border-box; padding: 5px 10px; margin-bottom: 22px;
+    box-sizing: border-box; padding: 5px 10px; margin-bottom: 22px; 
+}
+
+.m-row-dashed{
+    border-bottom: dashed 1px #aaa;
+}
+
+.m-info-row{
+    box-sizing: border-box; padding: 4px 7px; margin-bottom: 2px;
 }
 
 .m-footer{
@@ -51,5 +63,9 @@ body { font-family: "Lato", sans-serif; padding: 0; margin: 0; width: 100%; heig
     background: #eee; box-sizing: border-box; display: inline-block; vertical-align: top; margin: 0 4px; 
     min-width: 32px; min-height: 28px; text-align: center; padding: 0;
 }
+
+.pl-10{ padding-left: 10px !important; }
+.pl-20{ padding-left: 20px !important; }
+.pl-30{ padding-left: 30px !important; }
 
 

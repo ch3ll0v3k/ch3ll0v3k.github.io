@@ -39,6 +39,19 @@ function parseLinks( raw_text ){
 
 }
 
+function getQuery( name=false ){
+
+    const data = {};
+
+    location.search.replace('?','').trim().split('&').map((pair)=>{ 
+        const P = pair.split('='); 
+        data[ P[0] ] = P[1];
+    })
+
+    return name ? data[ name ] : data;
+
+}
+
 function __post( _url, _data, cb ){
 
     try{
