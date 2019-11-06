@@ -92,7 +92,7 @@ window.addEventListener('load', function() {
     // if( localStorage.getItem('side-menu-trigger-btn') == 'closed' )
     //     $('#side-menu-trigger-btn').trigger('click');
 
-    // $('#side-menu-trigger-btn').trigger('click');
+    $('#side-menu-trigger-btn').trigger('click');
 
 });
 
