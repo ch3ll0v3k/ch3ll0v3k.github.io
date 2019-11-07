@@ -7,6 +7,7 @@ const i18nData = {
     'Description': 'Описание',
     'Work period': 'Период работы',
     'Work experience': 'Опыт работы',
+    'Other work experience': 'Другой опыт работы',
     'During development, used': 'В процессе разработки использовали',
     'Company': 'Фирма',
     'Main languages/tools stack': 'Основные языки / набор инструментов',

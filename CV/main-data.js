@@ -31,21 +31,21 @@ const CVData = {
     title: 'Programming skills',
     data: {
       Databases: [
-        'MySQL', 'Postgres', 'MongoDB', '(+NO-SQL)',
+        'MySQL', '<b>Postgres</b>', '<b>MongoDB</b>', '(+NO-SQL)',
       ],
         
       OSs: [
-        'Linux ( Debian, Ubuntu, any other: (Debian Based) )',
+        '<b>Linux</b> ( Debian, Ubuntu, any other: (Debian Based) )',
       ],
 
       'Main languages/tools stack': [
-        'Docker, NodeJS, JS (ECMAScript), (MongoDB, MariaDB)',
+        '<b>Docker</b>, <b>NodeJS</b>, JS (ECMAScript), (<b>MongoDB</b>, MariaDB)',
         'Sockets: ( Web/JS/Socket.io )',
         'NginX, Apache, ExpressJS ',
-        'React-Native, VueJS (2, 3), NuxtJS, Bootstrap',
+        '<b>React-Native</b>, VueJS (2, 3), NuxtJS, Bootstrap',
         'PHP, HTML5, CSS3',
         'Python: (2,3)',
-        'GIT (Version control systems)',
+        'GIT (Version control systems), Github, Bitbucket',
       ],
 
       'Blockchains - (Integration)': [
@@ -53,7 +53,8 @@ const CVData = {
       ],
 
       'Other - Languages/Libraries (with less experience)': [
-        'telegraf(js)',
+        'Redis',
+        'Telegraf(js)',
         'Bash',
         'MQL(4,5) (MetaQuotes)',
         'Java (Android)',
@@ -89,7 +90,7 @@ const CVData = {
         'used': {
           title: 'During development, used',
           data:[
-            'PHP', 'MySQL', 'Linux(Ubuntu)', 'Git', 'Custom UI',
+            'PHP', 'MySQL', '<b>Linux</b>(Ubuntu)', 'Git', 'Custom UI',
           ]
         },
       },
@@ -131,7 +132,7 @@ const CVData = {
         'used': {
           title: 'During development, used',
           data:[
-            'NodeJS', 'Docker', 'PHP', 'MySQL', 'Linux(Ubuntu)', 'Git',
+            '<b>NodeJS</b>', '<b>Docker</b>', 'PHP', 'MySQL', '<b>Linux</b>(Ubuntu)', 'Git',
           ]
         },
       },
@@ -153,7 +154,7 @@ const CVData = {
         'used': {
           title: 'During development, used',
           data:[
-          'React-Native', 'BongoDB', 'NodeJS', 'Docker', 'PHP', 'Linux(Ubuntu)', 'Git',
+          '<b>React-Native</b>', '<b>MongoDB</b>', '<b>NodeJS</b>', '<b>Docker</b>', 'PHP', '<b>Linux</b>(Ubuntu)', 'Git',
           ]
         },
       },
@@ -170,7 +171,46 @@ const CVData = {
       // },
 
     ],
+
   },
+
+  work_experience_extra:{
+    title: 'Other work experience',
+
+    data: [
+      { 
+        title: 'Poker (Texas-Holdem) Game-Engine',
+        description: {
+          EN: '<b>Crypto-Poker</b> Game-Engine with integrated, tournaments, free rooms, crypto-currency processing',
+          RU: '<b>Crypto-Poker</b> игровой движок со встроенными турнирами, бесплатными комнатами, обработкой криптовалюты',
+        }
+      },
+      { 
+        title: 'Telegram (like/clone) messenger',
+        description: {
+          EN: '<b>Telegram</b> (like/clone) messenger with React-native, (<b>Demo application can be provided upon request.</b>)',
+          RU: '<b>Telegram</b> (клон) messenger на React-native, (<b>Демо-приложение может быть предоставлено по запросу</b>)',
+        }
+      },
+      {
+        title: '<i class="fa fa-btc"></i> <b>Bitcoin Node-Server</b>',
+        description: {
+          EN: 'Installation and support of Bitcoin Node-Server (own API gateway)',
+          RU: 'Установка и поддержка Bitcoin Node-Server (собственный API шлюз)',
+        }
+      },
+      {
+        title: '<i class="fa fa-server"></i> <b> Machine learning - (ML)</b>',
+        description: {
+          EN: 'Machine learning: https://github.com/ch3ll0v3k/ML.real-time-image.night-vision.js',
+          RU: 'Машинное обучение: https://github.com/ch3ll0v3k/ML.real-time-image.night-vision.js',
+        }
+      },
+
+    ],
+
+  },
+
   i18n: ( data, lang )=>{
     try{
       const res = i18nData[ (''+lang).trim().toUpperCase() ][ data ];
