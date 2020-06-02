@@ -42,7 +42,7 @@ const CVData = {
         '<b>Docker</b>, <b>NodeJS</b>, JS (ECMAScript), (<b>MongoDB</b>, MariaDB)',
         'Sockets: ( Web/JS/Socket.io )',
         'NginX, Apache, ExpressJS ',
-        '<b>React-Native</b>, VueJS (2, 3), NuxtJS, Bootstrap',
+        'React, <b>React-Native</b>, VueJS (2, 3), NuxtJS, Bootstrap',
         'PHP, HTML5, CSS3',
         'Python: (2,3)',
         'GIT (Version control systems), Github, Bitbucket',
