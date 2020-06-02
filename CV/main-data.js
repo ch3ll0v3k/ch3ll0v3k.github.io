@@ -31,7 +31,7 @@ const CVData = {
     title: 'Programming skills',
     data: {
       Databases: [
-        'MySQL', '<b>Postgres</b>', '<b>MongoDB</b>', '(+NO-SQL)',
+        'MySQL', '<b>PostgreSQL</b>', '<b>MongoDB</b>', '(+NO-SQL)',
       ],
         
       OSs: [
@@ -39,7 +39,7 @@ const CVData = {
       ],
 
       'Main languages/tools stack': [
-        '<b>Docker</b>, <b>NodeJS</b>, JS (ECMAScript), (<b>MongoDB</b>, MariaDB, <b>Postgres</b>)',
+        '<b>Docker</b>, <b>NodeJS</b>, JS (ECMAScript), (<b>MongoDB</b>, MariaDB, <b>PostgreSQL</b>)',
         'Sockets: ( Web/JS/Socket.io )',
         'NginX, Apache, ExpressJS ',
         'React, <b>React-Native</b>, VueJS (2, 3), NuxtJS, Bootstrap',
