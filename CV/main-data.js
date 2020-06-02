@@ -154,7 +154,7 @@ const CVData = {
         'used': {
           title: 'During development, used',
           data:[
-          '<b>React-Native</b>', '<b>MongoDB</b>', '<b>NodeJS</b>', '<b>Docker</b>', 'PHP', '<b>Linux</b>(Ubuntu)', 'Git',
+          '<b>React-Native</b>', '<b>MongoDB</b>', '<b>NodeJS</b>', '<b>Docker</b>', '<b>Linux</b>(Ubuntu)', 'Git',
           ]
         },
       },
