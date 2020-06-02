@@ -45,7 +45,7 @@ const CVData = {
         'React, <b>React-Native</b>, VueJS (2, 3), NuxtJS, Bootstrap',
         'PHP, HTML5, CSS3',
         'Python: (2,3)',
-        'GIT (Version control systems), Github, Bitbucket',
+        'Version control systems: Github, Bitbucket',
       ],
 
       'Blockchains - (Integration)': [
