@@ -7,7 +7,7 @@ const CVData = {
     data: {
       Name     : 'Timoschenko Viacheslav Igorevich',
       Email    : 'timoschenko.viacheslav@yandex.com​', 
-      Phone    : '+32 (0) 498 40-39-04',
+      // Phone    : '+32 (0) 498 40-39-04',
       Github   : 'https://ch3ll0v3k.github.io/',
       LinkedIn : 'https://www.linkedin.com/in/timoschenko-viacheslau/',
     },
