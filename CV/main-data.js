@@ -39,7 +39,7 @@ const CVData = {
       ],
 
       'Main languages/tools stack': [
-        '<b>Docker</b>, <b>NodeJS</b>, JS (ECMAScript), (<b>MongoDB</b>, MariaDB)',
+        '<b>Docker</b>, <b>NodeJS</b>, JS (ECMAScript), (<b>MongoDB</b>, MariaDB, <b>Postgres</b>)',
         'Sockets: ( Web/JS/Socket.io )',
         'NginX, Apache, ExpressJS ',
         'React, <b>React-Native</b>, VueJS (2, 3), NuxtJS, Bootstrap',
