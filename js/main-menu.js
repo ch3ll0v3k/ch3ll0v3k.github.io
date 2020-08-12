@@ -15,7 +15,7 @@ window.addEventListener('load', function() {
             { target: '', icon: 'fa fa-info', href: REP_ROOT+'/MiiCanvas/index.html', name: 'MiiCanvas'},
             { target: '', icon: 'fa fa-list', href: REP_ROOT+'/infinity-data-scroll-feed/index.html', name: 'Infinity scroll feed'},
             { target: '', icon: 'fa fa-btc', href: REP_ROOT+'/ONTONGCalc/index.html', name: 'ONTONGCalc'},
-            { target: '', icon: 'fa fa-calc', href: REP_ROOT+'/open-ph-meter/public_html/index.html', name: 'Open-PH-meter'},
+            { target: '', icon: 'fa fa-calc', href: REP_ROOT+'/open-ph-meter/pub_html/index.html', name: 'Open-PH-meter'},
         ];
 
         for( let mi in menu_t ){
