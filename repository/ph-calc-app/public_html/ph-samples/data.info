@@ -1,0 +1,3 @@
+volume: 10l
+start PH: 8
+each step: + 1.0 cl - ( PH down )

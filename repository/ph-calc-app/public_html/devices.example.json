@@ -1,0 +1,38 @@
+[
+  {
+    "deviceId": "default",
+    "kind": "audioinput",
+    "label": "",
+    "groupId": "5400b9d94cf2960ee9dce259b98ec6214614fd05de1e170e424ef11a1bb9e1ce"
+  },
+  {
+    "deviceId": "88932d408a6f418be5fca9c9de3229b2ce6210a5a9a281201987da5e22807009",
+    "kind": "audioinput",
+    "label": "",
+    "groupId": "c9803e5f3d8359ffebcfbc8ca81006c4250f32705cf8ff63c88d706c5391ce76"
+  },
+  {
+    "deviceId": "d81845d5d019e55e636e4c09de1532964f97cd14d499d46b0d6cedeed008c761",
+    "kind": "audioinput",
+    "label": "",
+    "groupId": "c6c66cc2f6a97edbeae0ae013d74819c2c03c83ff4ad920a102a7cbf98b39565"
+  },
+  {
+    "deviceId": "0632f7ccd2348d78810f877dfc47402ecd46b79b3b333a02854a40c0b67c740f",
+    "kind": "videoinput",
+    "label": "camera2 1, facing front",
+    "groupId": "c8e939b22e9696080c0397b9a32dee17dce8f1fba02e77558f2949196251b157"
+  },
+  {
+    "deviceId": "88932d408a6f418be5fca9c9de3229b2ce6210a5a9a281201987da5e22807009",
+    "kind": "videoinput",
+    "label": "camera2 0, facing back",
+    "groupId": "81193a528c35f7e0e72cceb08f8a8fc60fd40eb2fdbcdd716469dba5ac307391"
+  },
+  {
+    "deviceId": "default",
+    "kind": "audiooutput",
+    "label": "",
+    "groupId": "default"
+  }
+]

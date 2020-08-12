@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Cam test</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+    <link rel="stylesheet" type="text/css" href="./css/main.html.css"/>
+
+    <style type="text/css">
+      #main-video{ display: none; }
+    </style>
+
+    <script type="text/javascript">
+
+      const FPS = 15;
+      const FPS_delay = (1000 / FPS);
+      const W = window.innerWidth;
+      const H = window.innerHeight;
+      let video = null;
+      let canvas = null;
+      let ctx = null;
+
+      const getMedia = async(constraints)=>{ // eg: { video: true }
+
+        // navigator.usb.getDevices().then(devices => {
+        //   let data = '';
+        //   for( const device of devices ){
+        //     data += `${device.productName} => ${device.manufacturerName}\n`;
+        //     console.log(device.productName);      // "Arduino Micro"
+        //     console.log(device.manufacturerName); // "Arduino LLC"
+        //   }
+        //   alert(data);
+        // });
+
+        // see: ./devices.example.json
+        // (await navigator.mediaDevices.enumerateDevices()).map((device)=>{});
+
+        // navigator.usb.requestDevice({ filters: [{ vendorId: 0x2341 }] })
+        // .then(device => {
+        //   console.log(device.productName);      // "Arduino Micro"
+        //   console.log(device.manufacturerName); // "Arduino LLC"
+        // })
+        // .catch(error => { console.log(error); });
+
+        return new Promise(async(resolve,rej)=>{
+          try{
+
+
+            const videoInputs = [];
+
+            (await navigator.mediaDevices.enumerateDevices()).map((device)=>{
+              if( device.kind === 'videoinput' ){
+                videoInputs.push( device );
+                // {
+                //   "deviceId": "0632f7ccd2348d78810f877dfc47402ecd46b79b3b333a02854a40c0b67c740f",
+                //   "kind": "videoinput",
+                //   "label": "camera2 1, facing front",
+                //   "groupId": "c8e939b22e9696080c0397b9a32dee17dce8f1fba02e77558f2949196251b157"
+                // },
+              }
+            });
+
+            const stream = await navigator.mediaDevices.getUserMedia( constraints );
+            resolve({success: true, message: 'OK', data: stream});
+          }catch(e){
+            resolve({success: false, message: e.message, data: null});
+          }
+        });
+      }
+
+      window.addEventListener('load', async()=>{
+
+        if( !navigator.mediaDevices || !navigator.mediaDevices.getUserMedia){
+          alert('Your browser does not support Web Media Devices');
+          return;
+        }
+
+        video = document.getElementById('main-video');
+        video.setAttribute('width', W);
+        video.setAttribute('height', H);
+
+        canvas = document.getElementById('main-canvas');
+        canvas.setAttribute('width', W*2);
+        canvas.setAttribute('height', H);
+        ctx = canvas.getContext('2d');
+
+        const streamRes = await getMedia({ video: true });
+
+        if( !streamRes.success ){
+          alert( streamRes.message );
+          // return;
+
+          video = new Image();
+          // video.crossOrigin = "Anonymous";
+          video.setAttribute('crossOrigin', '');
+          video.src = `./ph-samples/photo_2020-07-25_18-07-39.jpg?v=${ Date.now() }`;
+
+        }else{
+          video.srcObject = streamRes.data;
+          video.play();          
+        }
+
+        loop();
+
+      });
+
+      let timeout_t = null;
+      function loop(){
+
+        clearTimeout(timeout_t);
+
+        ctx.drawImage(video, 0, 0, W, H);
+
+        const raw_RGBA = ctx.getImageData(0, 0, W, H);
+
+        // for( let y=0; y<H; y++ ){
+        //   for( let x=0; x<( W * SUBSET_MUL ); x+=(SUBSET *SUBSET_MUL) ){
+        //     const X = (y *(W*SUBSET_MUL))+x;
+        //     for( let sub_x=X, index = 0; sub_x<(X+(SUBSET * SUBSET_MUL)); sub_x += (SUBSET_MUL), index++ ){
+        //       const R = raw_RGBA.data[ sub_x +0 ];
+        //       const G = raw_RGBA.data[ sub_x +1 ];
+        //       const B = raw_RGBA.data[ sub_x +2 ];
+        //       const A = raw_RGBA.data[ sub_x +3 ];
+        //       // input_subset.push( (R+G+B) /3 /255 );
+        //       // Adjust pixels ...
+        //       // raw_RGBA.data[ sub_x +0 ] = V;
+        //       // raw_RGBA.data[ sub_x +1 ] = V;
+        //       // raw_RGBA.data[ sub_x +2 ] = V;
+        //       // raw_RGBA.data[ sub_x +3 ] = 255;
+        //     }
+        //   }
+        // }
+
+        ctx.putImageData(raw_RGBA, 0, 0);
+        timeout_t = setTimeout(()=>{ loop(); }, FPS_delay);
+
+      };
+
+    </script>
+  </head>
+
+  <body>
+
+    <pre><code id="code"></code></pre>
+
+    <canvas id="main-canvas"></canvas>
+    <video id="main-video"></video>
+
+  </body>
+
+</html>
