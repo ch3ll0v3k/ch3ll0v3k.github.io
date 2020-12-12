@@ -530,8 +530,8 @@ varchar(255) default 'n/a'</title></a>
       [accumulate] (All symbol in (Portfolio))
 
       portfolio-runtime-state: {
-        symbol: <symbol>;
-        balance: <symbol>;
+        symbol: &lt;symbol&gt;
+        balance: &lt;symbol&gt;
       };
 
       total-balance-runtime-state: 0;
@@ -578,9 +578,9 @@ varchar(255) default 'n/a'</title></a>
                 [accumulate]
                 amountToSell: <<< AmountTo:SELL;
                 orders: {
-                  id: <id>;
-                  price: <price>
-                  amount: <amount>
+                  id: &lt;id&gt;;
+                  price: &lt;price&gt;
+                  amount: &lt;amount&gt;
                 }
 
                 Loop: on (OrderBook) as (Order)
