@@ -40,12 +40,13 @@ const CVData = {
 
       'Main languages/tools stack': [
         '<b>Docker</b>, <b>NodeJS</b>, JS (ECMAScript), (<b>MongoDB</b>, MariaDB, <b>PostgreSQL</b>)',
+        'AWS: (RDS,EC2)',
+        'NginX, Apache, Express-JS',
         'Sockets: ( Web/JS/Socket.io )',
-        'NginX, Apache, ExpressJS ',
-        'React, <b>React-Native</b>, VueJS (2, 3), NuxtJS, Bootstrap',
+        'React, <b>React-Native</b>, VueJS (2, 3), NuxtJS, Material-UI, Bootstrap',
         'PHP, HTML5, CSS3',
         'Python: (2,3)',
-        'Version control systems: Github, Bitbucket',
+        'Version control systems: Github, Bitbucket',,
       ],
 
       'Blockchains - (Integration)': [
@@ -53,7 +54,6 @@ const CVData = {
       ],
 
       'Other - Languages/Libraries (with less experience)': [
-        'AWS: (RDS,EC2)',
         'Redis',
         'Telegraf(js)',
         'Bash',
