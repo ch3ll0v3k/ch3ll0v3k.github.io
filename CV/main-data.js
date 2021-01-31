@@ -7,7 +7,7 @@ const CVData = {
     data: {
       Name     : 'Timoschenko Viacheslav Igorevich',
       Email    : 'timoschenko.viacheslav@yandex.com​', 
-      // Phone    : '+32 (0) 498 40-39-04',
+      Phone    : '+32 (0) 498 40-39-04',
       Github   : 'https://ch3ll0v3k.github.io/',
       LinkedIn : 'https://www.linkedin.com/in/timoschenko-viacheslau/',
     },
@@ -31,7 +31,7 @@ const CVData = {
     title: 'Programming skills',
     data: {
       Databases: [
-        'MySQL', '<b>PostgreSQL</b>', '<b>MongoDB</b>', '(+NO-SQL)',
+        'MySQL (MariaDB)', '<b>PostgreSQL</b>', '<b>MongoDB</b>', '(+NO-SQL)',
       ],
         
       OSs: [
@@ -53,6 +53,7 @@ const CVData = {
       ],
 
       'Other - Languages/Libraries (with less experience)': [
+        'AWS: (RDS,EC2)',
         'Redis',
         'Telegraf(js)',
         'Bash',
@@ -108,7 +109,6 @@ const CVData = {
           title: 'During development, used',
           data:[]
         },
-
       },
 
       {
@@ -138,7 +138,7 @@ const CVData = {
       },
 
       {
-        'Work period':{ title: 'Work period', data:{ from: 'Sep 2019', upto: 'Today'}, },
+        'Work period':{ title: 'Work period', data:{ from: 'Sep 2019', upto: 'Jan 2020'}, },
         'Company': { title: 'Company', data: 'LotaSoft' },
         'Position': { title: 'Position', data: 'Leading developer', },
         'description': { 
@@ -150,11 +150,54 @@ const CVData = {
             Разработка бэкенда под приложение для мониторинга и управления личными данными лошадиных скачек.
           `,
         },
-
         'used': {
           title: 'During development, used',
           data:[
           '<b>React-Native</b>', '<b>MongoDB</b>', '<b>NodeJS</b>', '<b>Docker</b>', '<b>Linux</b>(Ubuntu)', 'Git',
+          ]
+        },
+      },
+
+      {
+        'Work period':{ title: 'Work period', data:{from: 'Mar 2020', upto: 'Jul 2020', }},
+        'Company': { title: 'Company', data: 'Freelance' },
+        'Position': { title: 'Position', data: 'Freelance', },
+        'description': { 
+          title: 'Description',
+          EN: 'Freelance/Freelance',
+          RU: 'Фриланс/Фриланс',
+        },
+        'used': {
+          title: 'During development, used',
+          data:[]
+        },
+      },
+
+
+      {
+        'Work period':{ title: 'Work period', data:{ from: 'Nov 2020', upto: 'Today'}, },
+        'Company': { title: 'Company', data: 'Interexy LLC (ex. AMS)' },
+        'Position': { title: 'Position', data: 'NodeJS backend developer (API)', },
+        'description': { 
+          title: 'Description',
+          EN: `
+            Development of a backend for an (iOS) fitness application.
+          `,
+          RU: `
+            Разработка бэкенда для фитнес-приложения (iOS).
+          `,
+        },
+
+        'used': {
+          title: 'During development, used',
+          data:[
+            '<b>MariaDB (AWS-RDS)</b>',
+            '<b>Linux (Ubuntu) (AWS-EC2)</b>',
+            '<b>NginX: as main balancer/proxy server</b>',
+            '<b>NodeJS</b>',
+            '<b>Docker</b>',
+            '<b>React-JS (Custom Admin-Panel + Material-UI)</b>',
+            'Git (Bitbucket)',
           ]
         },
       },
@@ -219,3 +262,10 @@ const CVData = {
     return data;
   }
 }
+
+if( typeof module !== 'undefined' ){
+  console.log( CVData.programming_skills );
+  console.log( CVData.work_experience );
+  console.log( CVData.work_experience_extra );  
+}
+
