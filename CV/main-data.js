@@ -21,7 +21,7 @@ const CVData = {
     title: 'Spoken language level',
     data: {
       English     : 'Average',
-      Nederlands  : 'Average',
+      Nederlands  : 'Good',
       Russian     : 'Good',
     },
   },
