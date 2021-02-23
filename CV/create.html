@@ -154,6 +154,7 @@
     window.addEventListener('load', ()=>{
 
       const LANG = getQuery('lang') ? getQuery('lang').trim().toUpperCase() : 'EN';
+      document.title = CVData.i18n( CVData.page.title, LANG );
 
       // $('#photo').html( CVData.user.data.Name );
       $('#photo').attr( 'src', CVData.user.meta.photo );

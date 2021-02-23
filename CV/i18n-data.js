@@ -1,6 +1,7 @@
 const i18nData = {
 
   RU: {
+    'CV - Timoschenko Viacheslav': 'Резюме - Тимошенко Вячеслав',
     'Personal Information': 'Персональная информация',
     'Position': 'Должность',
     'Leading developer': 'Ведущий разработчик',
@@ -14,9 +15,7 @@ const i18nData = {
     'Databases': 'Базы данных',
     'Other - Languages/Libraries (with less experience)': 'Другие - Языки / библиотеки (с меньшим опытом)',
     'Programming skills': 'Навыки программирования',
-
     'Spoken language level': 'Разговорный уровень языка',
-
     'Average': 'Среднее',
     'Good': 'Хорошее',
   },
