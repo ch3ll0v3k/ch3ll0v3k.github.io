@@ -4,9 +4,7 @@ const CVData = {
     title: 'CV - Timoschenko Viacheslav',
   },
   user: {
-
     title: 'Personal Information',
-
     data: {
       Name     : 'Timoschenko Viacheslav Igorevich',
       Email    : 'timoschenko.viacheslav@yandex.com​', 
@@ -15,14 +13,13 @@ const CVData = {
       Phone    : '+32 (0) 498 40-39-04',
       YOFB     : '18/sept/1988',
       LinkedIn : 'https://www.linkedin.com/in/timoschenko-viacheslau/',
-      Github   : 'https://ch3ll0v3k.github.io/',
+      Github   : 'https://github.com/ch3ll0v3k',
+      Gitlab   : 'https://gitlab.com/ch3ll0v3k'
     },
     meta: {
       photo : 'https://ch3ll0v3k.github.io/CV/Timoschenko-Viacheslav.jpg',
     },
-
   },
-
   spoken_language:{
     title: 'Spoken language level',
     data: {
