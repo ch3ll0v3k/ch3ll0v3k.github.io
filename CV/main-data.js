@@ -34,22 +34,24 @@ const CVData = {
     title: 'Programming skills',
     data: {
       Databases: [
-        'MySQL (MariaDB)', '<b>PostgreSQL</b>', '<b>MongoDB</b>', '(+NO-SQL)',
+        '<b>MariaDB</b>','<b>PostgreSQL</b>','(+NO-SQL)',
       ],
         
       OSs: [
         '<b>Linux</b> ( Debian, Ubuntu, any other: (Debian Based) )',
       ],
 
-      'Main languages/tools stack': [
-        '<b>Docker</b>, <b>NodeJS</b>, JS (ECMAScript), (<b>MongoDB</b>, MariaDB, <b>PostgreSQL</b>)',
-        'AWS: (RDS,EC2)',
-        'NginX, Apache, Express-JS',
+      'Main languages and tools stack': [
+        '<b>NodeJS</b>',
+        '<b>Docker</b>',
+        'DBs: (<b>MariaDB</b>, PostgreSQL)',
+        'AWS-RDS',
+        'AWS-EC2',
+        'AWS-S3',
+        'NginX, Express-JS',
         'Sockets: ( Web/JS/Socket.io )',
-        'React, <b>React-Native</b>, VueJS (2, 3), NuxtJS, Material-UI, Bootstrap',
-        'PHP, HTML5, CSS3',
-        'Python: (2,3)',
-        'Version control systems: Github, Bitbucket',,
+        '<b>React</b>, Material-UI',
+        'Github, Bitbucket (Version control systems)',
       ],
 
       'Blockchains - (Integration)': [
