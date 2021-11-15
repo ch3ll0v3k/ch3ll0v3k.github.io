@@ -23,9 +23,9 @@ const CVData = {
   spoken_language:{
     title: 'Spoken language level',
     data: {
-      English     : 'Average',
-      Nederlands  : 'Good',
-      Russian     : 'Good',
+      English     : 'B2 (Vantage or upper intermediate)',
+      Nederlands  : 'C1 (Effective operational proficiency or advanced)',
+      Russian     : 'C1 (Effective operational proficiency or advanced)',
     },
   },
 
@@ -75,32 +75,72 @@ const CVData = {
   work_experience:{
     title: 'Work experience',
     data: [
+      // {
+      //   'Work period':{ title: 'Work period', data:{ from: '', upto: ''}, },
+      //   'Company': { title: 'Company', data: '' },
+      //   'Position': { title: 'Position', data: 'Leading developer' },
+      //   'Description': { title: 'Description', EN: ``, RU: `` },
+      //   'used': {
+      //     title: 'During development, used',
+      //     data:[ ]
+      //   },
+      // },
       {
-        'Work period':{ title: 'Work period', data:{from: 'May-2014', upto: 'Apr-2016' }},
-        'Company': { title: 'Company', data: 'Zergo.Co' },
-        'Position': { title: 'Position', data: 'Leading developer', },
+        'Work period':{ title: 'Work period', data:{ from: 'Oct 2021', upto: 'Today'}, },
+        'Company': { title: 'Company', data: 'Interexy LLC (ex. AMS)' },
+        'Position': { title: 'Position', data: 'NodeJS backend developer (API)', },
         'description': { 
           title: 'Description',
           EN: `
-            Virtual goods trading platform, payments integration and processing.
-            Yandex.Money, Qiwi, UniPay, VISA/MasterCard
+            Development of a backend for an (iOS/Android) Food-Delivery App.
           `,
           RU: `
-            Торговая платформа виртуальных товаров, интеграция и обработка платежей.
-            Yandex.Money, Qiwi, UniPay, VISA/MasterCard
-          `
+            Разработка бэкенда для (iOS/Android) приложения для доставки еды.
+          `,
+        },
+        'used': {
+          title: 'During development, used',
+          data:[
+            '<b>(AWS-EC2) Linux</b>',
+            '<b>(AWS-RDS) MariaDB</b>',
+            '<b>(dev) NginX: as main balancer/proxy server</b>',
+            '<b>NodeJS</b>',
+            '<b>Docker</b>',
+            'Git (Bitbucket, Github)',
+          ]
+        },
+      },
+      {
+        'Work period':{ title: 'Work period', data:{ from: 'Nov 2020', upto: 'Sept 2021'}, },
+        'Company': { title: 'Company', data: 'Interexy LLC (ex. AMS)' },
+        'Position': { title: 'Position', data: 'NodeJS backend developer (API)', },
+        'description': { 
+          title: 'Description',
+          EN: `
+            Development of a backend for an (iOS) fitness application.
+            App link: https://circuits.app/
+          `,
+          RU: `
+            Разработка бэкенда для фитнес-приложения (iOS).
+            Ссылка на приложение: https://circuits.app/
+          `,
         },
 
         'used': {
           title: 'During development, used',
           data:[
-            'PHP', 'MySQL', '<b>Linux</b>(Ubuntu)', 'Git', 'Custom UI',
+            '<b>(AWS-EC2) Linux</b>',
+            '<b>(AWS-RDS) MariaDB</b>',
+            '<b>(dev) NginX: as main balancer/proxy server</b>',
+            '<b>NodeJS</b>',
+            '<b>Docker</b>',
+            'Git (Bitbucket, Github)',
+            '<b>React-JS (Custom Admin-Panel + Material-UI)</b>',
           ]
         },
       },
-
       {
-        'Work period':{ title: 'Work period', data:{from: 'Aug 2016', upto: 'Feb 2017', }},
+        'Work period':{ title: 'Work period', data:{from: 'Mar 2020', upto: 'Jul 2020', }},
         'Company': { title: 'Company', data: 'Freelance' },
         'Position': { title: 'Position', data: 'Freelance', },
         'description': { 
@@ -113,33 +153,6 @@ const CVData = {
           data:[]
         },
       },
-
-      {
-
-        'Work period':{ title: 'Work period', data:{from: 'Sep 2017', upto: 'Apr 2019', }},
-        'Company': { title: 'Company', data: 'Fundplatform' },
-        'Position': { title: 'Position', data: 'Leading developer', },
-        'description': { 
-          title: 'Description',
-          EN: `
-            Investment platform, ICO platform, cryptocurrency integration and processing.
-            Trading terminal, custom cryptocurrency wallets, NEM-Blockchain integration.
-          `,
-
-          RU: `
-            Инвестиционная платформа, платформа ICO, интеграция и обработка криптовалюты.
-            Торговый терминал, пользовательские криптовалютные кошельки, интеграция NEM-Blockchain.
-          `,
-        },
-
-        'used': {
-          title: 'During development, used',
-          data:[
-            '<b>NodeJS</b>', '<b>Docker</b>', 'PHP', 'MySQL', '<b>Linux</b>(Ubuntu)', 'Git',
-          ]
-        },
-      },
-
       {
         'Work period':{ title: 'Work period', data:{ from: 'Sep 2019', upto: 'Jan 2020'}, },
         'Company': { title: 'Company', data: 'LotaSoft' },
@@ -160,9 +173,31 @@ const CVData = {
           ]
         },
       },
-
       {
-        'Work period':{ title: 'Work period', data:{from: 'Mar 2020', upto: 'Jul 2020', }},
+        'Work period':{ title: 'Work period', data:{from: 'Sep 2017', upto: 'Apr 2019', }},
+        'Company': { title: 'Company', data: 'Fundplatform' },
+        'Position': { title: 'Position', data: 'Leading developer', },
+        'description': { 
+          title: 'Description',
+          EN: `
+            Investment platform, ICO platform, cryptocurrency integration and processing.
+            Trading terminal, custom cryptocurrency wallets, NEM-Blockchain integration.
+          `,
+
+          RU: `
+            Инвестиционная платформа, платформа ICO, интеграция и обработка криптовалюты.
+            Торговый терминал, пользовательские криптовалютные кошельки, интеграция NEM-Blockchain.
+          `,
+        },
+        'used': {
+          title: 'During development, used',
+          data:[
+            '<b>NodeJS</b>', '<b>Docker</b>', 'PHP', 'MySQL', '<b>Linux</b>(Ubuntu)', 'Git',
+          ]
+        },
+      },
+      {
+        'Work period':{ title: 'Work period', data:{from: 'Aug 2016', upto: 'Feb 2017', }},
         'Company': { title: 'Company', data: 'Freelance' },
         'Position': { title: 'Position', data: 'Freelance', },
         'description': { 
@@ -175,51 +210,31 @@ const CVData = {
           data:[]
         },
       },
-
-
       {
-        'Work period':{ title: 'Work period', data:{ from: 'Nov 2020', upto: 'Today'}, },
-        'Company': { title: 'Company', data: 'Interexy LLC (ex. AMS)' },
-        'Position': { title: 'Position', data: 'NodeJS backend developer (API)', },
+        'Work period':{ title: 'Work period', data:{from: 'May-2014', upto: 'Apr-2016' }},
+        'Company': { title: 'Company', data: 'Zergo.Co' },
+        'Position': { title: 'Position', data: 'Leading developer', },
         'description': { 
           title: 'Description',
           EN: `
-            Development of a backend for an (iOS) fitness application.
+            Virtual goods trading platform, payments integration and processing.
+            Yandex.Money, Qiwi, UniPay, VISA/MasterCard
           `,
           RU: `
-            Разработка бэкенда для фитнес-приложения (iOS).
-          `,
+            Торговая платформа виртуальных товаров, интеграция и обработка платежей.
+            Yandex.Money, Qiwi, UniPay, VISA/MasterCard
+          `
         },
-
         'used': {
           title: 'During development, used',
           data:[
-            '<b>MariaDB (AWS-RDS)</b>',
-            '<b>Linux (Ubuntu) (AWS-EC2)</b>',
-            '<b>NginX: as main balancer/proxy server</b>',
-            '<b>NodeJS</b>',
-            '<b>Docker</b>',
-            '<b>React-JS (Custom Admin-Panel + Material-UI)</b>',
-            'Git (Bitbucket)',
+            'PHP', 'MySQL', '<b>Linux</b>(Ubuntu)', 'Git', 'Custom UI',
           ]
         },
       },
 
-      // {
-      //   'Work period':{ title: 'Work period', data:{ from: '', upto: ''}, },
-      //   'Company': { title: 'Company', data: '' },
-      //   'Position': { title: 'Position', data: 'Leading developer' },
-      //   'Description': { title: 'Description', EN: ``, RU: `` },
-      //   'used': {
-      //     title: 'During development, used',
-      //     data:[ ]
-      //   },
-      // },
-
     ],
-
   },
-
   work_experience_extra:{
     title: 'Other work experience',
 
