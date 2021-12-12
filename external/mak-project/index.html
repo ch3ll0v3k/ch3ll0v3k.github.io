@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8"/>
+  <title>MAK-project</title>
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="icon" type="image/png" href="/favicon.png"/>
+
+  <script type="text/javascript" src="/vendor/jquery/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="/vendor/viewerjs-1.1.0/dist/viewer.min.js"></script>
+  <script type="text/javascript" src="/vendor/json2.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
+  <script type="text/javascript" src="/js/main-menu.js"></script>
+  <script type="text/javascript" src="/js/live-html.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="/vendor/font-awesome-4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" type="text/css" href="/vendor/bootstrap/v3.3.7/bootstrap.min.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/main.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/layout.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/tmx.media-v3.0.0.css"/>
+
+  <style type="text/css">
+    .description-block{
+      margin: 10px 0 10px 20px; padding: 5px; background: #f2f2f2;
+    }
+
+    .method-post, .method-get, .method-put, .method-delete{
+      padding: 2px 4px;
+    }
+
+    .method-post{
+      color: #FF2; background: #662;
+    }
+    .method-get{
+      color: #0e5; background: #061;
+    }
+    .method-put{
+      color: #F2F; background: #626;
+    }
+    .method-delete{
+      color: #F44; background: #611;
+    }
+
+  </style>
+
+  <script type="text/javascript">
+    window.addEventListener('load', async()=>{
+      const overview = document.getElementById('overview');
+      const res = await fetch('/external/mak-project/data/rInfo.json');
+      const json_t = await res.json();
+      let all = '';
+
+      const methodToColor = (method)=>{
+        switch(method){
+          case 'POST': return 'method-post';
+          case 'GET': return 'method-get';
+          case 'PUT': return 'method-put';
+          case 'DELETE': return 'method-delete';
+
+          default: return 'black';
+        }
+      }
+
+      for( const type of Object.keys(json_t) ){
+        // console.log(`#type: ${type}`);
+        // console.table( json_t[ type ] );
+        let details = ``;
+
+        for( const route of json_t[ type ] ){
+          details += `
+            <details>
+              <summary>
+                <!--
+                <code>[${route.method}]</code>: <code>${route.path}</code> <a class="pointer">Show description</a>
+                -->
+                <a class="pointer">Description</a> 
+                <span class="${ methodToColor(route.method) }">[${route.method}]</span>: <code>${route.path}</code>
+
+              </summary>
+              <p class="description-block">
+                ${route.description}
+              </p>
+            </details>
+          `;
+
+        }
+
+        all += `<div class="m-row">
+            <div class="m-head"> [${type}] </div>
+            <div class="m-row">
+              ${details}
+            </div>
+          </div>
+        `;
+
+      }
+
+      overview.innerHTML = all;
+    });
+  </script>
+
+</head>
+<body>
+
+  <div id="dev-info-box">.</div>
+
+  <div id="sidenav"> <!--[ js/main-menu.js ]--> </div>
+
+  <div id="wrapper">
+
+    <div class="m-row">
+      <div class="m-head"> Documents: </div>
+      <div class="m-row">
+        API documentation: <a target="_blank" href="https://documenter.getpostman.com/view/8728554/UVR5po8F">PostMan: /8728554/UVR5po8F</a><br/>
+        DataBase schema: <a target="_blank" href="/external/mak-project/data/db-schema.html">DB-Schema</a><br/>
+      </div>
+      <div class="m-footer"> <i class="fa fa-eye"></i> 0 <i class="fa fa-calendar"></i> 00-00-000 </div>
+    </div>
+
+    <div class="m-row">
+      <div class="m-head"> API Overview </div>
+      <div class="m-row" id="overview">
+
+        <!--
+        <div class="m-row">
+          <div class="m-head"> [type] </div>
+          <div class="m-row">
+            <details>
+              <summary>
+                <code>[POST]</code>: <code>/some/path</code> <a>Show description</a>
+              </summary>
+              <p style="margin: 10px 0 10px 20px; padding: 5px;">
+                Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.
+              </p>
+            </details>
+          </div>
+        </div>
+        -->
+
+        <div id="update-feed-indicator" class="content-center">
+          <img width="120px" src="/external/mak-project/data/ajax-update.gif"/>
+        </div>
+        <!-- 
+        -->
+
+      </div>
+      <div class="m-footer"> <i class="fa fa-eye"></i> 0 <i class="fa fa-calendar"></i> 00-00-000 </div>
+    </div>
+
+  </div>
+
+</body>
+</html>

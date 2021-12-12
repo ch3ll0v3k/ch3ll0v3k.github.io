@@ -1,0 +1,1722 @@
+{
+  "Admin": [
+    {
+      "method": "POST",
+      "path": "/admin/login",
+      "isAuthRequired": false,
+      "description": "Admin login"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/agencySignUp",
+      "isAuthRequired": true,
+      "description": "Agency Register"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/deleteFromList",
+      "isAuthRequired": true,
+      "description": "deleteFromList"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/addImage",
+      "isAuthRequired": true,
+      "description": "uploads files to aws"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/addFile",
+      "isAuthRequired": true,
+      "description": "uploads files to aws"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getAllActiveCustomer",
+      "isAuthRequired": true,
+      "description": "Customer Listing"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getAllActiveCustomerExcel",
+      "isAuthRequired": true,
+      "description": "Customer Listing Excel"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getAllActiveCustomerList",
+      "isAuthRequired": true,
+      "description": "Customer Listing"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/updateAgencyProfile",
+      "isAuthRequired": true,
+      "description": "Update agency profile"
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/addAndUpdateCommissionFeeForTheAgency",
+      "isAuthRequired": true,
+      "description": "Block Users"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getAllLanguages",
+      "isAuthRequired": false,
+      "description": "Language Listing"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getAllAgency",
+      "isAuthRequired": true,
+      "description": "Agency Listing"
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/blockAgencyByAdmin",
+      "isAuthRequired": true,
+      "description": "Block Agency"
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/deleteAgencyByAdmin",
+      "isAuthRequired": true,
+      "description": "Delete Agency"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getAllCustomerDetails",
+      "isAuthRequired": true,
+      "description": "Customer Listing"
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/blockUserByAdmin",
+      "isAuthRequired": true,
+      "description": "Block Users"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/addEditReligion",
+      "isAuthRequired": true,
+      "description": "add EditReligion"
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/editReview",
+      "isAuthRequired": true,
+      "description": "editReview"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/changePassword",
+      "isAuthRequired": true,
+      "description": "Change password"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/forgetPassword",
+      "isAuthRequired": false,
+      "description": "Forgot password"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getAllMaidDetails",
+      "isAuthRequired": true,
+      "description": "Maid Listing"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getAllReligion",
+      "isAuthRequired": true,
+      "description": "Maid Listing"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/listAllServiceByAdmin",
+      "isAuthRequired": true,
+      "description": "Service Listing By Admin"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/listAllBulkServiceByAdmin",
+      "isAuthRequired": true,
+      "description": "Service Listing By Admin"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/listAllCanceledServiceAdmin",
+      "isAuthRequired": true,
+      "description": "Cancelled Service Listing for admin"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/listAllCanceledServiceBulkAdmin",
+      "isAuthRequired": true,
+      "description": "Cancelled Service Listing for admin"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/revenueReport",
+      "isAuthRequired": true,
+      "description": "Revenue report listing admin"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/bulkReport",
+      "isAuthRequired": true,
+      "description": "Bulk report listing admin"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/lifeTimeSummaryAdmin",
+      "isAuthRequired": true,
+      "description": "LifeTime Summary of revenue report for admin"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/currentMonthSummaryAdmin",
+      "isAuthRequired": true,
+      "description": "Current Month Summary for admin"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/detailedMonthlyInvoiceAdmin",
+      "isAuthRequired": true,
+      "description": "Detailed Monthly Invoice for admin"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/dashBoardData",
+      "isAuthRequired": true,
+      "description": "Dashboard details"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/listAllReviewsAdmin",
+      "isAuthRequired": false,
+      "description": "Review and rating Listing By Admin"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/listAllNotificationAdmin",
+      "isAuthRequired": true,
+      "description": "List all notification Admin"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/listAllNotificationAdminLimit",
+      "isAuthRequired": true,
+      "description": "List all notification Admin"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getNotificationUnredCountAdmin",
+      "isAuthRequired": true,
+      "description": "Get unread notification Count admin"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/sendNotificationToAll",
+      "isAuthRequired": true,
+      "description": "Send notification to multiple users"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/createXlsxAdmin",
+      "isAuthRequired": true,
+      "description": "create Xlsx sheet in admin"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/issueList",
+      "isAuthRequired": true,
+      "description": "get Issue List "
+    },
+    {
+      "method": "GET",
+      "path": "/admin/contactList",
+      "isAuthRequired": true,
+      "description": "get Contact List "
+    },
+    {
+      "method": "GET",
+      "path": "/admin/listAllExtendedService",
+      "isAuthRequired": true,
+      "description": "List extended service for approval by admin"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/addPromo",
+      "isAuthRequired": true,
+      "description": "Add promocode"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/PromoCodeList",
+      "isAuthRequired": true,
+      "description": "PromoCodeList"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/PromoCodeStatus",
+      "isAuthRequired": true,
+      "description": "PromoCodeStatus"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/PromoCodeDelete",
+      "isAuthRequired": true,
+      "description": "PromoCodeDelete"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/PromoCodeUpdate",
+      "isAuthRequired": true,
+      "description": "PromoCodeList"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/addMaidService",
+      "isAuthRequired": true,
+      "description": "Add addMaidService"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/updateMaidService",
+      "isAuthRequired": false,
+      "description": "maid"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/MaidServiceList",
+      "isAuthRequired": false,
+      "description": "MaidServiceList"
+    },
+    {
+      "method": "DELETE",
+      "path": "/admin/deleteMaidService",
+      "isAuthRequired": false,
+      "description": "Delete maid Service"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getMaidServiceDetail",
+      "isAuthRequired": true,
+      "description": "Get maid Service Detail"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/listAllReviewsFeedbackAdmin",
+      "isAuthRequired": true,
+      "description": "Review and rating Listing By Admin"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/updateReportDatabase",
+      "isAuthRequired": true,
+      "description": "updateReportDatabase admin"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/updateRefundStatusDatabase",
+      "isAuthRequired": true,
+      "description": "updateRefundStatusDatabase admin"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/updatePaymentStatusDatabase",
+      "isAuthRequired": true,
+      "description": "updatePaymentStatus admin"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getAllUsersGroup",
+      "isAuthRequired": true,
+      "description": "Agency Listing"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getUserSMSGroup",
+      "isAuthRequired": true,
+      "description": "Customer group Listing"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/createUserSMSGroup",
+      "isAuthRequired": true,
+      "description": "Send notification to multiple users"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/sendSMSMNotificationToAll",
+      "isAuthRequired": true,
+      "description": "Send notification to multiple users"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/updateUserGroup",
+      "isAuthRequired": true,
+      "description": "Update group profile"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/deleteGroup",
+      "isAuthRequired": true,
+      "description": "deleteGroup"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/listMaidForAgency",
+      "isAuthRequired": true,
+      "description": "Maids Listing for User App (workDate in milliseconds)"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/updateBookingDetail",
+      "isAuthRequired": true,
+      "description": "update Booking Detail "
+    },
+    {
+      "method": "POST",
+      "path": "/admin/updateBulkBooking",
+      "isAuthRequired": true,
+      "description": "Book time slots of maid: required Fields: long, lat, timeZone, streetName, buildingName,villaName, city, country, maidId, timeZone, serviceData[arrayFileds required:-workDate,startTime,duration]"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/addPdf",
+      "isAuthRequired": true,
+      "description": "uploads files to aws"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getSingleBookingDetail",
+      "isAuthRequired": false,
+      "description": "getSingleBookingDetail Listing"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/listAllMaidsUserAdmin",
+      "isAuthRequired": true,
+      "description": "Book time slots of maid: required Fields: long, lat, timeZone, streetName, buildingName,villaName, city, country, maidId, timeZone, serviceData[arrayFileds required:-workDate,startTime,duration]"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/searchBulkMaidAgain",
+      "isAuthRequired": true,
+      "description": "Maids Listing for User App (workDate in milliseconds)"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/updateSingleBooking",
+      "isAuthRequired": true,
+      "description": "Book time slots of maid: required Fields: long, lat, timeZone, streetName, buildingName,villaName, city, country, maidId, timeZone, serviceData[arrayFileds required:-workDate,startTime,duration]"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/checkMaidAvailable",
+      "isAuthRequired": true,
+      "description": "checkMaidAvailable Listing"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getAllAgencyList",
+      "isAuthRequired": true,
+      "description": "Agency vall"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getLoginTrack",
+      "isAuthRequired": true,
+      "description": "Admin login Listing"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/updateUserProfile",
+      "isAuthRequired": true,
+      "description": "Update updateUser Profile profile"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/requestForExtendService",
+      "isAuthRequired": true,
+      "description": "Request for extending service of maid"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/cancelService",
+      "isAuthRequired": true,
+      "description": "Cancel service by user(not after service starts)"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/switchBulkAgency",
+      "isAuthRequired": true,
+      "description": "update Booking Detail "
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/blockUnblockReview",
+      "isAuthRequired": true,
+      "description": "Block Agency"
+    },
+    {
+      "method": "DELETE",
+      "path": "/admin/deleteReview",
+      "isAuthRequired": true,
+      "description": "delete Review"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/avgReviewRatingMaids",
+      "isAuthRequired": true,
+      "description": "Review and rating average Listing By Admin"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/attachcountryidtouser",
+      "isAuthRequired": false,
+      "description": "Review and rating average Listing By Admin"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/sendappstorepush",
+      "isAuthRequired": false,
+      "description": "test sendappstorepush"
+    }
+  ],
+  "Agency": [
+    {
+      "method": "PUT",
+      "path": "/agency/deleteMaid",
+      "isAuthRequired": true,
+      "description": "Delete maid"
+    },
+    {
+      "method": "PUT",
+      "path": "/agency/blockMaid",
+      "isAuthRequired": true,
+      "description": "Block maid"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/listAllReligion",
+      "isAuthRequired": true,
+      "description": "Religion Listing for User App"
+    },
+    {
+      "method": "POST",
+      "path": "/agency/addImage",
+      "isAuthRequired": true,
+      "description": "uploads files to aws"
+    },
+    {
+      "method": "POST",
+      "path": "/agency/agencyLogin",
+      "isAuthRequired": false,
+      "description": "Agency login"
+    },
+    {
+      "method": "POST",
+      "path": "/agency/addMaid",
+      "isAuthRequired": true,
+      "description": "Add Maid (dob in milliseconds): required Fields: firstName, lastName, description, gender, email, password, country, countryCode, phoneNo"
+    },
+    {
+      "method": "POST",
+      "path": "/agency/addWithMaterialPrice",
+      "isAuthRequired": true,
+      "description": "addWithMaterialPrice"
+    },
+    {
+      "method": "POST",
+      "path": "/agency/updateMaidProfile",
+      "isAuthRequired": true,
+      "description": "Update Maid profile"
+    },
+    {
+      "method": "POST",
+      "path": "/agency/approveService",
+      "isAuthRequired": true,
+      "description": "Approve upcoming services"
+    },
+    {
+      "method": "POST",
+      "path": "/agency/deleteService",
+      "isAuthRequired": true,
+      "description": "Delete on-going and upcoming services"
+    },
+    {
+      "method": "POST",
+      "path": "/agency/deleteFromList",
+      "isAuthRequired": true,
+      "description": "deleteFromList"
+    },
+    {
+      "method": "POST",
+      "path": "/agency/approveExtendedService",
+      "isAuthRequired": true,
+      "description": "Approve extended services"
+    },
+    {
+      "method": "PUT",
+      "path": "/agency/changePassword",
+      "isAuthRequired": true,
+      "description": "Change password by agency"
+    },
+    {
+      "method": "POST",
+      "path": "/agency/forgetPassword",
+      "isAuthRequired": false,
+      "description": "Forgot password by Agency"
+    },
+    {
+      "method": "POST",
+      "path": "/agency/contactUs",
+      "isAuthRequired": false,
+      "description": "contact"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/dashBoardData",
+      "isAuthRequired": true,
+      "description": "Dashboard details"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/getAgencyProfile",
+      "isAuthRequired": true,
+      "description": "List service scheduling as per maids"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/listAllUnVerifiedMaids",
+      "isAuthRequired": true,
+      "description": "UnVerified Maids Listing"
+    },
+    {
+      "method": "PUT",
+      "path": "/agency/verifyMaid",
+      "isAuthRequired": true,
+      "description": "verify maid"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/listAllMaids",
+      "isAuthRequired": true,
+      "description": "Maids Listing"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/listAllServiceMaids",
+      "isAuthRequired": true,
+      "description": "Maids Service Listing"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/listAllMaidsForAssign",
+      "isAuthRequired": true,
+      "description": "Maids Listing"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/listAllUsers",
+      "isAuthRequired": true,
+      "description": "Users Listing"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/listAllService",
+      "isAuthRequired": true,
+      "description": "Service Listing"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/listAllServiceBulk",
+      "isAuthRequired": true,
+      "description": "Service Listing"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/listAllCanceledService",
+      "isAuthRequired": true,
+      "description": "Service Listing"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/listAllCanceledServiceBulk",
+      "isAuthRequired": true,
+      "description": "Service Listing"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/getCalender",
+      "isAuthRequired": true,
+      "description": "List service scheduling as per maids"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/listAllExtendedService",
+      "isAuthRequired": true,
+      "description": "List extended service for approval by agency"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/revenueReport",
+      "isAuthRequired": true,
+      "description": "Revenue report listing"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/revenueBulkReport",
+      "isAuthRequired": true,
+      "description": "Revenue report listing"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/lifeTimeSummary",
+      "isAuthRequired": true,
+      "description": "LifeTime Summary of revenue report"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/currentMonthSummary",
+      "isAuthRequired": true,
+      "description": "Current Month Summary"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/detailedMonthlyInvoice",
+      "isAuthRequired": true,
+      "description": "Detailed Monthly Invoice"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/listAllReviewsAgency",
+      "isAuthRequired": true,
+      "description": "List All Revenue of agency and maids"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/listAllReviewsCustomerAgency",
+      "isAuthRequired": true,
+      "description": "Review and rating Listing By Agency"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/listAllNotificationAgency",
+      "isAuthRequired": true,
+      "description": "List all notification Agency"
+    },
+    {
+      "method": "PUT",
+      "path": "/agency/clearNotificationAgency",
+      "isAuthRequired": true,
+      "description": "clear all notification Agency"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/getNotificationUnredCount",
+      "isAuthRequired": true,
+      "description": "Get unread notification Count"
+    },
+    {
+      "method": "PUT",
+      "path": "/agency/actionPerformOnNotification",
+      "isAuthRequired": true,
+      "description": "Perform Action on notification"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/issueList",
+      "isAuthRequired": true,
+      "description": "get Issue List "
+    },
+    {
+      "method": "GET",
+      "path": "/agency/getAllCountry",
+      "isAuthRequired": false,
+      "description": "List all countries"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/createXlsx",
+      "isAuthRequired": true,
+      "description": "create Xlsx sheet"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/listAllAgency",
+      "isAuthRequired": true,
+      "description": "Maids Listing for User App"
+    },
+    {
+      "method": "PUT",
+      "path": "/agency/switchMAKAgency",
+      "isAuthRequired": true,
+      "description": "Change Mak agency in maids"
+    },
+    {
+      "method": "POST",
+      "path": "/agency/assignMaidBulk",
+      "isAuthRequired": true,
+      "description": "Add Maid (dob in milliseconds): required Fields: firstName, lastName, description, gender, email, password, country, countryCode, phoneNo"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/getAddedCountry",
+      "isAuthRequired": true,
+      "description": "List added countries"
+    },
+    {
+      "method": "GET",
+      "path": "/agency/assignedMaidsList",
+      "isAuthRequired": true,
+      "description": "assignedMaidsList  listing"
+    }
+  ],
+  "Maid": [
+    {
+      "method": "POST",
+      "path": "/maid/addImage",
+      "isAuthRequired": true,
+      "description": "uploads files to aws"
+    },
+    {
+      "method": "POST",
+      "path": "/maid/maidSignup1",
+      "isAuthRequired": false,
+      "description": "Add Maid country(EN code)"
+    },
+    {
+      "method": "POST",
+      "path": "/maid/updateMaidProfileInApp",
+      "isAuthRequired": true,
+      "description": "Update Maid profile"
+    },
+    {
+      "method": "GET",
+      "path": "/maid/listAllReligion",
+      "isAuthRequired": true,
+      "description": "Religion Listing for User App"
+    },
+    {
+      "method": "PUT",
+      "path": "/maid/acceptAgreement",
+      "isAuthRequired": false,
+      "description": "Accept Agreement by maid"
+    },
+    {
+      "method": "POST",
+      "path": "/maid/updateDeviceTokenMaid",
+      "isAuthRequired": true,
+      "description": "Update Device Token for maid"
+    },
+    {
+      "method": "PUT",
+      "path": "/maid/changeLanguageMaid",
+      "isAuthRequired": true,
+      "description": "Change application language by maid"
+    },
+    {
+      "method": "POST",
+      "path": "/maid/login",
+      "isAuthRequired": false,
+      "description": "Maid login"
+    },
+    {
+      "method": "GET",
+      "path": "/maid/listMakAgencyForMaid",
+      "isAuthRequired": false,
+      "description": "List MAK registered agency for maid"
+    },
+    {
+      "method": "GET",
+      "path": "/maid/listAllService",
+      "isAuthRequired": true,
+      "description": "Service Listing for maids"
+    },
+    {
+      "method": "GET",
+      "path": "/maid/getAllCountryMaid",
+      "isAuthRequired": false,
+      "description": "List all countries for maid"
+    },
+    {
+      "method": "GET",
+      "path": "/maid/listAllReviewsMaid",
+      "isAuthRequired": true,
+      "description": "Review Listing for maids"
+    },
+    {
+      "method": "GET",
+      "path": "/maid/wallet",
+      "isAuthRequired": true,
+      "description": "wallet"
+    },
+    {
+      "method": "POST",
+      "path": "/maid/addReviewForUser",
+      "isAuthRequired": true,
+      "description": "wallet"
+    },
+    {
+      "method": "POST",
+      "path": "/maid/startService",
+      "isAuthRequired": true,
+      "description": "Start Service"
+    },
+    {
+      "method": "POST",
+      "path": "/maid/createChat",
+      "isAuthRequired": true,
+      "description": "Create Chat"
+    },
+    {
+      "method": "GET",
+      "path": "/maid/getAllChat",
+      "isAuthRequired": true,
+      "description": "Get main chat screen"
+    },
+    {
+      "method": "GET",
+      "path": "/maid/getChatHistory",
+      "isAuthRequired": true,
+      "description": "Get chat history"
+    },
+    {
+      "method": "GET",
+      "path": "/maid/listAllNotificationsMaids",
+      "isAuthRequired": true,
+      "description": "List All Notifications for Maids"
+    },
+    {
+      "method": "PUT",
+      "path": "/maid/changePasswordMaid",
+      "isAuthRequired": true,
+      "description": "Change password by maid"
+    },
+    {
+      "method": "POST",
+      "path": "/maid/forgetPasswordMaid",
+      "isAuthRequired": false,
+      "description": "Forgot password by maid"
+    },
+    {
+      "method": "PUT",
+      "path": "/maid/maidLogout",
+      "isAuthRequired": true,
+      "description": "Logout by maid"
+    },
+    {
+      "method": "POST",
+      "path": "/maid/raiseAnIssue",
+      "isAuthRequired": true,
+      "description": "Raise an issue by maid"
+    }
+  ],
+  "User": [
+    {
+      "method": "POST",
+      "path": "/user/addImage",
+      "isAuthRequired": true,
+      "description": "uploads files to aws"
+    },
+    {
+      "method": "POST",
+      "path": "/user/signUp1",
+      "isAuthRequired": false,
+      "description": "User Registration part 1"
+    },
+    {
+      "method": "POST",
+      "path": "/user/addRow",
+      "isAuthRequired": false,
+      "description": "User Registration part 1"
+    },
+    {
+      "method": "POST",
+      "path": "/user/signUp",
+      "isAuthRequired": false,
+      "description": "User Registration"
+    },
+    {
+      "method": "POST",
+      "path": "/user/verifyOTP",
+      "isAuthRequired": true,
+      "description": "verify OTP"
+    },
+    {
+      "method": "POST",
+      "path": "/user/resendOTP",
+      "isAuthRequired": true,
+      "description": "resend OTP"
+    },
+    {
+      "method": "POST",
+      "path": "/api/checkVersionT",
+      "isAuthRequired": false,
+      "description": "checkVersion"
+    },
+    {
+      "method": "POST",
+      "path": "/user/signUp2",
+      "isAuthRequired": true,
+      "description": "User registration part 2 (update Profile): required Fields: nationalId,streetName,buildingName,villaName,city,country,countryENCode,countryCode,phoneNo"
+    },
+    {
+      "method": "POST",
+      "path": "/user/updateDeviceToken",
+      "isAuthRequired": true,
+      "description": "Update Device Token"
+    },
+    {
+      "method": "POST",
+      "path": "/user/verifyUser",
+      "isAuthRequired": false,
+      "description": "verifyUser"
+    },
+    {
+      "method": "POST",
+      "path": "/user/addBillingInfo",
+      "isAuthRequired": true,
+      "description": "Add Billing Information: required Fields: timeZone,isGuestFlag, fullName, nationalId,streetName,buildingName,villaName,city,country,countryENCode,countryCode,phoneNo"
+    },
+    {
+      "method": "PUT",
+      "path": "/user/emailLogin",
+      "isAuthRequired": false,
+      "description": "User Login via email and password"
+    },
+    {
+      "method": "PUT",
+      "path": "/user/facebookLogin",
+      "isAuthRequired": false,
+      "description": "Login Via Facebook"
+    },
+    {
+      "method": "PUT",
+      "path": "/user/updateUserProfile",
+      "isAuthRequired": true,
+      "description": "User update Profile"
+    },
+    {
+      "method": "POST",
+      "path": "/user/saveAddress",
+      "isAuthRequired": true,
+      "description": "User saveAddress: required Fields: streetName,buildingName,villaName,city,country"
+    },
+    {
+      "method": "POST",
+      "path": "/user/deleteAddress",
+      "isAuthRequired": true,
+      "description": "User deleteAddress: required Fields: streetName,buildingName,villaName,city,country"
+    },
+    {
+      "method": "GET",
+      "path": "/user/listAllUserAddress",
+      "isAuthRequired": true,
+      "description": "Address Listing for User App"
+    },
+    {
+      "method": "PUT",
+      "path": "/user/userLogout",
+      "isAuthRequired": true,
+      "description": "Logout by user"
+    },
+    {
+      "method": "GET",
+      "path": "/user/listAllLanguagesUser",
+      "isAuthRequired": true,
+      "description": "Languages Listing for User App"
+    },
+    {
+      "method": "PUT",
+      "path": "/user/changeLanguageUser",
+      "isAuthRequired": true,
+      "description": "Change application language by user"
+    },
+    {
+      "method": "GET",
+      "path": "/user/getAllCountryUser",
+      "isAuthRequired": false,
+      "description": "List all countries for maid"
+    },
+    {
+      "method": "GET",
+      "path": "/user/listAllNationalityUser",
+      "isAuthRequired": true,
+      "description": "Nationality Listing for User App"
+    },
+    {
+      "method": "GET",
+      "path": "/user/listAllReligion",
+      "isAuthRequired": true,
+      "description": "Religion Listing for User App"
+    },
+    {
+      "method": "GET",
+      "path": "/user/listAllAgencyUser",
+      "isAuthRequired": true,
+      "description": "Maids Listing for User App"
+    },
+    {
+      "method": "GET",
+      "path": "/user/listAllMaidsUser",
+      "isAuthRequired": true,
+      "description": "Maids Listing for User App (workDate in milliseconds)"
+    },
+    {
+      "method": "GET",
+      "path": "/user/listAllMaidsUserWeb",
+      "isAuthRequired": true,
+      "description": "Maids Listing for User App (workDate in milliseconds)"
+    },
+    {
+      "method": "GET",
+      "path": "/user/listBulkMaidsUser",
+      "isAuthRequired": true,
+      "description": "Maids Listing for User App (workDate in milliseconds)"
+    },
+    {
+      "method": "GET",
+      "path": "/user/getMaidProfileDetail",
+      "isAuthRequired": true,
+      "description": "Maids profile Information"
+    },
+    {
+      "method": "POST",
+      "path": "/user/bookService",
+      "isAuthRequired": true,
+      "description": "Book time slots of maid: required Fields: long, lat, timeZone, streetName, buildingName,villaName, city, country, maidId, timeZone, serviceData[arrayFileds required:-workDate,startTime,duration]"
+    },
+    {
+      "method": "POST",
+      "path": "/user/bookServiceBulk",
+      "isAuthRequired": true,
+      "description": "Book time slots of maid: required Fields: long, lat, timeZone, streetName, buildingName,villaName, city, country, maidId, timeZone, serviceData[arrayFileds required:-workDate,startTime,duration]"
+    },
+    {
+      "method": "GET",
+      "path": "/user/listAllServiceUser",
+      "isAuthRequired": true,
+      "description": "Service Listing for User App"
+    },
+    {
+      "method": "GET",
+      "path": "/user/listAllServiceBulkUser",
+      "isAuthRequired": true,
+      "description": "Service Listing for User App"
+    },
+    {
+      "method": "POST",
+      "path": "/user/cancelService",
+      "isAuthRequired": true,
+      "description": "Cancel service by user(not after service starts)"
+    },
+    {
+      "method": "GET",
+      "path": "/user/listAllCanceledServiceUsers",
+      "isAuthRequired": true,
+      "description": "Service Listing for user"
+    },
+    {
+      "method": "POST",
+      "path": "/user/requestForExtendService",
+      "isAuthRequired": true,
+      "description": "Request for extending service of maid"
+    },
+    {
+      "method": "POST",
+      "path": "/user/addReview",
+      "isAuthRequired": true,
+      "description": "Add maid and agency review"
+    },
+    {
+      "method": "PUT",
+      "path": "/user/changePassword",
+      "isAuthRequired": true,
+      "description": "Change password by user"
+    },
+    {
+      "method": "POST",
+      "path": "/user/forgetPassword",
+      "isAuthRequired": false,
+      "description": "Forgot password by user"
+    },
+    {
+      "method": "POST",
+      "path": "/user/raiseAnIssue",
+      "isAuthRequired": true,
+      "description": "Raise an issue by user"
+    },
+    {
+      "method": "POST",
+      "path": "/user/contactUs",
+      "isAuthRequired": false,
+      "description": "Request for maid on website"
+    },
+    {
+      "method": "GET",
+      "path": "/user/getNotifications",
+      "isAuthRequired": true,
+      "description": "Get all notification"
+    },
+    {
+      "method": "GET",
+      "path": "/user/getNotificationUnredCount",
+      "isAuthRequired": true,
+      "description": "Get all notification uread count"
+    },
+    {
+      "method": "POST",
+      "path": "/user/addFavouriteMaid",
+      "isAuthRequired": true,
+      "description": "Add to favorite"
+    },
+    {
+      "method": "GET",
+      "path": "/user/listFavouriteMaid",
+      "isAuthRequired": true,
+      "description": "List favourite Maids"
+    },
+    {
+      "method": "GET",
+      "path": "/user/checkMaidAvailable",
+      "isAuthRequired": true,
+      "description": "Maids Listing for User App (workDate in milliseconds)"
+    },
+    {
+      "method": "GET",
+      "path": "/user/getSlots",
+      "isAuthRequired": true,
+      "description": "Maids Listing for User App (workDate in milliseconds)"
+    },
+    {
+      "method": "POST",
+      "path": "/user/removeFavouriteMaid",
+      "isAuthRequired": true,
+      "description": "Add to favorite"
+    },
+    {
+      "method": "POST",
+      "path": "/user/createChat",
+      "isAuthRequired": true,
+      "description": "Create Chat"
+    },
+    {
+      "method": "GET",
+      "path": "/user/getAllChat",
+      "isAuthRequired": true,
+      "description": "Get main chat screen"
+    },
+    {
+      "method": "GET",
+      "path": "/user/getChatHistory",
+      "isAuthRequired": true,
+      "description": "Get chat history"
+    },
+    {
+      "method": "POST",
+      "path": "/user/addCard",
+      "isAuthRequired": true,
+      "description": "add cards"
+    },
+    {
+      "method": "GET",
+      "path": "/user/getCards",
+      "isAuthRequired": true,
+      "description": "get card details"
+    },
+    {
+      "method": "POST",
+      "path": "/user/deleteCard",
+      "isAuthRequired": true,
+      "description": "delete card details"
+    },
+    {
+      "method": "POST",
+      "path": "/user/createPayment",
+      "isAuthRequired": true,
+      "description": "create payment"
+    },
+    {
+      "method": "POST",
+      "path": "/user/createPaymentPaytabs",
+      "isAuthRequired": true,
+      "description": "create payment via paytabs"
+    },
+    {
+      "method": "POST",
+      "path": "/user/createPaymentPaytabsBulk",
+      "isAuthRequired": true,
+      "description": "create payment via paytabs"
+    },
+    {
+      "method": "POST",
+      "path": "/user/payTabs",
+      "isAuthRequired": true,
+      "description": "Integrating pay tabs"
+    },
+    {
+      "method": "GET",
+      "path": "/user/listAllAgency",
+      "isAuthRequired": false,
+      "description": "Maids Listing for User App"
+    },
+    {
+      "method": "GET",
+      "path": "/user/searchMaidAndAgencyWeb",
+      "isAuthRequired": true,
+      "description": "Search for maid or agency"
+    },
+    {
+      "method": "POST",
+      "path": "/user/credimaxSession",
+      "isAuthRequired": false,
+      "description": "Credimax"
+    },
+    {
+      "method": "POST",
+      "path": "/user/credimaxTokenOLD",
+      "isAuthRequired": false,
+      "description": "Credimax"
+    },
+    {
+      "method": "POST",
+      "path": "/user/credimaxToken",
+      "isAuthRequired": false,
+      "description": "Credimax"
+    },
+    {
+      "method": "POST",
+      "path": "/user/credimax3DSecure",
+      "isAuthRequired": false,
+      "description": "Credimax"
+    },
+    {
+      "method": "POST",
+      "path": "/user/credimaxPayment",
+      "isAuthRequired": false,
+      "description": "credimaxPayment"
+    },
+    {
+      "method": "POST",
+      "path": "/user/testMail",
+      "isAuthRequired": false,
+      "description": "testMail"
+    },
+    {
+      "method": "POST",
+      "path": "/user/credimax3DSecureACH/{token}",
+      "isAuthRequired": false,
+      "description": "Search for maid or agency"
+    },
+    {
+      "method": "GET",
+      "path": "/user/multipleMaidBooking",
+      "isAuthRequired": true,
+      "description": "Maids Listing for User App (workDate in milliseconds)"
+    },
+    {
+      "method": "POST",
+      "path": "/user/applyPromoCode",
+      "isAuthRequired": true,
+      "description": "User applyPromoCode"
+    },
+    {
+      "method": "POST",
+      "path": "/user/tapCreateCharge",
+      "isAuthRequired": true,
+      "description": "create payment via paytabs"
+    },
+    {
+      "method": "POST",
+      "path": "/user/tapChargeDetail",
+      "isAuthRequired": true,
+      "description": "get payment via charge id"
+    },
+    {
+      "method": "POST",
+      "path": "/user/tapCreateChargeApp",
+      "isAuthRequired": true,
+      "description": "create payment via paytabs"
+    },
+    {
+      "method": "POST",
+      "path": "/user/tapChargeDetailApp",
+      "isAuthRequired": true,
+      "description": "get payment via charge id"
+    },
+    {
+      "method": "GET",
+      "path": "/user/dayWiseBookingSms",
+      "isAuthRequired": false,
+      "description": "dayWiseBookingSms Listing for User App"
+    },
+    {
+      "method": "GET",
+      "path": "/user/dayWiseBookingSmsAgency",
+      "isAuthRequired": false,
+      "description": "dayWiseBookingSmsAgency Listing for User App"
+    },
+    {
+      "method": "POST",
+      "path": "/user/bookServiceAgain",
+      "isAuthRequired": true,
+      "description": "Book time slots of maid: required Fields: long, lat, timeZone, streetName, buildingName,villaName, city, country, maidId, timeZone, serviceData[arrayFileds required:-workDate,startTime,duration]"
+    },
+    {
+      "method": "GET",
+      "path": "/user/searchMaidAgain",
+      "isAuthRequired": true,
+      "description": "Maids Listing for User App (workDate in milliseconds)"
+    },
+    {
+      "method": "GET",
+      "path": "/user/searchBulkMaidAgain",
+      "isAuthRequired": true,
+      "description": "Maids Listing for User App (workDate in milliseconds)"
+    },
+    {
+      "method": "POST",
+      "path": "/user/updateBulkBookingAgain",
+      "isAuthRequired": true,
+      "description": "updateBulkBookingAgain "
+    },
+    {
+      "method": "GET",
+      "path": "/user/ReportExcel",
+      "isAuthRequired": false,
+      "description": "ReportExcel Listing for User App"
+    }
+  ],
+  "SuperAdmin": [
+    {
+      "method": "POST",
+      "path": "/admin/loginWithEmail",
+      "isAuthRequired": false,
+      "description": "Sub admin Login via email and password with type"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/addcountry",
+      "isAuthRequired": false,
+      "description": "Add Country"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getAllCountry",
+      "isAuthRequired": false,
+      "description": "List all countries"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getUserCountryCityList",
+      "isAuthRequired": true,
+      "description": "List all countries and cities according to the type"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/usergetList",
+      "isAuthRequired": false,
+      "description": "List all users"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getAddedCountry",
+      "isAuthRequired": true,
+      "description": "List added countries"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getAddedCountryDetail",
+      "isAuthRequired": false,
+      "description": "get single country detail"
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/updateAddedCountry",
+      "isAuthRequired": false,
+      "description": "Update added countries"
+    },
+    {
+      "method": "DELETE",
+      "path": "/admin/deleteAddedCountry",
+      "isAuthRequired": false,
+      "description": "delete added country"
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/blockAddedCountry",
+      "isAuthRequired": false,
+      "description": "block added country"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/addUserToCountry",
+      "isAuthRequired": false,
+      "description": "Add user to  Country"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/addCountryToUser",
+      "isAuthRequired": true,
+      "description": "Assign countries/city/boroughs to Added user "
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getCountryUserList",
+      "isAuthRequired": false,
+      "description": "get List all country users"
+    },
+    {
+      "method": "DELETE",
+      "path": "/admin/deleteCountryUser",
+      "isAuthRequired": false,
+      "description": "Delete country user"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/addCity",
+      "isAuthRequired": false,
+      "description": "Add City"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/addUserToCity",
+      "isAuthRequired": false,
+      "description": "Add user to  City"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getCityUserList",
+      "isAuthRequired": false,
+      "description": "get List all city users"
+    },
+    {
+      "method": "DELETE",
+      "path": "/admin/deleteCityUser",
+      "isAuthRequired": false,
+      "description": "Delete city user"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getCityList",
+      "isAuthRequired": false,
+      "description": "List all cities"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getCityDetail",
+      "isAuthRequired": false,
+      "description": "get city detail"
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/updateCity",
+      "isAuthRequired": false,
+      "description": "Update City"
+    },
+    {
+      "method": "DELETE",
+      "path": "/admin/deleteCity",
+      "isAuthRequired": false,
+      "description": "delete added city"
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/blockCity",
+      "isAuthRequired": false,
+      "description": "block added country"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/addBorough",
+      "isAuthRequired": true,
+      "description": "Add Borough"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/addUser",
+      "isAuthRequired": true,
+      "description": "Add Admin User"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getUserList",
+      "isAuthRequired": true,
+      "description": "Add User List"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getUserDetail",
+      "isAuthRequired": true,
+      "description": "get Added User Detail"
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/resetPassword",
+      "isAuthRequired": true,
+      "description": "reset Password of User"
+    },
+    {
+      "method": "DELETE",
+      "path": "/admin/deleteAdminUser",
+      "isAuthRequired": true,
+      "description": "delete Admin User"
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/blockAdminUser",
+      "isAuthRequired": true,
+      "description": "block Admin User"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getBoroughList",
+      "isAuthRequired": true,
+      "description": "List all borough"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/addUserToBorough",
+      "isAuthRequired": false,
+      "description": "Assign Borough to Add user "
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getBoroughDetail",
+      "isAuthRequired": true,
+      "description": "get Borough detail"
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/updateBorough",
+      "isAuthRequired": true,
+      "description": "Update Borough"
+    },
+    {
+      "method": "DELETE",
+      "path": "/admin/deleteBorough",
+      "isAuthRequired": true,
+      "description": "delete borough"
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/blockBorough",
+      "isAuthRequired": true,
+      "description": "block Borough"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/addService",
+      "isAuthRequired": false,
+      "description": "Add Service"
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/editService",
+      "isAuthRequired": false,
+      "description": "Edit Service"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/listService",
+      "isAuthRequired": false,
+      "description": "List all additional services"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getService",
+      "isAuthRequired": false,
+      "description": "get additional services"
+    },
+    {
+      "method": "DELETE",
+      "path": "/admin/deleteService",
+      "isAuthRequired": false,
+      "description": "delete additional service"
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/blockService",
+      "isAuthRequired": true,
+      "description": "block Service"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/addProperty",
+      "isAuthRequired": false,
+      "description": "Add Property"
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/editProperty",
+      "isAuthRequired": false,
+      "description": "Edit Property"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/listProperty",
+      "isAuthRequired": false,
+      "description": "List all Properties"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getProperty",
+      "isAuthRequired": false,
+      "description": "get Property"
+    },
+    {
+      "method": "DELETE",
+      "path": "/admin/deleteProperty",
+      "isAuthRequired": false,
+      "description": "delete Property"
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/blockProperty",
+      "isAuthRequired": true,
+      "description": "block Property"
+    },
+    {
+      "method": "POST",
+      "path": "/admin/addNormalService",
+      "isAuthRequired": false,
+      "description": "Add Normal Service"
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/editNormalService",
+      "isAuthRequired": false,
+      "description": "Edit Normal Service"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/listNormalService",
+      "isAuthRequired": false,
+      "description": "List all Normal services"
+    },
+    {
+      "method": "GET",
+      "path": "/admin/getAllNormalService",
+      "isAuthRequired": false,
+      "description": "get active additional Normal Services"
+    },
+    {
+      "method": "DELETE",
+      "path": "/admin/deleteNormalService",
+      "isAuthRequired": false,
+      "description": "delete Normal service"
+    },
+    {
+      "method": "PUT",
+      "path": "/admin/blockNormalService",
+      "isAuthRequired": false,
+      "description": "block Normal service"
+    }
+  ]
+}
