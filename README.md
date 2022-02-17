@@ -4,9 +4,12 @@
 ```mermaid
 flowchart TD;
   start{Does it work?} -- Yes? --> jobDone{Done};
-  start{Does it work?} -- No? --> no_1{Use hammer};
-  no_1{Use hammer} -- And now? --> yes_1{Yes};
-  no_1{Use hammer} -- And now? --> no_2{No};
+  start{Does it work?} -- No? --> use_hammer_1{Use hammer};
+  use_hammer_1{Use hammer} -- And now? --> yes_1{Yes};
+  use_hammer_1{Use hammer} -- And now? --> no_2{No};
+  no_2{No} --> use_hammer_2{Use BIG hammer};
+  yes_1{Yes} --> jobDone{Done};
+  use_hammer_2{Use BIG hammer} --> jobDone{Done};
 ```
 
 ```
