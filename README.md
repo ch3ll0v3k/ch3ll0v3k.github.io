@@ -7,8 +7,6 @@ flowchart TD;
   start{Does it work?} -- No? --> no_1{Use hammer};
   no_1{Use hammer} -- And now? --> yes_1{Yes};
   no_1{Use hammer} -- And now? --> no_2{No};
-  yes{Yes} --> jobDone{Done}
-
 ```
 
 ```
