@@ -3,9 +3,8 @@
 
 ```mermaid
 flowchart TD;
-  A --> B;
-  A --> C;
-  B --> D;
-  C --> D;
-  id1[This is the text in the box];
+  A{test-a} -- Yes? --> Y{test-y};
+  A{test-a} -- No? --> N{test-n};
+  Y --> End;
+  N --> End;
 ```
