@@ -1,7 +1,6 @@
 
 ```mermaid
-flowchart API;
-  root{api};
+flowchart TD;
   root{api} --> public{public};
   root{api} --> private{private};
 ```
