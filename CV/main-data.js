@@ -17,7 +17,7 @@ const CVData = {
       Gitlab   : 'https://gitlab.com/ch3ll0v3k'
     },
     meta: {
-      photo : 'https://ch3ll0v3k.github.io/CV/Timoschenko-Viacheslav.jpg',
+      photo : '/CV/Timoschenko-Viacheslav-2.jpg',
     },
   },
   spoken_language:{
@@ -33,18 +33,10 @@ const CVData = {
 
     title: 'Programming skills',
     data: {
-      Databases: [
-        '<b>MariaDB</b>','<b>PostgreSQL</b>','(+NO-SQL)',
-      ],
-        
-      OSs: [
-        '<b>Linux</b> ( Debian, Ubuntu, any other: (Debian Based) )',
-      ],
-
       'Main languages and tools stack': [
         '<b>NodeJS</b>',
         '<b>Docker</b>',
-        'DBs: (<b>MariaDB</b>, PostgreSQL)',
+        'DBs: (PostgreSQL, MariaDB)',
         'AWS-RDS',
         'AWS-EC2',
         'AWS-S3',
@@ -53,11 +45,19 @@ const CVData = {
         '<b>React</b>, Material-UI',
         'Github, Bitbucket (Version control systems)',
       ],
-
-      'Blockchains - (Integration)': [
-        'NEM Blockchain: (https://nem.io)',
+      Databases: [
+        '<b>PostgreSQL</b>','<b>MariaDB</b>','(+NO-SQL)',
       ],
-
+      'Blockchains - (Native)': [
+        'Ethereum (Other EVM compatible chains) - Solidity',
+      ],
+      'Blockchains - (Integration)': [
+        'Ethereum (Other EVM compatible chains) - Web3 Integration',
+        'NEM Blockchain',
+      ],
+      OSs: [
+        '<b>Linux</b> ( Debian, Ubuntu, any other: (Debian Based) )',
+      ],
       'Other - Languages/Libraries (with less experience)': [
         'Redis',
         'Telegraf(js)',
@@ -90,14 +90,14 @@ const CVData = {
       {
         'Work period':{ title: 'Work period', data:{ from: 'Oct 2021', upto: 'Today'}, },
         'Company': { title: 'Company', data: 'Interexy LLC (ex. AMS)' },
-        'Position': { title: 'Position', data: 'NodeJS backend developer (API)', },
+        'Position': { title: 'Position', data: 'Scalable Node JS backend applications', },
         'description': { 
           title: 'Description',
           EN: `
-            Development of a backend for an (iOS/Android) Food-Delivery App.
+            Development of scalable NodeJS backend applications.
           `,
           RU: `
-            Разработка бэкенда для (iOS/Android) приложения для доставки еды.
+            Разработка масштабируемых NodeJS-бэкенд приложений.
           `,
         },
         'used': {
@@ -256,19 +256,19 @@ const CVData = {
         }
       },
       {
-        title: '<i class="fa fa-btc"></i> <b>Bitcoin Node-Server</b>',
+        title: '<i class="fa fa-btc"></i> <b>Ethereum/Bitcoin Node-Server</b>',
         description: {
-          EN: 'Installation and support of Bitcoin Node-Server (own API gateway)',
-          RU: 'Установка и поддержка Bitcoin Node-Server (собственный API шлюз)',
+          EN: 'Installation and support of Ethereum/Bitcoin Node-Server (own API gateway)',
+          RU: 'Установка и поддержка Ethereum/Bitcoin Node-Server (собственный API шлюз)',
         }
       },
-      {
-        title: '<i class="fa fa-server"></i> <b> Machine learning - (ML)</b>',
-        description: {
-          EN: 'Machine learning: https://github.com/ch3ll0v3k/ML.real-time-image.night-vision.js',
-          RU: 'Машинное обучение: https://github.com/ch3ll0v3k/ML.real-time-image.night-vision.js',
-        }
-      },
+      // {
+      //   title: '<i class="fa fa-server"></i> <b> Machine learning - (ML)</b>',
+      //   description: {
+      //     EN: 'Machine learning: https://github.com/ch3ll0v3k/ML.real-time-image.night-vision.js',
+      //     RU: 'Машинное обучение: https://github.com/ch3ll0v3k/ML.real-time-image.night-vision.js',
+      //   }
+      // },
 
     ],
 
