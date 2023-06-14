@@ -90,11 +90,11 @@ const CVData = {
       {
         'Work period':{ title: 'Work period', data:{ from: 'Oct 2021', upto: 'Today'}, },
         'Company': { title: 'Company', data: 'Interexy LLC (ex. AMS)' },
-        'Position': { title: 'Position', data: 'Scalable Node JS backend applications', },
+        'Position': { title: 'Position', data: 'Scalable Node JS backend application', },
         'description': { 
           title: 'Description',
           EN: `
-            Development of scalable NodeJS backend applications.
+            Development of scalable NodeJS backend application.
           `,
           RU: `
             Разработка масштабируемых NodeJS-бэкенд приложений.
