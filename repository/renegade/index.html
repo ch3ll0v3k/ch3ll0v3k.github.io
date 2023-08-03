@@ -403,22 +403,6 @@ medcase_survey_answers ref users ( user_id -&gt; id )</title>
 <path transform='translate(8,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'  class='dotted '  d='M 1744,832L 1720,832Q 1712,832 1712,824L 1712,808Q 1712,800 1704,800L 1352,800Q 1344,800 1344,808L 1344,816' ><title>Fk medcase_survey_answers_user_id_foreign
 medcase_survey_answers ref users ( user_id -&gt; id )</title></path>
 <text x='1709' y='827' transform='rotate(0 1709,827)' class='relName' style='fill:#748EA7'>user_id</text>
-<!-- == Fk 'patient_notes_patient_notes_patient_id_foreign' == -->
-<path id='patient_notes_patient_notes_patient_id_foreign'  onmouseover="hghl(['patient_notes_patient_notes_patient_id_foreign','public.patient_notes.patient_id','public.patients.id'])" onmouseout="uhghl(['patient_notes_patient_notes_patient_id_foreign','public.patient_notes.patient_id','public.patients.id'])" transform='translate(8,0)' class='scene' d='M 1184,1392L 1184,1552' >
-	<title>Fk patient_notes_patient_id_foreign
-patient_notes ref patients ( patient_id -&gt; id )</title>
-</path>
-<path transform='translate(8,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'  class='dotted '  d='M 1184,1392L 1184,1552' ><title>Fk patient_notes_patient_id_foreign
-patient_notes ref patients ( patient_id -&gt; id )</title></path>
-<text x='1199' y='1393' transform='rotate(90 1199,1393)' class='relName' style='fill:#748EA7'>patient_id</text>
-<!-- == Fk 'patient_notes_patient_notes_created_by_user_id_foreign' == -->
-<path id='patient_notes_patient_notes_created_by_user_id_foreign'  onmouseover="hghl(['patient_notes_patient_notes_created_by_user_id_foreign','public.patient_notes.created_by_user_id','public.users.id'])" onmouseout="uhghl(['patient_notes_patient_notes_created_by_user_id_foreign','public.patient_notes.created_by_user_id','public.users.id'])" transform='translate(8,0)' class='scene' d='M 1328,1248L 1336,1248Q 1344,1248 1344,1240L 1344,1232' >
-	<title>Fk patient_notes_created_by_user_id_foreign
-patient_notes ref users ( created_by_user_id -&gt; id )</title>
-</path>
-<path transform='translate(8,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'  class='dotted '  d='M 1328,1248L 1336,1248Q 1344,1248 1344,1240L 1344,1232' ><title>Fk patient_notes_created_by_user_id_foreign
-patient_notes ref users ( created_by_user_id -&gt; id )</title></path>
-<text x='1337' y='1243' transform='rotate(0 1337,1243)' class='relName' style='fill:#748EA7'>created_by_user_id</text>
 <!-- == Fk 'providers_providers_practice_id_foreign' == -->
 <path id='providers_providers_practice_id_foreign'  onmouseover="hghl(['providers_providers_practice_id_foreign','public.providers.practice_id','public.practices.id'])" onmouseout="uhghl(['providers_providers_practice_id_foreign','public.providers.practice_id','public.practices.id'])" transform='translate(8,0)' class='scene' d='M 656,944L 496,944' >
 	<title>Fk providers_practice_id_foreign
@@ -620,11 +604,11 @@ patients ref ethnicity ( ethnicity_id -&gt; id )</title>
 patients ref ethnicity ( ethnicity_id -&gt; id )</title></path>
 <text x='930' y='2027' transform='rotate(0 930,2027)' class='relName' style='fill:#748EA7'>ethnicity_id</text>
 <!-- == Fk 'patients_patients_gender_id_foreign' == -->
-<path id='patients_patients_gender_id_foreign'  onmouseover="hghl(['patients_patients_gender_id_foreign','public.patients.gender_id','public.genders.id'])" onmouseout="uhghl(['patients_patients_gender_id_foreign','public.patients.gender_id','public.genders.id'])" transform='translate(8,0)' class='scene' d='M 992,1888L 816,1888' >
+<path id='patients_patients_gender_id_foreign'  onmouseover="hghl(['patients_patients_gender_id_foreign','public.patients.gender_id','public.genders.id'])" onmouseout="uhghl(['patients_patients_gender_id_foreign','public.patients.gender_id','public.genders.id'])" transform='translate(8,0)' class='scene' d='M 992,1888L 928,1888' >
 	<title>Fk patients_gender_id_foreign
 patients ref genders ( gender_id -&gt; id )</title>
 </path>
-<path transform='translate(8,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'  class='dotted '  d='M 992,1888L 816,1888' ><title>Fk patients_gender_id_foreign
+<path transform='translate(8,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'  class='dotted '  d='M 992,1888L 928,1888' ><title>Fk patients_gender_id_foreign
 patients ref genders ( gender_id -&gt; id )</title></path>
 <text x='941' y='1883' transform='rotate(0 941,1883)' class='relName' style='fill:#748EA7'>gender_id</text>
 <!-- == Fk 'patients_patients_insurance_company_main_id_foreign' == -->
@@ -660,21 +644,21 @@ patients ref sexual_orientations ( sexual_orientation_id -&gt; id )</title>
 patients ref sexual_orientations ( sexual_orientation_id -&gt; id )</title></path>
 <text x='871' y='1611' transform='rotate(0 871,1611)' class='relName' style='fill:#748EA7'>sexual_orientation_id</text>
 <!-- == Fk 'patients_patients_user_id_foreign' == -->
-<path id='patients_patients_user_id_foreign'  onmouseover="hghl(['patients_patients_user_id_foreign','public.patients.user_id','public.users.id'])" onmouseout="uhghl(['patients_patients_user_id_foreign','public.patients.user_id','public.users.id'])" transform='translate(8,0)' class='scene' d='M 1120,1552L 1120,1192Q 1120,1184 1128,1184L 1152,1184' >
+<path id='patients_patients_user_id_foreign'  onmouseover="hghl(['patients_patients_user_id_foreign','public.patients.user_id','public.users.id'])" onmouseout="uhghl(['patients_patients_user_id_foreign','public.patients.user_id','public.users.id'])" transform='translate(8,0)' class='scene' d='M 1232,1584L 1272,1584Q 1280,1584 1280,1576L 1280,1448Q 1280,1440 1288,1440L 1336,1440Q 1344,1440 1344,1432L 1344,1232' >
 	<title>Fk patients_user_id_foreign
 patients ref users ( user_id -&gt; id )</title>
 </path>
-<path transform='translate(8,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'  class='dotted '  d='M 1120,1552L 1120,1192Q 1120,1184 1128,1184L 1152,1184' ><title>Fk patients_user_id_foreign
+<path transform='translate(8,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'  class='dotted '  d='M 1232,1584L 1272,1584Q 1280,1584 1280,1576L 1280,1448Q 1280,1440 1288,1440L 1336,1440Q 1344,1440 1344,1432L 1344,1232' ><title>Fk patients_user_id_foreign
 patients ref users ( user_id -&gt; id )</title></path>
-<text x='1123' y='1547' transform='rotate(270 1123,1547)' class='relName' style='fill:#748EA7'>user_id</text>
+<text x='1241' y='1579' transform='rotate(0 1241,1579)' class='relName' style='fill:#748EA7'>user_id</text>
 <!-- == Fk 'patients_patients_county_id_foreign' == -->
-<path id='patients_patients_county_id_foreign'  onmouseover="hghl(['patients_patients_county_id_foreign','public.patients.county_id','public.counties.id'])" onmouseout="uhghl(['patients_patients_county_id_foreign','public.patients.county_id','public.counties.id'])" transform='translate(8,0)' class='scene' d='M 1104,1552L 1104,456Q 1104,448 1112,448L 1992,448Q 2000,448 2000,440L 2000,272' >
+<path id='patients_patients_county_id_foreign'  onmouseover="hghl(['patients_patients_county_id_foreign','public.patients.county_id','public.counties.id'])" onmouseout="uhghl(['patients_patients_county_id_foreign','public.patients.county_id','public.counties.id'])" transform='translate(8,0)' class='scene' d='M 1120,1552L 1120,456Q 1120,448 1128,448L 1992,448Q 2000,448 2000,440L 2000,272' >
 	<title>Fk patients_county_id_foreign
 patients ref counties ( county_id -&gt; id )</title>
 </path>
-<path transform='translate(8,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'  class='dotted '  d='M 1104,1552L 1104,456Q 1104,448 1112,448L 1992,448Q 2000,448 2000,440L 2000,272' ><title>Fk patients_county_id_foreign
+<path transform='translate(8,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'  class='dotted '  d='M 1120,1552L 1120,456Q 1120,448 1128,448L 1992,448Q 2000,448 2000,440L 2000,272' ><title>Fk patients_county_id_foreign
 patients ref counties ( county_id -&gt; id )</title></path>
-<text x='1107' y='1547' transform='rotate(270 1107,1547)' class='relName' style='fill:#748EA7'>county_id</text>
+<text x='1123' y='1547' transform='rotate(270 1123,1547)' class='relName' style='fill:#748EA7'>county_id</text>
 <!-- == Fk 'user_security_answers_user_security_answers_security_question_id_foreign' == -->
 <path id='user_security_answers_user_security_answers_security_question_id_foreign'  onmouseover="hghl(['user_security_answers_user_security_answers_security_question_id_foreign','public.user_security_answers.security_question_id','public.security_questions.id'])" onmouseout="uhghl(['user_security_answers_user_security_answers_security_question_id_foreign','public.user_security_answers.security_question_id','public.security_questions.id'])" transform='translate(8,0)' class='scene' d='M 1296,272L 1296,240' >
 	<title>Fk user_security_answers_security_question_id_foreign
@@ -1075,6 +1059,46 @@ navigator_tokens ref patients ( patient_id -&gt; id )</title>
 <path transform='translate(8,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'  class='dotted '  d='M 784,2176L 992,2176' ><title>Fk navigator_tokens_patient_id_foreign
 navigator_tokens ref patients ( patient_id -&gt; id )</title></path>
 <text x='793' y='2171' transform='rotate(0 793,2171)' class='relName' style='fill:#748EA7'>patient_id</text>
+<!-- == Fk 'patient_notes_patient_notes_patient_id_foreign' == -->
+<path id='patient_notes_patient_notes_patient_id_foreign'  onmouseover="hghl(['patient_notes_patient_notes_patient_id_foreign','public.patient_notes.patient_id','public.patients.id'])" onmouseout="uhghl(['patient_notes_patient_notes_patient_id_foreign','public.patient_notes.patient_id','public.patients.id'])" transform='translate(8,0)' class='scene' d='M 1184,1424L 1184,1552' >
+	<title>Fk patient_notes_patient_id_foreign
+patient_notes ref patients ( patient_id -&gt; id )</title>
+</path>
+<path transform='translate(8,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'  class='dotted '  d='M 1184,1424L 1184,1552' ><title>Fk patient_notes_patient_id_foreign
+patient_notes ref patients ( patient_id -&gt; id )</title></path>
+<text x='1199' y='1425' transform='rotate(90 1199,1425)' class='relName' style='fill:#748EA7'>patient_id</text>
+<!-- == Fk 'patient_notes_patient_notes_created_by_user_id_foreign' == -->
+<path id='patient_notes_patient_notes_created_by_user_id_foreign'  onmouseover="hghl(['patient_notes_patient_notes_created_by_user_id_foreign','public.patient_notes.created_by_user_id','public.users.id'])" onmouseout="uhghl(['patient_notes_patient_notes_created_by_user_id_foreign','public.patient_notes.created_by_user_id','public.users.id'])" transform='translate(8,0)' class='scene' d='M 1184,1248L 1184,1232' >
+	<title>Fk patient_notes_created_by_user_id_foreign
+patient_notes ref users ( created_by_user_id -&gt; id )</title>
+</path>
+<path transform='translate(8,0)' marker-start='url(#foot0p)' marker-end='url(#arrow1)'  class='dotted '  d='M 1184,1248L 1184,1232' ><title>Fk patient_notes_created_by_user_id_foreign
+patient_notes ref users ( created_by_user_id -&gt; id )</title></path>
+<text x='1187' y='1243' transform='rotate(270 1187,1243)' class='relName' style='fill:#748EA7'>created_by_user_id</text>
+<!-- == Fk 'ethnicity_demographics_ethnicity_demographics_ethnicity_id_foreign' == -->
+<path id='ethnicity_demographics_ethnicity_demographics_ethnicity_id_foreign'  onmouseover="hghl(['ethnicity_demographics_ethnicity_demographics_ethnicity_id_foreign','public.ethnicity_demographics.ethnicity_id','public.ethnicity.id'])" onmouseout="uhghl(['ethnicity_demographics_ethnicity_demographics_ethnicity_id_foreign','public.ethnicity_demographics.ethnicity_id','public.ethnicity.id'])" transform='translate(8,0)' class='scene' d='M 416,1952L 416,2008Q 416,2016 424,2016L 624,2016' >
+	<title>Fk ethnicity_demographics_ethnicity_id_foreign
+ethnicity_demographics ref ethnicity ( ethnicity_id -&gt; id )</title>
+</path>
+<path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 416,1952L 416,2008Q 416,2016 424,2016L 624,2016' ><title>Fk ethnicity_demographics_ethnicity_id_foreign
+ethnicity_demographics ref ethnicity ( ethnicity_id -&gt; id )</title></path>
+<text x='431' y='1953' transform='rotate(90 431,1953)' class='relName' style='fill:#748EA7'>ethnicity_id</text>
+<!-- == Fk 'ethnicity_demographics_ethnicity_demographics_race_id_foreign' == -->
+<path id='ethnicity_demographics_ethnicity_demographics_race_id_foreign'  onmouseover="hghl(['ethnicity_demographics_ethnicity_demographics_race_id_foreign','public.ethnicity_demographics.race_id','public.races.id'])" onmouseout="uhghl(['ethnicity_demographics_ethnicity_demographics_race_id_foreign','public.ethnicity_demographics.race_id','public.races.id'])" transform='translate(8,0)' class='scene' d='M 416,1808L 416,1800Q 416,1792 424,1792L 624,1792' >
+	<title>Fk ethnicity_demographics_race_id_foreign
+ethnicity_demographics ref races ( race_id -&gt; id )</title>
+</path>
+<path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 416,1808L 416,1800Q 416,1792 424,1792L 624,1792' ><title>Fk ethnicity_demographics_race_id_foreign
+ethnicity_demographics ref races ( race_id -&gt; id )</title></path>
+<text x='419' y='1803' transform='rotate(270 419,1803)' class='relName' style='fill:#748EA7'>race_id</text>
+<!-- == Fk 'gender_demographics_gender_demographics_gender_id_foreign' == -->
+<path id='gender_demographics_gender_demographics_gender_id_foreign'  onmouseover="hghl(['gender_demographics_gender_demographics_gender_id_foreign','public.gender_demographics.gender_id','public.genders.id'])" onmouseout="uhghl(['gender_demographics_gender_demographics_gender_id_foreign','public.gender_demographics.gender_id','public.genders.id'])" transform='translate(8,0)' class='scene' d='M 672,1888L 736,1888' >
+	<title>Fk gender_demographics_gender_id_foreign
+gender_demographics ref genders ( gender_id -&gt; id )</title>
+</path>
+<path transform='translate(8,0)' marker-start='url(#foot1p)' marker-end='url(#arrow1)'    d='M 672,1888L 736,1888' ><title>Fk gender_demographics_gender_id_foreign
+gender_demographics ref genders ( gender_id -&gt; id )</title></path>
+<text x='681' y='1883' transform='rotate(0 681,1883)' class='relName' style='fill:#748EA7'>gender_id</text>
 <!-- == Table 'assay_panels' == -->
 <rect class='entity' style='stroke:#308F1E' x='3776' y='616' width='240' height='192' />
 <rect class='entity' x='3776' y='616' width='240' height='28' style='fill:#2F7022'/>
@@ -1249,29 +1273,6 @@ text</title></a>
 <text x='1933' y='948' text-anchor='end' class='colType'>t</text>  <use id='nn' x='1762' y='957' xlink:href='#nn'/><a xlink:href='#public.medcase_survey_answers.question'><text id='public.medcase_survey_answers.question' x='1779' y='967'>question</text><title>question
 * varchar(255)</title></a>
 <text x='1933' y='964' text-anchor='end' class='colType'>t</text>
-<!-- == Table 'patient_notes' == -->
-<rect class='entity' style='stroke:#8F5E1E' x='1168' y='1224' width='160' height='160' />
-<rect class='entity' x='1168' y='1224' width='160' height='28' style='fill:#704E22'/>
-<a xlink:href='#public.patient_notes'><text x='1202' y='1244' class='white'>patient_notes</text><title>Table public.patient_notes</title></a>
-  <use id='nn' x='1170' y='1261' xlink:href='#nn'/><a xlink:href='#public.patient_notes.id'><use id='pk' x='1170' y='1260' xlink:href='#pk'/><title>Pk patient_notes_pkey ( id ) </title></a>
-<a xlink:href='#public.patient_notes.id'><text id='public.patient_notes.id' x='1187' y='1271' onmouseover="hghl(['patient_notes_history_patient_notes_history_patient_note_id_foreign','public.patient_notes_history.patient_note_id'])" onmouseout="uhghl(['patient_notes_history_patient_notes_history_patient_note_id_foreign','public.patient_notes_history.patient_note_id'])">id</text><title>id
-* serial</title></a>
-<a xlink:href='#public.patient_notes.id'><use id='ref' x='1316' y='1260' xlink:href='#ref'/><title>Referred by patient_notes_history ( patient_note_id -&gt; id ) </title></a>
-  <use id='nn' x='1170' y='1277' xlink:href='#nn'/><a xlink:href='#public.patient_notes.insert_datetime'><text id='public.patient_notes.insert_datetime' x='1187' y='1287'>insert_datetime</text><title>insert_datetime
-* timestamptz default CURRENT_TIMESTAMP</title></a>
-<text x='1325' y='1284' text-anchor='end' class='colType'>d</text>  <a xlink:href='#public.patient_notes.note'><text id='public.patient_notes.note' x='1187' y='1303'>note</text><title>note
-text</title></a>
-<text x='1325' y='1300' text-anchor='end' class='colType'>t</text>  <use id='nn' x='1170' y='1309' xlink:href='#nn'/><a xlink:href='#public.patient_notes.created_at'><text id='public.patient_notes.created_at' x='1187' y='1319'>created_at</text><title>created_at
-* timestamptz</title></a>
-<text x='1325' y='1316' text-anchor='end' class='colType'>d</text>  <a xlink:href='#public.patient_notes.created_by_user_id'><text id='public.patient_notes.created_by_user_id' x='1187' y='1335' onmouseover="hghl(['patient_notes_patient_notes_created_by_user_id_foreign','public.users.id'])" onmouseout="uhghl(['patient_notes_patient_notes_created_by_user_id_foreign','public.users.id'])">created_by_user_id</text><title>created_by_user_id
-integer</title></a>
-<a xlink:href='#public.patient_notes.created_by_user_id'><use id='fk' x='1316' y='1324' xlink:href='#fk'/><title>References users ( created_by_user_id -&gt; id ) </title></a>
-  <a xlink:href='#public.patient_notes.patient_id'><text id='public.patient_notes.patient_id' x='1187' y='1351' onmouseover="hghl(['patient_notes_patient_notes_patient_id_foreign','public.patients.id'])" onmouseout="uhghl(['patient_notes_patient_notes_patient_id_foreign','public.patients.id'])">patient_id</text><title>patient_id
-integer</title></a>
-<a xlink:href='#public.patient_notes.patient_id'><use id='fk' x='1316' y='1340' xlink:href='#fk'/><title>References patients ( patient_id -&gt; id ) </title></a>
-  <a xlink:href='#public.patient_notes.clinician_id'><text id='public.patient_notes.clinician_id' x='1187' y='1367'>clinician_id</text><title>clinician_id
-varchar(255)</title></a>
-<text x='1325' y='1364' text-anchor='end' class='colType'>t</text>
 <!-- == Table 'providers' == -->
 <rect class='entity' style='stroke:#1E498F' x='672' y='936' width='192' height='368' />
 <rect class='entity' x='672' y='936' width='192' height='28' style='fill:#224070'/>
@@ -1643,9 +1644,10 @@ integer</title></a>
 <rect class='entity' x='640' y='1720' width='144' height='28' style='fill:#3D2270'/>
 <a xlink:href='#public.races'><text x='691' y='1740' class='white'>races</text><title>Table public.races</title></a>
   <use id='nn' x='642' y='1757' xlink:href='#nn'/><a xlink:href='#public.races.id'><use id='pk' x='642' y='1756' xlink:href='#pk'/><title>Pk races_pkey ( id ) </title></a>
-<a xlink:href='#public.races.id'><text id='public.races.id' x='659' y='1767' onmouseover="hghl(['patients_patients_race_id_foreign','public.patients.race_id'])" onmouseout="uhghl(['patients_patients_race_id_foreign','public.patients.race_id'])">id</text><title>id
+<a xlink:href='#public.races.id'><text id='public.races.id' x='659' y='1767' onmouseover="hghl(['ethnicity_demographics_ethnicity_demographics_race_id_foreign','public.ethnicity_demographics.race_id','patients_patients_race_id_foreign','public.patients.race_id'])" onmouseout="uhghl(['ethnicity_demographics_ethnicity_demographics_race_id_foreign','public.ethnicity_demographics.race_id','patients_patients_race_id_foreign','public.patients.race_id'])">id</text><title>id
 * serial</title></a>
-<a xlink:href='#public.races.id'><use id='ref' x='772' y='1756' xlink:href='#ref'/><title>Referred by patients ( race_id -&gt; id ) </title></a>
+<a xlink:href='#public.races.id'><use id='ref' x='772' y='1756' xlink:href='#ref'/><title>Referred by ethnicity_demographics ( race_id -&gt; id ) 
+Referred by patients ( race_id -&gt; id ) </title></a>
   <use id='nn' x='642' y='1773' xlink:href='#nn'/><a xlink:href='#public.races.insert_datetime'><text id='public.races.insert_datetime' x='659' y='1783'>insert_datetime</text><title>insert_datetime
 * timestamptz default CURRENT_TIMESTAMP</title></a>
 <text x='781' y='1780' text-anchor='end' class='colType'>d</text>  <use id='nn' x='642' y='1789' xlink:href='#nn'/><a xlink:href='#public.races.code'><text id='public.races.code' x='659' y='1799'>code</text><title>code
@@ -1653,29 +1655,15 @@ integer</title></a>
 <text x='781' y='1796' text-anchor='end' class='colType'>t</text>  <use id='nn' x='642' y='1805' xlink:href='#nn'/><a xlink:href='#public.races.description'><text id='public.races.description' x='659' y='1815'>description</text><title>description
 * varchar(255)</title></a>
 <text x='781' y='1812' text-anchor='end' class='colType'>t</text>
-<!-- == Table 'genders' == -->
-<rect class='entity' style='stroke:#451E8F' x='640' y='1864' width='176' height='112' />
-<rect class='entity' x='640' y='1864' width='176' height='28' style='fill:#3D2270'/>
-<a xlink:href='#public.genders'><text x='699' y='1884' class='white'>genders</text><title>Table public.genders</title></a>
-  <use id='nn' x='642' y='1901' xlink:href='#nn'/><a xlink:href='#public.genders.id'><use id='pk' x='642' y='1900' xlink:href='#pk'/><title>Pk genders_pkey ( id ) </title></a>
-<a xlink:href='#public.genders.id'><text id='public.genders.id' x='659' y='1911' onmouseover="hghl(['patients_patients_gender_id_foreign','public.patients.gender_id'])" onmouseout="uhghl(['patients_patients_gender_id_foreign','public.patients.gender_id'])">id</text><title>id
-* serial</title></a>
-<a xlink:href='#public.genders.id'><use id='ref' x='804' y='1900' xlink:href='#ref'/><title>Referred by patients ( gender_id -&gt; id ) </title></a>
-  <use id='nn' x='642' y='1917' xlink:href='#nn'/><a xlink:href='#public.genders.insert_datetime'><text id='public.genders.insert_datetime' x='659' y='1927'>insert_datetime</text><title>insert_datetime
-* timestamptz default CURRENT_TIMESTAMP</title></a>
-<text x='813' y='1924' text-anchor='end' class='colType'>d</text>  <use id='nn' x='642' y='1933' xlink:href='#nn'/><a xlink:href='#public.genders.gender_code'><text id='public.genders.gender_code' x='659' y='1943'>gender_code</text><title>gender_code
-* varchar(10)</title></a>
-<text x='813' y='1940' text-anchor='end' class='colType'>t</text>  <use id='nn' x='642' y='1949' xlink:href='#nn'/><a xlink:href='#public.genders.gender_display_name'><text id='public.genders.gender_display_name' x='659' y='1959'>gender_display_name</text><title>gender_display_name
-* varchar(100)</title></a>
-<text x='813' y='1956' text-anchor='end' class='colType'>t</text>
 <!-- == Table 'ethnicity' == -->
 <rect class='entity' style='stroke:#451E8F' x='640' y='2008' width='144' height='112' />
 <rect class='entity' x='640' y='2008' width='144' height='28' style='fill:#3D2270'/>
 <a xlink:href='#public.ethnicity'><text x='681' y='2028' class='white'>ethnicity</text><title>Table public.ethnicity</title></a>
   <use id='nn' x='642' y='2045' xlink:href='#nn'/><a xlink:href='#public.ethnicity.id'><use id='pk' x='642' y='2044' xlink:href='#pk'/><title>Pk ethnicity_pkey ( id ) </title></a>
-<a xlink:href='#public.ethnicity.id'><text id='public.ethnicity.id' x='659' y='2055' onmouseover="hghl(['patients_patients_ethnicity_id_foreign','public.patients.ethnicity_id'])" onmouseout="uhghl(['patients_patients_ethnicity_id_foreign','public.patients.ethnicity_id'])">id</text><title>id
+<a xlink:href='#public.ethnicity.id'><text id='public.ethnicity.id' x='659' y='2055' onmouseover="hghl(['ethnicity_demographics_ethnicity_demographics_ethnicity_id_foreign','public.ethnicity_demographics.ethnicity_id','patients_patients_ethnicity_id_foreign','public.patients.ethnicity_id'])" onmouseout="uhghl(['ethnicity_demographics_ethnicity_demographics_ethnicity_id_foreign','public.ethnicity_demographics.ethnicity_id','patients_patients_ethnicity_id_foreign','public.patients.ethnicity_id'])">id</text><title>id
 * serial</title></a>
-<a xlink:href='#public.ethnicity.id'><use id='ref' x='772' y='2044' xlink:href='#ref'/><title>Referred by patients ( ethnicity_id -&gt; id ) </title></a>
+<a xlink:href='#public.ethnicity.id'><use id='ref' x='772' y='2044' xlink:href='#ref'/><title>Referred by ethnicity_demographics ( ethnicity_id -&gt; id ) 
+Referred by patients ( ethnicity_id -&gt; id ) </title></a>
   <use id='nn' x='642' y='2061' xlink:href='#nn'/><a xlink:href='#public.ethnicity.insert_datetime'><text id='public.ethnicity.insert_datetime' x='659' y='2071'>insert_datetime</text><title>insert_datetime
 * timestamptz default CURRENT_TIMESTAMP</title></a>
 <text x='781' y='2068' text-anchor='end' class='colType'>d</text>  <use id='nn' x='642' y='2077' xlink:href='#nn'/><a xlink:href='#public.ethnicity.code'><text id='public.ethnicity.code' x='659' y='2087'>code</text><title>code
@@ -1732,19 +1720,19 @@ timestamptz</title></a>
 <rect class='entity' x='1008' y='1560' width='224' height='28' style='fill:#3D2270'/>
 <a xlink:href='#public.patients'><text x='1091' y='1580' class='white'>patients</text><title>Table public.patients</title></a>
   <use id='nn' x='1010' y='1597' xlink:href='#nn'/><a xlink:href='#public.patients.id'><use id='pk' x='1010' y='1596' xlink:href='#pk'/><title>Pk patients_pkey ( id ) </title></a>
-<a xlink:href='#public.patients.id'><text id='public.patients.id' x='1027' y='1607' onmouseover="hghl(['async_tasks_async_tasks_patient_id_foreign','public.async_tasks.patient_id','kits_kits_patient_id_foreign','public.kits.patient_id','medcase_meetings_medcase_meetings_patient_id_foreign','public.medcase_meetings.patient_id','medcase_survey_answers_medcase_survey_answers_patient_id_foreign','public.medcase_survey_answers.patient_id','orders_orders_patient_id_foreign','public.orders.patient_id','patient_files_patient_files_patient_id_foreign','public.patient_files.patient_id','patient_notes_patient_notes_patient_id_foreign','public.patient_notes.patient_id','patients_old_patients_old_parent_id_foreign','public.patients_old.parent_id','patients_providers_patients_providers_patient_id_foreign','public.patients_providers.patient_id','users_patients_users_patients_patient_id_foreign','public.users_patients.patient_id','navigator_tokens_navigator_tokens_patient_id_foreign','public.navigator_tokens.patient_id'])" onmouseout="uhghl(['async_tasks_async_tasks_patient_id_foreign','public.async_tasks.patient_id','kits_kits_patient_id_foreign','public.kits.patient_id','medcase_meetings_medcase_meetings_patient_id_foreign','public.medcase_meetings.patient_id','medcase_survey_answers_medcase_survey_answers_patient_id_foreign','public.medcase_survey_answers.patient_id','orders_orders_patient_id_foreign','public.orders.patient_id','patient_files_patient_files_patient_id_foreign','public.patient_files.patient_id','patient_notes_patient_notes_patient_id_foreign','public.patient_notes.patient_id','patients_old_patients_old_parent_id_foreign','public.patients_old.parent_id','patients_providers_patients_providers_patient_id_foreign','public.patients_providers.patient_id','users_patients_users_patients_patient_id_foreign','public.users_patients.patient_id','navigator_tokens_navigator_tokens_patient_id_foreign','public.navigator_tokens.patient_id'])">id</text><title>id
+<a xlink:href='#public.patients.id'><text id='public.patients.id' x='1027' y='1607' onmouseover="hghl(['async_tasks_async_tasks_patient_id_foreign','public.async_tasks.patient_id','kits_kits_patient_id_foreign','public.kits.patient_id','medcase_meetings_medcase_meetings_patient_id_foreign','public.medcase_meetings.patient_id','medcase_survey_answers_medcase_survey_answers_patient_id_foreign','public.medcase_survey_answers.patient_id','navigator_tokens_navigator_tokens_patient_id_foreign','public.navigator_tokens.patient_id','orders_orders_patient_id_foreign','public.orders.patient_id','patient_files_patient_files_patient_id_foreign','public.patient_files.patient_id','patient_notes_patient_notes_patient_id_foreign','public.patient_notes.patient_id','patients_old_patients_old_parent_id_foreign','public.patients_old.parent_id','patients_providers_patients_providers_patient_id_foreign','public.patients_providers.patient_id','users_patients_users_patients_patient_id_foreign','public.users_patients.patient_id'])" onmouseout="uhghl(['async_tasks_async_tasks_patient_id_foreign','public.async_tasks.patient_id','kits_kits_patient_id_foreign','public.kits.patient_id','medcase_meetings_medcase_meetings_patient_id_foreign','public.medcase_meetings.patient_id','medcase_survey_answers_medcase_survey_answers_patient_id_foreign','public.medcase_survey_answers.patient_id','navigator_tokens_navigator_tokens_patient_id_foreign','public.navigator_tokens.patient_id','orders_orders_patient_id_foreign','public.orders.patient_id','patient_files_patient_files_patient_id_foreign','public.patient_files.patient_id','patient_notes_patient_notes_patient_id_foreign','public.patient_notes.patient_id','patients_old_patients_old_parent_id_foreign','public.patients_old.parent_id','patients_providers_patients_providers_patient_id_foreign','public.patients_providers.patient_id','users_patients_users_patients_patient_id_foreign','public.users_patients.patient_id'])">id</text><title>id
 * serial</title></a>
 <a xlink:href='#public.patients.id'><use id='ref' x='1220' y='1596' xlink:href='#ref'/><title>Referred by async_tasks ( patient_id -&gt; id ) 
 Referred by kits ( patient_id -&gt; id ) 
 Referred by medcase_meetings ( patient_id -&gt; id ) 
 Referred by medcase_survey_answers ( patient_id -&gt; id ) 
+Referred by navigator_tokens ( patient_id -&gt; id ) 
 Referred by orders ( patient_id -&gt; id ) 
 Referred by patient_files ( patient_id -&gt; id ) 
 Referred by patient_notes ( patient_id -&gt; id ) 
 Referred by patients_old ( parent_id -&gt; id ) 
 Referred by patients_providers ( patient_id -&gt; id ) 
-Referred by users_patients ( patient_id -&gt; id ) 
-Referred by navigator_tokens ( patient_id -&gt; id ) </title></a>
+Referred by users_patients ( patient_id -&gt; id ) </title></a>
   <use id='nn' x='1010' y='1613' xlink:href='#nn'/><a xlink:href='#public.patients.insert_datetime'><text id='public.patients.insert_datetime' x='1027' y='1623'>insert_datetime</text><title>insert_datetime
 * timestamptz default CURRENT_TIMESTAMP</title></a>
 <text x='1229' y='1620' text-anchor='end' class='colType'>d</text>  <use id='nn' x='1010' y='1629' xlink:href='#nn'/><a xlink:href='#public.patients.patient_uuid'><text id='public.patients.patient_uuid' x='1027' y='1639'>patient_uuid</text><title>patient_uuid
@@ -3146,6 +3134,78 @@ bool default false</title></a>
 <text x='781' y='2292' text-anchor='end' class='colType'>b</text>  <use id='nn' x='642' y='2301' xlink:href='#nn'/><a xlink:href='#public.navigator_tokens.status'><text id='public.navigator_tokens.status' x='659' y='2311'>status</text><title>status
 * varchar(255)</title></a>
 <text x='781' y='2308' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'patient_notes' == -->
+<rect class='entity' style='stroke:#8F5E1E' x='1168' y='1256' width='160' height='160' />
+<rect class='entity' x='1168' y='1256' width='160' height='28' style='fill:#704E22'/>
+<a xlink:href='#public.patient_notes'><text x='1202' y='1276' class='white'>patient_notes</text><title>Table public.patient_notes</title></a>
+  <use id='nn' x='1170' y='1293' xlink:href='#nn'/><a xlink:href='#public.patient_notes.id'><use id='pk' x='1170' y='1292' xlink:href='#pk'/><title>Pk patient_notes_pkey ( id ) </title></a>
+<a xlink:href='#public.patient_notes.id'><text id='public.patient_notes.id' x='1187' y='1303' onmouseover="hghl(['patient_notes_history_patient_notes_history_patient_note_id_foreign','public.patient_notes_history.patient_note_id'])" onmouseout="uhghl(['patient_notes_history_patient_notes_history_patient_note_id_foreign','public.patient_notes_history.patient_note_id'])">id</text><title>id
+* serial</title></a>
+<a xlink:href='#public.patient_notes.id'><use id='ref' x='1316' y='1292' xlink:href='#ref'/><title>Referred by patient_notes_history ( patient_note_id -&gt; id ) </title></a>
+  <use id='nn' x='1170' y='1309' xlink:href='#nn'/><a xlink:href='#public.patient_notes.insert_datetime'><text id='public.patient_notes.insert_datetime' x='1187' y='1319'>insert_datetime</text><title>insert_datetime
+* timestamptz default CURRENT_TIMESTAMP</title></a>
+<text x='1325' y='1316' text-anchor='end' class='colType'>d</text>  <a xlink:href='#public.patient_notes.note'><text id='public.patient_notes.note' x='1187' y='1335'>note</text><title>note
+text</title></a>
+<text x='1325' y='1332' text-anchor='end' class='colType'>t</text>  <use id='nn' x='1170' y='1341' xlink:href='#nn'/><a xlink:href='#public.patient_notes.created_at'><text id='public.patient_notes.created_at' x='1187' y='1351'>created_at</text><title>created_at
+* timestamptz</title></a>
+<text x='1325' y='1348' text-anchor='end' class='colType'>d</text>  <a xlink:href='#public.patient_notes.created_by_user_id'><text id='public.patient_notes.created_by_user_id' x='1187' y='1367' onmouseover="hghl(['patient_notes_patient_notes_created_by_user_id_foreign','public.users.id'])" onmouseout="uhghl(['patient_notes_patient_notes_created_by_user_id_foreign','public.users.id'])">created_by_user_id</text><title>created_by_user_id
+integer</title></a>
+<a xlink:href='#public.patient_notes.created_by_user_id'><use id='fk' x='1316' y='1356' xlink:href='#fk'/><title>References users ( created_by_user_id -&gt; id ) </title></a>
+  <a xlink:href='#public.patient_notes.patient_id'><text id='public.patient_notes.patient_id' x='1187' y='1383' onmouseover="hghl(['patient_notes_patient_notes_patient_id_foreign','public.patients.id'])" onmouseout="uhghl(['patient_notes_patient_notes_patient_id_foreign','public.patients.id'])">patient_id</text><title>patient_id
+integer</title></a>
+<a xlink:href='#public.patient_notes.patient_id'><use id='fk' x='1316' y='1372' xlink:href='#fk'/><title>References patients ( patient_id -&gt; id ) </title></a>
+  <a xlink:href='#public.patient_notes.clinician_id'><text id='public.patient_notes.clinician_id' x='1187' y='1399'>clinician_id</text><title>clinician_id
+varchar(255)</title></a>
+<text x='1325' y='1396' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'ethnicity_demographics' == -->
+<rect class='entity' style='stroke:#1E5D8F' x='272' y='1816' width='160' height='128' />
+<rect class='entity' x='272' y='1816' width='160' height='28' style='fill:#224E70'/>
+<a xlink:href='#public.ethnicity_demographics'><text x='274' y='1836' class='white'>ethnicity_demographics</text><title>Table public.ethnicity_demographics</title></a>
+  <use id='nn' x='274' y='1853' xlink:href='#nn'/><a xlink:href='#public.ethnicity_demographics.id'><use id='pk' x='274' y='1852' xlink:href='#pk'/><title>Pk ethnicity_demographics_pkey ( id ) </title></a>
+<a xlink:href='#public.ethnicity_demographics.id'><text id='public.ethnicity_demographics.id' x='291' y='1863'>id</text><title>id
+* serial</title></a>
+<text x='429' y='1860' text-anchor='end' class='colType'>#</text>  <use id='nn' x='274' y='1869' xlink:href='#nn'/><a xlink:href='#public.ethnicity_demographics.insert_datetime'><text id='public.ethnicity_demographics.insert_datetime' x='291' y='1879'>insert_datetime</text><title>insert_datetime
+* timestamptz default CURRENT_TIMESTAMP</title></a>
+<text x='429' y='1876' text-anchor='end' class='colType'>d</text>  <use id='nn' x='274' y='1885' xlink:href='#nn'/><a xlink:href='#public.ethnicity_demographics.race_id'><text id='public.ethnicity_demographics.race_id' x='291' y='1895' onmouseover="hghl(['ethnicity_demographics_ethnicity_demographics_race_id_foreign','public.races.id'])" onmouseout="uhghl(['ethnicity_demographics_ethnicity_demographics_race_id_foreign','public.races.id'])">race_id</text><title>race_id
+* integer</title></a>
+<a xlink:href='#public.ethnicity_demographics.race_id'><use id='fk' x='420' y='1884' xlink:href='#fk'/><title>References races ( race_id -&gt; id ) </title></a>
+  <use id='nn' x='274' y='1901' xlink:href='#nn'/><a xlink:href='#public.ethnicity_demographics.ethnicity_id'><text id='public.ethnicity_demographics.ethnicity_id' x='291' y='1911' onmouseover="hghl(['ethnicity_demographics_ethnicity_demographics_ethnicity_id_foreign','public.ethnicity.id'])" onmouseout="uhghl(['ethnicity_demographics_ethnicity_demographics_ethnicity_id_foreign','public.ethnicity.id'])">ethnicity_id</text><title>ethnicity_id
+* integer</title></a>
+<a xlink:href='#public.ethnicity_demographics.ethnicity_id'><use id='fk' x='420' y='1900' xlink:href='#fk'/><title>References ethnicity ( ethnicity_id -&gt; id ) </title></a>
+  <use id='nn' x='274' y='1917' xlink:href='#nn'/><a xlink:href='#public.ethnicity_demographics.description'><text id='public.ethnicity_demographics.description' x='291' y='1927'>description</text><title>description
+* varchar(255)</title></a>
+<text x='429' y='1924' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'gender_demographics' == -->
+<rect class='entity' style='stroke:#1E5D8F' x='512' y='1864' width='160' height='112' />
+<rect class='entity' x='512' y='1864' width='160' height='28' style='fill:#224E70'/>
+<a xlink:href='#public.gender_demographics'><text x='519' y='1884' class='white'>gender_demographics</text><title>Table public.gender_demographics</title></a>
+  <use id='nn' x='514' y='1901' xlink:href='#nn'/><a xlink:href='#public.gender_demographics.id'><use id='pk' x='514' y='1900' xlink:href='#pk'/><title>Pk gender_demographics_pkey ( id ) </title></a>
+<a xlink:href='#public.gender_demographics.id'><text id='public.gender_demographics.id' x='531' y='1911'>id</text><title>id
+* serial</title></a>
+<text x='669' y='1908' text-anchor='end' class='colType'>#</text>  <use id='nn' x='514' y='1917' xlink:href='#nn'/><a xlink:href='#public.gender_demographics.insert_datetime'><text id='public.gender_demographics.insert_datetime' x='531' y='1927'>insert_datetime</text><title>insert_datetime
+* timestamptz default CURRENT_TIMESTAMP</title></a>
+<text x='669' y='1924' text-anchor='end' class='colType'>d</text>  <use id='nn' x='514' y='1933' xlink:href='#nn'/><a xlink:href='#public.gender_demographics.gender_id'><text id='public.gender_demographics.gender_id' x='531' y='1943' onmouseover="hghl(['gender_demographics_gender_demographics_gender_id_foreign','public.genders.id'])" onmouseout="uhghl(['gender_demographics_gender_demographics_gender_id_foreign','public.genders.id'])">gender_id</text><title>gender_id
+* integer</title></a>
+<a xlink:href='#public.gender_demographics.gender_id'><use id='fk' x='660' y='1932' xlink:href='#fk'/><title>References genders ( gender_id -&gt; id ) </title></a>
+  <use id='nn' x='514' y='1949' xlink:href='#nn'/><a xlink:href='#public.gender_demographics.description'><text id='public.gender_demographics.description' x='531' y='1959'>description</text><title>description
+* varchar(255)</title></a>
+<text x='669' y='1956' text-anchor='end' class='colType'>t</text>
+<!-- == Table 'genders' == -->
+<rect class='entity' style='stroke:#451E8F' x='752' y='1864' width='176' height='112' />
+<rect class='entity' x='752' y='1864' width='176' height='28' style='fill:#3D2270'/>
+<a xlink:href='#public.genders'><text x='811' y='1884' class='white'>genders</text><title>Table public.genders</title></a>
+  <use id='nn' x='754' y='1901' xlink:href='#nn'/><a xlink:href='#public.genders.id'><use id='pk' x='754' y='1900' xlink:href='#pk'/><title>Pk genders_pkey ( id ) </title></a>
+<a xlink:href='#public.genders.id'><text id='public.genders.id' x='771' y='1911' onmouseover="hghl(['gender_demographics_gender_demographics_gender_id_foreign','public.gender_demographics.gender_id','patients_patients_gender_id_foreign','public.patients.gender_id'])" onmouseout="uhghl(['gender_demographics_gender_demographics_gender_id_foreign','public.gender_demographics.gender_id','patients_patients_gender_id_foreign','public.patients.gender_id'])">id</text><title>id
+* serial</title></a>
+<a xlink:href='#public.genders.id'><use id='ref' x='916' y='1900' xlink:href='#ref'/><title>Referred by gender_demographics ( gender_id -&gt; id ) 
+Referred by patients ( gender_id -&gt; id ) </title></a>
+  <use id='nn' x='754' y='1917' xlink:href='#nn'/><a xlink:href='#public.genders.insert_datetime'><text id='public.genders.insert_datetime' x='771' y='1927'>insert_datetime</text><title>insert_datetime
+* timestamptz default CURRENT_TIMESTAMP</title></a>
+<text x='925' y='1924' text-anchor='end' class='colType'>d</text>  <use id='nn' x='754' y='1933' xlink:href='#nn'/><a xlink:href='#public.genders.gender_code'><text id='public.genders.gender_code' x='771' y='1943'>gender_code</text><title>gender_code
+* varchar(10)</title></a>
+<text x='925' y='1940' text-anchor='end' class='colType'>t</text>  <use id='nn' x='754' y='1949' xlink:href='#nn'/><a xlink:href='#public.genders.gender_display_name'><text id='public.genders.gender_display_name' x='771' y='1959'>gender_display_name</text><title>gender_display_name
+* varchar(100)</title></a>
+<text x='925' y='1956' text-anchor='end' class='colType'>t</text>
 </g></svg></div>
 
 
@@ -4104,7 +4164,108 @@ bool default false</title></a>
 </table></div></div>
 
 <br><br>
-<div class='card'><div class='card-body'><a name='public.genders' onclick='window.scrollTo(440, 1872);return false;' style='cursor:pointer;'><h5 class='card-title'>Table genders</h5></a>
+<div class='card'><div class='card-body'><a name='public.ethnicity_demographics' onclick='window.scrollTo(72, 1824);return false;' style='cursor:pointer;'><h5 class='card-title'>Table ethnicity_demographics</h5></a>
+<table class='table table-sm table-bordered small' style='table-layout: fixed; word-wrap: break-word;'>
+<thead>
+<tr><th style='width:5%'>Idx</th><th style='width:20%'>Field Name</th><th style='width:23%'>Data Type</th><th style='width:52%'>Description</th></tr>
+</thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg></td>
+		<td><a name='public.ethnicity_demographics.id'>id</a></td>
+		<td> serial  AUTOINCREMENT  </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td>*</td>
+		<td><a name='public.ethnicity_demographics.insert_datetime'>insert&#95;datetime</a></td>
+		<td> timestamptz   DEFAULT CURRENT_TIMESTAMP </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='public.ethnicity_demographics.race_id'>race&#95;id</a></td>
+		<td> integer   </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='public.ethnicity_demographics.ethnicity_id'>ethnicity&#95;id</a></td>
+		<td> integer   </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td>*</td>
+		<td><a name='public.ethnicity_demographics.description'>description</a></td>
+		<td> varchar&#40; 255 &#41;   </td>
+		<td>  </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>ethnicity&#95;demographics&#95;pkey</td>
+		<td> ON id</td>
+		<td>  </td>
+	</tr>
+<tr><th colspan='4'>Foreign Keys</th></tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>ethnicity_demographics_ethnicity_id_foreign</td>
+		<td > ( ethnicity&#95;id ) ref <a href='#ethnicity'>ethnicity</a> (id) </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>ethnicity_demographics_race_id_foreign</td>
+		<td > ( race&#95;id ) ref <a href='#races'>races</a> (id) </td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br><br>
+<div class='card'><div class='card-body'><a name='public.gender_demographics' onclick='window.scrollTo(312, 1872);return false;' style='cursor:pointer;'><h5 class='card-title'>Table gender_demographics</h5></a>
+<table class='table table-sm table-bordered small' style='table-layout: fixed; word-wrap: break-word;'>
+<thead>
+<tr><th style='width:5%'>Idx</th><th style='width:20%'>Field Name</th><th style='width:23%'>Data Type</th><th style='width:52%'>Description</th></tr>
+</thead>
+<tbody>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#pk'/></svg></td>
+		<td><a name='public.gender_demographics.id'>id</a></td>
+		<td> serial  AUTOINCREMENT  </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td>*</td>
+		<td><a name='public.gender_demographics.insert_datetime'>insert&#95;datetime</a></td>
+		<td> timestamptz   DEFAULT CURRENT_TIMESTAMP </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td>*<svg width='14' height='14'><use xlink:href='#fk'/></svg></td>
+		<td><a name='public.gender_demographics.gender_id'>gender&#95;id</a></td>
+		<td> integer   </td>
+		<td>  </td>
+	</tr>
+	<tr>
+		<td>*</td>
+		<td><a name='public.gender_demographics.description'>description</a></td>
+		<td> varchar&#40; 255 &#41;   </td>
+		<td>  </td>
+	</tr>
+<tr><th colspan='4'>Indexes</th></tr>
+	<tr>		<td><svg width='14' height='14'><use xlink:href='#pk'/></svg></td><td>gender&#95;demographics&#95;pkey</td>
+		<td> ON id</td>
+		<td>  </td>
+	</tr>
+<tr><th colspan='4'>Foreign Keys</th></tr>
+	<tr>
+		<td><svg width='14' height='14'><use xlink:href='#fk'/></svg></td><td>gender_demographics_gender_id_foreign</td>
+		<td > ( gender&#95;id ) ref <a href='#genders'>genders</a> (id) </td>
+		<td>  </td>
+	</tr>
+</tbody>
+</table></div></div>
+
+<br><br>
+<div class='card'><div class='card-body'><a name='public.genders' onclick='window.scrollTo(552, 1872);return false;' style='cursor:pointer;'><h5 class='card-title'>Table genders</h5></a>
 <table class='table table-sm table-bordered small' style='table-layout: fixed; word-wrap: break-word;'>
 <thead>
 <tr><th style='width:5%'>Idx</th><th style='width:20%'>Field Name</th><th style='width:23%'>Data Type</th><th style='width:52%'>Description</th></tr>
@@ -6110,7 +6271,7 @@ bool default false</title></a>
 </table></div></div>
 
 <br><br>
-<div class='card'><div class='card-body'><a name='public.patient_notes' onclick='window.scrollTo(968, 1232);return false;' style='cursor:pointer;'><h5 class='card-title'>Table patient_notes</h5></a>
+<div class='card'><div class='card-body'><a name='public.patient_notes' onclick='window.scrollTo(968, 1264);return false;' style='cursor:pointer;'><h5 class='card-title'>Table patient_notes</h5></a>
 <table class='table table-sm table-bordered small' style='table-layout: fixed; word-wrap: break-word;'>
 <thead>
 <tr><th style='width:5%'>Idx</th><th style='width:20%'>Field Name</th><th style='width:23%'>Data Type</th><th style='width:52%'>Description</th></tr>
