@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8"/>
+  <title>Renegade/Medcase/Orchard</title>
+
+  <link rel="preload" as="image" href="./1.medcase-create-meeting.drawio.png"/>
+  <link rel="preload" as="image" href="./2.cancel-medcase-meeting.drawio.p"/>
+  <link rel="preload" as="image" href="./3.medcase-create-order-for-patient.drawio.p"/>
+  <link rel="preload" as="image" href="./4.patient-register-kit.drawio.p"/>
+  <link rel="preload" as="image" href="./5.renegade-release-lab-result.drawio.p"/>
+  <link rel="preload" as="image" href="./6.medcase-end-async-task.drawio.p"/>
+
+
+  <style type="text/css">
+    html, body {
+      padding: 0; 
+      margin: 0;
+      width: 100%;
+      height: 100%;
+      background: #F2F2F2;
+    }
+
+    #wrapper{
+      max-width: calc( 1366px + 300px );
+      box-sizing: border-box;
+      margin: 10px auto;
+      background: #ffffff;
+      box-shadow: 0 0 4px #777;
+      display: flex;
+    }
+
+    #side-menu,
+    #content{
+      display: inline-block;
+      vertical-align: top;
+      min-height: 200px;
+    }
+
+    #side-menu{
+      width: 300px;
+      min-width: 300px;
+      box-sizing: border-box;
+      padding: 5px;
+      /*background: #0F0;*/
+    }
+
+    #content{
+      width: calc( 1366px - 30px );
+      box-sizing: border-box;
+      background: #F00;
+    }
+
+    #content > img{
+      width: 100%;
+    }
+
+    .side-menu-btn{
+      border-left: 2px 
+      box-sizing: border-box;
+      padding: 5px 10px;
+      background: #f2f2f2;
+      color: #333;
+      margin-bottom: 2px;
+      cursor: pointer;
+    }
+
+    .side-menu-btn-active{
+      background: #07F;
+      color: #f2f2f2;
+
+    }
+
+    .side-menu-btn:hover{
+      background: #333;
+      color: #f2f2f2;
+    }
+
+  </style>
+
+  <script type="text/javascript">
+
+    const setImage = (elem, img)=>{
+
+      document.querySelectorAll('.side-menu-btn')
+        .forEach((elem)=>{
+          elem.classList.remove('side-menu-btn-active');
+        });
+
+      document.getElementById('chart-image-wrapper').src = img;
+      elem.classList.add('side-menu-btn-active');
+ 
+    }
+
+    const items = [
+      { title: 'medcase create meeting', img: './1.medcase-create-meeting.drawio.png' },
+      { title: 'cancel medcase meeting', img: './2.cancel-medcase-meeting.drawio.png' },
+      { title: 'medcase create order for patient', img: './3.medcase-create-order-for-patient.drawio.png' },
+      { title: 'patient register kit', img: './4.patient-register-kit.drawio.png' },
+      { title: 'renegade release lab result', img: './5.renegade-release-lab-result.drawio.png' },
+      { title: 'medcase end async task', img: './6.medcase-end-async-task.drawio.png' },
+    ];
+
+    window.addEventListener('load',()=>{
+
+      const menu = document.getElementById('side-menu');
+
+      items.map((item, index)=>{
+        menu.innerHTML += `
+          <div 
+            class="side-menu-btn" 
+            onClick="setImage(this, '${item.img}')"
+          >
+            <b>#${index}</b> ${item.title}
+          </div>`;
+      });
+
+    });
+
+  </script>
+
+</head>
+<body>
+
+  <div id="wrapper">
+    
+    <div id="side-menu">
+      <!-- [js] -->
+    </div>
+
+    <div id="content">
+      <img src="./1.medcase-create-meeting.drawio.png" id="chart-image-wrapper"/>
+    </div>
+
+  </div>
+
+</body>
+</html>
