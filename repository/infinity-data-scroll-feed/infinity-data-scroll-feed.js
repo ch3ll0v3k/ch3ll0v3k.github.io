@@ -1,4 +1,4 @@
-window.addEventListener('load', function() {
+window.addEventListener('load', function () {
 
     // const DataBase = [
     //     { title: 'Feet Title', text: 'Feed text', seen_by:1234, created: 12323232323 },
@@ -28,31 +28,31 @@ window.addEventListener('load', function() {
 
     window.scrollY; // Scrolled from top
 
-    function randInt(min, max){ return Math.floor( Math.random() * (max - min + 1)) + min; }
-    function randDate(){ return randInt(1,12)+'-'+randInt(1,31)+'-'+randInt(2000,2021); }
-    function randFeedText(){
+    function randInt(min, max) { return Math.floor(Math.random() * (max - min + 1)) + min; }
+    function randDate() { return randInt(1, 12) + '-' + randInt(1, 31) + '-' + randInt(2000, 2021); }
+    function randFeedText() {
 
         let feed_data = '';
-        for( let i=0; i < randInt( 2, 12 ); i++ )
-            feed_data += FEED[ randInt( 0, FEED.length-1) ]+'. ';
+        for (let i = 0; i < randInt(2, 12); i++)
+            feed_data += FEED[randInt(0, FEED.length - 1)] + '. ';
 
         return feed_data;
     }
 
 
-    function randFeedImage(){
+    function randFeedImage() {
 
         let img_i = randInt(0, 35);
 
-        if( img_i <= 26 )
+        if (img_i <= 26)
             // return '<img class="body-img body-img-left" src="'+( location.host )+'/repository/infinity-data-scroll-feed/feed-data/imgs/'+img_i+'.jpg"/>';
-            return '<img class="body-img '+(randInt(0, 100) >= 50 ? 'body-img-left' : 'body-img-right')+'" src="./feed-data/imgs/'+img_i+'.jpg"/><br/><br/>';
+            return '<img class="body-img ' + (randInt(0, 100) >= 50 ? 'body-img-left' : 'body-img-right') + '" src="/repository/infinity-data-scroll-feed/feed-data/imgs/' + img_i + '.jpg"/><br/><br/>';
 
         return '';
 
     }
 
-    window.addEventListener('scroll', function(){
+    window.addEventListener('scroll', function () {
 
         // console.log({
         //     scrollY: scrollY, 
@@ -65,37 +65,37 @@ window.addEventListener('load', function() {
         //     B_p: document.body.scrollHeight +scrollY,
         // });
 
-        if( ( screen.availHeight +scrollY ) >= document.body.scrollHeight ){
+        if ((screen.availHeight + scrollY) >= document.body.scrollHeight) {
             fetchDataFeed();
         }
 
     });
 
     let is_updatind = false;
-    function fetchDataFeed(){
+    function fetchDataFeed() {
         console.log(' #fetchDataFeed(); ')
 
-        if( is_updatind ) return;
+        if (is_updatind) return;
         console.log(' => ');
         is_updatind = true;
         feed_indicator.style.display = 'block';
 
         // Simulate DB Latency
-        setTimeout(function(){
+        setTimeout(function () {
 
             let new_feeds = '';
 
-            for( let i=0; i<amount_feeds_to_fetch; i++ ){
+            for (let i = 0; i < amount_feeds_to_fetch; i++) {
 
                 new_feeds += ''
-                    +'<div class="m-row">'
-                    +'    <div class="m-head"> #'+( ++global_feed_counter )+', Lorem ipsum dolor sit amet </div>'
-                    +'    <div class="m-row">'
-                    +'        '+( randFeedImage() )
-                    +'        '+( randFeedText() )
-                    +'</div>'
-                    +'    <div class="m-footer"> <i class="fa fa-eye"></i> '+randInt(10, 10000)+' <i class="fa fa-calendar"></i> '+randDate()+' </div>'
-                    +'</div>'
+                    + '<div class="m-row">'
+                    + '    <div class="m-head"> #' + (++global_feed_counter) + ', Lorem ipsum dolor sit amet </div>'
+                    + '    <div class="m-row">'
+                    + '        ' + (randFeedImage())
+                    + '        ' + (randFeedText())
+                    + '</div>'
+                    + '    <div class="m-footer"> <i class="fa fa-eye"></i> ' + randInt(10, 10000) + ' <i class="fa fa-calendar"></i> ' + randDate() + ' </div>'
+                    + '</div>'
 
             }
 
@@ -104,7 +104,7 @@ window.addEventListener('load', function() {
             is_updatind = false;
             feed_indicator.style.display = 'none';
 
-        }, randInt(500, 1600) ); // Network delay
+        }, randInt(500, 1600)); // Network delay
 
     }
 

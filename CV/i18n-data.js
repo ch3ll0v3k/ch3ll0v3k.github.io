@@ -1,6 +1,5 @@
-const i18nData = {
-
-  RU: {
+const i18n = {
+  ru: {
     'CV - Timoschenko Viacheslav': 'Резюме - Тимошенко Вячеслав',
     'Personal Information': 'Персональная информация',
     'Position': 'Должность',

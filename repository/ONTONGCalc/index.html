@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
 
     <title> ONTONGCalc </title>
-    <meta charset="utf-8"/>
+    <meta charset="utf-8" />
 
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <link rel="icon" type="image/png" href="/favicon.png"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
 
     <script type="text/javascript" src="/vendor/jquery/jquery-3.3.1.min.js"></script>
     <script type="text/javascript" src="/vendor/viewerjs-1.1.0/dist/viewer.min.js"></script>
@@ -26,169 +27,171 @@
     <script type="text/javascript" src="/js/main-menu.js"></script>
     <script type="text/javascript" src="/js/live-html.js"></script>
 
-    <link rel="stylesheet" type="text/css" href="/vendor/font-awesome-4.7.0/css/font-awesome.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/vendor/bootstrap/v3.3.7/bootstrap.min.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/main.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/layout.css"/>
-    <link rel="stylesheet" type="text/css" href="/css/tmx.media-v3.0.0.css"/>
+    <link rel="stylesheet" type="text/css" href="/vendor/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="/vendor/bootstrap/v3.3.7/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="/css/layout.css" />
+    <link rel="stylesheet" type="text/css" href="/css/tmx.media-v3.0.0.css" />
 
     <style type="text/css">
-        td{ padding: 2px 7px !important; }
+        td {
+            padding: 2px 7px !important;
+        }
     </style>
 
     <script type="text/javascript">
 
         const TABLE_TPL = ''
-            +'<table width="100%" class="table table-striped table-bordered table-hover" id="{{root-table-id}}">'
-            +'    <thead>'
-            +'        <tr>'
-            +'            <th> <i class="fa fa-calendar"></i> Date</th>'
-            +'            <th>Days Past</th>'
-            +'            <th>Res ONTs</th>'
-            +'            <th>Res ONGs</th>'
-            +'            <th>Staks</th>'
-            +'            <th>Staks Value $</th>'
-            +'            <th>Round Reward +$</th>'
-            +'            <th> return ( % ) </th>'
-            +'        </tr>'
-            +'    </thead>'
-            +'    <tbody>'
-            +'    {{root-table-data}}'
-            +'    </tbody>'
-            +'</table>';
+            + '<table width="100%" class="table table-striped table-bordered table-hover" id="{{root-table-id}}">'
+            + '    <thead>'
+            + '        <tr>'
+            + '            <th> <i class="fa fa-calendar"></i> Date</th>'
+            + '            <th>Days Past</th>'
+            + '            <th>Res ONTs</th>'
+            + '            <th>Res ONGs</th>'
+            + '            <th>Staks</th>'
+            + '            <th>Staks Value $</th>'
+            + '            <th>Round Reward +$</th>'
+            + '            <th> return ( % ) </th>'
+            + '        </tr>'
+            + '    </thead>'
+            + '    <tbody>'
+            + '    {{root-table-data}}'
+            + '    </tbody>'
+            + '</table>';
 
-    window.addEventListener('load', function(){
+        window.addEventListener('load', function () {
 
-        (function(){
+            (function () {
 
-            let mTable = $('#main-res-tables').DataTable({
-                responsive: true,
-                autoWidth : true,
-                columnDefs: [{ targets: "__hide_td", visible: false } ],
-                pageLength: 100,
-                bDestroy: true,
-            });
-            mTable.order( [ 0, "asc" ] ).draw();
-        })();
-
-
-        function randInt( min, max ){ return Math.floor( Math.random() * (max - min + 1)) + min; };
-
-        function genUUID(){ return '_'+randInt(1000, 2000)+'-'+randInt(1000, 2000)+'-'+randInt(1000, 2000); }
-
-
-        function F( v, upto=5 ){ return +( v.toFixed(upto) ); }
-        function D( daysToAdd ){
-            let D = new Date();
-                D.setTime( D.getTime() + (( daysToAdd *24 *60 *60 ) * 1000) );
-            return (''+(D.toISOString())).split('.')[0].split('T').join(' ');
-        }
-
-        $('.start-calc-btn').on('click', function(){
-
-            console.clear();
-
-            let staks = +($('#total-staks').val());
-            let months = +($('#total-months').val());
-
-            let AVG_ONGs_REWARD_FOR_ONE_ROUND_AND_ONE_STAK = (+$('#avg-ong-reward').val()); // || 45.0;
-            let AVG_DAYS_IN_ONE_ROUND = (+$('#avg-days-in-on-round').val()); // || 20;
-
-            let ONT_price   = (+$('#ont-price').val()); // 0.540207;
-            let ONG_price   = (+$('#ong-price').val()); // 0.268321;
-
-            console.log({ONT_price, ONG_price});
-
-
-            let result      = [];
-            let total_days  = (months * 30.5);
-            let total_parts = +(total_days / 20.0).toFixed(4); 
-            let total_ONT   = staks * 500; 
-            let total_USD   = total_ONT * ONT_price; 
-            let total_ONG   = 0; 
-            let prev_USD    = total_USD;
-
-            let initital_USD = F(staks * 500 * ONT_price ); 
-            let AVG_ONGS_TO_1_ONT_STAK = F(500 * ONT_price / ONG_price);
-
-            let days_past = 0;
-            while( total_parts > 0 ){
-
-                total_parts = F(--total_parts);
-                days_past += AVG_DAYS_IN_ONE_ROUND;
-
-                total_ONG += (AVG_ONGs_REWARD_FOR_ONE_ROUND_AND_ONE_STAK * staks);
-
-                while( total_ONG >= AVG_ONGS_TO_1_ONT_STAK ){
-                    staks++;
-                    total_ONG -= AVG_ONGS_TO_1_ONT_STAK;
-                }
-
-                total_ONT = F(staks * 500);
-                total_USD = F(total_ONT * ONT_price) + F(total_ONG * ONG_price);
-
-                let _return = F( total_USD / initital_USD, 3 );
-
-                result.push({ 
-                    date: D( days_past ),
-                    days_past: F( days_past, 2), 
-                    total_parts: F( total_parts, 2 ), 
-                    total_ONT: F( total_ONT, 5 ), 
-                    total_ONG: F( total_ONG, 5 ), 
-                    staks: F( staks, 2 ), 
-                    total_USD: F( total_USD, 2 ), 
-                    up_USD : F(total_USD -prev_USD, 2),
-                    'return(times)': F(( _return * 100 ) - 100, 2),
-                });
-
-                prev_USD = total_USD;
-
-            }
-
-            console.table(result);
-
-            let table = '';
-
-            for( let i in result ){
-                let row = result[ i ];
-
-                table += ''
-                    +'<tr>'
-                    +'    <td>'+( row.date )+'</td>'
-                    +'    <td>'+( row.days_past )+'</td>'
-                    +'    <td>'+( row.total_ONT )+'</td>'
-                    +'    <td>'+( row.total_ONG )+'</td>'
-                    +'    <td>'+( row.staks )+'</td>'
-                    +'    <td> <i class="fa fa-usd green"></i> '+( row.total_USD )+'</td>'
-                    +'    <td> <i class="fa fa-usd green"></i> + '+( row.up_USD )+'</td>'
-                    +'    <td> <i class="red">%</i> '+( row['return(times)'] )+'</td>'
-                    +'</tr>';
-
-            }
-
-
-            let new_table_id = genUUID();
-            let new_table = TABLE_TPL
-                .replace('{{root-table-data}}', table)
-                .replace('{{root-table-id}}', new_table_id);
-
-            $('#main-table-wrapper').html( new_table );
-
-            setTimeout( function( new_table_id ){
-                let mTable = $("#"+new_table_id).DataTable({
+                let mTable = $('#main-res-tables').DataTable({
                     responsive: true,
-                    autoWidth : true,
-                    columnDefs: [{ targets: "__hide_td", visible: false } ],
+                    autoWidth: true,
+                    columnDefs: [{ targets: "__hide_td", visible: false }],
                     pageLength: 100,
                     bDestroy: true,
                 });
-                mTable.order( [ 0, "asc" ] ).draw();
+                mTable.order([0, "asc"]).draw();
+            })();
 
-            }, 200, new_table_id);
+
+            function randInt(min, max) { return Math.floor(Math.random() * (max - min + 1)) + min; };
+
+            function genUUID() { return '_' + randInt(1000, 2000) + '-' + randInt(1000, 2000) + '-' + randInt(1000, 2000); }
+
+
+            function F(v, upto = 5) { return +(v.toFixed(upto)); }
+            function D(daysToAdd) {
+                let D = new Date();
+                D.setTime(D.getTime() + ((daysToAdd * 24 * 60 * 60) * 1000));
+                return ('' + (D.toISOString())).split('.')[0].split('T').join(' ');
+            }
+
+            $('.start-calc-btn').on('click', function () {
+
+                console.clear();
+
+                let staks = +($('#total-staks').val());
+                let months = +($('#total-months').val());
+
+                let AVG_ONGs_REWARD_FOR_ONE_ROUND_AND_ONE_STAK = (+$('#avg-ong-reward').val()); // || 45.0;
+                let AVG_DAYS_IN_ONE_ROUND = (+$('#avg-days-in-on-round').val()); // || 20;
+
+                let ONT_price = (+$('#ont-price').val()); // 0.540207;
+                let ONG_price = (+$('#ong-price').val()); // 0.268321;
+
+                console.log({ ONT_price, ONG_price });
+
+
+                let result = [];
+                let total_days = (months * 30.5);
+                let total_parts = +(total_days / 20.0).toFixed(4);
+                let total_ONT = staks * 500;
+                let total_USD = total_ONT * ONT_price;
+                let total_ONG = 0;
+                let prev_USD = total_USD;
+
+                let initital_USD = F(staks * 500 * ONT_price);
+                let AVG_ONGS_TO_1_ONT_STAK = F(500 * ONT_price / ONG_price);
+
+                let days_past = 0;
+                while (total_parts > 0) {
+
+                    total_parts = F(--total_parts);
+                    days_past += AVG_DAYS_IN_ONE_ROUND;
+
+                    total_ONG += (AVG_ONGs_REWARD_FOR_ONE_ROUND_AND_ONE_STAK * staks);
+
+                    while (total_ONG >= AVG_ONGS_TO_1_ONT_STAK) {
+                        staks++;
+                        total_ONG -= AVG_ONGS_TO_1_ONT_STAK;
+                    }
+
+                    total_ONT = F(staks * 500);
+                    total_USD = F(total_ONT * ONT_price) + F(total_ONG * ONG_price);
+
+                    let _return = F(total_USD / initital_USD, 3);
+
+                    result.push({
+                        date: D(days_past),
+                        days_past: F(days_past, 2),
+                        total_parts: F(total_parts, 2),
+                        total_ONT: F(total_ONT, 5),
+                        total_ONG: F(total_ONG, 5),
+                        staks: F(staks, 2),
+                        total_USD: F(total_USD, 2),
+                        up_USD: F(total_USD - prev_USD, 2),
+                        'return(times)': F((_return * 100) - 100, 2),
+                    });
+
+                    prev_USD = total_USD;
+
+                }
+
+                console.table(result);
+
+                let table = '';
+
+                for (let i in result) {
+                    let row = result[i];
+
+                    table += ''
+                        + '<tr>'
+                        + '    <td>' + (row.date) + '</td>'
+                        + '    <td>' + (row.days_past) + '</td>'
+                        + '    <td>' + (row.total_ONT) + '</td>'
+                        + '    <td>' + (row.total_ONG) + '</td>'
+                        + '    <td>' + (row.staks) + '</td>'
+                        + '    <td> <i class="fa fa-usd green"></i> ' + (row.total_USD) + '</td>'
+                        + '    <td> <i class="fa fa-usd green"></i> + ' + (row.up_USD) + '</td>'
+                        + '    <td> <i class="red">%</i> ' + (row['return(times)']) + '</td>'
+                        + '</tr>';
+
+                }
+
+
+                let new_table_id = genUUID();
+                let new_table = TABLE_TPL
+                    .replace('{{root-table-data}}', table)
+                    .replace('{{root-table-id}}', new_table_id);
+
+                $('#main-table-wrapper').html(new_table);
+
+                setTimeout(function (new_table_id) {
+                    let mTable = $("#" + new_table_id).DataTable({
+                        responsive: true,
+                        autoWidth: true,
+                        columnDefs: [{ targets: "__hide_td", visible: false }],
+                        pageLength: 100,
+                        bDestroy: true,
+                    });
+                    mTable.order([0, "asc"]).draw();
+
+                }, 200, new_table_id);
+
+            });
 
         });
-
-    });
     </script>
 
 </head>
@@ -208,20 +211,23 @@
 
                 <div class="m-row">
 
-                    <img class="body-img body-img-left" src="./ont-staking-faq.png"/><br/>
+                    <img class="body-img body-img-left" src="/repository/ONTONGCalc/ont-staking-faq.png" /><br />
+                    About 37.3% ROI for 1 stake (500 ONT) on Dubhe, Oct 2018:<br />
+                    <a
+                        href="https://medium.com/cryptocoinchat/returns-of-ontology-ont-staking-actual-example-and-faq-eea1d36ab657">Returns
+                        of Ontology (ONT) Staking — Actual Example and FAQ</a>
+                    <br />
 
-                    About 37.3% ROI for 1 stake (500 ONT) on Dubhe, Oct 2018:<br/>
-                    <a href="https://medium.com/cryptocoinchat/returns-of-ontology-ont-staking-actual-example-and-faq-eea1d36ab657">Returns of Ontology (ONT) Staking — Actual Example and FAQ</a>
-                    <br/>
+                    <a href="https://neonewstoday.com/general/ontology-releases-stake-authorization-faq/"> Ontology
+                        releases Stake Authorization FAQ </a>
+                    <br />
 
-                    <a href="https://neonewstoday.com/general/ontology-releases-stake-authorization-faq/"> Ontology releases Stake Authorization FAQ </a>
-                    <br/>
-
-                    <a href="https://medium.com/cryptocoinchat/how-to-stake-ontology-ont-73f466d99642">How to stake Ontology (ONT)</a>
-                    <br/>
+                    <a href="https://medium.com/cryptocoinchat/how-to-stake-ontology-ont-73f466d99642">How to stake
+                        Ontology (ONT)</a>
+                    <br />
 
                     <a href="http://www.passivestaking.com/">Live ONTology Blockchain Staking info</a>
-                    <br/>
+                    <br />
 
                 </div>
             </div>
@@ -230,7 +236,7 @@
                 <div class="m-head"> ONT-ONG Staking Reward Calculator </div>
                 <div class="m-row">
 
-                    <label class="font-16px"> Total ONT Staks  <sup class="blue">1 Stak = 500 ONT</sup> </label>
+                    <label class="font-16px"> Total ONT Staks <sup class="blue">1 Stak = 500 ONT</sup> </label>
                     <div class="input-group mb-20px">
                         <span class="input-group-addon w_70px"> Staks </span>
                         <div class="input-group-btn">
@@ -248,7 +254,8 @@
                         <input id="total-months" type="text" class="form-control" value="12" />
                     </div>
 
-                    <label class="font-16px"> Average ONGs Reward for 1 Round <sup class="blue">( for 1 STAK )</sup> </label>
+                    <label class="font-16px"> Average ONGs Reward for 1 Round <sup class="blue">( for 1 STAK )</sup>
+                    </label>
                     <div class="input-group mb-20px">
                         <span class="input-group-addon w_70px"> ONG </span>
                         <div class="input-group-btn">
@@ -310,7 +317,8 @@
                     </div>
 
                 </div>
-                <div class="m-footer"> <i class="fa fa-eye"></i> 12032302 <i class="fa fa-calendar"></i> 12-09-2123 </div>
+                <div class="m-footer"> <i class="fa fa-eye"></i> 12032302 <i class="fa fa-calendar"></i> 12-09-2123
+                </div>
             </div>
 
         </div>
@@ -318,5 +326,5 @@
     </div>
 
 </body>
-</html>
 
+</html>
