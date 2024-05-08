@@ -1,14 +1,13 @@
 const CVData = {
 
   page: {
-    title: 'CV - Timoschenko Viacheslav',
+    title: 'CV - Timoschenko Viacheslav'
   },
   user: {
     title: 'Personal Information',
     data: {
       Name: 'Timoschenko Viacheslav Igorevich',
-      Email: 'timoschenko.viacheslav@yandex.com​',
-      // Telegram : '@ch3ll0v3k', 
+      Email: 'timoschenko.viacheslav@yandex.com',
       Telegram: 'https://t.me/ch3ll0v3k',
       Phone: '+32 (0) 498 40-39-04',
       DOB: '18 Sept 1988',
@@ -17,46 +16,46 @@ const CVData = {
       Gitlab: 'https://gitlab.com/ch3ll0v3k'
     },
     meta: {
-      photo: '/CV/Timoschenko-Viacheslav-2.jpg',
-    },
+      photo: '/CV/Timoschenko-Viacheslav-2.jpg'
+    }
   },
   spoken_language: {
     title: 'Spoken language level',
     data: {
       English: 'B2 (Vantage or upper intermediate)',
       Nederlands: 'C1 (Effective operational proficiency or advanced)',
-      Russian: 'C1 (Effective operational proficiency or advanced)',
-    },
+      Russian: 'C1 (Effective operational proficiency or advanced)'
+    }
   },
 
   programming_skills: {
-
     title: 'Main stack and tools',
     data: {
       'Main languages / tools stack': [
         '<b>NodeJS</b>',
         '<b>NestJS</b>, Express-JS',
-        '<b>Typescript</b> (Javascript)',
-        '<b>Docker/Composer</b>',
+        '<b>Typescript</b> (JavaScript)',
+        '<b>Docker/Compose</b>',
         '<b>PostgreSQL</b>, MariaDB, MySQL',
-        'Sequelize ORM / Raw sql',
+        'Sequelize ORM / Raw SQL',
         'AWS: <b>RDS, EC2, S3</b>',
         '<b>React</b>, Material-UI',
-        'Sockets: ( Web/JS/Socket.io )',
+        'Sockets: (Web/JS/Socket.io)',
         'Payment-Systems: <b>Stripe</b>',
         'KYC (Know-Your-Customer): <b>Sum-Sub</b>',
-        'Crypto-Currency integration: (<b>Fireblocks</b>, Kraken)',
-        '<b>HIPAA Compliant</b> applications: Encryption, etc ...',
-        'Sendgrid, Mailgun, other...',
-        'Blockchain integration: <b>Ethereum</b>/<b>Polygon</b>/Fantom, Other EVM compatible chains',
-        'Solidity: <b>Smart-Contracts Custom solution</b> or any of ERC20, ERC721, ERC1155 standards ',
-        'Web3 (js), Ethers (js)',
+        'Redis',
+        'Crypto-Currency integration: (<b>Fireblocks</b>, Kraken, etc.)',
+        '<b>HIPAA Compliant</b> applications: Encryption, etc.',
+        'Sendgrid, Mailgun, etc.',
+        'Blockchain integration: <b>Ethereum</b>/<b>Arbitrum</b>/<b>Polygon</b>/Fantom, Other EVM compatible chains',
+        'Solidity: <b>Smart-Contracts Custom solution</b> or any of known standards ERC20, ERC721, ERC115',
+        'Web3 (JS), Ethers (JS)',
         'NginX',
         '<b>Github</b>, Bitbucket (Version control systems)',
-        'HTML/CSS etc ...'
+        'HTML/CSS, etc.'
       ],
       Databases: [
-        '<b>PostgreSQL</b>', '<b>MariaDB</b>', '(+NO-SQL)',
+        '<b>PostgreSQL</b>', '<b>MariaDB</b>', '(+ NO-SQL)',
       ],
       'Blockchains - (Native)': [
         'Ethereum (Other EVM compatible chains) - Solidity',
@@ -66,49 +65,74 @@ const CVData = {
         'NEM Blockchain',
       ],
       OSs: [
-        '<b>Linux</b> ( Debian, Ubuntu, any other: (Debian Based) )',
+        '<b>Linux</b> (Debian, Ubuntu, any other: (Debian Based))',
       ],
       'Other - Languages/Libraries (with less experience)': [
-        'Redis',
-        'Telegraf(js)',
+        'Telegraf (JS)',
         'Bash',
-        'MQL(4,5) (MetaQuotes)',
+        'MQL (4,5) (MetaQuotes)',
         'Java (Android)',
-        'ML (BrainJS, FANN(C/C++), KERAS (python), Tensorflow(JS))',
+        'ML (BrainJS, FANN(C/C++), KERAS (Python), TensorFlow (JS))',
         'C/C++',
         'C#',
       ],
-
       Tools: ['Any: required by project'],
     },
-
   },
 
   work_experience: {
     title: 'Work experience',
     data: [
-      // {
-      //   'Work period':{ title: 'Work period', data:{ from: '', upto: ''}, },
-      //   'Company': { title: 'Company', data: '' },
-      //   'Position': { title: 'Position', data: 'Leading developer' },
-      //   'Description': { title: 'Description', EN: ``, RU: `` },
-      //   'used': {
-      //     title: 'During development, used',
-      //     data:[ ]
-      //   },
-      // },
       {
-        'Work period': { title: 'Work period', data: { from: 'Oct 2021', upto: 'Today' }, },
-        'Company': { title: 'Company', data: 'Interexy LLC (ex. AMS)' },
-        'Position': { title: 'Position', data: 'Scalable Node JS backend application', },
+        'Work period': { title: 'Work period', data: { from: 'Apr 2024', upto: 'Today' } },
+        'Company': { title: 'Company', data: '' },
+        'Position': { title: 'Position', data: 'Node JS backend / Web3 application' },
         'description': {
           title: 'Description',
-          EN: `
-            Development of scalable NodeJS backend application.
-          `,
-          RU: `
-            Разработка масштабируемых NodeJS-бэкенд приложений.
-          `,
+          EN: 'Development of NodeJS backend application.',
+          RU: 'Разработка NodeJS-бэкенд приложений.'
+        },
+        'used': {
+          title: 'During development, used',
+          data: [
+            '<b>Linux</b>',
+            '<b>PostgreSQL</b>',
+            '<b>Redis</b>',
+            '<b>NodeJS</b>',
+            '<b>Docker</b>',
+            'Git (Github)'
+          ]
+        }
+      },
+      {
+        'Work period': { title: 'Work period', data: { from: 'Oct 2021', upto: 'Apr 2024' } },
+        'Company': { title: 'Company', data: 'Interexy LLC (ex. AMS)' },
+        'Position': { title: 'Position', data: 'Scalable Node JS backend application' },
+        'description': {
+          title: 'Description',
+          EN: 'Development of scalable NodeJS backend application.',
+          RU: 'Разработка масштабируемых NodeJS-бэкенд приложений.'
+        },
+        'used': {
+          title: 'During development, used',
+          data: [
+            '<b>(AWS-EC2) Linux</b>',
+            '<b>(AWS-RDS) PostgreSQL</b>',
+            '<b>(dev) NginX: as main balancer/proxy server</b>',
+            '<b>NodeJS</b>',
+            '<b>Docker</b>',
+            'Git (Bitbucket, Github)'
+          ]
+        }
+      },
+      {
+        'Work period': { title: 'Work period', data: { from: 'Nov 2020', upto: 'Sept 2021' } },
+        'Company': { title: 'Company', data: 'Interexy LLC (ex. AMS)' },
+        'Position': { title: 'Position', data: 'NodeJS backend developer (API)' },
+        'description': {
+          title: 'Description',
+          EN: 'Development of a backend for an (iOS) fitness application.\nApp link: https://circuits.app/',
+          RU: 'Разработка бэкенда для фитнес-приложения (iOS).\nСсылка на приложение: https://circuits.app/'
         },
         'used': {
           title: 'During development, used',
@@ -119,150 +143,105 @@ const CVData = {
             '<b>NodeJS</b>',
             '<b>Docker</b>',
             'Git (Bitbucket, Github)',
+            '<b>React-JS (Custom Admin-Panel + Material-UI)</b>'
           ]
-        },
+        }
       },
       {
-        'Work period': { title: 'Work period', data: { from: 'Nov 2020', upto: 'Sept 2021' }, },
-        'Company': { title: 'Company', data: 'Interexy LLC (ex. AMS)' },
-        'Position': { title: 'Position', data: 'NodeJS backend developer (API)', },
-        'description': {
-          title: 'Description',
-          EN: `
-            Development of a backend for an (iOS) fitness application.
-            App link: https://circuits.app/
-          `,
-          RU: `
-            Разработка бэкенда для фитнес-приложения (iOS).
-            Ссылка на приложение: https://circuits.app/
-          `,
-        },
-
-        'used': {
-          title: 'During development, used',
-          data: [
-            '<b>(AWS-EC2) Linux</b>',
-            '<b>(AWS-RDS) MariaDB</b>',
-            '<b>(dev) NginX: as main balancer/proxy server</b>',
-            '<b>NodeJS</b>',
-            '<b>Docker</b>',
-            'Git (Bitbucket, Github)',
-            '<b>React-JS (Custom Admin-Panel + Material-UI)</b>',
-          ]
-        },
-      },
-      {
-        'Work period': { title: 'Work period', data: { from: 'Mar 2020', upto: 'Jul 2020', } },
+        'Work period': { title: 'Work period', data: { from: 'Mar 2020', upto: 'Jul 2020' } },
         'Company': { title: 'Company', data: 'Freelance' },
-        'Position': { title: 'Position', data: 'Freelance', },
+        'Position': { title: 'Position', data: 'Freelance' },
         'description': {
           title: 'Description',
-          EN: 'Freelance/Freelance',
-          RU: 'Фриланс/Фриланс',
+          EN: 'Freelance work.',
+          RU: 'Работа на фрилансе.'
         },
         'used': {
           title: 'During development, used',
           data: []
-        },
+        }
       },
       {
-        'Work period': { title: 'Work period', data: { from: 'Sep 2019', upto: 'Jan 2020' }, },
+        'Work period': { title: 'Work period', data: { from: 'Sep 2019', upto: 'Jan 2020' } },
         'Company': { title: 'Company', data: 'LotaSoft' },
-        'Position': { title: 'Position', data: 'Leading developer', },
+        'Position': { title: 'Position', data: 'Leading developer' },
         'description': {
           title: 'Description',
-          EN: `
-            Development of a backend for an application for monitoring and managing personal data of horse racing
-          `,
-          RU: `
-            Разработка бэкенда под приложение для мониторинга и управления личными данными лошадиных скачек.
-          `,
+          EN: 'Developed a backend for an application for monitoring and managing personal data of horse racing.',
+          RU: 'Разработка бэкенда для приложения по мониторингу и управлению персональными данными лошадиных скачек.'
         },
         'used': {
           title: 'During development, used',
           data: [
-            '<b>React-Native</b>', '<b>MongoDB</b>', '<b>NodeJS</b>', '<b>Docker</b>', '<b>Linux</b>(Ubuntu)', 'Git',
+            '<b>React-Native</b>', '<b>MongoDB</b>', '<b>NodeJS</b>', '<b>Docker</b>', '<b>Linux</b> (Ubuntu)', 'Git'
           ]
-        },
+        }
       },
-      {
-        'Work period': { title: 'Work period', data: { from: 'Sep 2017', upto: 'Apr 2019', } },
-        'Company': { title: 'Company', data: 'Fundplatform' },
-        'Position': { title: 'Position', data: 'Leading developer', },
-        'description': {
-          title: 'Description',
-          EN: `
-            Investment platform, ICO platform, cryptocurrency integration and processing.
-            Trading terminal, custom cryptocurrency wallets, NEM-Blockchain integration.
-          `,
 
-          RU: `
-            Инвестиционная платформа, платформа ICO, интеграция и обработка криптовалюты.
-            Торговый терминал, пользовательские криптовалютные кошельки, интеграция NEM-Blockchain.
-          `,
+      {
+        'Work period': { title: 'Work period', data: { from: 'Sep 2017', upto: 'Apr 2019' } },
+        'Company': { title: 'Company', data: 'Fundplatform' },
+        'Position': { title: 'Position', data: 'Leading developer' },
+        'description': {
+          title: 'Description',
+          EN: 'Worked on an investment platform, ICO platform, and cryptocurrency integration and processing. Developed trading terminal, custom cryptocurrency wallets, and integrated NEM-Blockchain.',
+          RU: 'Работа на инвестиционной платформе, платформе ICO, интеграция и обработка криптовалют. Разработка торгового терминала, пользовательских криптовалютных кошельков и интеграция NEM-Blockchain.'
         },
         'used': {
           title: 'During development, used',
           data: [
-            '<b>NodeJS</b>', '<b>Docker</b>', 'PHP', 'MySQL', '<b>Linux</b>(Ubuntu)', 'Git',
+            '<b>NodeJS</b>', '<b>Docker</b>', 'PHP', 'MySQL', '<b>Linux</b> (Ubuntu)', 'Git'
           ]
-        },
+        }
       },
       {
-        'Work period': { title: 'Work period', data: { from: 'Aug 2016', upto: 'Feb 2017', } },
+        'Work period': { title: 'Work period', data: { from: 'Aug 2016', upto: 'Feb 2017' } },
         'Company': { title: 'Company', data: 'Freelance' },
-        'Position': { title: 'Position', data: 'Freelance', },
+        'Position': { title: 'Position', data: 'Freelance' },
         'description': {
           title: 'Description',
-          EN: 'Freelance/Freelance',
-          RU: 'Фриланс/Фриланс',
+          EN: 'Engaged in freelance work.',
+          RU: 'Занимался работой на фрилансе.'
         },
         'used': {
           title: 'During development, used',
           data: []
-        },
+        }
       },
       {
-        'Work period': { title: 'Work period', data: { from: 'May-2014', upto: 'Apr-2016' } },
+        'Work period': { title: 'Work period', data: { from: 'May 2014', upto: 'Apr 2016' } },
         'Company': { title: 'Company', data: 'Zergo.Co' },
-        'Position': { title: 'Position', data: 'Leading developer', },
+        'Position': { title: 'Position', data: 'Leading developer' },
         'description': {
           title: 'Description',
-          EN: `
-            Virtual goods trading platform, payments integration and processing.
-            Yandex.Money, Qiwi, UniPay, VISA/MasterCard
-          `,
-          RU: `
-            Торговая платформа виртуальных товаров, интеграция и обработка платежей.
-            Yandex.Money, Qiwi, UniPay, VISA/MasterCard
-          `
+          EN: 'Developed a virtual goods trading platform and handled payments integration and processing, including Yandex.Money, Qiwi, UniPay, VISA/MasterCard.',
+          RU: 'Разработка торговой платформы виртуальных товаров и интеграция и обработка платежей, включая Yandex.Money, Qiwi, UniPay, VISA/MasterCard.'
         },
         'used': {
           title: 'During development, used',
           data: [
-            'PHP', 'MySQL', '<b>Linux</b>(Ubuntu)', 'Git', 'Custom UI',
+            'PHP', 'MySQL', '<b>Linux</b> (Ubuntu)', 'Git', 'Custom UI'
           ]
-        },
-      },
-
+        }
+      }
     ],
   },
+
   work_experience_extra: {
     title: 'Other work experience',
-
     data: [
       {
         title: 'Poker (Texas-Holdem) Game-Engine',
         description: {
-          EN: '<b>Crypto-Poker</b> Game-Engine with integrated, tournaments, free rooms, crypto-currency processing',
-          RU: '<b>Crypto-Poker</b> игровой движок со встроенными турнирами, бесплатными комнатами, обработкой криптовалюты',
+          EN: '<b>Crypto-Poker</b> Game-Engine with integrated tournaments, free rooms, and crypto-currency processing',
+          RU: '<b>Crypto-Poker</b> игровой движок с встроенными турнирами, бесплатными комнатами и обработкой криптовалюты',
         }
       },
       {
         title: 'Telegram (like/clone) messenger',
         description: {
-          EN: '<b>Telegram</b> (like/clone) messenger with React-native, (<b>Demo application can be provided upon request.</b>)',
-          RU: '<b>Telegram</b> (клон) messenger на React-native, (<b>Демо-приложение может быть предоставлено по запросу</b>)',
+          EN: '<b>Telegram</b> (like/clone) messenger built with React Native (<b>Demo application can be provided upon request.</b>)',
+          RU: '<b>Telegram</b> (клон) мессенджера на React Native (<b>Демо-приложение может быть предоставлено по запросу.</b>)',
         }
       },
       {
@@ -272,16 +251,7 @@ const CVData = {
           RU: 'Установка и поддержка Ethereum/Bitcoin Node-Server (собственный API шлюз)',
         }
       },
-      // {
-      //   title: '<i class="fa fa-server"></i> <b> Machine learning - (ML)</b>',
-      //   description: {
-      //     EN: 'Machine learning: https://github.com/ch3ll0v3k/ML.real-time-image.night-vision.js',
-      //     RU: 'Машинное обучение: https://github.com/ch3ll0v3k/ML.real-time-image.night-vision.js',
-      //   }
-      // },
-
     ],
-
   },
 
   i18n: (data, lang) => {
