@@ -1,0 +1,28 @@
+.item-wrapper {
+  max-width: 1280px;
+  margin: 20px auto;
+  text-align: center;
+  display: block !important;
+}
+
+.chart-wrapper {
+  width: 100%;
+}
+
+.main-table {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.main-table td {
+  padding: 5px;
+}
+
+#wrapper {
+  display: block !important;
+}
+
+.control-item {
+  padding: 10px;
+}

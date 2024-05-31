@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+
+  <title>Chart</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="./js/canvasjs.min.js"></script>
+  <script src="./js/chart.js"></script>
+  <script src="./js/calculate.js"></script>
+
+  <link rel="stylesheet" href="./css/main.css" />
+
+  <script>
+
+
+    window.addEventListener('load', () => {
+
+      const referrals = [1, 2, 5, 10, 25, 100, 1000];
+
+      const ctrl = {
+        wrapper: document.getElementById('wrapper'),
+        apr: document.getElementById('apr'),
+        refPercent: document.getElementById('refPercent'),
+        durationInDays: document.getElementById('durationInDays'),
+        roundUp: document.getElementById('roundUp'),
+        useFixedAmount: document.getElementById('useFixedAmount'),
+        calculate: document.getElementById('calculate'),
+      };
+
+      const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
+
+      ctrl.calculate.addEventListener(('click'), async () => {
+        const _APR = +ctrl.apr.value;
+        const durationInDays = +ctrl.durationInDays.value;
+        const refPercent = +ctrl.refPercent.value;
+        const roundUpTo = +ctrl.roundUp.value;
+        const useFixedAmount = ctrl.useFixedAmount.checked;
+
+        // ctrl.wrapper.innerHTML = '';
+
+        for (const amountOfRefs of referrals) {
+
+          const elemId = `chart_${amountOfRefs}`;
+          // console.log({ elemId });
+          // ctrl.wrapper.innerHTML += `
+          //   <div class="item-wrapper">
+          //     <div class="chart-wrapper">
+          //       <div id="${elemId}"></div>
+          //     </div>
+          //   </div>
+          // `;
+
+          const res = calculate(_APR, durationInDays, (+amountOfRefs), (+refPercent), roundUpTo, useFixedAmount);
+          // res => [{ day, me, ref, all }];
+
+          const data_0 = res.map((item) => {
+            return { x: item.day, y: +(+item.me).toFixed(2) };
+          });
+
+          const data_1 = res.map((item) => {
+            return { x: item.day, y: +(+item.ref).toFixed(2) };
+          });
+
+          // await sleep(250);
+          createChart(elemId, `${durationInDays} days / ${amountOfRefs} referrals`, data_0, data_1);
+
+        }
+
+      });
+
+    });
+
+  </script>
+
+</head>
+
+<body>
+
+  <div class="item-wrapper">
+
+    <table class="main-table">
+      <tr>
+        <td> <label for="apr">APR (%)</label> </td>
+        <td> <input type="number" step="1" id="apr" value="30" /> </td>
+      </tr>
+      <tr>
+        <td> <label for="apr">Referral (%)</label> </td>
+        <td> <input type="number" step="1" id="refPercent" value="20" /> </td>
+      </tr>
+      <tr>
+        <td> <label for="refs">Days</label></td>
+        <td> <input type="number" step="1" id="durationInDays" value="365" /></td>
+      </tr>
+      <tr>
+        <td> <label for="roundUp">Round Up To</label></td>
+        <td> <input type="number" step="1" id="roundUp" value="8" /></td>
+      </tr>
+      <tr>
+        <td> <label for="useFixedAmount">Use Fixed Amount</label></td>
+        <td> <input type="checkbox" id="useFixedAmount" /></td>
+      </tr>
+    </table>
+
+    <div class="control-wrapper">
+      <div class="control-item">
+        <button id="calculate">Calculate</button>
+      </div>
+    </div>
+
+  </div>
+
+  <div id="wrapper">
+    <!--
+    <div class="item-wrapper">
+      <div class="chart-wrapper">
+        <div id="chart_0"></div>
+      </div>
+    </div>
+    -->
+
+    <div class="item-wrapper">
+      <div class="chart-wrapper">
+        <div style="width: 100%; height: 300px; display: block;" id="chart_1"></div>
+      </div>
+    </div>
+    <div class="item-wrapper">
+      <div class="chart-wrapper">
+        <div style="width: 100%; height: 300px; display: block;" id="chart_2"></div>
+      </div>
+    </div>
+    <div class="item-wrapper">
+      <div class="chart-wrapper">
+        <div style="width: 100%; height: 300px; display: block;" id="chart_5"></div>
+      </div>
+    </div>
+    <div class="item-wrapper">
+      <div class="chart-wrapper">
+        <div style="width: 100%; height: 300px; display: block;" id="chart_10"></div>
+      </div>
+    </div>
+    <div class="item-wrapper">
+      <div class="chart-wrapper">
+        <div style="width: 100%; height: 300px; display: block;" id="chart_25"></div>
+      </div>
+    </div>
+    <div class="item-wrapper">
+      <div class="chart-wrapper">
+        <div style="width: 100%; height: 300px; display: block;" id="chart_100"></div>
+      </div>
+    </div>
+    <div class="item-wrapper">
+      <div class="chart-wrapper">
+        <div id="chart_1000"></div>
+      </div>
+    </div>
+
+
+  </div>
+
+</body>
+
+</html>
