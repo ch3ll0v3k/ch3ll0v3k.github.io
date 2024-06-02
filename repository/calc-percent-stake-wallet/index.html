@@ -14,7 +14,6 @@
 
   <script>
 
-
     window.addEventListener('load', () => {
 
       const referrals = [1, 2, 5, 10, 25, 100, 1000];
@@ -38,22 +37,11 @@
         const roundUpTo = +ctrl.roundUp.value;
         const useFixedAmount = ctrl.useFixedAmount.checked;
 
-        // ctrl.wrapper.innerHTML = '';
-
         for (const amountOfRefs of referrals) {
 
           const elemId = `chart_${amountOfRefs}`;
-          // console.log({ elemId });
-          // ctrl.wrapper.innerHTML += `
-          //   <div class="item-wrapper">
-          //     <div class="chart-wrapper">
-          //       <div id="${elemId}"></div>
-          //     </div>
-          //   </div>
-          // `;
 
           const res = calculate(_APR, durationInDays, (+amountOfRefs), (+refPercent), roundUpTo, useFixedAmount);
-          // res => [{ day, me, ref, all }];
 
           const data_0 = res.map((item) => {
             return { x: item.day, y: +(+item.me).toFixed(2) };
@@ -63,7 +51,6 @@
             return { x: item.day, y: +(+item.ref).toFixed(2) };
           });
 
-          // await sleep(250);
           createChart(elemId, `${durationInDays} days / ${amountOfRefs} referrals`, data_0, data_1);
 
         }
@@ -112,14 +99,6 @@
   </div>
 
   <div id="wrapper">
-    <!--
-    <div class="item-wrapper">
-      <div class="chart-wrapper">
-        <div id="chart_0"></div>
-      </div>
-    </div>
-    -->
-
     <div class="item-wrapper">
       <div class="chart-wrapper">
         <div style="width: 100%; height: 300px; display: block;" id="chart_1"></div>
@@ -155,8 +134,6 @@
         <div id="chart_1000"></div>
       </div>
     </div>
-
-
   </div>
 
 </body>
