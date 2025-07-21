@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/repository/age-of/css/main.css" />
+  <script src="/repository/age-of/data/all-buildings.js"></script>
+  <title>Age-Of-*</title>
+
+  <script>
+
+    const inflateAllBuildings = (buildings) => {
+      return Object.keys(buildings).map((i) => {
+        return buildings[i].buildings.map((building) => {
+          return `
+          <div class="m-inner-row">
+            <div class="m-inner-row-header">
+              <b>${building.name}</b> - ${building.description}
+            </div>
+            <div class="m-inner-row-content">
+              <div class="m-inner-row-content-image-box">
+                <img src="/repository/age-of/buildings/well.png"/>
+              </div>
+              <div class="m-inner-row-content-image-description">
+                <div class="building-property">${building.ground_segment}</div>
+                <div class="building-property">${building.building_size}</div>
+                <div class="building-property">${building.building_shape}</div>
+                <div class="building-property">${building.building_floors}</div>
+              </div>
+            </div>
+          </div>`;
+        }).join('\n')
+      }).join('\n');
+    }
+
+    window.addEventListener('load', () => {
+      let html = '';
+      const content = document.getElementById('content');
+      content.innerHTML = '';
+      const cats = Object.keys(allBuildings);
+
+      for (const cat of cats) {
+        html += ``
+          + `<div class="m-row">
+              <div class="m-row-header">${cat}</div>
+              ${inflateAllBuildings(allBuildings[cat])}
+            </div>
+        `;
+      }
+
+      content.innerHTML += html;
+
+    });
+
+  </script>
+
+</head>
+
+<body>
+
+  <div id="header">
+    System setting preview:
+  </div>
+
+  <div id="content">
+
+  </div>
+
+</body>
+
+</html>
