@@ -5,36 +5,83 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/repository/age-of/css/main.css" />
+  <!-- Import the component -->
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/4.0.0/model-viewer.min.js"></script>
+
   <script src="/repository/age-of/data/all-buildings.js"></script>
   <title>Age-Of-*</title>
 
   <script>
 
+    const openModel = (model_name) => {
+
+      document.getElementById("model-viewer-wrapper-container").innerHTML = `
+        <model-viewer 
+          style="width: 100%; height: 100%;" 
+          src="/repository/age-of/data/models/${model_name}.glb"
+          shadow-intensity="1"
+          camera-controls
+          touch-action="pan-y"
+          loading="lazy"
+        >
+        </model-viewer>
+      `;
+
+      document.getElementById('model-viewer-wrapper').style.display = 'block';
+    }
+
+    const hideModelViewer = () => {
+      document.getElementById("model-viewer-wrapper-container").innerHTML = '';
+      document.getElementById('model-viewer-wrapper').style.display = 'none';
+
+    }
+
     const inflateAllBuildings = (buildings) => {
       return Object.keys(buildings).map((i) => {
         return buildings[i].buildings.map((building) => {
+          console.log(building.model_name);
           return `
           <div class="m-inner-row">
             <div class="m-inner-row-header">
-              <b>${building.name}</b> - ${building.description}
+              <b>${building.name}</b><br/>
             </div>
             <div class="m-inner-row-content">
               <div class="m-inner-row-content-image-box">
-                <img src="${building.image || "/repository/age-of/buildings/no-image.png"}"/>
+                <img 
+                  title="View Model: ${building.name}"
+                  src="${building.model_name ? `/repository/age-of/data/models/${building.model_name}.png` : ''}"
+                  ${building.model_name ? `onclick="openModel('${building.model_name}')"` : ''}"
+                />
               </div>
-              <div class="m-inner-row-content-image-description">
-                <div class="building-property">${building.ground_segment}</div>
-                <div class="building-property">${building.building_size}</div>
-                <div class="building-property">${building.building_shape}</div>
-                <div class="building-property">${building.building_floors}</div>
-              </div>
+              <!-- <div class="m-inner-row-content-image-box"></div> -->
             </div>
+              <div class="m-inner-row-content-image-description">
+                <div class="building-property">Segments: ${building.ground_segment}</div>
+                <!-- <div class="building-property">Size: ${building.building_size}</div> -->
+                <div class="building-property">Shape: ${building.building_shape}</div>
+                <div class="building-property">Floors: ${building.building_floors}</div>
+              </div>
+            <i style="font-size:12px;">${building.description}</i>
           </div>`;
         }).join('\n')
       }).join('\n');
     }
 
+
     window.addEventListener('load', () => {
+
+      window.addEventListener('keydown', (e) => {
+        if (e.keyCode === 27) {
+          hideModelViewer();
+        }
+      });
+
+
+      document.getElementById("model-viewer-wrapper-container").addEventListener('click', (e) => {
+        e.preventDefault();
+        e.stopPropagation();
+      });
+
       let html = '';
       const content = document.getElementById('content');
       content.innerHTML = '';
@@ -42,8 +89,11 @@
 
       for (const cat of cats) {
         html += ``
-          + `<div class="m-row">
+          + `
+            <div class="m-row">
               <div class="m-row-header">${cat}</div>
+            </div>
+            <div class="m-row">
               ${inflateAllBuildings(allBuildings[cat])}
             </div>
         `;
@@ -58,6 +108,37 @@
 </head>
 
 <body>
+
+  <style>
+    #model-viewer-wrapper {
+      display: none;
+      position: fixed;
+      z-index: 10;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    #model-viewer-wrapper-container {
+      position: relative;
+      box-sizing: border-box;
+      padding: 50px;
+      width: 100%;
+      height: 100%;
+      max-height: 90%;
+      max-width: 90%;
+      background-color: rgba(255, 255, 255, 0.7);
+      margin: 2.5% 5%;
+      pointer-events: all;
+    }
+  </style>
+
+  <div id="model-viewer-wrapper" onclick="hideModelViewer()">
+    <div id="model-viewer-wrapper-container">
+
+
+    </div>
+  </div>
 
   <div id="header">
     System setting preview:
