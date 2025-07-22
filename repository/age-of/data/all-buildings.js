@@ -44,9 +44,9 @@ const allBuildings = {
           "building_floors": "1"
         },
         {
-          "name": "Medium House",
-          "description": "Medium house for a family",
-          "model_name": "XG_Medium-house",
+          "name": "Middle House",
+          "description": "Middle house for a family",
+          "model_name": "XG_Middle-house",
           "ground_segment": "9 x 9",
           "building_shape": "L-Shape",
           "building_floors": "1"
@@ -67,13 +67,14 @@ const allBuildings = {
           "building_shape": "π-Shape",
           "building_floors": "1"
         },
-        // {
-        //   "name": "Field Hut",
-        //   "description": "Shelter in the fields for workers, providing shade and rest during the day",
-        //   "ground_segment": "",
-        //   "building_shape": "*******",
-        //   "building_floors": "1"
-        // }
+        {
+          "name": "Field Hut",
+          "description": "Shelter in the fields for workers, providing shade and rest during the day",
+          "model_name": "XG_Field-Hut",
+          "ground_segment": "5 x 5",
+          "building_shape": "Square-Shape",
+          "building_floors": "1"
+        }
       ]
     }
   ],
@@ -434,7 +435,7 @@ const allBuildings = {
   //         "building_floors": "1"
   //       },
   //       {
-  //         "name": "Medium Market",
+  //         "name": "Middle Market",
   //         "description": "Large marketplace for trading goods",
   //         "ground_segment": "",
   //         "building_shape": "*******",
@@ -560,35 +561,38 @@ const allBuildings = {
   //     ]
   //   }
   // ],
-  // "Storage & Warehousing": [
-  //   {
-  //     "type": "EActivityType.storageKeeper",
-  //     "occupation": "Granary Keeper",
-  //     "buildings": [
-  //       {
-  //         "name": "Small Granary Storage",
-  //         "description": "Storage for grains and crops, typically used by a small farm or household",
-  //         "ground_segment": "",
-  //         "building_shape": "*******",
-  //         "building_floors": "1"
-  //       },
-  //       {
-  //         "name": "Medium Granary Storage",
-  //         "description": "Storage for grains and crops, typically used by a medium-sized farm or village",
-  //         "ground_segment": "",
-  //         "building_shape": "*******",
-  //         "building_floors": "1"
-  //       },
-  //       {
-  //         "name": "Large Granary Storage",
-  //         "description": "Storage for grains and crops, typically used by a large farm or town",
-  //         "ground_segment": "",
-  //         "building_shape": "*******",
-  //         "building_floors": "1"
-  //       }
-  //     ]
-  //   }
-  // ],
+  "Storage & Warehousing": [
+    {
+      "type": "EActivityType.storageKeeper",
+      "occupation": "Granary Keeper",
+      "buildings": [
+        {
+          "name": "Small Granary Storage",
+          "description": "Storage for grains and crops, typically used by a small farm or household",
+          "model_name": "XG_Small-barn",
+          "ground_segment": "5 x 5",
+          "building_shape": "Square-Shape",
+          "building_floors": "1"
+        },
+        {
+          "name": "Middle Granary Storage",
+          "description": "Storage for grains and crops, typically used by a Middle-sized farm or village",
+          "model_name": "XG_Middle-barn",
+          "ground_segment": "7 x 7",
+          "building_shape": "Square-Shape",
+          "building_floors": "1"
+        },
+        {
+          "name": "Large Granary Storage",
+          "description": "Storage for grains and crops, typically used by a large farm or town",
+          "model_name": "XG_Big-barn",
+          "ground_segment": "9 x 9",
+          "building_shape": "Square-Shape",
+          "building_floors": "1"
+        }
+      ]
+    }
+  ],
   // "Water Management": [
   //   {
   //     "type": "EActivityType.waterSupplier",
@@ -602,7 +606,7 @@ const allBuildings = {
   //         "building_floors": "1"
   //       },
   //       {
-  //         "name": "Medium Well",
+  //         "name": "Middle Well",
   //         "description": "Deep well for accessing groundwater",
   //         "ground_segment": "",
   //         "building_shape": "*******",
