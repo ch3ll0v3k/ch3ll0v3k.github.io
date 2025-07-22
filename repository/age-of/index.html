@@ -14,12 +14,15 @@
   <script>
 
     const openModel = (model_name) => {
+      // tone-mapping="neutral, aces, agx, reinhard, cineon, linear, none"
 
       document.getElementById("model-viewer-wrapper-container").innerHTML = `
         <model-viewer 
           style="width: 100%; height: 100%;" 
           src="/repository/age-of/data/models/${model_name}.glb"
           shadow-intensity="1"
+          exposure="0.5"
+          tone-mapping="linear"
           camera-controls
           touch-action="pan-y"
           loading="lazy"

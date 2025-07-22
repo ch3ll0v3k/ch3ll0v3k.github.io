@@ -21,7 +21,7 @@ const allBuildings = {
   //     "occupation": "Guild Master",
   //     "buildings": [
   //       {
-  //         "name": "Guild Hall",
+  //         "name": "Guildhall",
   //         "description": "Meeting place for local craftsmen and merchants",
   //         "ground_segment": "",
   //         "building_shape": "*******",
