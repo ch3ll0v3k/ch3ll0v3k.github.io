@@ -1,0 +1,111 @@
+{
+    "window.menuBarVisibility": "toggle",
+    "workbench.statusBar.visible": true,
+    "breadcrumbs.enabled": true,
+    "files.autoReload": "manual",
+    "eslint.enable": false,
+    "editor.formatOnPaste": false,
+    "editor.fontFamily": "monospace",
+    "editor.cursorStyle": "line",
+    "editor.acceptSuggestionOnEnter": "on",
+    "editor.tabSize": 2,
+    "editor.insertSpaces": true,
+    "editor.detectIndentation": true,
+    "editor.wordWrap": "off",
+    "editor.wordWrapColumn": 120,
+    "prettier.printWidth": 120,
+    "prettier.jsxBracketSameLine": false,
+    "window.restoreWindows": "all",
+    "editor.wrappingIndent": "same",
+    "graphviz-interactive-preview.renderLockAdditionalTimeout": -1,
+    "explorer.confirmDelete": false,
+    "workbench.colorTheme": "Monokai",
+    "git.openRepositoryInParentFolders": "never",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "telemetry.telemetryLevel": "off",
+    "update.showReleaseNotes": false,
+    "update.mode": "none",
+    "editor.fontSize": 13,
+    "window.title": "${activeEditorFull}${separator}${rootName}",
+    "editor.snippetSuggestions": "top",
+    "editor.codeLens": false,
+    "editor.quickSuggestions": {
+        "strings": "on",
+        "comments": "on",
+        "other": "on"
+    },
+    "editor.suggest.showStatusBar": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.startupEditor": "none",
+    "git.confirmSync": false,
+    "vscrof.directoryStyle": "Linux",
+    "[sql]": {
+        // "editor.defaultFormatter": "adpyke.vscode-sql-formatter"
+    },
+    "files.associations": {
+        "*.mjs-disabled": "javascript",
+        "*.js": "javascript",
+        "*.ts": "typescript",
+        "*.sol": "solidity",
+        "*.csvp": "csv (pipe)",
+        "*.toml": "toml",
+        "*.rsbak": "rust",
+        "*.ts-template": "typescript",
+        "*.ts-bak": "typescript",
+        "*.bak-ts": "typescript"
+    },
+    "[solidity]": {
+        "editor.formatOnSave": false
+    },
+    "[javascript]": {
+        "editor.maxTokenizationLineLength": 2500,
+        "editor.formatOnSave": true
+    },
+    "[typescript]": {
+        "editor.formatOnSave": true
+    },
+    "editor.find.seedSearchStringFromSelection": "selection",
+    "window.zoomLevel": 1,
+    "solidity.telemetry": false,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.fontLigatures": false,
+    "[dockerfile]": {
+        "editor.defaultFormatter": "foxundermoon.shell-format"
+    },
+    "[wgsl]": {},
+    "xml.symbols.maxItemsComputed": 500000,
+    "[svg]": {
+        "editor.defaultFormatter": "jock.svg"
+    },
+    "[rust]": {
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "jinxdash.prettier-rust"
+    },
+    "editor.multiCursorLimit": 100000,
+    "rust-analyzer.rustfmt.overrideCommand": null,
+    "git.autofetch": true,
+    "colorize.languages": [
+        "javascript",
+        "typescript",
+        "json",
+        "rust",
+        "bash"
+    ],
+    "errorLens.enabledDiagnosticLevels": [
+        "info",
+        "error"
+    ],
+    "errorLens.enabled": true,
+    "gitlens.ai.model": "",
+    "editor.formatOnSave": true,
+    "extensions.ignoreRecommendations": true,
+    "python.defaultInterpreterPath": "/bin/python3",
+    "gitlens.blame.heatmap.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.currentLine.uncommittedChangesFormat": "✏️ ${ago}",
+    "gitlens.codeLens.enabled": false,
+    "gitlens.statusBar.enabled": false,
+    "godotTools.editorPath.godot4": "Godot",
+    "workbench.activityBar.location": "hidden"
+}

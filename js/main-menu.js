@@ -18,6 +18,10 @@ window.addEventListener('load', function () {
       // { target: '', icon: 'fa fa-btc', href: REP_ROOT + '/ONTONGCalc/index.html', name: 'ONTONGCalc' },
       // { target: '', icon: 'fa fa-calc', href: REP_ROOT + '/open-ph-meter/pub_html/index.html', name: 'Open-PH-meter' },
       // { target: '', icon: 'fa fa-zoom', href: REP_ROOT + '/deep-zoom/index.html', name: 'Deep-Zoom' },
+      // { target: '', icon: 'fa fa-zoom', href: REP_ROOT + '/deep-zoom/index.html', name: 'Deep-Zoom' },
+      { target: '', icon: 'fa fa-info', href: REP_ROOT + '/vs-code/index.html', name: 'Vs-Code' },
+
+
     ];
 
     for (let mi in menu_t) {
