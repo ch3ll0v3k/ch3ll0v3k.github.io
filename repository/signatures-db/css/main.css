@@ -58,16 +58,16 @@ pre {
 
 .block-title {
   margin: 10px;
-  font-size: 1.2rem;
+  font-size: 2.2rem !important;
 }
 
 .block-body {
   margin: 20px;
-  font-size: 0.9rem;
+  font-size: 1.9rem !important;
 }
 
 .form-result {
-  height: 150px;
+  height: 200px;
   text-align: left !important;
   padding: 10px;
   background: #f0f0f0;

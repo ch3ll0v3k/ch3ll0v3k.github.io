@@ -12,12 +12,12 @@ window.addEventListener('load', function () {
     const menu_t = [
       { target: '', icon: 'fa fa-home', href: '/index.html', name: 'Main' },
       { target: '_blank', icon: 'fa fa-globe', href: REP_ROOT + '/comparing-40-evs-of-2022/index.html', name: 'Comparing 40 EVs' },
+      { target: '_blank', icon: 'fa fa-globe', href: REP_ROOT + '/signatures-db/index.html', name: 'Methods sigatures' },
       // { target: '_blank', icon: 'fa fa-globe', href: REP_ROOT + '/JS-Universe/index.html', name: 'JS-Universe' },
       // { target: '', icon: 'fa fa-info', href: REP_ROOT + '/MiiCanvas/index.html', name: 'MiiCanvas' },
       // { target: '', icon: 'fa fa-list', href: REP_ROOT + '/infinity-data-scroll-feed/index.html', name: 'Infinity scroll feed' },
       // { target: '', icon: 'fa fa-btc', href: REP_ROOT + '/ONTONGCalc/index.html', name: 'ONTONGCalc' },
       // { target: '', icon: 'fa fa-calc', href: REP_ROOT + '/open-ph-meter/pub_html/index.html', name: 'Open-PH-meter' },
-      // { target: '', icon: 'fa fa-zoom', href: REP_ROOT + '/deep-zoom/index.html', name: 'Deep-Zoom' },
       // { target: '', icon: 'fa fa-zoom', href: REP_ROOT + '/deep-zoom/index.html', name: 'Deep-Zoom' },
       { target: '', icon: 'fa fa-info', href: REP_ROOT + '/vs-code/index.html', name: 'Vs-Code' },
 

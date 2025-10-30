@@ -1,11 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta charset="utf-8" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="/favicon.png" />
+
   <title>Ethereum / Solidity: methods sigatures && events topics decoder</title>
   <link rel="stylesheet" href="/repository/signatures-db/css//main.css" />
+
+  <script type="text/javascript" src="/vendor/jquery/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="/vendor/viewerjs-1.1.0/dist/viewer.min.js"></script>
+  <script type="text/javascript" src="/vendor/viewerjs-1.1.0/dist/viewer.min.js"></script>
+  <script type="text/javascript" src="/js/main.js"></script>
+  <script type="text/javascript" src="/js/main-menu.js"></script>
+  <script type="text/javascript" src="/js/live-html.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="/vendor/font-awesome-4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="/vendor/bootstrap/v3.3.7/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="/css/main.css" />
+  <link rel="stylesheet" type="text/css" href="/css/layout.css" />
+  <link rel="stylesheet" type="text/css" href="/css/tmx.media-v3.0.0.css" />
+
+
+  <script src="/vendor/highlight/highlight.pack.js"></script>
+  <!-- <script src="//cdnjs.cloudflare.com/ajax/libs/highlightjs-line-numbers.js/2.3.0/highlightjs-line-numbers.min.js"></script> -->
+  <link rel="stylesheet" href="/vendor/highlight/styles/monokai_sublime.css" />
+
 
   <script>
 
@@ -76,12 +100,12 @@
               : `<span class="editor-t-field">${P[0]}</span>:<span class="editor-t-string-value">${P[1].endsWith(',') ? P[1].substring(0, P[1].length - 1) : P[1]}</span>${P[1].endsWith(',') ? ',' : ''}`
 
             ui[type].result.innerHTML += `
-              <div class="editor-line-wraper ${(+index) % 2 == 0 ? 'editor-line-number-odd' : ''}">
-                <div class="editor-line-number noselect"> ${index} </div>
-                <!-- <div class="editor-line-content"><pre> ${display} </pre></div> -->
-                <div class="editor-line-content"> ${display} </div>
-              </div>
-            `;
+          <div class="editor-line-wraper ${(+index) % 2 == 0 ? 'editor-line-number-odd' : ''}">
+            <div class="editor-line-number noselect"> ${index} </div>
+            <!-- <div class="editor-line-content"><pre> ${display} </pre></div> -->
+            <div class="editor-line-content"> ${display} </div>
+          </div>
+        `;
           }
 
         });
@@ -96,39 +120,47 @@
 
 <body>
 
-  <div id="main-wrapper">
+  <div id="dev-info-box">.</div>
 
-    <div class="block-wrapper">
-      <div class="block-title"> Method Selectors:</div>
-      <div class="block-body">
-        <div class="form-row">
-          <input class="form-input" type="text" id="method-input" value="0xf3c57e7d"
-            title="Privide method hex-selector" />
+  <div id="sidenav"> <!--[ js/main-menu.js ]--> </div>
+
+  <div id="wrapper">
+
+    <div id="main-wrapper">
+
+      <div class="block-wrapper">
+        <h2 class="block-title"> Method Selectors:</h2>
+        <div class="block-body">
+          <div class="form-row">
+            <input class="form-input" type="text" id="method-input" value="0xf3c57e7d"
+              title="Privide method hex-selector" />
+          </div>
+          <div class="form-row">
+            <button data-type="db-methods" class="form-btn" id="method-btn">Search</button>
+          </div>
+          <div class="form-result" id="method-result"></div>
         </div>
-        <div class="form-row">
-          <button data-type="db-methods" class="form-btn" id="method-btn">Search</button>
-        </div>
-        <div class="form-result" id="method-result"></div>
       </div>
+
+      <div class="block-wrapper">
+        <h2 class="block-title"> Topic Event:</h2>
+        <div class="block-body">
+          <div class="form-row">
+            <input class="form-input" type="text" id="event-input"
+              value="0x0bbde553a3cbd718feb43c5ed7efe834065aa10be700e752811a77d999f44694"
+              title="Privide event hex-topic" />
+          </div>
+          <div class="form-row">
+            <button data-type="db-events" class="form-btn" id="event-btn">Search</button>
+          </div>
+          <div class="form-result" id="event-result"></div>
+        </div>
+      </div>
+
     </div>
 
-    <div class="block-wrapper">
-      <div class="block-title"> Topic Event:</div>
-      <div class="block-body">
-        <div class="form-row">
-          <input class="form-input" type="text" id="event-input"
-            value="0x0bbde553a3cbd718feb43c5ed7efe834065aa10be700e752811a77d999f44694"
-            title="Privide event hex-topic" />
-        </div>
-        <div class="form-row">
-          <button data-type="db-events" class="form-btn" id="event-btn">Search</button>
-        </div>
-        <div class="form-result" id="event-result"></div>
-      </div>
-    </div>
 
   </div>
-
 </body>
 
 </html>
