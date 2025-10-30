@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ethereum / Solidity: methods sigatures && events topics decoder</title>
+  <link rel="stylesheet" href="/repository/signatures-db/css//main.css" />
+
+  <script>
+
+    const inputToPrefix = (input) => {
+      const prefix = (input || '').substring(0, 4);
+      return prefix.length === 4 ? prefix : null;
+    }
+
+    const get = async (type, prefix) => {
+      try {
+
+        const result = await fetch(`/repository/signatures-db/${type}/${prefix}.json`);
+        const json = await result.json();
+        return json;
+      } catch (e) {
+        console.error(`#${e.message}`);
+        return null;
+      }
+    }
+
+    window.addEventListener('load', () => {
+
+      const ui = {
+        method: {
+          input: document.getElementById('method-input'),
+          btn: document.getElementById('method-btn'),
+          result: document.getElementById('method-result'),
+        },
+        event: {
+          input: document.getElementById('event-input'),
+          btn: document.getElementById('event-btn'),
+          result: document.getElementById('event-result'),
+        },
+      }
+
+      for (const type of Object.keys(ui)) {
+
+        ui[type].btn.addEventListener('click', async () => {
+
+          const selectorType = ui[type].btn.getAttribute('data-type');
+
+          const signature = ui[type].input.value;
+          const prefix = inputToPrefix(signature);
+          if (!prefix) {
+            return ui[type].result.innerHTML = `<b>invalid ${selectorType}</b>`;
+          }
+
+          const object = await get(selectorType, prefix);
+          if (!object)
+            return ui[type].result.innerHTML = `<b>${selectorType} object not found</b>`;
+
+          const res = object[signature];
+          if (!res)
+            return ui[type].result.innerHTML = `<b>${selectorType} not found</b>`;
+
+          res.signature = signature;
+          const json = JSON.stringify(res, null, 2)
+          const lines = json.split('\n');
+          ui[type].result.innerHTML = '';
+
+          for (const index in lines) {
+            const line = lines[index];
+
+            const P = line.replace(/\ /g, '&nbsp;').split(':');
+
+            const display = P.length === 1
+              ? P
+              : `<span class="editor-t-field">${P[0]}</span>:<span class="editor-t-string-value">${P[1].endsWith(',') ? P[1].substring(0, P[1].length - 1) : P[1]}</span>${P[1].endsWith(',') ? ',' : ''}`
+
+            ui[type].result.innerHTML += `
+              <div class="editor-line-wraper ${(+index) % 2 == 0 ? 'editor-line-number-odd' : ''}">
+                <div class="editor-line-number noselect"> ${index} </div>
+                <!-- <div class="editor-line-content"><pre> ${display} </pre></div> -->
+                <div class="editor-line-content"> ${display} </div>
+              </div>
+            `;
+          }
+
+        });
+
+      }
+
+    });
+
+  </script>
+
+</head>
+
+<body>
+
+  <div id="main-wrapper">
+
+    <div class="block-wrapper">
+      <div class="block-title"> Method Selectors:</div>
+      <div class="block-body">
+        <div class="form-row">
+          <input class="form-input" type="text" id="method-input" value="0xf3c57e7d"
+            title="Privide method hex-selector" />
+        </div>
+        <div class="form-row">
+          <button data-type="db-methods" class="form-btn" id="method-btn">Search</button>
+        </div>
+        <div class="form-result" id="method-result"></div>
+      </div>
+    </div>
+
+    <div class="block-wrapper">
+      <div class="block-title"> Topic Event:</div>
+      <div class="block-body">
+        <div class="form-row">
+          <input class="form-input" type="text" id="event-input"
+            value="0x0bbde553a3cbd718feb43c5ed7efe834065aa10be700e752811a77d999f44694"
+            title="Privide event hex-topic" />
+        </div>
+        <div class="form-row">
+          <button data-type="db-events" class="form-btn" id="event-btn">Search</button>
+        </div>
+        <div class="form-result" id="event-result"></div>
+      </div>
+    </div>
+
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,3950 @@
+{
+  "0x59bad94ae592342a40922365c917a6b910c949340394dd20837d7d96992d68bd": {
+    "method": "TokenRelationshipSet(uint256,bytes32,uint8,address,uint8)",
+    "bytes": "YºÙJå4*@#eÉ\u0017¦¹\u0010ÉI4\u0003Ý }}-h½"
+  },
+  "0x5948f7d00133dab6bf6ec24b585a6081a3688760fb418db25da3cb732b42048a": {
+    "method": "CrossChainInitiated(string,uint256,uint256,uint256)",
+    "bytes": "YH÷Ð\u00013Ú¶¿nÂKXZ`£h`ûA²]£Ës+B\u0004"
+  },
+  "0x59732b1b1027d1190114aacfde3ab23ed0993bb1e196bbcb7eaf7b1ec2848cb4": {
+    "method": "DepositFinalized(string,address,uint256)",
+    "bytes": "Ys+\u001b\u0010'Ñ\u0019\u0001\u0014ªÏÞ:²>Ð;±á»Ë~¯{\u001eÂ´"
+  },
+  "0x59c3e9a8591f5e49eda7dbb33697dc88179b57128dfdea2a5fd2098f35812b33": {
+    "method": "AwakeResult(uint256,uint32,uint32,uint8)",
+    "bytes": "YÃé¨Y\u001f^Ií§Û³6Ü\u0017W\u0012ýê*_Ò\t5+3"
+  },
+  "0x5991eceaa5c2e71806c93c4423dc23610b217ded6e11606431a533084b8d0704": {
+    "method": "OperatorRebalanced(address,address,uint256)",
+    "bytes": "Yìê¥Âç\u0018\u0006É<D#Ü#a\u000b!}ín\u0011`d1¥3\bK\u0007\u0004"
+  },
+  "0x5972f54ea2e6e4be0f579ceab181d17fb4ad7d847d8d62bcf16376d32be08657": {
+    "method": "OfferCancelledEvent(bytes32,address)",
+    "bytes": "YrõN¢æä¾\u000fWê±Ñ´­}}b¼ñcvÓ+àW"
+  },
+  "0x59db9be49e3b63e90a7323be2118fc3624ae08b1cb574647aa85887b8f3c3fba": {
+    "method": "Migrated(address,uint256,uint256,uint256,uint64)",
+    "bytes": "YÛä;cé\ns#¾!\u0018ü6$®\b±ËWFGª{<?º"
+  },
+  "0x5915121ae705c6baa1bd6698f437ff30eb4b7dbd20e1f7d83c2f1a8be09a1f03": {
+    "method": "Portal(address,uint256,address,uint256,address,address,address,address)",
+    "bytes": "Y\u0015\u0012\u001aç\u0005Æº¡½fô7ÿ0ëK}½ á÷Ø</\u001aà\u001f\u0003"
+  },
+  "0x596d18fa1eb398a524b655c673ed625f71cf12d2224681c8832413ed0b373b4c": {
+    "method": "EmergencyWithdrawEth(address,uint256)",
+    "bytes": "Ym\u0018ú\u001e³¥$¶UÆsíb_qÏ\u0012Ò\"FÈ$\u0013í\u000b7;L"
+  },
+  "0x59d727fbfc47d17e8340552ec9defc64a6eb6bdd1eaccacc533d66c5c528160e": {
+    "method": "RewardsSimulated(address,uint8,uint64,uint240,uint240,uint48,uint256,uint256,int256)",
+    "bytes": "Y×'ûüGÑ~@U.ÉÞüd¦ëkÝ\u001e¬ÊÌS=fÅÅ(\u0016\u000e"
+  },
+  "0x590d79d468bc22ad2a8aba0992aeb13ecd6cb1f79df355dc27c4936ea7d9745a": {
+    "method": "ReserveRatioTooHigh(uint256,uint256,uint256)",
+    "bytes": "Y\ryÔh¼\"­*º\t®±>Íl±÷óUÜ'Än§ÙtZ"
+  },
+  "0x59de06b481abf362e010062c9251b68540649936c6b42c718d25ec2e895cbef3": {
+    "method": "UpdatedTokenIdAffixes(string,string)",
+    "bytes": "YÞ\u0006´«óbà\u0010\u0006,Q¶@d6Æ´,q%ì.\\¾ó"
+  },
+  "0x59a394261e3b9969b3de4326cf48584cc135922de3e2e10c87b7ffd479820313": {
+    "method": "CreateDrop(uint256)",
+    "bytes": "Y£&\u001e;i³ÞC&ÏHXLÁ5-ãâá\f·ÿÔy\u0003\u0013"
+  },
+  "0x598a19864fb0f574255a0f65fcda6d056080e52d0a443ba6b941f3d358349431": {
+    "method": "SetTimeLockThresholdByTokenEvent(address,uint256)",
+    "bytes": "Y\u0019O°õt%Z\u000feüÚm\u0005`å-\nD;¦¹AóÓX41"
+  },
+  "0x59d23ee72bd4e02fbd9241d571f5e03a6d13deda09af067ea08fd20c8efbe851": {
+    "method": "ClaimCardWithSpecialRule(uint256,address)",
+    "bytes": "YÒ>ç+Ôà/½AÕqõà:m\u0013ÞÚ\t¯\u0006~ Ò\fûèQ"
+  },
+  "0x595e2888263f3aaa17e43f513e5b3e9831f9e3220521502ea620210e54248f57": {
+    "method": "ExecutionFeePaid(address,address,address,uint256,uint256)",
+    "bytes": "Y^(&?:ª\u0017ä?Q>[>1ùã\"\u0005!P.¦ !\u000eT$W"
+  },
+  "0x596ee835bed6cb827d21ba1785c468f0755ee40d33d87132df5d2ec90b645f9f": {
+    "method": "ValidatorStatusMarkedAsInvalidSignature(bytes,uint256)",
+    "bytes": "Ynè5¾ÖË}!º\u0017Ähðu^ä\r3Øq2ß].É\u000bd_"
+  },
+  "0x59f521a0edd365ce8d1aaa3ed5f4c51b08b5aa868ffc18a6da10634613cca4a7": {
+    "method": "IncorrectCLBalanceDecrease(uint256,uint256)",
+    "bytes": "Yõ! íÓeÎ\u001aª>ÕôÅ\u001b\bµªü\u0018¦Ú\u0010cF\u0013Ì¤§"
+  },
+  "0x5953b565c074c2cce1866b4e69c9efc4908556bb6fca70f735907c94d9405515": {
+    "method": "CooldownUpdated(uint256,uint256)",
+    "bytes": "YSµeÀtÂÌákNiÉïÄV»oÊp÷5|Ù@U\u0015"
+  },
+  "0x59cfa3404429fc77a03870a4198af332d0217bd27c5c4a2f79ab0774b11d77ac": {
+    "method": "DepositTokenRegistryUpdated(address)",
+    "bytes": "YÏ£@D)üw 8p¤\u0019ó2Ð!{Ò|\\J/y«\u0007t±\u001dw¬"
+  },
+  "0x597c90d8289005e8053a51a5e6f00e0c92ee6c32b4564eea12cd09b04a85ee4c": {
+    "method": "EnqueueConsumer(bytes32,address,uint64,bool,(uint256,uint256,bytes32))",
+    "bytes": "Y|Ø(\u0005è\u0005:Q¥æð\u000e\fîl2´VNê\u0012Í\t°JîL"
+  },
+  "0x595747e7f228a851268db2586ad8611651b09bec01d8ad30d446983767b66e81": {
+    "method": "RedeemTweet(uint256,uint256,address,string,string)",
+    "bytes": "YWGçò(¨Q&²XjØa\u0016Q°ì\u0001Ø­0ÔF7g¶n"
+  },
+  "0x597fd4de984a4c2a3040a6f95535264785f2c9e030a4c6bbbb40bd3c02cead77": {
+    "method": "Issue(address,uint256,uint16,uint256)",
+    "bytes": "YÔÞJL*0@¦ùU5&GòÉà0¤Æ»»@½<\u0002Î­w"
+  },
+  "0x59eb30e32814eccf1afe968939afacb43856155e42ed5902dbb01f4e26620b01": {
+    "method": "GranteeAdded(string,address)",
+    "bytes": "Yë0ã(\u0014ìÏ\u001aþ9¯¬´8V\u0015^BíY\u0002Û°\u001fN&b\u000b\u0001"
+  },
+  "0x59a5b906aa78766e71db25f3af5273ec7f5664cf05f8c60fa68556bf2f59181d": {
+    "method": "BurnFluid(address,uint256)",
+    "bytes": "Y¥¹\u0006ªxvnqÛ%ó¯RsìVdÏ\u0005øÆ\u000f¦V¿/Y\u0018\u001d"
+  },
+  "0x59ae30478c6dc6ad258000ec5c1e2da773a457572397f6b85ddd54ab719ecd54": {
+    "method": "UpdateListMetadata(uint256,string,bytes)",
+    "bytes": "Y®0GmÆ­%\u0000ì\\\u001e-§s¤WW#ö¸]ÝT«qÍT"
+  },
+  "0x5945ea56efb769109dee1ed59908b3ae737ed062a0b113d04594c2dac7318b76": {
+    "method": "InsufficientAmount()",
+    "bytes": "YEêVï·i\u0010î\u001eÕ\b³®s~Ðb ±\u0013ÐEÂÚÇ1v"
+  },
+  "0x5956a1cd1c1b645b4edd93302df67edf76779a483f39f50f5093f2e6da0f7669": {
+    "method": "SubsPaymentMade(uint256,string,address,uint256[],address[])",
+    "bytes": "YV¡Í\u001c\u001bd[NÝ0-ö~ßvwH?9õ\u000fPòæÚ\u000fvi"
+  },
+  "0x595efebce929dc31dae8f484d2408ee7b7c5a434251d1907ef21789e56a0d919": {
+    "method": "NftDeposited(uint256,address,address,uint256)",
+    "bytes": "Y^þ¼é)Ü1ÚèôÒ@ç·Å¤4%\u001d\u0019\u0007ï!xV Ù\u0019"
+  },
+  "0x59307bfbb62ee395166534eb2743ea0085125845284aa544934b5a1a686cb6f5": {
+    "method": "PointCorrection(address,uint256,uint256,uint256)",
+    "bytes": "Y0{û¶.ã\u0016e4ë'Cê\u0000\u0012XE(J¥DKZ\u001ahl¶õ"
+  },
+  "0x5938a86ca33c66cb817f2fdc8d5cd4073bfe03e3f6c846c3c91e7d3f6beaae9f": {
+    "method": "Refund(address,address,address,uint8,uint256,uint128)",
+    "bytes": "Y8¨l£<fË/Ü\\Ô\u0007;þ\u0003ãöÈFÃÉ\u001e}?kê®"
+  },
+  "0x5985c1ea46d5ed2be4837f88c0563e18ed022c3bfe10dee15f6ce74daf897d63": {
+    "method": "LoanForeclosed(uint256)",
+    "bytes": "YÁêFÕí+äÀV>\u0018í\u0002,;þ\u0010Þá_lçM¯}c"
+  },
+  "0x59c191ffacdca39fcb93a54ae1077fd594eb70154311982276182ba49e9ff7bf": {
+    "method": "WithdrawInsuranceFund(address,uint256,(uint256,uint256))",
+    "bytes": "YÁÿ¬Ü£Ë¥Já\u0007Õëp\u0015C\u0011\"v\u0018+¤÷¿"
+  },
+  "0x597a291bf8dedc18fe24ac7ca5fc092b5108111be5a87280cf758b19396941d1": {
+    "method": "Claimed(address,bytes32,bytes)",
+    "bytes": "Yz)\u001bøÞÜ\u0018þ$¬|¥ü\t+Q\b\u0011\u001bå¨rÏu\u00199iAÑ"
+  },
+  "0x5904592568a4fbb78135ee4f11eab3d6638454d85eec4b0f4e1002f125fd66b2": {
+    "method": "Query(address,address)",
+    "bytes": "Y\u0004Y%h¤û·5îO\u0011ê³ÖcTØ^ìK\u000fN\u0010\u0002ñ%ýf²"
+  },
+  "0x5969bf1ec051775f5fcd0bc613db4c13e5adefcc231cb962e5a253d8b313069c": {
+    "method": "WhitelistedVaultRemoved(address)",
+    "bytes": "Yi¿\u001eÀQw__Í\u000bÆ\u0013ÛL\u0013å­ïÌ#\u001c¹bå¢SØ³\u0013\u0006"
+  },
+  "0x592c309194cbbc049de5704786814d3562055700140265c125dd857a997a4f73": {
+    "method": "SetSupportStBTCInfo(uint256,uint256,address)",
+    "bytes": "Y,0Ë¼\u0004åpGM5b\u0005W\u0000\u0014\u0002eÁ%ÝzzOs"
+  },
+  "0x592e170c754ebdb013489e813f172ee78b29f4cd7fa19499fff48c0a35fe4f80": {
+    "method": "no_verified_source()",
+    "bytes": "Y.\u0017\fuN½°\u0013H?\u0017.ç)ôÍ¡ÿô\n5þO"
+  },
+  "0x59eab5b5f813ac9e0c10035dfb55b5e3419eff53c0f7a869fb3c22400ea036d6": {
+    "method": "DeploymentConfirmed(address[],address)",
+    "bytes": "Yêµµø\u0013¬\f\u0010\u0003]ûUµãAÿSÀ÷¨iû<\"@\u000e 6Ö"
+  },
+  "0x5948076590932b9d173029c7df03fe386e755a61c86c7fe2671011a2faa2a379": {
+    "method": "RelayedMessage(uint256,uint256,bytes32)",
+    "bytes": "YH\u0007e+\u00170)Çß\u0003þ8nuZaÈlâg\u0010\u0011¢ú¢£y"
+  },
+  "0x5988b53814d34e44aa89ada92d9735a068869d9ee9932bb1d769227d6ba14283": {
+    "method": "fun(uint128)",
+    "bytes": "Yµ8\u0014ÓNDª­©-5 hé+±×i\"}k¡B"
+  },
+  "0x59d1625740b726f515681816d558586131c96e9be903988f4826cc9b5194f8c1": {
+    "method": "claim(uint96,uint96,uint256,uint256,address,bytes)",
+    "bytes": "YÑbW@·&õ\u0015h\u0018\u0016ÕXXa1Éné\u0003H&ÌQøÁ"
+  },
+  "0x5998d146b8109b9444e9bb13ae9a548e7f38d2db6e0da72afe22cefa3065bc63": {
+    "method": "Log3(address,address,uint256)",
+    "bytes": "YÑF¸\u0010Dé»\u0013®T8ÒÛn\r§*þ\"Îú0e¼c"
+  },
+  "0x59f54f409186e77a60ae1f4636682408886dbcc320128a6ccf1f87707c01f34c": {
+    "method": "addColl(uint256,uint256)",
+    "bytes": "YõO@çz`®\u001fF6h$\bm¼Ã \u0012lÏ\u001fp|\u0001óL"
+  },
+  "0x59cc8a78ccafacc9c21344f3ab363a1f6ace0b46575ba196257a9d52325652b8": {
+    "method": "NewGaugeWeight(bytes32,uint256,uint256,uint256)",
+    "bytes": "YÌxÌ¯¬ÉÂ\u0013Dó«6:\u001fjÎ\u000bFW[¡%zR2VR¸"
+  },
+  "0x594db9f6a255392b3bd7ff66d8dbe1501aad004036b25679a9f82f9b76a13df2": {
+    "method": "adminMint(string,address)",
+    "bytes": "YM¹ö¢U9+;×ÿfØÛáP\u001a­\u0000@6²Vy©ø/v¡=ò"
+  },
+  "0x59f9adfe8cf4c9d4b77fb03aa2ae5f373632c97cb8caf6b61f0643d3d170a8fe": {
+    "method": "RateProviderUpdated(address,bool,address)",
+    "bytes": "Yù­þôÉÔ·°:¢®_762É|¸Êö¶\u001f\u0006CÓÑp¨þ"
+  },
+  "0x590f940bf06078b89961464a6a0d3beff7356c2d18ef607db7cd2f0d9f408a2e": {
+    "method": "submitProposal(address,uint256,uint256,uint256,address,uint256,address,string)",
+    "bytes": "Y\u000f\u000bð`x¸aFJj\r;ï÷5l-\u0018ï`}·Í/\r@."
+  },
+  "0x59a5d05e07c1abe05e0b0818f295b1126b3a7645c2f6a4950e0a2628b778c7fb": {
+    "method": "NftContractSet(address)",
+    "bytes": "Y¥Ð^\u0007Á«à^\u000b\b\u0018ò±\u0012k:vEÂö¤\u000e\n&(·xÇû"
+  },
+  "0x59bae85bf937c19399576ca9568b91725715f04204093a97e75106292b852946": {
+    "method": "VersionRegistered(bytes32,address)",
+    "bytes": "Yºè[ù7ÁWl©VrW\u0015ðB\u0004\t:çQ\u0006)+)F"
+  },
+  "0x59186a30b5eec89e112e79d3cacdd1dd3573fe7f09e9e6447e45080dfd03d077": {
+    "method": "ReserveBaseNotCoordinatorError()",
+    "bytes": "Y\u0018j0µîÈ\u0011.yÓÊÍÑÝ5sþ\téæD~E\b\rý\u0003Ðw"
+  },
+  "0x59af4b0ce14ea03a1bba7140a1ac0fb88b9a96edbdc92b0cf62010dde092250d": {
+    "method": "LiquidateReward(uint256,address,uint256,uint256)",
+    "bytes": "Y¯K\fáN :\u001bºq@¡¬\u000f¸í½É+\fö \u0010Ýà%\r"
+  },
+  "0x5903224f5b7351efe8cf666b5ad9813434c0fbac3cb043153db2f9197e88029f": {
+    "method": "GrantSet(bool,bytes32,uint256)",
+    "bytes": "Y\u0003\"O[sQïèÏfkZÙ44Àû¬<°C\u0015=²ù\u0019~\u0002"
+  },
+  "0x5984b367ce13b316100aaa943174ec1254537e843225f6c464cda5638fa4e2cc": {
+    "method": "DSRegistryServiceInvestorCountryChanged(string,string,address)",
+    "bytes": "Y³gÎ\u0013³\u0016\u0010\nª1tì\u0012TS~2%öÄdÍ¥c¤âÌ"
+  },
+  "0x590e04cdebeccba40f566186b9746ad295a4cd358ea4fefaaea6ce79630d96c0": {
+    "method": "EnableIrm(address)",
+    "bytes": "Y\u000e\u0004ÍëìË¤\u000fVa¹tjÒ¤Í5¤þú®¦Îyc\rÀ"
+  },
+  "0x59c46bd21eec021c35407da9f408c4f0b33623de1ab861d5b8ac986b5c006f16": {
+    "method": "ForceBlobNotAllowed()",
+    "bytes": "YÄkÒ\u001eì\u0002\u001c5@}©ô\bÄð³6#Þ\u001a¸aÕ¸¬k\\\u0000o\u0016"
+  },
+  "0x59cb583d3d6bac1346163945da58b1127f465cdf67ddd14d5486e0e870557035": {
+    "method": "Withdrawal(address,address,bytes32,uint256,uint256)",
+    "bytes": "YËX==k¬\u0013F\u00169EÚX±\u0012F\\ßgÝÑMTàèpUp5"
+  },
+  "0x59a1dea4e30d3c47fe89c10e208eaec773aeffac12d04ccda093b06afb58bfdd": {
+    "method": "InvalidRepayment()",
+    "bytes": "Y¡Þ¤ã\r<GþÁ\u000e ®Çs®ÿ¬\u0012ÐLÍ °jûX¿Ý"
+  },
+  "0x59e6697a6709b93058d2e669bb044640444bdb0509eadafab4a2b203cacaab67": {
+    "method": "SetAddLiquidityHelper(address)",
+    "bytes": "Yæizg\t¹0XÒæi»\u0004F@DKÛ\u0005\têÚú´¢²\u0003ÊÊ«g"
+  },
+  "0x593e4dbcb8f7312fc3bdd77e2095da131a6e1993f37752d12576d04e1f7253b4": {
+    "method": "RemoteSwapAndCall(bytes32,address,address,address,address,uint256,uint256,uint256,uint256,uint256,bytes)",
+    "bytes": "Y>M¼¸÷1/Ã½×~ Ú\u0013\u001an\u0019ówRÑ%vÐN\u001frS´"
+  },
+  "0x59490ddc6330cd50a9703c0b77827ff51b21e7a8592eb50d5252a4d20188cfd3": {
+    "method": "RouterCreated(address)",
+    "bytes": "YI\rÜc0ÍP©p<\u000bwõ\u001b!ç¨Y.µ\rRR¤Ò\u0001ÏÓ"
+  },
+  "0x59bcbd68b0b99cd2f2ed56fc9654c743facf816f4bd7ff4d94ddfa74a156e18b": {
+    "method": "historyNumbers(uint256,uint256)",
+    "bytes": "Y¼½h°¹ÒòíVüTÇCúÏoK×ÿMÝút¡Vá"
+  },
+  "0x59da2b26ce7fb398c48a3d5f39c5d9f47b8fb02b37350889509764d2fddc9976": {
+    "method": "wrapFromOHM(uint256)",
+    "bytes": "YÚ+&Î³Ä=_9ÅÙô{°+75\bPdÒýÜv"
+  },
+  "0x59b2e4e239002bc302dc06f36acd04f0336afbad5a5af031b96ef3e6b3cb4822": {
+    "method": "twapDown()",
+    "bytes": "Y²äâ9\u0000+Ã\u0002Ü\u0006ójÍ\u0004ð3jû­ZZð1¹nóæ³ËH\""
+  },
+  "0x5971aa212f97df94e52997a81428d39e383c902b8034876fd6a0fe4a5e07ba72": {
+    "method": "initialRewardRate()",
+    "bytes": "Yqª!/ßå)¨\u0014(Ó8<+4oÖ þJ^\u0007ºr"
+  },
+  "0x59d6dd9de87d91dd072e2c380c2e53295a2a99565d34a5177c8dcc0e0763ad9e": {
+    "method": "alpa()",
+    "bytes": "YÖÝè}Ý\u0007.,8\f.S)Z*V]4¥\u0017|Ì\u000e\u0007c­"
+  },
+  "0x5930a0a129a5468820321e76d77a4414abc7b72ed3e735d8eb620f52b23614b7": {
+    "method": "rewardTokenAddress(uint256)",
+    "bytes": "Y0 ¡)¥F 2\u001ev×zD\u0014«Ç·.Óç5Øëb\u000fR²6\u0014·"
+  },
+  "0x59a12ad568fd9523629abc8a15303efdc88615c61252a8a90dd1757af53d5975": {
+    "method": "privateAmountMinted()",
+    "bytes": "Y¡*Õhý#b¼\u00150>ýÈ\u0015Æ\u0012R¨©\rÑuzõ=Yu"
+  },
+  "0x59122f6bb698014ec50fbd26c91029fa5763833285fd58044c0b16d13fde2cd8": {
+    "method": "lockedThreshold(address)",
+    "bytes": "Y\u0012/k¶\u0001NÅ\u000f½&É\u0010)úWc2ýX\u0004L\u000b\u0016Ñ?Þ,Ø"
+  },
+  "0x59546bbb78ac335724e0455853940c6b11cb94c02b05dff3f2658292bfb01ec9": {
+    "method": "englishStartAuction(uint256,uint256,uint256,uint256,address)",
+    "bytes": "YTk»x¬3W$àEXS\fk\u0011ËÀ+\u0005ßóòe¿°\u001eÉ"
+  },
+  "0x596cf96ede1efeaa716eeb960f7b32c3502c2d51492161d12f4ea1584ff34096": {
+    "method": "setfreeprice(uint256)",
+    "bytes": "YlùnÞ\u001eþªqnë\u000f{2ÃP,-QI!aÑ/N¡XOó@"
+  },
+  "0x59ae145eea25cb78ac5251f6543b305e4ee504eb90dd94901a580d7f39a257da": {
+    "method": "BP_TAX_MAX()",
+    "bytes": "Y®\u0014^ê%Ëx¬RQöT;0^Nå\u0004ëÝ\u001aX\r9¢WÚ"
+  },
+  "0x593fb85526ba3d697ea12812d49be2ceb1c195d1fde6cc9ad30ad157272ba5a2": {
+    "method": "publicAvaliablSupply()",
+    "bytes": "Y?¸U&º=i~¡(\u0012ÔâÎ±ÁÑýæÌÓ\nÑW'+¥¢"
+  },
+  "0x59da68710599d359348067ff71b79950932bf53f5c9647b251a8689542d7100d": {
+    "method": "WLsale()",
+    "bytes": "YÚhq\u0005ÓY4gÿq·P+õ?\\G²Q¨hB×\u0010\r"
+  },
+  "0x59b76a1c3275006fc13bfca2083854127ac64b1b5c36463b728960c6212296da": {
+    "method": "getUintEntry(address,string,string)",
+    "bytes": "Y·j\u001c2u\u0000oÁ;ü¢\b8T\u0012zÆK\u001b\\6F;r`Æ!\"Ú"
+  },
+  "0x599ba234bec3903597813ea3c7f1ceac6f24c654a8513ca92c63e955d9324261": {
+    "method": "createMarketItem(address,uint256,uint256,uint256)",
+    "bytes": "Y¢4¾Ã5>£ÇñÎ¬o$ÆT¨Q<©,céUÙ2Ba"
+  },
+  "0x5975e33221a286b18cc16aaba6270d3f8083a22163b2ce2696e5cd2185d6255e": {
+    "method": "boostWithNFT(uint256,address,uint256)",
+    "bytes": "Yuã2!¢±Áj«¦'\r?¢!c²Î&åÍ!Ö%^"
+  },
+  "0x59862f3bb7555bf6578a579fc5cec36b5254060e05b215b81eb73aa4f13e05af": {
+    "method": "airdropOpen()",
+    "bytes": "Y/;·U[öWWÅÎÃkRT\u0006\u000e\u0005²\u0015¸\u001e·:¤ñ>\u0005¯"
+  },
+  "0x59770db22f0c12ffe2588f65e7540f809d633821b943e3cdd2df7a01aaa1f486": {
+    "method": "setInterval(uint64)",
+    "bytes": "Yw\r²/\f\u0012ÿâXeçT\u000fc8!¹CãÍÒßz\u0001ª¡ô"
+  },
+  "0x59e13184683789590a9e4c6de9cdd48270f5ce010c0064b780803e3d412c1b30": {
+    "method": "cleaninGoblin()",
+    "bytes": "Yá1h7Y\nLméÍÔpõÎ\u0001\f\u0000d·>=A,\u001b0"
+  },
+  "0x59974e38f14899bc073bbe4e8ada6a6076fddd9aad66cb4f10e7f2ff3ed6dfb1": {
+    "method": "distributeRewards(uint256)",
+    "bytes": "YN8ñH¼\u0007;¾NÚj`výÝ­fËO\u0010çòÿ>Öß±"
+  },
+  "0x59eaa09575f2d883500d9682899075f224230329762a3d42d74cd3c73e722f98": {
+    "method": "decreaseTokenSupply(uint256)",
+    "bytes": "Yê uòØP\ruò$#\u0003)v*=B×LÓÇ>r/"
+  },
+  "0x59bdff8bd0757013c4db52f4708a3b6553744563c3c456275ebaf44477ba4fc2": {
+    "method": "getDogString(uint256,uint8)",
+    "bytes": "Y½ÿÐup\u0013ÄÛRôp;eStEcÃÄV'^ºôDwºOÂ"
+  },
+  "0x59a609b9dd852a7a5b0c9e096e1164efcec9ecae4f65cc1c1584bee21e605951": {
+    "method": "getEntityPackClaimedMaturedRewards(address,uint256)",
+    "bytes": "Y¦\t¹Ý*z[\f\tn\u0011dïÎÉì®OeÌ\u001c\u0015¾â\u001e`YQ"
+  },
+  "0x59d2be670dde91dd18839bdc2aa7ed6d0abe0309003afca0b2926ee6c3d66bb2": {
+    "method": "isWhiteListSale()",
+    "bytes": "YÒ¾g\rÞÝ\u0018Ü*§ím\n¾\u0003\t\u0000:ü ²næÃÖk²"
+  },
+  "0x59fe4da9d2794c7c04f897e7ca62fa10717b76f9fea4bd4e0c6ff8e42628383f": {
+    "method": "priceToGetHigh()",
+    "bytes": "YþM©ÒyL|\u0004øçÊbú\u0010q{vùþ¤½N\foøä&(8?"
+  },
+  "0x595b4bc7074ec0a947b93bb889163e8347fd8b1a7bfb9379c1558187c3966216": {
+    "method": "isStaffMintActive()",
+    "bytes": "Y[KÇ\u0007NÀ©G¹;¸\u0016>Gý\u001a{ûyÁUÃb\u0016"
+  },
+  "0x59308f0f7f35ce42fc2d919ebb494c5ca1a8a361854ceec6dff3af3566864646": {
+    "method": "savedGasPrice()",
+    "bytes": "Y0\u000f5ÎBü-»IL\\¡¨£aLîÆßó¯5fFF"
+  },
+  "0x598f6db62c7583c23138e238b14c6827b30a2687395858ee3db65e941a4f924f": {
+    "method": "privateMintingEnabled()",
+    "bytes": "Ym¶,uÂ18â8±Lh'³\n&9XXî=¶^\u001aOO"
+  },
+  "0x59852686b149c0d823537a129167acf79bf88633f67c311082063ee91a97cc55": {
+    "method": "transferEth()",
+    "bytes": "Y&±IÀØ#Sz\u0012g¬÷ø3ö|1\u0010\u0006>é\u001aÌU"
+  },
+  "0x59925eba40fe76a1f6c051631c6876211c59adf11def5683af461af2625b45bc": {
+    "method": "winnerNFTList(uint256)",
+    "bytes": "Y^º@þv¡öÀQc\u001chv!\u001cY­ñ\u001dïV¯F\u001aòb[E¼"
+  },
+  "0x59c0cc22be040ec2cf95b701256c3f0d07b25ddafe14fa8957463becff881a5f": {
+    "method": "setHuntlistState(bool)",
+    "bytes": "YÀÌ\"¾\u0004\u000eÂÏ·\u0001%l?\r\u0007²]Úþ\u0014úWF;ìÿ\u001a_"
+  },
+  "0x59e6aae14703a40f6aceefc0935da5d2b5a9c7e639b61c57c5678c8443f2fd7c": {
+    "method": "tokenURI(uint32)",
+    "bytes": "YæªáG\u0003¤\u000fjÎïÀ]¥Òµ©Çæ9¶\u001cWÅgCòý|"
+  },
+  "0x59bf1abe748d31556664050af098c1b7e6ce78fd97ea9033884aeb101418d4aa": {
+    "method": "getBlackListStatus(address)",
+    "bytes": "Y¿\u001a¾t1Ufd\u0005\nðÁ·æÎxýê3Jë\u0010\u0014\u0018Ôª"
+  },
+  "0x59e2275a58aa85999cd5506add94f6894f36d3b9fdea98b8a9f5ac7e9c2c27ae": {
+    "method": "getTimeUntilNextPhase()",
+    "bytes": "Yâ'ZXªÕPjÝöO6Ó¹ýê¸©õ¬~,'®"
+  },
+  "0x597d4601d22b52d0b53006d60a15fb000396ae938035b2f106cb3ea32f1d68f2": {
+    "method": "crowdsaleFinalized()",
+    "bytes": "Y}F\u0001Ò+RÐµ0\u0006Ö\n\u0015û\u0000\u0003®5²ñ\u0006Ë>£/\u001dhò"
+  },
+  "0x59b34f179e8215dfb3610af8004831d7c8a9d54bf0e8c8acd670386c67ab0949": {
+    "method": "paidToCreator()",
+    "bytes": "Y³O\u0017\u0015ß³a\nø\u0000H1×È©ÕKðèÈ¬Öp8lg«\tI"
+  },
+  "0x595e173a2094ec6e87960f296ef967efe23a70351dbbd618288c5775fc030ab4": {
+    "method": "increaseEmissionRate(uint8,uint256)",
+    "bytes": "Y^\u0017: ìn\u000f)nùgïâ:p5\u001d»Ö\u0018(Wuü\u0003\n´"
+  },
+  "0x59fadc822a07b0007f16a284c85786ba965e2f97165bc1555903f86804487510": {
+    "method": "checkStakable(uint256)",
+    "bytes": "YúÜ*\u0007°\u0000\u0016¢ÈWº^/\u0016[ÁUY\u0003øh\u0004Hu\u0010"
+  },
+  "0x59ef6d0119411dd6912f9aee50d98ab30ec465a89a9f81f40d0d2b85ffbc0e5e": {
+    "method": "new_SynthsETH_contract()",
+    "bytes": "Yïm\u0001\u0019A\u001dÖ/îPÙ³\u000eÄe¨ô\r\r+ÿ¼\u000e^"
+  },
+  "0x590a41f5908da1d3887bddafd24a9d81362ff73a5ea2e2722ee3f4a2d5ed6ed9": {
+    "method": "queueNewRewards(uint256)",
+    "bytes": "Y\nAõ¡Ó{Ý¯ÒJ6/÷:^¢âr.ãô¢ÕínÙ"
+  },
+  "0x59a8a8670469fa9ddc15343787e881c99901900f4f2c9d9525169094afa8729a": {
+    "method": "symbolPrefix()",
+    "bytes": "Y¨¨g\u0004iúÜ\u001547èÉ\u0001\u000fO,%\u0016¯¨r"
+  },
+  "0x59aac7975713968726de001ca58ff9458944a84bd3e6753b896cb8d8d8c6f2cd": {
+    "method": "getUserNFTVaultData(address,address)",
+    "bytes": "YªÇW\u0013&Þ\u0000\u001c¥ùED¨KÓæu;l¸ØØÆòÍ"
+  },
+  "0x597a4f79e7c625aa381e4d26314c33d27f7a8ec8927ad3ffef5c7c46dabb3e5e": {
+    "method": "Pandas()",
+    "bytes": "YzOyçÆ%ª8\u001eM&1L3ÒzÈzÓÿï\\|FÚ»>^"
+  },
+  "0x59baef40713fce0c6b57242737677ccfa7d57f5d489243229ad24ec9d06ffa54": {
+    "method": "setNewController(address)",
+    "bytes": "Yºï@q?Î\fkW$'7g|Ï§Õ]HC\"ÒNÉÐoúT"
+  },
+  "0x59e5113c7729bb4632d7cd517144e844f0478ec2568cf78705cf9edb7869858c": {
+    "method": "huntingDisabled()",
+    "bytes": "Yå\u0011<w)»F2×ÍQqDèDðGÂV÷\u0005ÏÛxi"
+  },
+  "0x59bf55bfdf2545cde382d415a2f1c3edd7320b2ec41e0a72bbc0d55c8f36a970": {
+    "method": "MAX_ALLOW_PUBLIC_MINT()",
+    "bytes": "Y¿U¿ß%EÍãÔ\u0015¢ñÃí×2\u000b.Ä\u001e\nr»ÀÕ\\6©p"
+  },
+  "0x59bc34720e63f9d69448e03af9beacce50710a471e814eee9899d5b0b2fc851c": {
+    "method": "burnBurger(address,uint256)",
+    "bytes": "Y¼4r\u000ecùÖHà:ù¾¬ÎPq\nG\u001eNîÕ°²ü\u001c"
+  },
+  "0x591e194bf280f5696ef255d75856f58040eaafa0fa6f57c21c6c97d2d848bcb6": {
+    "method": "setWhitelistBuyOnce(bool)",
+    "bytes": "Y\u001e\u0019KòõinòU×XVõ@ê¯ úoWÂ\u001clÒØH¼¶"
+  },
+  "0x59976138226230469bcde5d56276a85bc7cba0b8a7ede5d636702131de545453": {
+    "method": "VaultFYActions__buyFYToken_overflow()",
+    "bytes": "Ya8\"b0FÍåÕbv¨[ÇË ¸§íåÖ6p!1ÞTTS"
+  },
+  "0x5930df9fd279a6d03f6f6b503b1400768784f74a909837f2dc76fb85b898a5a6": {
+    "method": "sets()",
+    "bytes": "Y0ßÒy¦Ð?okP;\u0014\u0000v÷J7òÜvû¸¥¦"
+  },
+  "0x596ec245e51467d54d71678c4a287b661838410209a185bc21a416dada38a337": {
+    "method": "rewardMintCounts(uint8)",
+    "bytes": "YnÂEå\u0014gÕMqgJ({f\u00188A\u0002\t¡¼!¤\u0016ÚÚ8£7"
+  },
+  "0x5919c74bb8d3a3643cbcfa9822e60e44581340c59d610942616fb889dc1d7bf8": {
+    "method": "adminMint(address,string)",
+    "bytes": "Y\u0019ÇK¸Ó£d<¼ú\"æ\u000eDX\u0013@Åa\tBao¸Ü\u001d{ø"
+  },
+  "0x59554a5e0ce36520aa1f65c14c11e4eb28b788aea50ff18bb7ba3ddef8490c72": {
+    "method": "userslevelsActive(address,uint8)",
+    "bytes": "YUJ^\fãe ª\u001feÁL\u0011äë(·®¥\u000fñ·º=ÞøI\fr"
+  },
+  "0x59e64d1e3b4e51dbcef80262402f58d66cdae32685dfdbf22395e955b404b4a3": {
+    "method": "bondAddress()",
+    "bytes": "YæM\u001e;NQÛÎø\u0002b@/XÖlÚã&ßÛò#éU´\u0004´£"
+  },
+  "0x59aa4ab38603411e01d16827694549f0cb47b5c62a2f227eac819d5eb4803fd0": {
+    "method": "privateMintNumber(address)",
+    "bytes": "YªJ³\u0003A\u001e\u0001Ñh'iEIðËGµÆ*/\"~¬^´?Ð"
+  },
+  "0x59c4a3485a3d3bde2a2f7b4c0542b750875d6c0d11a16f65cc07adee685784af": {
+    "method": "setmaxMintAmountPerTransactionPhaseOne(uint256)",
+    "bytes": "YÄ£HZ=;Þ*/{L\u0005B·P]l\r\u0011¡oeÌ\u0007­îhW¯"
+  },
+  "0x59fbb541f0ae84e97031086925fe8f2e5d2b19f63fe5ee09c13e098ee60deb2b": {
+    "method": "loaningActive()",
+    "bytes": "YûµAð®ép1\bi%þ.]+\u0019ö?åî\tÁ>\tæ\rë+"
+  },
+  "0x5940cda3e632c7461f5ffb26850a695c78c7c41fc6182a9b030b85f7f395154f": {
+    "method": "transferBudTo(address,uint256[])",
+    "bytes": "Y@Í£æ2ÇF\u001f_û&\ni\\xÇÄ\u001fÆ\u0018*\u0003\u000b÷ó\u0015O"
+  },
+  "0x59db80f82717dc0172d73cf76547aaa44d6f2290612f0a62c90818b203a063a6": {
+    "method": "withdrawUSDT(address)",
+    "bytes": "YÛø'\u0017Ü\u0001r×<÷eGª¤Mo\"a/\nbÉ\b\u0018²\u0003 c¦"
+  },
+  "0x5929debb68d081e68e7fc8e55c35d9e587fb7874e3da2f12f9f594077ca6053b": {
+    "method": "queryLpByTokenId(uint256)",
+    "bytes": "Y)Þ»hÐæÈå\\5ÙåûxtãÚ/\u0012ùõ\u0007|¦\u0005;"
+  },
+  "0x595d83d3a45b2f79cb5254907d1bf3a371cb2d9c56bb49101a01239414aed7b2": {
+    "method": "removeMembersFromGroup(uint256,address[])",
+    "bytes": "Y]Ó¤[/yËRT}\u001bó£qË-V»I\u0010\u001a\u0001#\u0014®×²"
+  },
+  "0x59b0d5b0049228e3bc6b3a2a648a078295931cf28915e97e7a41e5d020f6499f": {
+    "method": "freeClaims(address)",
+    "bytes": "Y°Õ°\u0004(ã¼k:*d\u0007\u001cò\u0015é~zAåÐ öI"
+  },
+  "0x59bf5dbb4689c3f516619b0fe7252f82a1c5ff590b30c0f6590aadefb082554d": {
+    "method": "NFTPerWLAddress(address)",
+    "bytes": "Y¿]»FÃõ\u0016a\u000fç%/¡ÅÿY\u000b0ÀöY\n­ï°UM"
+  },
+  "0x5914983e85a5b0bb15a196e01b619d0651e530f20d98d3b7cb9ea8501de0a509": {
+    "method": "setTokenRootURI(string)",
+    "bytes": "Y\u0014>¥°»\u0015¡à\u001ba\u0006Qå0ò\rÓ·Ë¨P\u001dà¥\t"
+  },
+  "0x5931babff7763ff90d66fc1e81aa98d38e2ebb1e3adcfebf9bbc75e13afecc08": {
+    "method": "setSaleSigner(address)",
+    "bytes": "Y1º¿÷v?ù\rfü\u001eªÓ.»\u001e:Üþ¿¼uá:þÌ\b"
+  },
+  "0x59c9c41d7b48f5bd546213232a49eeca2935e238ee575b075ac22ee7fd1719f0": {
+    "method": "changePriceModule(address)",
+    "bytes": "YÉÄ\u001d{Hõ½Tb\u0013#*IîÊ)5â8îW[\u0007ZÂ.çý\u0017\u0019ð"
+  },
+  "0x5948cb9e93826513b9e5894a709e77d1fd0851ea3908ef5d78a1d9b830dc11a7": {
+    "method": "setVaultSmartStrategy(address,uint256)",
+    "bytes": "YHËe\u0013¹åJpwÑý\bQê9\bï]x¡Ù¸0Ü\u0011§"
+  },
+  "0x5969326b2b7aa01ee00440bd800701e98c1d1b16694949eb1552db5a252261da": {
+    "method": "tokenValueInUSD()",
+    "bytes": "Yi2k+z \u001eà\u0004@½\u0007\u0001é\u001d\u001b\u0016iIIë\u0015RÛZ%\"aÚ"
+  },
+  "0x5956421996d743db05d37f2d08fdfed38708696f6273cc380a0aa74de3845afb": {
+    "method": "getCompVotes(address,address,uint32[])",
+    "bytes": "YVB\u0019×CÛ\u0005Ó-\býþÓ\biobsÌ8\n\n§MãZû"
+  },
+  "0x5981eff663b37bec6ae1da113342d1f3844a4c844ade836fc249e7f95c5bcbba": {
+    "method": "airDropEth(address[],uint256[])",
+    "bytes": "Yïöc³{ìjáÚ\u00113BÑóJLJÞoÂIçù\\[Ëº"
+  },
+  "0x59de0919ae7af333bb6fe37c9154d42d954e3da9dfa2f80357befc25c3f1a722": {
+    "method": "sealContractPermanently()",
+    "bytes": "YÞ\t\u0019®zó3»oã|TÔ-N=©ß¢ø\u0003W¾ü%Ãñ§\""
+  },
+  "0x59b35cc54d2bd267f3265e3cd92d3e815cb08ca53e501ec6b0d6f031df689aae": {
+    "method": "lockMintContract(uint16)",
+    "bytes": "Y³\\ÅM+Ògó&^<Ù->\\°¥>P\u001eÆ°Öð1ßh®"
+  },
+  "0x59b517801a47868acf88fdb13e5d0ae4ddfad3ff37ca143bcb05aad8aa22627a": {
+    "method": "getSpecimen(uint256)",
+    "bytes": "Yµ\u0017\u001aGÏý±>]\näÝúÓÿ7Ê\u0014;Ë\u0005ªØª\"bz"
+  },
+  "0x59a50e89117a9ca07314d2c936951c52f83d388dadaa45cc178a58fd7c70c7c9": {
+    "method": "switchToOGListSale()",
+    "bytes": "Y¥\u000e\u0011z s\u0014ÒÉ6\u001cRø=8­ªEÌ\u0017Xý|pÇÉ"
+  },
+  "0x59ae340ed0b5ea5e542bf76de8b0df45d84c2ba4ee1a72c5891e67a5ed0257b5": {
+    "method": "resumeMinting()",
+    "bytes": "Y®4\u000eÐµê^T+÷mè°ßEØL+¤î\u001arÅ\u001eg¥í\u0002Wµ"
+  },
+  "0x5920b97db24b22444251c512d9b9643d29202738c85c469c22a6b0cba59957a7": {
+    "method": "updateAnyoneAbsorb(bool)",
+    "bytes": "Y ¹}²K\"DBQÅ\u0012Ù¹d=) '8È\\F\"¦°Ë¥W§"
+  },
+  "0x5916ec45f85cdf8784065a0fecc06f4fd9b09de04618e804a50dda148f6a20b0": {
+    "method": "liquidityLockerVestings(uint256)",
+    "bytes": "Y\u0016ìEø\\ß\u0006Z\u000fìÀoOÙ°àF\u0018è\u0004¥\rÚ\u0014j °"
+  },
+  "0x59633a1cdab976b220f2bb6c96c7b8b174c9fef4ea6ab0eb9223cf2f413428b6": {
+    "method": "removeBeneficiary(address)",
+    "bytes": "Yc:\u001cÚ¹v² ò»lÇ¸±tÉþôêj°ë#Ï/A4(¶"
+  },
+  "0x5926651d62bbe3d4681d156fd704966af2a03ae749754b55627b81ebae4a84ad": {
+    "method": "addBeneficiary(address)",
+    "bytes": "Y&e\u001db»ãÔh\u001d\u0015o×\u0004jò :çIuKUb{ë®J­"
+  },
+  "0x59eec8955378c016ea8549a9aff5deb825d91f7e3b00a42fc6619e15b19fdf87": {
+    "method": "MARKET_EGGS_DIVISOR()",
+    "bytes": "YîÈSxÀ\u0016êI©¯õÞ¸%Ù\u001f~;\u0000¤/Æa\u0015±ß"
+  },
+  "0x5900980b54bc1bfa06f8bf7aed8027601e002f6b376129875f2c568034f0d9b4": {
+    "method": "getSquarePrice()",
+    "bytes": "Y\u0000\u000bT¼\u001bú\u0006ø¿zí'`\u001e\u0000/k7a)_,V4ðÙ´"
+  },
+  "0x5953c77bb38d5913b874e463dbc69fbebe72ca4356b39ca85f8f55a5648b702e": {
+    "method": "getMarketIndex(uint256,uint256)",
+    "bytes": "YSÇ{³Y\u0013¸täcÛÆ¾¾rÊCV³¨_U¥dp."
+  },
+  "0x592ecd029964ece21ce0162add679e42370ff78dc81328fc1a4cdb871659a407": {
+    "method": "stopFreeMinting()",
+    "bytes": "Y.Í\u0002dìâ\u001cà\u0016*ÝgB7\u000f÷È\u0013(ü\u001aLÛ\u0016Y¤\u0007"
+  },
+  "0x5997bbee2add1aea529a7e18b3d6e8ee289f9921f4e4469612967f8c45322413": {
+    "method": "isWhitelistMinted(address)",
+    "bytes": "Y»î*Ý\u001aêR~\u0018³Öèî(!ôäF\u0012E2$\u0013"
+  },
+  "0x5932bcb5222689e36e997e39c324225a5da9edb78727b75c76e368c09c5b1f7f": {
+    "method": "_partnershipsAllocation()",
+    "bytes": "Y2¼µ\"&ãn~9Ã$\"Z]©í·'·\\vãhÀ[\u001f"
+  },
+  "0x592eeb9e678760f200d7b78a7aa77f52222b3496de4931a143122f576ed60850": {
+    "method": "setWave1CSigner(address)",
+    "bytes": "Y.ëg`ò\u0000×·z§R\"+4ÞI1¡C\u0012/WnÖ\bP"
+  },
+  "0x5960ae2a19549fb9f8e8e622671958459ddbe64b275dcd5ab2dc8440b8071de8": {
+    "method": "addressIsInvolved(bytes32,address)",
+    "bytes": "Y`®*\u0019T¹øèæ\"g\u0019XEÛæK']ÍZ²Ü@¸\u0007\u001dè"
+  },
+  "0x59f1707dfe8b26528b252959f0091ac279bcaf4f05166b63ed7726a472f76c1e": {
+    "method": "_setDevFee(uint256)",
+    "bytes": "Yñp}þ&R%)Yð\t\u001aÂy¼¯O\u0005\u0016kcíw&¤r÷l\u001e"
+  },
+  "0x59de76c6f28f0b9a196d0ccb3b50266bfb974dda6f51bbddee2b3175c768120c": {
+    "method": "getNFTAdapter(uint256)",
+    "bytes": "YÞvÆò\u000b\u0019m\fË;P&kûMÚoQ»Ýî+1uÇh\u0012\f"
+  },
+  "0x593d8e433df6d47d26a83ad6cd05abe25d005cbcb03f2aa6550619c1f4f19174": {
+    "method": "claimShares()",
+    "bytes": "Y=C=öÔ}&¨:ÖÍ\u0005«â]\u0000\\¼°?*¦U\u0006\u0019Áôñt"
+  },
+  "0x59dc25bc564e179e37589db82f0645cf2437f0dc9eb06eda59694bb0ad7d1c6e": {
+    "method": "mintPreSaleWalrus(uint256)",
+    "bytes": "YÜ%¼VN\u00177X¸/\u0006EÏ$7ðÜ°nÚYiK°­}\u001cn"
+  },
+  "0x5915d806c53be867191b8f81579ead54342a06168e0ffca2afc696f2aa5b2ec1": {
+    "method": "withdraw(uint256,uint256[])",
+    "bytes": "Y\u0015Ø\u0006Å;èg\u0019\u001bW­T4*\u0006\u0016\u000fü¢¯Æòª[.Á"
+  },
+  "0x59c92a25ed06a514cf17a539375a9d1dc35d34a2769809cf7d2ac1b0f7f7adb4": {
+    "method": "redeem(uint256,bytes32,uint64,bytes)",
+    "bytes": "YÉ*%í\u0006¥\u0014Ï\u0017¥97Z\u001dÃ]4¢v\tÏ}*Á°÷÷­´"
+  },
+  "0x594c3b87166339e6dc5fefbd309d9dc231a48aef052a56bc890e7d9aee7dfbc2": {
+    "method": "haogegeControl()",
+    "bytes": "YL;\u0016c9æÜ_ï½0Â1¤ï\u0005*V¼\u000e}î}ûÂ"
+  },
+  "0x5909865a8edceb96f2bf05cc8c06e10f0e3fb8194bc0be449377b5e291197ee6": {
+    "method": "resetWhitelist()",
+    "bytes": "Y\tZÜëò¿\u0005Ì\u0006á\u000f\u000e?¸\u0019KÀ¾Dwµâ\u0019~æ"
+  },
+  "0x595a84693eb4b8765ee19ef92536986d4b9dab3912fd296374c05be67f16f0c3": {
+    "method": "setfree(address[])",
+    "bytes": "YZi>´¸v^áù%6mK«9\u0012ý)ctÀ[æ\u0016ðÃ"
+  },
+  "0x592e9d79ad886e60fcecd736e3ebb37c232217c316fa4a4c867b41ec591b2520": {
+    "method": "setTimeCounter(uint256)",
+    "bytes": "Y.y­n`üì×6ãë³|#\"\u0017Ã\u0016úJL{AìY\u001b% "
+  },
+  "0x5974bbd8428906602276e5c8d2581bf79ad64be5910d760e39c444748749aa39": {
+    "method": "magicbutton(uint256)",
+    "bytes": "Yt»ØB\u0006`\"våÈÒX\u001b÷ÖKå\rv\u000e9ÄDtIª9"
+  },
+  "0x594831927f015950c2b975a4cb25e345553eb189e69a60244a940549ad839bf0": {
+    "method": "revokeUnderBalance()",
+    "bytes": "YH1\u0001YPÂ¹u¤Ë%ãEU>±æ`$J\u0005I­ð"
+  },
+  "0x59677bbde14b7f83b6dd64b50237fcc6cf532f22f58edc41f5de4ee125c0b6aa": {
+    "method": "numberofyear()",
+    "bytes": "Yg{½áK¶Ýdµ\u00027üÆÏS/\"õÜAõÞNá%À¶ª"
+  },
+  "0x59a56d837db0ca7c8554ddd71fc533e481d36f90f9f7c794a11ada676e7fa5f9": {
+    "method": "collectPendingRoyalties()",
+    "bytes": "Y¥m}°Ê|TÝ×\u001fÅ3äÓoù÷Ç¡\u001aÚgn¥ù"
+  },
+  "0x591461b6aa6e688d9d87644f924ad5417aed4afc1ef8e84754d768894daaa0f6": {
+    "method": "RoyaltiesAccumulated()",
+    "bytes": "Y\u0014a¶ªnhdOJÕAzíJü\u001eøèGT×hMª ö"
+  },
+  "0x59b8bddac96de09e5efa553ac9c79ec4517ef390df6babe2e2c34caf23db64c9": {
+    "method": "marketdevelopmentStartDate()",
+    "bytes": "Y¸½ÚÉmà^úU:ÉÇÄQ~óßk«ââÃL¯#ÛdÉ"
+  },
+  "0x5994866d4ccbd284ce85ec04cc99a894c05dc1db6cf605c5c13a9e9e31f2924a": {
+    "method": "estimateSell(uint256)",
+    "bytes": "YmLËÒÎì\u0004Ì¨À]ÁÛlö\u0005ÅÁ:1òJ"
+  },
+  "0x598751829f7a4266a0780365fdb4c1ad4eb7cfa3370f20c5efbd242f3885f477": {
+    "method": "airdropOwner(address,uint256)",
+    "bytes": "YQzBf x\u0003eý´Á­N·Ï£7\u000f Åï½$/8ôw"
+  },
+  "0x59f71c1aef770805b26f71a060c3b3c937c0f0c6da5212ee5857785930791333": {
+    "method": "cancelStream(uint256,bool)",
+    "bytes": "Y÷\u001c\u001aïw\b\u0005²oq `Ã³É7ÀðÆÚR\u0012îXWxY0y\u00133"
+  },
+  "0x59557a77a7d28335ef7169836e85193f17d5acd2da6c090f07c60599e38ced70": {
+    "method": "isSalePublic()",
+    "bytes": "YUzw§Ò5ïqin\u0019?\u0017Õ¬ÒÚl\t\u000f\u0007Æ\u0005ãíp"
+  },
+  "0x59126885f96bc85cdc09d3f0d98aa5c9a9df115550ba17c2691e8066a93e9f2a": {
+    "method": "totalFreeMint()",
+    "bytes": "Y\u0012hùkÈ\\Ü\tÓðÙ¥É©ß\u0011UPº\u0017Âi\u001ef©>*"
+  },
+  "0x59d5a4bd920056d739447c8f43dc90cdf79ef2c956ec2006a9b5549090cb8e64": {
+    "method": "getAcceptableVault(address)",
+    "bytes": "YÕ¤½\u0000V×9D|CÜÍ÷òÉVì \u0006©µTËd"
+  },
+  "0x5939104080ff8b58ee2897a68897b2b993b32fc97e333f24c4c85f72707e852d": {
+    "method": "setClaimList(address,uint256)",
+    "bytes": "Y9\u0010@ÿXî(¦²¹³/É~3?$ÄÈ_rp~-"
+  },
+  "0x59e02dd7286d4f6b4322125276fa735fc99de3602f5a63408746f9deae41733b": {
+    "method": "peek()",
+    "bytes": "Yà-×(mOkC\"\u0012Rvús_Éã`/Zc@FùÞ®As;"
+  },
+  "0x59640783fcd8e794f5aa8025090c5b70c8a9906323ec0d56f98028935bf5e3df": {
+    "method": "getClaimWithdrawalStatus(uint256)",
+    "bytes": "Yd\u0007üØçõª%\t\f[pÈ©c#ì\rVù([õãß"
+  },
+  "0x59cee29c0d0a37eabaa583df016f711c467b08cc1353d6f566b11e21e71a77e6": {
+    "method": "setApr(uint256)",
+    "bytes": "YÎâ\r\n7êº¥ß\u0001oq\u001cF{\bÌ\u0013SÖõf±\u001e!ç\u001awæ"
+  },
+  "0x595ee93f575cdcd298c29840334126eeb7ee6a4a60abdb8c1bfb9c17be65bd73": {
+    "method": "setJPEGLockAmount(uint256)",
+    "bytes": "Y^é?W\\ÜÒÂ@3A&î·îjJ`«Û\u001bû\u0017¾e½s"
+  },
+  "0x5925c77e25bb2f5b6b0726281c7e64a838bb89943d3717f84716a78be5dd9fb8": {
+    "method": "createResale(address,uint256,address,uint32,uint32,uint256,uint32)",
+    "bytes": "Y%Ç~%»/[k\u0007&(\u001c~d¨8»=7\u0017øG\u0016§åÝ¸"
+  },
+  "0x590088bc7c23bcb2a858b851d6b95a1142a3259691e83e3e1049882f16f728e2": {
+    "method": "totalSaleUserAmount(address)",
+    "bytes": "Y\u0000¼|#¼²¨X¸QÖ¹Z\u0011B£%è>>\u0010I/\u0016÷(â"
+  },
+  "0x59ae8e9e1c7846e6a0fcb11b0421f4edbc1c0bff13ca9659910fc316457b475b": {
+    "method": "initialize(address,uint64,uint64,uint64,uint64,uint256,uint256)",
+    "bytes": "Y®\u001cxFæ ü±\u001b\u0004!ôí¼\u001c\u000bÿ\u0013ÊY\u000fÃ\u0016E{G["
+  },
+  "0x598d00a97c72d71fa2fea29c8646295645867601ef8b7af84b8314d09dd94e1b": {
+    "method": "gift(address,uint256,uint256)",
+    "bytes": "Y\u0000©|r×\u001f¢þ¢F)VEv\u0001ïzøK\u0014ÐÙN\u001b"
+  },
+  "0x595c9bcf30575646b8579764afc790bd9bad5a102a3523b3477003ebb68713e6": {
+    "method": "commitId()",
+    "bytes": "Y\\Ï0WVF¸Wd¯Ç½­Z\u0010*5#³Gp\u0003ë¶\u0013æ"
+  },
+  "0x59117b60501f396dfd15cc5dd6d73a6794a6a96e71ebf6c827ca28771f6e7aa2": {
+    "method": "special3Sale()",
+    "bytes": "Y\u0011{`P\u001f9mý\u0015Ì]Ö×:g¦©nqëöÈ'Ê(w\u001fnz¢"
+  },
+  "0x593b79fea2a40571efae08230c1bc930deb9b439e350348973948fe15f8e690f": {
+    "method": "toBytes(address)",
+    "bytes": "Y;yþ¢¤\u0005qï®\b#\f\u001bÉ0Þ¹´9ãP4sá_i\u000f"
+  },
+  "0x5974ce787ddde95826055f07ce3060985b6a3aff42dfc5d66dd26cb1aca6eaf9": {
+    "method": "getCurrentTimePeriod()",
+    "bytes": "YtÎx}ÝéX&\u0005_\u0007Î0`[j:ÿBßÅÖmÒl±¬¦êù"
+  },
+  "0x59ea929f600532baef16929cef9cd26cbe3be5705e4ab57a2870ad2570f13bcd": {
+    "method": "EXPANSIONPAKRedemption(address)",
+    "bytes": "Yê`\u00052ºï\u0016ïÒl¾;åp^Jµz(p­%pñ;Í"
+  },
+  "0x599b628611c6250849d5a4aaa3d7698192e93bbb36b2986db375067d1dcd9bf5": {
+    "method": "removePreapproved(address)",
+    "bytes": "Yb\u0011Æ%\bIÕ¤ª£×ié;»6²m³u\u0006}\u001dÍõ"
+  },
+  "0x596698892718267aa757fcae67a8d2f1e7b3512422df57515816e969d8252482": {
+    "method": "paymentArtworkToken(address,uint256,uint256)",
+    "bytes": "Yf'\u0018&z§Wü®g¨Òñç³Q$\"ßWQX\u0016éiØ%$"
+  },
+  "0x5960ce470730c99fa34ae30eb923309127599263cfa659a59979a13bc3133277": {
+    "method": "setUserQuota(uint256)",
+    "bytes": "Y`ÎG\u00070É£Jã\u000e¹#0'YcÏ¦Y¥y¡;Ã\u00132w"
+  },
+  "0x590d3f081837be4f874c3623612c9117998bc71d1187b422c835b42692cb575c": {
+    "method": "EarlyMembersNFTs_counter()",
+    "bytes": "Y\r?\b\u00187¾OL6#a,\u0017Ç\u001d\u0011´\"È5´&ËW\\"
+  },
+  "0x5922380d80f677439d818d4bc0a297849265a8690836b7fd2660092c9c1021ab": {
+    "method": "_premiumpName(uint256)",
+    "bytes": "Y\"8\röwCKÀ¢e¨i\b6·ý&`\t,\u0010!«"
+  },
+  "0x59739ec4abe4029f890078d135a59b7e0cc6a849467eb8fb1f73d8a76de80a90": {
+    "method": "performanceTreasuryFee()",
+    "bytes": "YsÄ«ä\u0002\u0000xÑ5¥~\fÆ¨IF~¸û\u001fsØ§mè\n"
+  },
+  "0x5912c046c41c810e56ecf3b77cd18189847b8f136c5bffeb033b2060dadf56c7": {
+    "method": "totalTokensClaimed()",
+    "bytes": "Y\u0012ÀFÄ\u001c\u000eVìó·|Ñ{\u0013l[ÿë\u0003; `ÚßVÇ"
+  },
+  "0x59f369fe542276df538e33d6d2511da01567739c0d1f2fecc283e868c5cb4db2": {
+    "method": "AUCTION_DROP_PER_STEP()",
+    "bytes": "YóiþT\"vßS3ÖÒQ\u001d \u0015gs\r\u001f/ìÂèhÅËM²"
+  },
+  "0x5930919b6ea255253b67a1fdf34398cfa55d38b8b5831bef208e2fe0a18f6a5b": {
+    "method": "basePair()",
+    "bytes": "Y0n¢U%;g¡ýóCÏ¥]8¸µ\u001bï /à¡j["
+  },
+  "0x59d1d43c37707a29830be065fcabd05d6e536466c5159d2e46cb27bda8e98d65": {
+    "method": "text(bytes32,string)",
+    "bytes": "YÑÔ<7pz)\u000bàeü«Ð]nSdfÅ\u0015.FË'½¨ée"
+  },
+  "0x59eec3b388e01fc8004376c534a31ceaae897f47df058d10de917f90f49e4278": {
+    "method": "stakeAllInGauge(address)",
+    "bytes": "YîÃ³à\u001fÈ\u0000CvÅ4£\u001cê®Gß\u0005\u0010ÞôBx"
+  },
+  "0x590c61f086483fed677c1f73cac8c1444e50ce53f4e4c796d29dcea6a67ae8b3": {
+    "method": "routerExtension()",
+    "bytes": "Y\faðH?íg|\u001fsÊÈÁDNPÎSôäÇÒÎ¦¦zè³"
+  },
+  "0x592fd98ea559cbac2257d47cd4cf0e49a64a220a01124e3fb11c91c6c4a9d3d9": {
+    "method": "sushiPerXSushi()",
+    "bytes": "Y/Ù¥YË¬\"WÔ|ÔÏ\u000eI¦J\"\n\u0001\u0012N?±\u001cÆÄ©ÓÙ"
+  },
+  "0x59f8721a606e530ad3d83740c4bbc0933cb988fa4dd4189f024481bc774d0bd2": {
+    "method": "spendTaxPtgBase()",
+    "bytes": "Yør\u001a`nS\nÓØ7@Ä»À<¹úMÔ\u0018\u0002D¼wM\u000bÒ"
+  },
+  "0x59cf0e67a16118a9ab7133fd754472e3eff9d1286d96141548bfe0907ae80d96": {
+    "method": "airdropLowGas(address[],uint256[])",
+    "bytes": "YÏ\u000eg¡a\u0018©«q3ýuDrãïùÑ(m\u0014\u0015H¿àzè\r"
+  },
+  "0x59b9c1abd97aa843882fbd2805640531e20d558adc96b490b731ed615f4c977a": {
+    "method": "setOption1StopBlock(uint256)",
+    "bytes": "Y¹Á«Ùz¨C/½(\u0005d\u00051â\rUÜ´·1ía_Lz"
+  },
+  "0x59c53656cb540bf341b3dfbede04cf1141676a4efd50632b83b32ce5d35fc91e": {
+    "method": "setActivatedValidators(uint256)",
+    "bytes": "YÅ6VËT\u000bóA³ß¾Þ\u0004Ï\u0011AgjNýPc+³,åÓ_É\u001e"
+  },
+  "0x59d667a5d96bfc0d4f481598b93470d6de894605d935ccec82cc69ceb5a4be14": {
+    "method": "bid(address,uint256)",
+    "bytes": "YÖg¥Ùkü\rOH\u0015¹4pÖÞF\u0005Ù5ÌìÌiÎµ¤¾\u0014"
+  },
+  "0x596458f4d9bd179c0a389c0d34d2f4acab0c40e6d2279a8b1ed6debdb3fe4226": {
+    "method": "updateTokenAllocationById(uint8,string,uint256,uint256,uint256,uint256)",
+    "bytes": "YdXôÙ½\u0017\n8\r4Òô¬«\f@æÒ'\u001eÖÞ½³þB&"
+  },
+  "0x5977ac7da54314075e44decc2bf44a760d8f7d9494f41f58da66b78b6a7d3517": {
+    "method": "whitelistSaleOpen()",
+    "bytes": "Yw¬}¥C\u0014\u0007^DÞÌ+ôJv\r}ô\u001fXÚf·j}5\u0017"
+  },
+  "0x5936b63728a4ef8ae79b0f05d84ad55796a42f2f3a15129a1d033a752e5af78c": {
+    "method": "setDoInvert(bool)",
+    "bytes": "Y6¶7(¤ïç\u000f\u0005ØJÕW¤//:\u0015\u0012\u001d\u0003:u.Z÷"
+  },
+  "0x596fa9e3753b2041902d9da0db5f4b030dcfe46dd74a5950b15652eaa01b856f": {
+    "method": "uniswapRouterV2()",
+    "bytes": "Yo©ãu; A- Û_K\u0003\rÏäm×JYP±VRê \u001bo"
+  },
+  "0x59a7715af99c7249124b1891a8b4fe73affa08bcddfd4b2546b355d0d3568f65": {
+    "method": "totalMint()",
+    "bytes": "Y§qZùrI\u0012K\u0018¨´þs¯ú\b¼ÝýK%F³UÐÓVe"
+  },
+  "0x59e8e646fbdac52bc2cf3f7b499066bfd69e205fdedda6fd21a070d2eb718509": {
+    "method": "isMinted(uint32,bytes32)",
+    "bytes": "YèæFûÚÅ+ÂÏ?{If¿Ö _ÞÝ¦ý! pÒëq\t"
+  },
+  "0x5923489b1aae4548b7cbee0fd03024eb470b1cc84fbdf8ea4af98480245043b2": {
+    "method": "ROOTxTokenAddress()",
+    "bytes": "Y#H\u001a®EH·Ëî\u000fÐ0$ëG\u000b\u001cÈO½øêJù$PC²"
+  },
+  "0x59cf337a6c81fb2240cdacc7a48ffb222e7f1d1ba2262498c4132ff87760bb8e": {
+    "method": "claimedCounter()",
+    "bytes": "YÏ3zlû\"@Í¬Ç¤û\".\u001d\u001b¢&$Ä\u0013/øw`»"
+  },
+  "0x59f19c302536bc1612f8f582f1b484ba09cedea7e4589a0e33b7005c04add4cb": {
+    "method": "changeMintLimit(uint16)",
+    "bytes": "Yñ0%6¼\u0016\u0012øõñ´º\tÎÞ§äX\u000e3·\u0000\\\u0004­ÔË"
+  },
+  "0x593d98b16b7db20896c08a4f948fcb0d80173848cd02106eba569661c5ee1df5": {
+    "method": "userHasFreeTrial(address)",
+    "bytes": "Y=±k}²\bÀOË\r\u00178HÍ\u0002\u0010nºVaÅî\u001dõ"
+  },
+  "0x590925e2a893f0a176fdca8144ecd636c76266724a0c8072fa8ba7fbd2172177": {
+    "method": "affiliateCodeToAddr(string)",
+    "bytes": "Y\t%â¨ð¡výÊDìÖ6ÇbfrJ\frú§ûÒ\u0017!w"
+  },
+  "0x5920375ccfffe923e8a0828bbe60297e15fb6285adeeaeae707d6111ffa8d8bb": {
+    "method": "thaw()",
+    "bytes": "Y 7\\Ïÿé#è ¾`)~\u0015ûb­î®®p}a\u0011ÿ¨Ø»"
+  },
+  "0x597e1edbeaad7350e22e96ef34951e0eecb5527873e84c24818bed22743d9d9b": {
+    "method": "addressMint()",
+    "bytes": "Y~\u001eÛê­sPâ.ï4\u001e\u000eìµRxsèL$í\"t="
+  },
+  "0x59de6866c0fbc6680043e4a239cc2771345c9045fccbee665bdc2e310b0051e7": {
+    "method": "unpause(bytes32,address)",
+    "bytes": "YÞhfÀûÆh\u0000Cä¢9Ì'q4\\EüËîf[Ü.1\u000b\u0000Qç"
+  },
+  "0x595882b3b55540901b45d420d19e3b25fc204dd54c1c540768fcf14e5cedbc95": {
+    "method": "mintAll()",
+    "bytes": "YX³µU@\u001bEÔ Ñ;%ü MÕL\u001cT\u0007hüñN\\í¼"
+  },
+  "0x591666bbd16cc4a0414760a96efcdf38fae0f2bd065bd4ca03eb921fc7ab3830": {
+    "method": "setInfo(address,address,address,address,address,address)",
+    "bytes": "Y\u0016f»ÑlÄ AG`©nüß8úàò½\u0006[ÔÊ\u0003ë\u001fÇ«80"
+  },
+  "0x595c6e0d465754c17eb8afc436d86e457193820a8228cc8749148f6c12f4306f": {
+    "method": "addPassportImplementation(address)",
+    "bytes": "Y\\n\rFWTÁ~¸¯Ä6ØnEq\n(ÌI\u0014l\u0012ô0o"
+  },
+  "0x59221a68d1b4ba7182403970fc9896378238b653f90081de023fb126893665d4": {
+    "method": "subscribers(uint256)",
+    "bytes": "Y\"\u001ahÑ´ºq@9pü78¶Sù\u0000Þ\u0002?±&6eÔ"
+  },
+  "0x590e1ae31a3c4dd84a5879e045f30debf7fe91e438578a7d365ef22247ef891f": {
+    "method": "refund()",
+    "bytes": "Y\u000e\u001aã\u001a<MØJXyàEó\rë÷þä8W}6^ò\"Gï\u001f"
+  },
+  "0x5900d570d40f5b6b9eef996ce0c3f136942f50bbd6511481627b81aa2e2f6f4a": {
+    "method": "drop3()",
+    "bytes": "Y\u0000ÕpÔ\u000f[kïlàÃñ6/P»ÖQ\u0014b{ª./oJ"
+  },
+  "0x5938849ad2d977a7918dd68a8326fbcfdf395757b511b45ea784bb206aba9b7f": {
+    "method": "dutchRefund()",
+    "bytes": "Y8ÒÙw§Ö&ûÏß9WWµ\u0011´^§» jº"
+  },
+  "0x59d7bc4d986f3d9fb3678108fe5cd2862739632a0b5aade4e6e057fa50cd7f2d": {
+    "method": "allowlistStartTime()",
+    "bytes": "Y×¼Mo=³g\bþ\\Ò'9c*\u000bZ­äæàWúPÍ-"
+  },
+  "0x5958621ed70bf9211d06e5b3a80620733fc3a36bf869ba465dfdfaf257a47a6c": {
+    "method": "setRewardWallet(address)",
+    "bytes": "YXb\u001e×\u000bù!\u001d\u0006å³¨\u0006 s?Ã£køiºF]ýúòW¤zl"
+  },
+  "0x5911b7c6ddb4b5ad213a8e33ba04826d76541c7871b946ebee2dbbe7e1d28767": {
+    "method": "vrp()",
+    "bytes": "Y\u0011·ÆÝ´µ­!:3º\u0004mvT\u001cxq¹Fëî-»çáÒg"
+  },
+  "0x5936cf616734dfe6952a9eb7d5ce2c01170f1299a98db04fcdd9b25848018db1": {
+    "method": "getResult(uint8,uint256)",
+    "bytes": "Y6Ïag4ßæ*·ÕÎ,\u0001\u0017\u000f\u0012©°OÍÙ²XH\u0001±"
+  },
+  "0x5979b86fb3996240ad11dde012618831bf935512b4ed4ab37606d6af8aa833cc": {
+    "method": "changetransferPrice(uint256)",
+    "bytes": "Yy¸o³b@­\u0011Ýà\u0012a1¿U\u0012´íJ³v\u0006Ö¯¨3Ì"
+  },
+  "0x5909c0d5868c889e391177acc0e30d79c2a2f0c003c81fd7fc82a420546c52da": {
+    "method": "price0CumulativeLast()",
+    "bytes": "Y\tÀÕ9\u0011w¬Àã\ryÂ¢ðÀ\u0003È\u001f×ü¤ TlRÚ"
+  },
+  "0x597428fa80a4a28436b723a0f633261bff7494d47054695b58b7156a6f8528c1": {
+    "method": "getFeeForTokens(address,address)",
+    "bytes": "Yt(ú¤¢6·# ö3&\u001bÿtÔpTi[X·\u0015jo(Á"
+  },
+  "0x59af11213b5d7e2cd6defba51ea6bfe153588e5fef4c2d621feb4abb42ccaa94": {
+    "method": "cvxFxsPoolStash()",
+    "bytes": "Y¯\u0011!;]~,ÖÞû¥\u001e¦¿áSX_ïL-b\u001fëJ»BÌª"
+  },
+  "0x590ee3468a5dcea35e49010d53d81da48877beb0388090790c2d25525a20f58c": {
+    "method": "addDSAAuth(address)",
+    "bytes": "Y\u000eãF]Î£^I\u0001\rSØ\u001d¤w¾°8y\f-%RZ õ"
+  },
+  "0x5912a5f419f3a8cbc9bfb22b2f62d70c355889a40cb8dc27951a1d241e0f3deb": {
+    "method": "setTransferGatekeeper(address)",
+    "bytes": "Y\u0012¥ô\u0019ó¨ËÉ¿²+/b×\f5X¤\f¸Ü'\u001a\u001d$\u001e\u000f=ë"
+  },
+  "0x5962919629c329b1ba3251c13caad04741529ec69151bcca5e793793d1c6324e": {
+    "method": "recovererc20Tokens(address,uint256)",
+    "bytes": "Yb)Ã)±º2QÁ<ªÐGARÆQ¼Ê^y7ÑÆ2N"
+  },
+  "0x59d3cac238aa29aa542c78eba8b2cb4a661c622eb49cea5d8b5e1fd21c7db695": {
+    "method": "ownerUpdateSellFees(uint256,uint256,uint256)",
+    "bytes": "YÓÊÂ8ª)ªT,xë¨²ËJf\u001cb.´ê]^\u001fÒ\u001c}¶"
+  },
+  "0x599ca3971bacc117f5530a4f2b56e219445bb84f7158cc8e47ead7b9dbd833f6": {
+    "method": "maxWalletPercentage()",
+    "bytes": "Y£\u001b¬Á\u0017õS\nO+Vâ\u0019D[¸OqXÌGê×¹ÛØ3ö"
+  },
+  "0x59ca6c01a86b740e299512a3a1993b0b492e5248a49d6643737a912e448c4271": {
+    "method": "setLiquidityProviders(address)",
+    "bytes": "YÊl\u0001¨kt\u000e)\u0012£¡;\u000bI.RH¤fCsz.DBq"
+  },
+  "0x59819556b08740b6b87eb511bd617044ddcee8d9fa740f3c9606929f8408c213": {
+    "method": "getMaxMintAmountPerTx()",
+    "bytes": "YV°@¶¸~µ\u0011½apDÝÎèÙút\u000f<\u0006\bÂ\u0013"
+  },
+  "0x59477dde185437c059b814d4b5b7297df60fa34616b8afddfcf0fa0e83ab1d2d": {
+    "method": "setRound1Length(uint256)",
+    "bytes": "YG}Þ\u0018T7ÀY¸\u0014Ôµ·)}ö\u000f£F\u0016¸¯Ýüðú\u000e«\u001d-"
+  },
+  "0x59030dbb3ada90b04b6a06aad85a8ba22bd18542af4449b762e5e96971b64648": {
+    "method": "addReporter(address,uint256)",
+    "bytes": "Y\u0003\r»:Ú°Kj\u0006ªØZ¢+ÑB¯DI·båéiq¶FH"
+  },
+  "0x5937f6502f823453258312ce1a76107d2b394456f9d62b196162b92e85da13fa": {
+    "method": "setRecoveryAdmin(address)",
+    "bytes": "Y7öP/4S%\u0012Î\u001av\u0010}+9DVùÖ+\u0019ab¹.Ú\u0013ú"
+  },
+  "0x59759f61d802653f0717c6b3c9953bd5b76ca844995d658ec9384a89e45bccd3": {
+    "method": "updateMaxTxLimit(uint256,uint256)",
+    "bytes": "YuaØ\u0002e?\u0007\u0017Æ³É;Õ·l¨D]eÉ8Jä[ÌÓ"
+  },
+  "0x5984c545e1faf40884f07f3b0cce4c4a3a3cd8ff90d28ed637062bfb9c98fb61": {
+    "method": "holderRoot()",
+    "bytes": "YÅEáúô\bð;\fÎLJ:<ØÿÒÖ7\u0006+ûûa"
+  },
+  "0x59105ade680027526c81af52d913213c80c81e519fb0e3fb2746f30cf859cef5": {
+    "method": "setDDay(uint256)",
+    "bytes": "Y\u0010ZÞh\u0000'Rl¯RÙ\u0013!<È\u001eQ°ãû'Fó\føYÎõ"
+  },
+  "0x59355736f5e6e9070b6933fec0c42d6df5da1833fd58bb741f8887671f05a8b1": {
+    "method": "lockedBalanceOf(address)",
+    "bytes": "Y5W6õæé\u0007\u000bi3þÀÄ-mõÚ\u00183ýX»t\u001fg\u001f\u0005¨±"
+  },
+  "0x59533d6c1035de6dbec481c689d4a6c5b2f2e145e58b298ab14f0fd30c8eef66": {
+    "method": "presaleMint()",
+    "bytes": "YS=l\u00105Þm¾ÄÆÔ¦Å²òáEå)±O\u000fÓ\fïf"
+  },
+  "0x59e82ed498a1b6c74460e8e769abee76dab6c47ebeb5b96602d1dcbdd2bf5a50": {
+    "method": "setEarlySellTime(uint256)",
+    "bytes": "Yè.Ô¡¶ÇD`èçi«îvÚ¶Ä~¾µ¹f\u0002ÑÜ½Ò¿ZP"
+  },
+  "0x59659e90b7d72df48778ef4ce96dbf37e43be5cfd59567e6502e3f9c1e4f8ec8": {
+    "method": "beacon()",
+    "bytes": "Ye·×-ôxïLém¿7ä;åÏÕgæP.?\u001eOÈ"
+  },
+  "0x59af53f4fe0782ed77249389eadd8e387dfc96a87696222ac27543804752f872": {
+    "method": "proxysynthetix_i()",
+    "bytes": "Y¯Sôþ\u0007íw$êÝ8}ü¨v\"*ÂuCGRør"
+  },
+  "0x598fa9daaf1782cbe56bc45697b7129347865b096e321c1e998efe6a46b974c9": {
+    "method": "palettes(uint8,uint256)",
+    "bytes": "Y©Ú¯\u0017ËåkÄV·\u0012G[\tn2\u001c\u001eþjF¹tÉ"
+  },
+  "0x59c5a8397db91f2fdfc3243f83046a267a10fb8fb37a1541d0dd88b59c8d5721": {
+    "method": "grep_estimate((uint256,bytes)[])",
+    "bytes": "YÅ¨9}¹\u001f/ßÃ$?\u0004j&z\u0010û³z\u0015AÐÝµW!"
+  },
+  "0x59dc7ce2df99dc899caabe28a394bce4b08c3ba664abac673cd5b8befcf68c1b": {
+    "method": "totalSharesOf(address)",
+    "bytes": "YÜ|âßÜª¾(£¼ä°;¦d«¬g<Õ¸¾üö\u001b"
+  },
+  "0x593d132ca213bc1f398b45cb5c1808e94c6930cab6ba9e0b2db9e4ecd1c0c7dc": {
+    "method": "rampA(uint256,uint256)",
+    "bytes": "Y=\u0013,¢\u0013¼\u001f9EË\\\u0018\béLi0Ê¶º\u000b-¹äìÑÀÇÜ"
+  },
+  "0x591c26646a315fa229eef04630c386b10f1566406cc415ee383cedf6ead1668a": {
+    "method": "safeClaim(address,uint256,bool)",
+    "bytes": "Y\u001c&dj1_¢)îðF0Ã±\u000f\u0015f@lÄ\u0015î8<íöêÑf"
+  },
+  "0x5971b465f6437324e2b95d6823ba9a8ca887627208acad91282bc19ca2001889": {
+    "method": "nftsForOwner()",
+    "bytes": "Yq´eöCs$â¹]h#º¨br\b¬­(+Á¢\u0000\u0018"
+  },
+  "0x5970814bb8fb52c70f74fe9114337b53a49c30ec3dda553af465d51e3aef39f1": {
+    "method": "flashAcquireCall(address,uint256,bytes)",
+    "bytes": "YpK¸ûRÇ\u000ftþ\u00143{S¤0ì=ÚU:ôeÕ\u001e:ï9ñ"
+  },
+  "0x598af9e790663e2ec4a910f5dc1004d5ec88d554e4f7184c3ed634ba7b371805": {
+    "method": "allowance(address,address,uint256)",
+    "bytes": "Yùçf>.Ä©\u0010õÜ\u0010\u0004ÕìÕTä÷\u0018L>Ö4º{7\u0018\u0005"
+  },
+  "0x5949dd470f276278a9479fd710c60d44d5bc9f67a381a6e029f4bd4ec0c07f88": {
+    "method": "rebalanceTwoData()",
+    "bytes": "YIÝG\u000f'bx©G×\u0010Æ\rDÕ¼g£¦à)ô½NÀÀ"
+  },
+  "0x59c74f292b1164a8c86e19a4748d3199943322911c288be418bf197fd6cb904d": {
+    "method": "flipMintState()",
+    "bytes": "YÇO)+\u0011d¨Èn\u0019¤t13\"\u001c(ä\u0018¿\u0019ÖËM"
+  },
+  "0x5909c12f563118c93c414c7b023969d6f0d565e99d06c4d9f3df973d294c7f45": {
+    "method": "ROOT()",
+    "bytes": "Y\tÁ/V1\u0018É<AL{\u00029iÖðÕeé\u0006ÄÙóß=)LE"
+  },
+  "0x598ee1cbd92e5674316e7be031097fb14f664fbbae57c59b3089957e87ea4a20": {
+    "method": "_setContributorCompSpeed(address,uint256)",
+    "bytes": "YáËÙ.Vt1n{à1\t±OfO»®WÅ0~êJ "
+  },
+  "0x599270448330dd891e54d5fa9bfd0615b000e459b8ceed75e02931d426be01c1": {
+    "method": "teamWallet()",
+    "bytes": "YpD0Ý\u001eTÕúý\u0006\u0015°\u0000äY¸Îíuà)1Ô&¾\u0001Á"
+  },
+  "0x5937ea6c8fdde9690c22d03a6ed9dd8a87b6a5bb9cdc7781f223da58b74a496d": {
+    "method": "treasuryFeeBPS()",
+    "bytes": "Y7êlÝéi\f\"Ð:nÙÝ¶¥»Üwò#ÚX·JIm"
+  },
+  "0x59d6d067a81763f29d49c27a2ecef7de99b3ecedaa094c81085c73fb979958df": {
+    "method": "setWarAwardTokenURI(uint256,string)",
+    "bytes": "YÖÐg¨\u0017còIÂz.Î÷Þ³ìíª\tL\b\\sûXß"
+  },
+  "0x5944c753da4f257cfd6f08125925918882e20b463e8d644361e83c3e9bcd3170": {
+    "method": "setTokenRoyalty(uint256,address,uint96)",
+    "bytes": "YDÇSÚO%|ýo\b\u0012Y%â\u000bF>dCaè<>Í1p"
+  },
+  "0x59af2ba169ca562fd51f6b3fc0f74496f08dd0d9297f2d67c718a69976908d93": {
+    "method": "tokenStyle(uint256)",
+    "bytes": "Y¯+¡iÊV/Õ\u001fk?À÷DðÐÙ)-gÇ\u0018¦v"
+  },
+  "0x590ffdce5f1ce59fd1b306d89b3b058347ff6623e6d5403c79a0a8f29cfde16e": {
+    "method": "setExcludedFromFees(address,bool)",
+    "bytes": "Y\u000fýÎ_\u001cåÑ³\u0006Ø;\u0005Gÿf#æÕ@<y ¨òýán"
+  },
+  "0x590f897ee2b5df22f7b3fa89776f1f1be695c9f7127a6246be1b2aead43f3368": {
+    "method": "_sellFee()",
+    "bytes": "Y\u000f~âµß\"÷³úwo\u001f\u001bæÉ÷\u0012zbF¾\u001b*êÔ?3h"
+  },
+  "0x597211b07f5f591965296a8be03bd915d9bf8b225ee78f9e38cb4b28b8706cd2": {
+    "method": "getAcknowledgementRate(bytes32)",
+    "bytes": "Yr\u0011°_Y\u0019e)jà;Ù\u0015Ù¿\"^ç8ËK(¸plÒ"
+  },
+  "0x5915b3a4f0b59756f4fcafde6318cc316482a7c4723bcae01d3aa45675e6a7c4": {
+    "method": "CollSurplusPool()",
+    "bytes": "Y\u0015³¤ðµVôü¯Þc\u0018Ì1d§Är;Êà\u001d:¤Vuæ§Ä"
+  },
+  "0x59a99fef52098c39408b6a30d8c2838c07a69434ac0a6a2b57db75dfc9b7062a": {
+    "method": "ethMint(bytes32,bytes32,uint256)",
+    "bytes": "Y©ïR\t9@j0ØÂ\u0007¦4¬\nj+WÛußÉ·\u0006*"
+  },
+  "0x59eda1b56969afea998e8bba53ac37f5f4b51c0efafb4ade42ffef2e08825021": {
+    "method": "toggleWhitelistSale()",
+    "bytes": "Yí¡µii¯êºS¬7õôµ\u001c\u000eúûJÞBÿï.\bP!"
+  },
+  "0x5996c6b040845a302049add0d97bca5d8231d69a3d8f6382448391866d385207": {
+    "method": "createNewPair()",
+    "bytes": "YÆ°@Z0 I­ÐÙ{Ê]1Ö=cDm8R\u0007"
+  },
+  "0x59356c5c2dc0abc08e92e810e5d64bc22a92f983868c89b6e7c801245b27794c": {
+    "method": "underlyingBalance()",
+    "bytes": "Y5l\\-À«Àè\u0010åÖKÂ*ù¶çÈ\u0001$['yL"
+  },
+  "0x598da15f22f7d0e515398a21c07bf310988657ea9a40838ffef2824504decd5e": {
+    "method": "JudasWithdraw(address,address,uint256)",
+    "bytes": "Y¡_\"÷Ðå\u00159!À{ó\u0010Wê@þòE\u0004ÞÍ^"
+  },
+  "0x5932ead11f6506b44792355840e9941f0e003fd19f87a2dfdeecf107510c1179": {
+    "method": "setCooldownEnabled(bool)",
+    "bytes": "Y2êÑ\u001fe\u0006´G5X@é\u001f\u000e\u0000?Ñ¢ßÞìñ\u0007Q\f\u0011y"
+  },
+  "0x59b8f181b35d2091471227c68eb856ad709d72c40b9ad5f46e140d970b28ebf7": {
+    "method": "LogUnlock(address,uint256,uint256)",
+    "bytes": "Y¸ñ³] G\u0012'Æ¸V­prÄ\u000bÕôn\u0014\r\u000b(ë÷"
+  },
+  "0x5930590c6997a209d2faabb2c31d1885456135181d1d51fb1cba4644cf0973a6": {
+    "method": "NewRoyaltyToken(address,address)",
+    "bytes": "Y0Y\fi¢\tÒú«²Ã\u001d\u0018Ea5\u0018\u001d\u001dQû\u001cºFDÏ\ts¦"
+  },
+  "0x5916a633ba099647c4cc4b3f8f90be4a98e823b3b8cc0b7120b70234e2290fd4": {
+    "method": "RecordTotalKlayToStKly(uint256,uint256,uint256)",
+    "bytes": "Y\u0016¦3º\tGÄÌK?¾Jè#³¸Ì\u000bq ·\u00024â)\u000fÔ"
+  },
+  "0x59dadbf6542974405b3c262294675f8dd6fb933e6e6556b04b41aaac6e42352c": {
+    "method": "MinRegistrationDurationUpdated(address,uint256)",
+    "bytes": "YÚÛöT)t@[<&\"g_Öû>neV°KAª¬nB5,"
+  },
+  "0x597262d9c149019effb55207ba032436b598e66a3ec20876b7adde4c99fe3a51": {
+    "method": "CreateMember(uint256,address,uint256)",
+    "bytes": "YrbÙÁI\u0001ÿµR\u0007º\u0003$6µæj>Â\bv·­ÞLþ:Q"
+  },
+  "0x59b3078fa4679406b27fb82ca87e44aa062a193c8a6de715f62086f7d4d478ca": {
+    "method": "BgtBoughtWhitelist(bytes32,uint256,uint256)",
+    "bytes": "Y³\u0007¤g\u0006²¸,¨~Dª\u0006*\u0019<mç\u0015ö ÷ÔÔxÊ"
+  },
+  "0x5910d3036279466bf6d6ce350e43202fbcd578543f15ef837354cb8932b56540": {
+    "method": "BatchTradeDisabledSet(bool,bool)",
+    "bytes": "Y\u0010Ó\u0003byFköÖÎ5\u000eC /¼ÕxT?\u0015ïsTË2µe@"
+  },
+  "0x59767a106a7f4c01943ffd74a4fb2d54dc8591d7708988848a8e4cb9504c2156": {
+    "method": "_RiskPoolBonused(address,address,uint256,uint256)",
+    "bytes": "Yvz\u0010jL\u0001?ýt¤û-TÜ×pL¹PL!V"
+  },
+  "0x59103cb3673f480bb6bba650108838859974ef3eac459236d03cd246f03548d3": {
+    "method": "VaultDeployed(address,address,uint64)",
+    "bytes": "Y\u0010<³g?H\u000b¶»¦P\u00108tï>¬E6Ð<ÒFð5HÓ"
+  },
+  "0x5927497611fce42d91839eabbf64893ee7e8d42f58ec50184d189f0ce1b06208": {
+    "method": "Flipped(address,bool,int256)",
+    "bytes": "Y'Iv\u0011üä-«¿d>çèÔ/XìP\u0018M\u0018\fá°b\b"
+  },
+  "0x59cf0d5e8442ab816d44cd0ebccd2033153e62a150223469988d505197fc05c3": {
+    "method": "votedEvent(uint256,bool)",
+    "bytes": "YÏ\r^B«mDÍ\u000e¼Í 3\u0015>b¡P\"4iPQü\u0005Ã"
+  },
+  "0x598cd56214a374d15f638dd04913e0288cd76c7833ee66b15cf55845d875a187": {
+    "method": "onLock(address,address,uint256,uint256,uint256)",
+    "bytes": "YÕb\u0014£tÑ_cÐI\u0013à(×lx3îf±\\õXEØu¡"
+  },
+  "0x5920aa19075b857255ebfa9082507a0461ac5e8ce1462d6ce943cd3f5c3dac57": {
+    "method": "NewCar(uint256,address)",
+    "bytes": "Y ª\u0019\u0007[rUëúPz\u0004a¬^áF-léCÍ?\\=¬W"
+  },
+  "0x59c63763a9cf2abccdc77b43ea6d322fc1e0d179371b7db510dcf8dd2ad883df": {
+    "method": "SeasonOpened(uint256,string)",
+    "bytes": "YÆ7c©Ï*¼ÍÇ{Cêm2/ÁàÑy7\u001b}µ\u0010ÜøÝ*Øß"
+  },
+  "0x5910f57b2fdae9f2f45a1d913c63f55985d0f77d120de8aab63e686ff670dde3": {
+    "method": "HopInitialized((address,address)[])",
+    "bytes": "Y\u0010õ{/ÚéòôZ\u001d<cõYÐ÷}\u0012\rèª¶>hoöpÝã"
+  },
+  "0x59df6597c4371dc714878283d853090ab55f2839b791d52d20df2aa85ebedd27": {
+    "method": "AuctionCreated(address,uint256,address,address,uint128,uint128,uint32,uint32,address[],uint32[])",
+    "bytes": "YßeÄ7\u001dÇ\u0014ØS\t\nµ_(9·Õ- ß*¨^¾Ý'"
+  },
+  "0x598f14c62f529e1525d2fe104a94dc376b2d61bcc2c233c54add6914b6653378": {
+    "method": "changeValidityTime(uint40,uint40)",
+    "bytes": "Y\u0014Æ/R\u0015%Òþ\u0010JÜ7k-a¼ÂÂ3ÅJÝi\u0014¶e3x"
+  },
+  "0x59848c59d2286985727a41f1dd5adb719d306d343b196f1cc4df52b1c0120beb": {
+    "method": "FeePctSet(uint256,uint256)",
+    "bytes": "YYÒ(irzAñÝZÛq0m4;\u0019o\u001cÄßR±À\u0012\u000bë"
+  },
+  "0x59b76e8b40f5155a82b724a1f8f5b38607c9ef860b2bdb13eab2e8f441725bdc": {
+    "method": "BurnRatePerDayChanged(uint256)",
+    "bytes": "Y·n@õ\u0015Z·$¡øõ³\u0007Éï\u000b+Û\u0013ê²èôAr[Ü"
+  },
+  "0x59c31bb593c5b09a2986862f60318542557074991f7b6b3a96bb483360ac0bc3": {
+    "method": "LossesDistributed(uint256,uint256)",
+    "bytes": "YÃ\u001bµÅ°)/`1BUpt\u001f{k:»H3`¬\u000bÃ"
+  },
+  "0x59e547544a2fb4d0045f771845dc5d5bbcb889f827ab8644ee120e142d524575": {
+    "method": "Steganography(address,uint256,uint256)",
+    "bytes": "YåGTJ/´Ð\u0004_w\u0018EÜ][¼¸ø'«Dî\u0012\u000e\u0014-REu"
+  },
+  "0x59ebf461ee723770aca36eec73a06bc363e68d778888be3a827758eee75f0031": {
+    "method": "totalIncreasedLP(uint256)",
+    "bytes": "Yëôaîr7p¬£nìs kÃcæw¾:wXîç_\u00001"
+  },
+  "0x598e2df03fa8bfce47db3fdde2169760c656316d69950bef3114209527d0c7e3": {
+    "method": "HectorBridge(address,(address,uint256,uint256,uint256)[])",
+    "bytes": "Y-ð?¨¿ÎGÛ?Ýâ\u0016`ÆV1mi\u000bï1\u0014 'ÐÇã"
+  },
+  "0x59bb7aeab425bc04bdb978afd84c92563fe2a5c98e13d543df256493b466b38c": {
+    "method": "OnResultQuestion(uint256,uint256)",
+    "bytes": "Y»zê´%¼\u0004½¹x¯ØLV?â¥É\u0013ÕCß%d´f³"
+  },
+  "0x59be7e874def7acffe303faf04903e6714699d80697bbd92f30ef9800c6e449a": {
+    "method": "PerennialLensUpdated(address)",
+    "bytes": "Y¾~MïzÏþ0?¯\u0004>g\u0014ii{½ó\u000eù\fnD"
+  },
+  "0x59ebbd9643113ac3801dc279ebb5091ba72b9ebcf8b26cbf5c4ee58c7192acbf": {
+    "method": "PricingPath(address,address[][],uint8[],uint8,address[][],uint8[],uint8)",
+    "bytes": "Yë½C\u0011:Ã\u001dÂyëµ\t\u001b§+¼ø²l¿\\Nåq¬¿"
+  },
+  "0x59b751ba677bf47c061338b2931a854027704a1e7209a1752808372621e83e4d": {
+    "method": "addLiquidityETH(address,uint256,address)",
+    "bytes": "Y·Qºg{ô|\u0006\u00138²\u001a@'pJ\u001er\t¡u(\b7&!è>M"
+  },
+  "0x59c43da6749eada2840acaf2f8359cf11dcdd78c273b7f978511d6026b68fef5": {
+    "method": "IncorrectOracleDaemonConfigKeyValue(string)",
+    "bytes": "YÄ=¦t­¢\nÊòø5ñ\u001dÍ×';\u0011Ö\u0002khþõ"
+  },
+  "0x59d56ef02cad8ec9ef1995f34bb93cffa47f2565c4cd665a20f44083d9ec6e58": {
+    "method": "mscale()",
+    "bytes": "YÕnð,­Éï\u0019óK¹<ÿ¤%eÄÍfZ ô@ÙìnX"
+  },
+  "0x59a4c24ee88f6f9a33668e7520cc201a2f9e94a3e301cd3917c301f4f15ce7ff": {
+    "method": "invoke(bytes,address,uint256,bytes)",
+    "bytes": "Y¤ÂNèo3fu Ì \u001a/£ã\u0001Í9\u0017Ã\u0001ôñ\\çÿ"
+  },
+  "0x5986af615d440bcbe10c93ce1712cde72e7e90d4b43574842abebe66d587f607": {
+    "method": "CreateFeesUpdated(address,uint256)",
+    "bytes": "Y¯a]D\u000bËá\fÎ\u0017\u0012Íç.~Ô´5t*¾¾fÕö\u0007"
+  },
+  "0x59ce1214ece77f12bd87a38dc03e52eefcb87be06b065b5eb72a0f3d2b1a4005": {
+    "method": "SwapSideToBase(uint256,uint256)",
+    "bytes": "YÎ\u0012\u0014ìç\u0012½£À>Rîü¸{àk\u0006[^·*\u000f=+\u001a@\u0005"
+  },
+  "0x5926168bbdf56f6c4d84af71d7a5ea30e1f913592bca60635781989f29d37153": {
+    "method": "BaseTokenUpdate(address,bool)",
+    "bytes": "Y&\u0016½õolM¯q×¥ê0áù\u0013Y+Ê`cW)ÓqS"
+  },
+  "0x59a348425ca066a101ee3ca477c6c6b6019b2a8e6ee78d5c5955c78edd9562a4": {
+    "method": "RewardSent(uint256,uint256,address)",
+    "bytes": "Y£HB\\ f¡\u0001î<¤wÆÆ¶\u0001*nç\\YUÇÝb¤"
+  },
+  "0x593f1d7a26ba328b20446477ca4a234f0a7e8d4aa8b0754a6cb1e16d49b0329e": {
+    "method": "LastRewardTokenBalanceDecreasedAfterTransfer(uint256,uint256)",
+    "bytes": "Y?\u001dz&º2 DdwÊJ#O\n~J¨°uJl±ámI°2"
+  },
+  "0x59eb751ccd576a071e0f0e583c441274361485081e734b7953574fafc4717c5f": {
+    "method": "LogSetTimestamp(uint256)",
+    "bytes": "Yëu\u001cÍWj\u0007\u001e\u000f\u000eX<D\u0012t6\u0014\b\u001esKySWO¯Äq|_"
+  },
+  "0x59412c34b3f71159291395e35427d7cf181efef406b9b6b6202c64b3d8abab5f": {
+    "method": "ERC20WithdrawalFailed(address,address,bytes)",
+    "bytes": "YA,4³÷\u0011Y)\u0013ãT'×Ï\u0018\u001eþô\u0006¹¶¶ ,d³Ø««_"
+  },
+  "0x5975f53157a4bb5eccdb021645d3189f35434a798d17c7173d8d6ddbeae944e9": {
+    "method": "UnstakeLex(address,address,uint256)",
+    "bytes": "Yuõ1W¤»^ÌÛ\u0002\u0016EÓ\u00185CJy\u0017Ç\u0017=mÛêéDé"
+  },
+  "0x593610f3a7d268d8594dcfac7adeb30e7909b4018038695eb44c0ad2120ef011": {
+    "method": "WorkerDepartmentUpdated(uint256,uint256)",
+    "bytes": "Y6\u0010ó§ÒhØYMÏ¬zÞ³\u000ey\t´\u00018i^´L\nÒ\u0012\u000eð\u0011"
+  },
+  "0x591b07842c1e5debb04a6b9229bce8fbedc097635febd8dfe641086290ef2094": {
+    "method": "mentorPaidEv(address,uint256,uint256,address,uint256)",
+    "bytes": "Y\u001b\u0007,\u001e]ë°Jk)¼èûíÀc_ëØßæA\bbï "
+  },
+  "0x59ccde067efab761c287c4d7f60ee334fb9b0b88e555c9417e9ec51ead33892a": {
+    "method": "UserRewardChanged(address,int256,uint256)",
+    "bytes": "YÌÞ\u0006~ú·aÂÄ×ö\u000eã4û\u000båUÉA~Å\u001e­3*"
+  },
+  "0x598150b82ea875d58e1d8f33db4ac9f8c9d57a83bda9a42d63a50ad741296df2": {
+    "method": "SwapCalculations(uint256,address)",
+    "bytes": "YP¸.¨uÕ\u001d3ÛJÉøÉÕz½©¤-c¥\n×A)mò"
+  },
+  "0x59fae3275418d7bb2e490a76651b49d5afeabe7b4d64a55da24380c48a14d799": {
+    "method": "CancelItem(uint256,address,address)",
+    "bytes": "Yúã'T\u0018×».I\nve\u001bIÕ¯ê¾{Md¥]¢CÄ\u0014×"
+  },
+  "0x5979d5133902507c02d6cdded1025d5c52454f858fc881567938458b2b1cd151": {
+    "method": "wav3sMirrorV2__PubFinished(string,string)",
+    "bytes": "YyÕ\u00139\u0002P|\u0002ÖÍÞÑ\u0002]\\REOÈVy8E+\u001cÑQ"
+  },
+  "0x594cb603c4c13a5c7e3ace523de1539d9601790bb4216c49dec6d701051bd97c": {
+    "method": "SetBurnPercentage(uint256)",
+    "bytes": "YL¶\u0003ÄÁ:\\~:ÎR=áS\u0001y\u000b´!lIÞÆ×\u0001\u0005\u001bÙ|"
+  },
+  "0x59a5f690f124ee0e97825c9bbd6c9cd7c145537238b521e60ec4cdc96210a812": {
+    "method": "ReceiveNPV(address,uint256,uint256)",
+    "bytes": "Y¥öñ$î\u000e\\½l×ÁESr8µ!æ\u000eÄÍÉb\u0010¨\u0012"
+  },
+  "0x59dbf7bd119d566f5fbe43a7ac7a181805e0f71fba8a09531854d075c936c983": {
+    "method": "SetPriceEvent(address,uint256)",
+    "bytes": "YÛ÷½\u0011Vo_¾C§¬z\u0018\u0018\u0005à÷\u001fº\tS\u0018TÐuÉ6É"
+  },
+  "0x59ffb535f3d904d6d7a0c5a03d4c9bb5c905ae89801ab878ff57d921a49866a7": {
+    "method": "WithdrawRequestIgnored(address,uint256)",
+    "bytes": "Yÿµ5óÙ\u0004Ö× Å =LµÉ\u0005®\u001a¸xÿWÙ!¤f§"
+  },
+  "0x5912bdca8760e9c37f5dbf451a64888bed6cdc601e88e8cc9b75f5129f00a501": {
+    "method": "SetFundingRateKeeper(address,address)",
+    "bytes": "Y\u0012½Ê`éÃ]¿E\u001adílÜ`\u001eèÌuõ\u0012\u0000¥\u0001"
+  },
+  "0x5966bc808bde1b7383cff5c16aae92c9d399e83bba86aed0cbd293ef7267efd6": {
+    "method": "CodeRegistered(address,string)",
+    "bytes": "Yf¼Þ\u001bsÏõÁj®ÉÓè;º®ÐËÒïrgïÖ"
+  },
+  "0x5907c907f52bfd7cd8f36651f18420d43dd7cb90b0ca54cf50d5c2f3e96c42a4": {
+    "method": "SetWhitelistSingle(address,uint256)",
+    "bytes": "Y\u0007É\u0007õ+ý|ØófQñ Ô=×Ë°ÊTÏPÕÂóélB¤"
+  },
+  "0x593fbebf6000771cf8f368b9fa5de67c518316d8ba0826894eb1604089e54f3b": {
+    "method": "SetAllowedProxy(address,bool)",
+    "bytes": "Y?¾¿`\u0000w\u001cøóh¹ú]æ|Q\u0016Øº\b&N±`@åO;"
+  },
+  "0x59557a6507835abcd6fbf39542bf701508aa276616b90b5b3e484616aab51084": {
+    "method": "AddNewRedemptionItem(address,uint256,uint256,uint256)",
+    "bytes": "YUze\u0007Z¼ÖûóB¿p\u0015\bª'f\u0016¹\u000b[>HF\u0016ªµ\u0010"
+  },
+  "0x5915dd0ceab51d6f9250fe2c8e9407fdc9107e17dc9b5ab0b0e5ff8db1859e1c": {
+    "method": "SetNewRewardManager(address,address,address)",
+    "bytes": "Y\u0015Ý\fêµ\u001doPþ,\u0007ýÉ\u0010~\u0017ÜZ°°åÿ±\u001c"
+  },
+  "0x598d552c513b9312032a44e3badcef4cf0a007f69418f5fda845828f3d407ddf": {
+    "method": "Result(uint256,bool,uint256,(uint8,uint256,(uint8,uint8,uint16,uint32,uint8),(uint32,uint16,uint16,uint16),uint32,(uint64,uint64,uint64,uint64,uint64),uint8[3],uint8[3],uint32,uint16,bool),(uint8,uint256,(uint8,uint8,uint16,uint32,uint8),(uint32,uint16,uint16,uint16),uint32,(uint64,uint64,uint64,uint64,uint64),uint8[3],uint8[3],uint32,uint16,bool),uint64,uint256)",
+    "bytes": "YU,Q;\u0012\u0003*DãºÜïLð \u0007ö\u0018õý¨E=@}ß"
+  },
+  "0x59e9a9cb89ea6c8b39917bdeb4042991de9e7e73c65a3e0d294e52d264628cb7": {
+    "method": "DeliveredByManufacturer(uint256)",
+    "bytes": "Yé©Ëêl9{Þ´\u0004)Þ~sÆZ>\r)NRÒdb·"
+  },
+  "0x59b0ca320d4e4d85aa96c127c03fb78b50d499a8ccf1987b628b97b9acb66cac": {
+    "method": "UpdateFundingRate(uint8,uint32,uint128,uint32,uint128)",
+    "bytes": "Y°Ê2\rNMªÁ'À?·PÔ¨Ìñ{b¹¬¶l¬"
+  },
+  "0x59760ad83ef06d1a0bc439d8b39a42a870493f0cd3bc3d53bbd3e7c6991f494f": {
+    "method": "VaultStarted()",
+    "bytes": "Yv\nØ>ðm\u001a\u000bÄ9Ø³B¨pI?\fÓ¼=S»ÓçÆ\u001fIO"
+  },
+  "0x592e1aea54dc9b10fafc99df081d0caf9f4198e91cd76ca8d8ac1f7ea9ca2c0e": {
+    "method": "ParlayAmmFeePerAddressChanged(address,uint256)",
+    "bytes": "Y.\u001aêTÜ\u0010úüß\b\u001d\f¯Aé\u001c×l¨Ø¬\u001f~©Ê,\u000e"
+  },
+  "0x59bb46b858e80734712bf5000669ce202a5a22eaab2071e515ca59e5e186ea9d": {
+    "method": "EarnedRedeemable(bytes32,bytes32,uint256,address)",
+    "bytes": "Y»F¸Xè\u00074q+õ\u0000\u0006iÎ *Z\"ê« qå\u0015ÊYåáê"
+  },
+  "0x5954fec746296926b0a37f6575a601a11ee096c4134ccb3fa02ee921be353cb9": {
+    "method": "LicenseReIssued(uint256,uint256)",
+    "bytes": "YTþÇF)i&°£eu¦\u0001¡\u001eàÄ\u0013LË? .é!¾5<¹"
+  },
+  "0x59feb5fde36b2fa28a8c4618f5a39e811a928eda42af7ed8ffa68bac1f87eeb3": {
+    "method": "ClaimTax(uint256,address,string)",
+    "bytes": "Yþµýãk/¢F\u0018õ£\u001aÚB¯~Øÿ¦¬\u001fî³"
+  },
+  "0x59400c8c523464b521238ea8f50e923f2bc64663557e6afec92a97f7efe92d05": {
+    "method": "OnDepositorEnter(uint256[],uint256[])",
+    "bytes": "Y@\fR4dµ!#¨õ\u000e?+ÆFcU~jþÉ*÷ïé-\u0005"
+  },
+  "0x597bc431e85f6b6461bdab516efa15d036880bda5124bc9d5b41fcfb225925d7": {
+    "method": "LaunchpadSetBaseURIEvt(bytes4,bytes4,string)",
+    "bytes": "Y{Ä1è_kda½«Qnú\u0015Ð6\u000bÚQ$¼[Aüû\"Y%×"
+  },
+  "0x5900939a29ded12b155fce6e65668bd63d409ce975135e915e2efce73c058a14": {
+    "method": "ReferedBy(uint256,address,uint256,uint32)",
+    "bytes": "Y\u0000)ÞÑ+\u0015_ÎnefÖ=@éu\u0013^^.üç<\u0005\u0014"
+  },
+  "0x599234f096ddc3ea54a2245eb0e6640c19cbe1692e33767820de25d09c772fbf": {
+    "method": "TalentRewardWithdrawal(address,address,uint256)",
+    "bytes": "Y4ðÝÃêT¢$^°æd\f\u0019Ëái.3vx Þ%Ðw/¿"
+  },
+  "0x590acbf37e1f423eeb34163cf40cc2013bbc580ef16dbb1df674633b9f7419a7": {
+    "method": "payment(string,address,uint256,uint256)",
+    "bytes": "Y\nËó~\u001fB>ë4\u0016<ô\fÂ\u0001;¼X\u000eñm»\u001dötc;t\u0019§"
+  },
+  "0x59a429bf8bc4aabf7156864e2bd8309e48e7763f22f57dee628ade472741200c": {
+    "method": "OriginsSet(uint32)",
+    "bytes": "Y¤)¿Äª¿qVN+Ø0Hçv?\"õ}îbÞG'A \f"
+  },
+  "0x597b2fd40aafb48c436a798f39bd4dde629fe0bf5c944948bc3654ed3a638ab9": {
+    "method": "FailedWithdrawMultiToken(address,address,uint256,uint256,string)",
+    "bytes": "Y{/Ô\n¯´Cjy9½MÞbà¿\\IH¼6Tí:c¹"
+  },
+  "0x595d0d60b343988150a5ceebeb922ad9c8d83d7971af40b572a2b2661d13cf80": {
+    "method": "IncreaseUnlockTime(address,uint256)",
+    "bytes": "Y]\r`³CP¥Îëë*ÙÈØ=yq¯@µr¢²f\u001d\u0013Ï"
+  },
+  "0x5901a4737a71040f66a14b2b45636c3a5e96376d112f5122b4e7879e53df2749": {
+    "method": "eUpdateSalePrice(uint256,uint256)",
+    "bytes": "Y\u0001¤szq\u0004\u000ff¡K+Ecl:^7m\u0011/Q\"´çSß'I"
+  },
+  "0x59cf409a2f5d74242f68fa52b9a6e3ab8cac337bd2f95133db97feca1144b02e": {
+    "method": "SetInsuranceFundAddress(address)",
+    "bytes": "YÏ@/]t$/húR¹¦ã«¬3{ÒùQ3ÛþÊ\u0011D°."
+  },
+  "0x597ab0ec03553e1b1690d344b831dc2142063f05375a6aed1f9348a1d6081098": {
+    "method": "ResponseRecieved(uint256,address,string)",
+    "bytes": "Yz°ì\u0003U>\u001b\u0016ÓD¸1Ü!B\u0006?\u00057Zjí\u001fH¡Ö\b\u0010"
+  },
+  "0x59801a96f812864df8994f568f36e21fc71bb88dd4e357e101b5d3c8e0c1d085": {
+    "method": "ChangeSubscriptionID(uint256)",
+    "bytes": "Y\u001aø\u0012MøOV6â\u001fÇ\u001b¸ÔãWá\u0001µÓÈàÁÐ"
+  },
+  "0x598a6c4855ea63a468ced6c36adca74decff079813f227a319da8b9e106556ca": {
+    "method": "NewEscrowContract(address,address,address,uint256)",
+    "bytes": "YlHUêc¤hÎÖÃjÜ§Mìÿ\u0007\u0013ò'£\u0019Ú\u0010eVÊ"
+  },
+  "0x59602b9dd50300b2f0f2edf5f4158014f115f83976c3a327650c35df8d84d082": {
+    "method": "Subscribe(address,uint256,address,uint256,string,uint256,address,uint256,uint256,uint256,uint256)",
+    "bytes": "Y`+Õ\u0003\u0000²ðòíõô\u0015\u0014ñ\u0015ø9vÃ£'e\f5ßÐ"
+  },
+  "0x59f6f34446345eba732d65ac10c64daca5f0023f0785c319cb0cefe6a715b451": {
+    "method": "ProjectWithdraw(address,address,address,uint256)",
+    "bytes": "YöóDF4^ºs-e¬\u0010ÆM¬¥ð\u0002?\u0007Ã\u0019Ë\fïæ§\u0015´Q"
+  },
+  "0x591cd71212b25129aadd95a97e27d1e489d281abecae41257c25ce6ad05a43d6": {
+    "method": "TokenAirdropped(address)",
+    "bytes": "Y\u001c×\u0012\u0012²Q)ªÝ©~'ÑäÒ«ì®A%|%ÎjÐZCÖ"
+  },
+  "0x59d46004309acda9aca5c4836dbc2d692b8c36a8d7b868d1050800a37b83be88": {
+    "method": "LastClaim(uint256)",
+    "bytes": "YÔ`\u00040Í©¬¥Äm¼-i+6¨×¸hÑ\u0005\b\u0000£{¾"
+  },
+  "0x5966ba39b2d82098a1853de52f716e9f448e0914fb7dbca7f441be81703c5cc9": {
+    "method": "QuoteUpdated(address,uint256)",
+    "bytes": "Yfº9²Ø ¡=å/qnD\t\u0014û}¼§ôA¾p<\\É"
+  },
+  "0x5909d8b018a6165442819e09ab233e65430d6d541a7e1e3278658ef9cea3e778": {
+    "method": "ChangedPaymentRecipient(address)",
+    "bytes": "Y\tØ°\u0018¦\u0016TB\t«#>eC\rmT\u001a~\u001e2xeùÎ£çx"
+  },
+  "0x59375cb07e7dd673897a43bd2f7725ad8daff8c598c5b586d7bf7a9d0a7ef843": {
+    "method": "devFeesUpdated(uint16,uint16,uint16)",
+    "bytes": "Y7\\°~}ÖszC½/w%­¯øÅÅµ×¿z\n~øC"
+  },
+  "0x597bbdd2d696a8f2a13733922a06e729f6f2cf3b546d9bff74b7e02ab461d9df": {
+    "method": "SoldJUICE(address,uint256,uint256)",
+    "bytes": "Y{½ÒÖ¨ò¡73*\u0006ç)öòÏ;Tmÿt·à*´aÙß"
+  },
+  "0x5968261591c9d57680edfe0bed3bb6a37ab7fb354578affd1e5be8ce18e6c9d3": {
+    "method": "ExtensionRemoved(address,bytes4,string)",
+    "bytes": "Yh&\u0015ÉÕvíþ\u000bí;¶£z·û5Ex¯ý\u001e[èÎ\u0018æÉÓ"
+  },
+  "0x595ff6bfe26d9a7903e9d22b9f9c3699f3a27a563208fa676a6d8ded0c387790": {
+    "method": "event_lockWallet(address,address,uint256,uint256,uint256)",
+    "bytes": "Y_ö¿âmy\u0003éÒ+6ó¢zV2\búgjmí\f8w"
+  },
+  "0x59d7ebb0dc809292360e39bcefca9b39be40746649af3f756cbe9a20309ab551": {
+    "method": "NFTCreatedEvent(address,uint256,string)",
+    "bytes": "Y×ë°Ü6\u000e9¼ïÊ9¾@tfI¯?ul¾ 0µQ"
+  },
+  "0x593122f12448add14ff7e822f5e3a54bb9e43f528591bfe5f748fcc61bb920b0": {
+    "method": "Invested(address,address,address,address,uint256,uint256,uint256)",
+    "bytes": "Y1\"ñ$H­ÑO÷è\"õã¥K¹ä?R¿å÷HüÆ\u001b¹ °"
+  },
+  "0x590459e5b10aa62befc0127acd17b19f7fe69f5bb5bd0998854ad78a48b92dd6": {
+    "method": "RecievedPayment(address,uint256)",
+    "bytes": "Y\u0004Yå±\n¦+ïÀ\u0012zÍ\u0017±æ[µ½\tJ×H¹-Ö"
+  },
+  "0x5913a2a1da9e820000b253b31744f5c4b17e184c6d3f19d8e9beaef994d804f8": {
+    "method": "LoginAttempt(address,bytes32)",
+    "bytes": "Y\u0013¢¡Ú\u0000\u0000²S³\u0017DõÄ±~\u0018Lm?\u0019Øé¾®ùØ\u0004ø"
+  },
+  "0x592e842214939db8e56db67254a16fb61abc3b67b6795d4268b201a5a7941f19": {
+    "method": "EventCreateSpace(uint32,address,uint32,string,string)",
+    "bytes": "Y.\"\u0014¸åm¶rT¡o¶\u001a¼;g¶y]Bh²\u0001¥§\u001f\u0019"
+  },
+  "0x596399fd56208889d92164c9dd8d06b972d8ea9edac00cd94f893e625a04286d": {
+    "method": "RemoveVerified(address)",
+    "bytes": "YcýV Ù!dÉÝ\u0006¹rØêÚÀ\fÙO>bZ\u0004(m"
+  },
+  "0x59200007defbdd8d2c9e53dd05f81091fe977b424f38f2562df9ee8725d58469": {
+    "method": "Execute(bytes32,address,uint256,uint256,uint256,uint256,uint256,bytes32)",
+    "bytes": "Y \u0000\u0007ÞûÝ,SÝ\u0005ø\u0010þ{BO8òV-ùî%Õi"
+  },
+  "0x59e2f591f61aa724c8984e092e32f4f83dcd07cbf01b88c0c79e8dd0adde8206": {
+    "method": "RenewTerm(address,uint256,uint256)",
+    "bytes": "Yâõö\u001a§$ÈN\t.2ôø=Í\u0007Ëð\u001bÀÇÐ­Þ\u0006"
+  },
+  "0x59a8aa763b3d8a20db9d61085f70bbfc335e8b0385db06c6294e3a29ff384bef": {
+    "method": "ShowAddres(address)",
+    "bytes": "Y¨ªv;= Ûa\b_p»ü3^\u0003Û\u0006Æ)N:)ÿ8Kï"
+  },
+  "0x596da59a1c816ad8d8140c5e8184a964cee626a460957b3a08ed9a60545ff9e6": {
+    "method": "AuctionStarted(uint256,address,uint256,uint256,uint64,address)",
+    "bytes": "Ym¥\u001cjØØ\u0014\f^©dÎæ&¤`{:\bí`T_ùæ"
+  },
+  "0x5940172d55285ff59d30e12714f0c8a53e32017ff4dbb84a5f6c870ef5f4de78": {
+    "method": "CollectionOfferAccepted(uint256[],address,address,uint256[])",
+    "bytes": "Y@\u0017-U(_õ0á'\u0014ðÈ¥>2\u0001ôÛ¸J_l\u000eõôÞx"
+  },
+  "0x5927266fc05093d0507312c99105199dd6680e43af497daf6e0324686f63d8c3": {
+    "method": "AuctionClosed(uint256,address,address,bool,address,address)",
+    "bytes": "Y'&oÀPÐPs\u0012É\u0005\u0019Öh\u000eC¯I}¯n\u0003$hocØÃ"
+  },
+  "0x59e1b889b92ad05213b7934a67c5d824348c868455d1c741a2cfe16e46d832dc": {
+    "method": "SupportedCoreContractAdded(address)",
+    "bytes": "Yá¸¹*ÐR\u0013·JgÅØ$4UÑÇA¢ÏánFØ2Ü"
+  },
+  "0x5954357d4870d8a09afb91f15e4c72700c4573b59867dfd60ef62affbe9747b7": {
+    "method": "Withdraw(uint256,uint256[],address)",
+    "bytes": "YT5}HpØ ûñ^Lrp\fEsµgßÖ\u000eö*ÿ¾G·"
+  },
+  "0x5957278d97fc36c292aa57ade1769c73262da2837723ef6f77c8efc5fedb39c0": {
+    "method": "TokenRestrictionUpdated(address,bool,uint256)",
+    "bytes": "YW'ü6ÂªW­ávs&-¢w#ïowÈïÅþÛ9À"
+  },
+  "0x59860d79d97c1fce2be7f987915c631471f4b08f671200463cc40a3380194ffb": {
+    "method": "RefundHeldFees(uint256,uint256,uint256,uint256,address)",
+    "bytes": "Y\ryÙ|\u001fÎ+çù\\c\u0014qô°g\u0012\u0000F<Ä\n3\u0019Oû"
+  },
+  "0x5917938e27f67a2bd21baf670e8f11b8e18eb1622a7c00d3427822c081db12ce": {
+    "method": "DexPoolSet(address,address[2],address[3])",
+    "bytes": "Y\u0017'öz+Ò\u001b¯g\u000e\u0011¸á±b*|\u0000ÓBx\"ÀÛ\u0012Î"
+  },
+  "0x59a9df409257f368092ae33aaed5ec0015bcf878e0bb29335b7add75bd9ff8b3": {
+    "method": "ValueExists(string)",
+    "bytes": "Y©ß@Wóh\t*ã:®Õì\u0000\u0015¼øxà»)3[zÝu½ø³"
+  },
+  "0x5928c654503d14009b2a94d1e4fb448e7608932869caf8bae40a13c820f124fb": {
+    "method": "UpdateDefaultBonusPool(address)",
+    "bytes": "Y(ÆTP=\u0014\u0000*ÑäûDv\b(iÊøºä\n\u0013È ñ$û"
+  },
+  "0x5904e94afd0c08e64fdc44a3fdd17d767823b72e4970a7b503881f080383a52f": {
+    "method": "EventLotteryWinner(address)",
+    "bytes": "Y\u0004éJý\f\bæOÜD£ýÑ}vx#·.Ip§µ\u0003\u001f\b\u0003¥/"
+  },
+  "0x59caddadbb2f01d35ee060a54e2aa42573c88cd8635a361914e914c69a5b10b1": {
+    "method": "CollateralCommitted(uint256,address,uint256,uint256)",
+    "bytes": "YÊÝ­»/\u0001Ó^à`¥N*¤%sÈØcZ6\u0019\u0014é\u0014Æ[\u0010±"
+  },
+  "0x59c009a9d93ae8943511e542ad2389ff6beaa04118ad25d6b8d00b9c741f1df5": {
+    "method": "Initialized(address,uint96,address,uint96)",
+    "bytes": "YÀ\t©Ù:è5\u0011åB­#ÿkê A\u0018­%Ö¸Ð\u000bt\u001f\u001dõ"
+  },
+  "0x5956094251965a24e12663de1458c0d93ae46d0299678c87fb094b82fe3f2687": {
+    "method": "ExcludedMaxWalletAmount(address,bool)",
+    "bytes": "YV\tBQZ$á&cÞ\u0014XÀÙ:äm\u0002gû\tKþ?&"
+  },
+  "0x59c0befbe3daf1752c4da9f8726090e377176c1075a83792acf77257a7dc977e": {
+    "method": "FeePolicyUpgraded(address,address)",
+    "bytes": "YÀ¾ûãÚñu,M©ør`ãw\u0017l\u0010u¨7¬÷rW§Ü~"
+  },
+  "0x59278a2f30d013dd638ffa59b915a3cf99a8bb05affbc5a817de6760464b2cf9": {
+    "method": "LogSetWhitelistedCaller(address,address,bool)",
+    "bytes": "Y'/0Ð\u0013ÝcúY¹\u0015£Ï¨»\u0005¯ûÅ¨\u0017Þg`FK,ù"
+  },
+  "0x594a7464babbe7228f7bc6e9e8dff5ea3b22bf7217f6c110765ec944fd45f003": {
+    "method": "VestingAddressSet(address)",
+    "bytes": "YJtdº»ç\"{Æéèßõê;\"¿r\u0017öÁ\u0010v^ÉDýEð\u0003"
+  },
+  "0x59da2778b791ed5f2be380282959631fc07669426505cc411dce116af076d56e": {
+    "method": "CreatePool(address,uint96,address,address)",
+    "bytes": "YÚ'x·í_+ã()Yc\u001fÀviBe\u0005ÌA\u001dÎ\u0011jðvÕn"
+  },
+  "0x59f38b165f080581da69ab8b1d0a54237d968bead33112a8e6b53db533ca69ee": {
+    "method": "MultiTransferERC20(address,address,address,uint256)",
+    "bytes": "Yó\u0016_\b\u0005Úi«\u001d\nT#}êÓ1\u0012¨æµ=µ3Êiî"
+  },
+  "0x59dea4585e1df1b7a22cafd3486f3c6080e7bd27c1450af2f11f192cb637658b": {
+    "method": "TransmuterBufferUpdated(address)",
+    "bytes": "YÞ¤X^\u001dñ·¢,¯ÓHo<`ç½'ÁE\nòñ\u001f\u0019,¶7e"
+  },
+  "0x598baf7bf150ca2f42be9e9f8f55e81d45f5715c3ff22bf46d697fabec7f31d6": {
+    "method": "Mint(uint256,uint256,address,uint256,address)",
+    "bytes": "Y¯{ñPÊ/B¾Uè\u001dEõq\\?ò+ômi«ì1Ö"
+  },
+  "0x59a1718201e8aadac9bfff8686a74c975e77fe2cb6536be7c884df05b1c0d792": {
+    "method": "AdminTypeSet(uint8)",
+    "bytes": "Y¡q\u0001èªÚÉ¿ÿ§L^wþ,¶SkçÈß\u0005±À×"
+  },
+  "0x598e9d592b510410d4e0d769e2464f72ac4e7adbf8edb052db35c4dedec914e3": {
+    "method": "SetAssetManagerWallet(address)",
+    "bytes": "YY+Q\u0004\u0010Ôà×iâFOr¬NzÛøí°RÛ5ÄÞÞÉ\u0014ã"
+  },
+  "0x5915ce15bcb00620e53f07270b1f7047e3b811b5c67f218ea0aff3142d422192": {
+    "method": "DepositInsuranceFund(uint256,uint256)",
+    "bytes": "Y\u0015Î\u0015¼°\u0006 å?\u0007'\u000b\u001fpGã¸\u0011µÆ! ¯ó\u0014-B!"
+  },
+  "0x59ce13b6ce44021bdd9403c552b1b6381680a999fb84a2a6b32eaf6e0e909414": {
+    "method": "MessageSent(uint256,uint256,uint256,string)",
+    "bytes": "YÎ\u0013¶ÎD\u0002\u001bÝ\u0003ÅR±¶8\u0016©û¢¦³.¯n\u000e\u0014"
+  },
+  "0x59cfd28c06ccc5ad22d0b2cf444c9db4bafdf3df1af5247f38573d0b902e59ae": {
+    "method": "GasRemaningAfterMint(address,address,uint256,uint256)",
+    "bytes": "YÏÒ\u0006ÌÅ­\"Ð²ÏDL´ºýóß\u001aõ$8W=\u000b.Y®"
+  },
+  "0x59e9b7bdd325b1dd9fe5b91f457f74d4b3d58263580ae84d6be1f451bbc2851f": {
+    "method": "RequestInactivateLocker(address,uint256,bytes,uint256,uint256,uint256)",
+    "bytes": "Yé·½Ó%±Ýå¹\u001fEtÔ³ÕcX\nèMkáôQ»Â\u001f"
+  },
+  "0x598b41216d6d218006c65b71316bfb4068e4d523f8b04c97613a94e0ae6ec7c6": {
+    "method": "OrderCanceled(bytes32[])",
+    "bytes": "YA!mm!\u0006Æ[q1kû@häÕ#ø°La:à®nÇÆ"
+  },
+  "0x5943d728a962f3af004623a2747c4886ff4cdde275edcaf7e73569b87cbb89c4": {
+    "method": "NewReceiverCommitted(address,address,uint256)",
+    "bytes": "YC×(©bó¯\u0000F#¢t|HÿLÝâuíÊ÷ç5i¸|»Ä"
+  },
+  "0x59b16bf8c94a0fd94bd5c030ec293d45b519b7dc85a474b840ddd20e347ff43b": {
+    "method": "SetSellFee((uint256,uint256,uint256,uint256))",
+    "bytes": "Y±køÉJ\u000fÙKÕÀ0ì)=Eµ\u0019·Ü¤t¸@ÝÒ\u000e4ô;"
+  },
+  "0x59ae2b76cb273bfa34f65922fbec7a8cd449d9180931dfe8f95f97b485cfb0f0": {
+    "method": "SniperTaxRemoved()",
+    "bytes": "Y®+vË';ú4öY\"ûìzÔIÙ\u0018\t1ßèù_´Ï°ð"
+  },
+  "0x5986ed8ae508e70d0465c74f92c94bea4465fc9386f8ea687134f04f6901f371": {
+    "method": "mWomConverted(address,uint256,uint256,bool)",
+    "bytes": "Yíå\bç\r\u0004eÇOÉKêDeüøêhq4ðOi\u0001óq"
+  },
+  "0x595b77c54af4ced17bcfba1807385267a15bcc92a3d2ad9c1f9dee9f6149f26c": {
+    "method": "DepositReInvested(address,uint256,uint256)",
+    "bytes": "Y[wÅJôÎÑ{Ïº\u0018\u00078Rg¡[Ì£Ò­\u001fîaIòl"
+  },
+  "0x59f736dc5e15c4b12526487502645403b0a4316d82eba7e9ecdc2a050c10ad27": {
+    "method": "CrossCall(bytes32,uint256,address,uint256,address,bytes)",
+    "bytes": "Y÷6Ü^\u0015Ä±%&Hu\u0002dT\u0003°¤1më§éìÜ*\u0005\f\u0010­'"
+  },
+  "0x598b9f043c813aa6be3426ca60d1c65d17256312890be5118dab55b0775ebe2a": {
+    "method": "Fee(uint16)",
+    "bytes": "Y\u0004<:¦¾4&Ê`ÑÆ]\u0017%c\u0012\u000bå\u0011«U°w^¾*"
+  },
+  "0x59cd28da69047e63affb6a6e4aded5c27a1c939c6c2ecb3b11b88174938ddfaf": {
+    "method": "SetInternalDivisors(uint256,uint256,uint256,uint256)",
+    "bytes": "YÍ(Úi\u0004~c¯ûjnJÞÕÂz\u001cl.Ë;\u0011¸tß¯"
+  },
+  "0x590f78242b486137ed0130a565e7dd5376d88cd0a3d45ce3e49634ae4af35b8d": {
+    "method": "StakeOap(address,uint256)",
+    "bytes": "Y\u000fx$+Ha7í\u00010¥eçÝSvØÐ£Ô\\ãä4®Jó["
+  },
+  "0x5978df10c42e3f27a15df5e1cd011b79e7602058b6bf6516461fba112dbb23d1": {
+    "method": "_TDISHWUpdated(bool)",
+    "bytes": "Yxß\u0010Ä.?'¡]õáÍ\u0001\u001byç` X¶¿e\u0016F\u001fº\u0011-»#Ñ"
+  },
+  "0x59534c42991562a18609fd8a196a7dd65e3ed0233dac5827565398fc2177950e": {
+    "method": "SetmarketingPercent(uint256,uint256)",
+    "bytes": "YSLB\u0015b¡\tý\u0019j}Ö^>Ð#=¬X'VSü!w\u000e"
+  },
+  "0x591917d23a7dcd9d053a32765fcdf568ace6ceb7960097b638e5495048b69b34": {
+    "method": "SwapInfo((uint256[2],address[2],address[2],uint256,string,address,uint256,uint256,string))",
+    "bytes": "Y\u0019\u0017Ò:}Í\u0005:2v_Íõh¬æÎ·\u0000¶8åIPH¶4"
+  },
+  "0x593baedd096dc584795ebf1f48e595c403b30ea49704a5e9cc9711bad40b2059": {
+    "method": "onReceived(uint256,uint256)",
+    "bytes": "Y;®Ý\tmÅy^¿\u001fHåÄ\u0003³\u000e¤\u0004¥éÌ\u0011ºÔ\u000b Y"
+  },
+  "0x598c505f54f09219ac935c0b6da96a00ad232ceb248894c73a4ffceaf9cf6d04": {
+    "method": "LegendaryMechMinted(address,uint256,uint256[])",
+    "bytes": "YP_Tð\u0019¬\\\u000bm©j\u0000­#,ë$Ç:OüêùÏm\u0004"
+  },
+  "0x59b79e718c8a6a244dc2aad91256364f73ccb464c75ff0c7a408c057d0f15c11": {
+    "method": "VotingResult(string,uint256,bool)",
+    "bytes": "Y·qj$MÂªÙ\u0012V6OsÌ´dÇ_ðÇ¤\bÀWÐñ\\\u0011"
+  },
+  "0x596a1a327de12de4aa9f47857c593618a3675a5205671269fc10fd56d8fb4d87": {
+    "method": "GLPRedemption(address,bytes32,uint256,uint256,uint256)",
+    "bytes": "Yj\u001a2}á-äªG|Y6\u0018£gZR\u0005g\u0012iü\u0010ýVØûM"
+  },
+  "0x59f20b72f83caed7d40817e7195958b4974fc690377e746a2264283e5cdcbaae": {
+    "method": "LogMSpellSenderChanged(address,address)",
+    "bytes": "Yò\u000brø<®×Ô\b\u0017ç\u0019YX´OÆ7~tj\"d(>\\Üº®"
+  },
+  "0x5906690a16d08cc3d97e140294084c924c75b0efbc60f2687ca5e641ca4cc442": {
+    "method": "UnstakedLegion(address,uint256)",
+    "bytes": "Y\u0006i\n\u0016ÐÃÙ~\u0014\u0002\bLLu°ï¼`òh|¥æAÊLÄB"
+  },
+  "0x59cb927e4d2558e355a642de3a1c7b084eefc7ff5538e5ffac587a4c94499a89": {
+    "method": "LogBeradexPerSecond(uint256)",
+    "bytes": "YË~M%XãU¦BÞ:\u001c{\bNïÇÿU8åÿ¬XzLI"
+  },
+  "0x59a9498c0a818a82f6f2f1b48b8aa13efd8765a2202a170b29fe6bfe9c7083cc": {
+    "method": "SeriesAltered(uint64,uint128,bool,bool,bool)",
+    "bytes": "Y©I\nöòñ´¡>ýe¢ *\u0017\u000b)þkþpÌ"
+  },
+  "0x59a3f269886d3e5164a5f1e2c292c20122d475aa7a1d0f79c0e46d10ff3eae38": {
+    "method": "AggregatorUpdated(address,address,uint8)",
+    "bytes": "Y£òim>Qd¥ñâÂÂ\u0001\"Ôuªz\u001d\u000fyÀäm\u0010ÿ>®8"
+  },
+  "0x5902ddbbfd2cc390dd745f1a1c43818de2a5afc45e3e3870ae6a1f7e577c54b2": {
+    "method": "ItemsCancel(uint256,address,uint8,uint256,uint256,address)",
+    "bytes": "Y\u0002Ý»ý,ÃÝt_\u001a\u001cCâ¥¯Ä^>8p®j\u001f~W|T²"
+  },
+  "0x59b9e4e6662a50774556b477ec48493162546d494d7fddffb7919ea88793729b": {
+    "method": "Upgrade(address,uint256,address,address)",
+    "bytes": "Y¹äæf*PwEV´wìHI1bTmIMÝÿ·¨r"
+  },
+  "0x592c2c74c6e030696325d0f97d59ee9837082b50b841c185cf1b17360fc2bd16": {
+    "method": "SkinEquipped(uint256,uint256)",
+    "bytes": "Y,,tÆà0ic%Ðù}Yî7\b+P¸AÁÏ\u001b\u00176\u000fÂ½\u0016"
+  },
+  "0x59d1464fd39995daccccd2ac7d0ac7b77f0cd7fb8b9dedda5ca6773c985b6913": {
+    "method": "NftTransferedToDestinationChain(address,address,string)",
+    "bytes": "YÑFOÓÚÌÌÒ¬}\nÇ·\f×ûíÚ\\¦w<[i\u0013"
+  },
+  "0x59c928e18f3687b031149d70e24ba9cea4d7977f23725da51a95c1544df02b2c": {
+    "method": "AuthorDeregistered(address,uint256)",
+    "bytes": "YÉ(á6°1\u0014pâK©Î¤×#r]¥\u001aÁTMð+,"
+  },
+  "0x59573e368c88313fb48ab777d6d0c5a866aa614468c910ca3a8ad2e96e61f587": {
+    "method": "CanceledMint(address,uint256)",
+    "bytes": "YW>61?´·wÖÐÅ¨fªaDhÉ\u0010Ê:Òénaõ"
+  },
+  "0x59ae3c34e9447e6c9676b72ba973ce1e412d1051a6da544ac93e2a07ef04259b": {
+    "method": "DelegationRevoked(address,address,address)",
+    "bytes": "Y®<4éD~lv·+©sÎ\u001eA-\u0010Q¦ÚTJÉ>*\u0007ï\u0004%"
+  },
+  "0x59b517b3a398dd3526a6a225dd84eb5720dccc0cf9b266558d2740755d6318de": {
+    "method": "ProductCreated(uint32,string,string,string,string[],string[],string[],address[])",
+    "bytes": "Yµ\u0017³£Ý5&¦¢%ÝëW ÜÌ\fù²fU'@u]c\u0018Þ"
+  },
+  "0x593a53f156119a4c4d3cb91390dcef70b9353131d4a0652f396372d5316b6b92": {
+    "method": "CampaignCompleted(address,address,uint256)",
+    "bytes": "Y:SñV\u0011LM<¹\u0013Üïp¹511Ô e/9crÕ1kk"
+  },
+  "0x591ad94447609a13ece18ee6ea2289d33d7e342667390e9d28f837934c486903": {
+    "method": "DrawMarkedAsPaid(uint32)",
+    "bytes": "Y\u001aÙDG`\u0013ìáæê\"Ó=~4&g9\u000e(ø7LHi\u0003"
+  },
+  "0x59882ec1ef104bc9b6f966f3e9745cd8759a63c5e12fcdaeb83e120bed74cab8": {
+    "method": "AuctionSettled(uint256,address,uint256,address,uint256)",
+    "bytes": "Y.Áï\u0010KÉ¶ùfóét\\ØucÅá/Í®¸>\u0012\u000bítÊ¸"
+  },
+  "0x592d88bff8edc7bf8b34d50b282ed04379b1b005ec5949cb5c690285ca46ed87": {
+    "method": "SaleStarted(uint256,uint128,uint128,uint128,uint128)",
+    "bytes": "Y-¿øíÇ¿4Õ\u000b(.ÐCy±°\u0005ìYIË\\i\u0002ÊFí"
+  },
+  "0x59dc0958e93eacc6a9afdb86deaf872e2d39e792aba237f41dd53e8b71ca330d": {
+    "method": "CommissionTransferredToVault(uint256,uint256)",
+    "bytes": "YÜ\tXé>¬Æ©¯ÛÞ¯.-9ç«¢7ô\u001dÕ>qÊ3\r"
+  },
+  "0x59224e702b73069596e87a7e091bac9b8279ab294c4225a2d912275db1e2a9de": {
+    "method": "AddD3(address)",
+    "bytes": "Y\"Np+s\u0006èz~\t\u001b¬y«)LB%¢Ù\u0012']±â©Þ"
+  },
+  "0x595095d0e3ecce661d20c6ec2ef404b6285b542cb4a9c5dc3e05cc3777e5f880": {
+    "method": "ExtensionCalled(uint256,address,uint256)",
+    "bytes": "YPÐãìÎf\u001d Æì.ô\u0004¶([T,´©ÅÜ>\u0005Ì7wåø"
+  },
+  "0x5982c40d76f99ce7f7cb2138b9af68857259da5d9da4f06ccbc884d861e8f58f": {
+    "method": "Contributed(address,address,uint256,address,uint256)",
+    "bytes": "YÄ\rvùç÷Ë!8¹¯hrYÚ]¤ðlËÈØaèõ"
+  },
+  "0x595dfcd860a4885cb3e95c3195f00f1293d5e0963c89f11d21d4a26f13405c1c": {
+    "method": "PlaceBid(address,(uint256,uint256,uint256,uint256,uint8,uint256,uint256,uint256),uint256,bytes32[],bytes32)",
+    "bytes": "Y]üØ`¤\\³é\\1ð\u000f\u0012Õà<ñ\u001d!Ô¢o\u0013@\\\u001c"
+  },
+  "0x59606f7c19dcf70cc6969f5671e89f2bd4a978609c2f5a522b79aaf715c32d8c": {
+    "method": "SetDepositor(address,address)",
+    "bytes": "Y`o|\u0019Ü÷\fÆVqè+Ô©x`/ZR+yª÷\u0015Ã-"
+  },
+  "0x59021f4b9715172acd11a87d250d4b348e3d62f70125cba91b190ab271668692": {
+    "method": "WithdrawnCheck(address,uint256)",
+    "bytes": "Y\u0002\u001fK\u0015\u0017*Í\u0011¨}%\rK4=b÷\u0001%Ë©\u001b\u0019\n²qf"
+  },
+  "0x5934befc27616aaa91360acd478971935ae306f2065b5c8417c504911a749035": {
+    "method": "DeployCoin(uint256,address,uint256)",
+    "bytes": "Y4¾ü'ajª6\nÍGqZã\u0006ò\u0006[\\\u0017Å\u0004\u001at5"
+  },
+  "0x593cc9e8b5c7ffeda8064388c1503e9d80ca1c3e39c9943b87ea17702962c18a": {
+    "method": "VoterSlashed(address,uint256,int128)",
+    "bytes": "Y<ÉèµÇÿí¨\u0006CÁP>Ê\u001c>9É;ê\u0017p)bÁ"
+  },
+  "0x5925ea9cd1b8a825a990df684ca7e1da5ce4c4dfbc2271a8470b8f2a31dcc127": {
+    "method": "TunnelQuadsMigrated(address,address,uint256[],uint256[],uint256[])",
+    "bytes": "Y%êÑ¸¨%©ßhL§áÚ\\äÄß¼\"q¨G\u000b*1ÜÁ'"
+  },
+  "0x594e93e4b4bd3208b75770075e7da811db354fbb1b69f559b67d2cba524e0fe1": {
+    "method": "NewAuctionListing(address,uint256,address,uint256,uint256)",
+    "bytes": "YNä´½2\b·Wp\u0007^}¨\u0011Û5O»\u001biõY¶},ºRN\u000fá"
+  },
+  "0x59ae8ed7b3a7e5f6dde4cff478f0ac0aa652c5edc4f4757b09a778a430b02c56": {
+    "method": "DkgParametersUpdated(uint256,uint256,uint256,uint256,uint256)",
+    "bytes": "Y®×³§åöÝäÏôxð¬\n¦RÅíÄôu{\t§x¤0°,V"
+  },
+  "0x590c2f8938903e28fd02e5ac8c79a502b21ad5973657453eea43fce3ac0b11e3": {
+    "method": "MeditationBegunWithLevel(address,uint256,uint256,uint8,uint8,uint8,address,uint16)",
+    "bytes": "Y\f/8>(ý\u0002å¬y¥\u0002²\u001aÕ6WE>êCüã¬\u000b\u0011ã"
+  },
+  "0x59f391a5828995da1c63a497a24b9f55598a04688b32eb521895836f2ccd1736": {
+    "method": "bfelsjkslefjrfi(address)",
+    "bytes": "Yó¥Ú\u001cc¤¢KUY\u0004h2ëR\u0018o,Í\u00176"
+  },
+  "0x59635f6f931a7e6b56d4a48e25f6a267c308b39887269feaa8b60aa61e546940": {
+    "method": "c(address,bytes)",
+    "bytes": "Yc_o\u001a~kVÔ¤%ö¢gÃ\b³&ê¨¶\n¦\u001eTi@"
+  },
+  "0x59b4b4cc77d1916941aa60011a4149ecc6ed0bc42a8b4f26b65536db03b95750": {
+    "method": "ETCremoval(address,string,uint256)",
+    "bytes": "Y´´ÌwÑiAª`\u0001\u001aAIìÆí\u000bÄ*O&¶U6Û\u0003¹WP"
+  },
+  "0x59c896bee5f3fe07105589e63f6894f22b4f86fc5ae33f4b35024a15fad3a384": {
+    "method": "TransferCallerNotOwnerNorApproved()",
+    "bytes": "YÈ¾åóþ\u0007\u0010Uæ?hò+OüZã?K5\u0002J\u0015úÓ£"
+  },
+  "0x59c855daf8ddf9a374a821197d72658df6193a64694dbed10780a4c2858a7c46": {
+    "method": "ItemStatusChange(uint256,uint8)",
+    "bytes": "YÈUÚøÝù£t¨!\u0019}reö\u0019:diM¾Ñ\u0007¤Â|F"
+  },
+  "0x598d57cd0422552c003d1dc66a0fea26df1ccd07bc81e5b721ca2aba3d0c61d3": {
+    "method": "VoteAdded(address,uint256,uint256)",
+    "bytes": "YWÍ\u0004\"U,\u0000=\u001dÆj\u000fê&ß\u001cÍ\u0007¼å·!Ê*º=\faÓ"
+  },
+  "0x5973e547e02a16643ab0e0e56210eb87b6f3fcb73b0686e2f7bf872c7b1dd22d": {
+    "method": "takeBuyOffer(uint256,uint256)",
+    "bytes": "YsåGà*\u0016d:°àåb\u0010ë¶óü·;\u0006â÷¿,{\u001dÒ-"
+  },
+  "0x59aa970fc55ee19b36fddba78551158cc9750f0bce362b2d1baf1632e889b5f2": {
+    "method": "ProcessCashbackBonus(address,address,uint256,address,uint256,uint256)",
+    "bytes": "Yª\u000fÅ^á6ýÛ§Q\u0015Éu\u000f\u000bÎ6+-\u001b¯\u00162èµò"
+  },
+  "0x59950fb23669ee30425f6d79758e75fae698a6c88b2982f2980638d8bcd9397d": {
+    "method": "CounterIncremented(address,uint256)",
+    "bytes": "Y\u000f²6iî0B_myuuúæ¦È)ò\u00068Ø¼Ù9}"
+  },
+  "0x59ce2f440ae94553f272f2a3b2d62465e7ae850dbc838c943b6e6461586789ad": {
+    "method": "assertion2(uint256)",
+    "bytes": "YÎ/D\néESòrò£²Ö$eç®\r¼;ndaXg­"
+  },
+  "0x59fe8f153e1537b7b7e0bb9bc805671ef7fe7556d0cfe09a79e9c3d45c36355a": {
+    "method": "ShackStolen(address,uint256)",
+    "bytes": "Yþ\u0015>\u00157··à»È\u0005g\u001e÷þuVÐÏàyéÃÔ\\65Z"
+  },
+  "0x59dc8eddd0e4c3b3e5edcba3e66b05e05549ccb37673787e9fcc50412bcd7bec": {
+    "method": "CollectionMinted(uint256,uint256,uint256,address)",
+    "bytes": "YÜÝÐäÃ³åíË£æk\u0005àUIÌ³vsx~ÌPA+Í{ì"
+  },
+  "0x59d44b46dc0c12c9b5948b7440ee0069a62126edc9886f383020d9387c29258e": {
+    "method": "TempThres(uint256)",
+    "bytes": "YÔKFÜ\f\u0012Éµt@î\u0000i¦!&íÉo80 Ù8|)%"
+  },
+  "0x5992775893a64b353bd71450a2fe1ecfeab0dce9a72e079dd3e18981bd2842c7": {
+    "method": "ChildCreatedERC(uint256,string[],address,string,string,uint256,uint256,uint256,uint256,string,string,string,string[])",
+    "bytes": "YwX¦K5;×\u0014P¢þ\u001eÏê°Üé§.\u0007Óá½(BÇ"
+  },
+  "0x591a3960c078199e4815bfc7b5aae48fcff15b2f80f280196364d6985af30509": {
+    "method": "BidForItemCreated(uint256,uint256,address)",
+    "bytes": "Y\u001a9`Àx\u0019H\u0015¿ÇµªäÏñ[/ò\u0019cdÖZó\u0005\t"
+  },
+  "0x59342f37bbe328989d4544aa529afa5123258789bf79274601059e4f8a0089ef": {
+    "method": "CreatedNTF(uint256,string)",
+    "bytes": "Y4/7»ã(EDªRúQ#%¿y'F\u0001\u0005O\u0000ï"
+  },
+  "0x59943dc7329fdfb15044f95cef4cae4efe6e3b1b8a4e0858bf7f7f3515090f35": {
+    "method": "CollectInVault(uint256,uint256,uint256)",
+    "bytes": "Y=Ç2ß±PDù\\ïL®Nþn;\u001bN\bX¿5\u0015\t\u000f5"
+  },
+  "0x59b534925125887340804630cf057f6f1941101643f68c992ea7d7b485aef4d8": {
+    "method": "BettorWin(address,uint256[],uint256)",
+    "bytes": "Yµ4Q%s@F0Ï\u0005o\u0019A\u0010\u0016Cö.§×´®ôØ"
+  },
+  "0x5969577bf6f4987405b1b96d4befc9640937c66daecacf6c60cfb86ab4124b96": {
+    "method": "Claimed(uint256[],bool,uint256)",
+    "bytes": "YiW{öôt\u0005±¹mKïÉd\t7Æm®ÊÏl`Ï¸j´\u0012K"
+  },
+  "0x592b2f187d6b829c23a3e5807080ce1c3d87c66eb9c75feae434c11ba360fa64": {
+    "method": "HPDSReserved()",
+    "bytes": "Y+/\u0018}k#£åpÎ\u001c=Æn¹Ç_êä4Á\u001b£`úd"
+  },
+  "0x597498f61d783423994a25d29d5e4e0d7c80858cb52c108752727ecfa8c0e163": {
+    "method": "ReserveFactorChanged(address,uint16)",
+    "bytes": "Ytö\u001dx4#J%Ò^N\r|µ,\u0010Rr~Ï¨Àác"
+  },
+  "0x5986ce68bd6db3736471e5c041a791454b1176f6685a14c115bf4e253410b424": {
+    "method": "TransferDetails(uint256,bool,bool,uint256,uint256,uint256,uint256,uint256)",
+    "bytes": "YÎh½m³sdqåÀA§EK\u0011vöhZ\u0014Á\u0015¿N%4\u0010´$"
+  },
+  "0x59496f7b2d2a6e57c809c6c287bca2bac5be9da9b12c186229a1f30acde7e239": {
+    "method": "USER_ADDED(address,string,string,uint256)",
+    "bytes": "YIo{-*nWÈ\tÆÂ¼¢ºÅ¾©±,\u0018b)¡ó\nÍçâ9"
+  },
+  "0x59bd215ae9ea7892e4b60fad1a552a48401b4f2bc119fc9dbb74bca7f0116583": {
+    "method": "WaitingEndorsement(uint256,address)",
+    "bytes": "Y½!Zéêxä¶\u000f­\u001aU*H@\u001bO+Á\u0019ü»t¼§ð\u0011e"
+  },
+  "0x5923accbb997a2b86f0de6d443ae0e24d36904ef4f131281474d983195eb94ad": {
+    "method": "MinotaurRevealed(uint256)",
+    "bytes": "Y#¬Ë¹¢¸o\ræÔC®\u000e$Ói\u0004ïO\u0013\u0012GM1ë­"
+  },
+  "0x59681b67a39ef74505e6241cb93a43b64b5b64e5d196d71857193e63922f2569": {
+    "method": "SetScheduleFee(uint256)",
+    "bytes": "Yh\u001bg£÷E\u0005æ$\u001c¹:C¶K[dåÑ×\u0018W\u0019>c/%i"
+  },
+  "0x59b9b722dcf5ec44bb53558812f4144d376fc77ddfdc6906c11cc409868b81c8": {
+    "method": "ImgprovenanceisLocked(string)",
+    "bytes": "Y¹·\"ÜõìD»SU\u0012ô\u0014M7oÇ}ßÜi\u0006Á\u001cÄ\tÈ"
+  },
+  "0x591a85580405960102af5336f54cfd592384820d42284ce34be80e27b2fc7745": {
+    "method": "Registration(bytes20,bytes4)",
+    "bytes": "Y\u001aX\u0004\u0005\u0001\u0002¯S6õLýY#\rB(LãKè\u000e'²üwE"
+  },
+  "0x594e12bc13570d9a431deba044cbad174e3703e8a5c0c99756f76a2947448bdb": {
+    "method": "NumberProvided(bytes32,uint256)",
+    "bytes": "YN\u0012¼\u0013W\rC\u001dë DË­\u0017N7\u0003è¥ÀÉV÷j)GDÛ"
+  },
+  "0x59cc612b846241474b64ca8e97c6085c4b14cbec2f679765ac47c89895be7860": {
+    "method": "Approved(string,bytes32)",
+    "bytes": "YÌa+bAGKdÊÆ\b\\K\u0014Ëì/ge¬GÈ¾x`"
+  },
+  "0x591416ecb543884e32fe6a68efdd47879dff1ff65d819a825305721c5c7bbec7": {
+    "method": "MarketItemCreated(uint256,address,uint256,address,address,uint256,uint256,address)",
+    "bytes": "Y\u0014\u0016ìµCN2þjhïÝGÿ\u001fö]S\u0005r\u001c\\{¾Ç"
+  },
+  "0x59c4d03c7105f8723b327d65496694a6cf5b56415defd70fdc8e987ee55519db": {
+    "method": "PlayerBeingShot(address,uint256)",
+    "bytes": "YÄÐ<q\u0005ør;2}eIf¦Ï[VA]ï×\u000fÜ~åU\u0019Û"
+  },
+  "0x597420e337ed1b8efa3e8523168274d8b25dcbbfedf673010ce496fd1719d084": {
+    "method": "TokenBought(address,uint256,uint256,string,bytes32)",
+    "bytes": "Yt ã7í\u001bú>#\u0016tØ²]Ë¿íös\u0001\fäý\u0017\u0019Ð"
+  },
+  "0x591e47b9ff326b6cefec30161f2b7ae38c1877cc4dce3cd18ddf676996b9eaa5": {
+    "method": "StableFarmingPoolUpdated(uint256,uint256,uint256)",
+    "bytes": "Y\u001eG¹ÿ2klïì0\u0016\u001f+zã\u0018wÌMÎ<Ñßgi¹ê¥"
+  },
+  "0x5977599f84c7560300f76907ca57f2836924cfc767d2ad830b3d15ba7a380a88": {
+    "method": "RecordPressed__721(address)",
+    "bytes": "YwYÇV\u0003\u0000÷i\u0007ÊWòi$ÏÇgÒ­\u000b=\u0015ºz8\n"
+  },
+  "0x59f05cac56cf222b71ab15d82828476f0b7a4645904aa575ff7664062e222a1f": {
+    "method": "Public(bool)",
+    "bytes": "Yð\\¬VÏ\"+q«\u0015Ø((Go\u000bzFEJ¥uÿvd\u0006.\"*\u001f"
+  },
+  "0x59053dd3c73bca2dc6a0544c8e87b7c6c9bb4194143f60546ed55857b0e9ffaa": {
+    "method": "RecoverRewards(uint256,uint256)",
+    "bytes": "Y\u0005=ÓÇ;Ê-Æ TL·ÆÉ»A\u0014?`TnÕXW°éÿª"
+  },
+  "0x599cca7c0d636819ca3833dcdbcd266536199c19522d35eb59e13d07f1041770": {
+    "method": "LogSetBlackListProtocol(uint16,address)",
+    "bytes": "YÊ|\rch\u0019Ê83ÜÛÍ&e6\u0019\u0019R-5ëYá=\u0007ñ\u0004\u0017p"
+  },
+  "0x591accc095a8fff040fad602843fec6b429d0a148dc9dd6490d0589c1859926c": {
+    "method": "Presale(address,address,uint256)",
+    "bytes": "Y\u001aÌÀ¨ÿð@úÖ\u0002?ìkB\n\u0014ÉÝdÐX\u0018Yl"
+  },
+  "0x59914f3fbe8bd5f7a8fd9bbe99dffb72f5a0c8779c7bd2750ccaa5dd09a49f0d": {
+    "method": "LogAuctionCanceled(uint256)",
+    "bytes": "YO?¾Õ÷¨ý¾ßûrõ Èw{Òu\fÊ¥Ý\t¤\r"
+  },
+  "0x597f62707fb7db9daf13c1150187d3d5a460952b85588a6f94d5b526e65bb426": {
+    "method": "PresaleMint(address,uint256,uint256,uint256)",
+    "bytes": "Ybp·Û¯\u0013Á\u0015\u0001ÓÕ¤`+XoÕµ&æ[´&"
+  },
+  "0x597db8b2b41f375cd0af4358214d75120c42a89daa0b8bfa08c44f896d43bf56": {
+    "method": "URIsAdded(uint256,uint256,uint256)",
+    "bytes": "Y}¸²´\u001f7\\Ð¯CX!Mu\u0012\fB¨ª\u000bú\bÄOmC¿V"
+  },
+  "0x5927bd6559cba571487c7862625e60b915f036304f016658267dcb310aa10e79": {
+    "method": "PoolUpdated(address,uint256,address,uint256,uint16,uint16)",
+    "bytes": "Y'½eYË¥qH|xbb^`¹\u0015ð60O\u0001fX&}Ë1\n¡\u000ey"
+  },
+  "0x59b80aa901783ab6f180a4540267a4a316a93b2e381c26b890d4527d2646c34c": {
+    "method": "SaleStateUpdate()",
+    "bytes": "Y¸\n©\u0001x:¶ñ¤T\u0002g¤£\u0016©;.8\u001c&¸ÔR}&FÃL"
+  },
+  "0x59a8c992b4963da5e4108e1cdd9ff4faaeee0a8428477cb629865dcfaf55d7cf": {
+    "method": "PublicPartyCreated(uint256,uint256,uint256)",
+    "bytes": "Y¨É´=¥ä\u0010\u001cÝôú®î\n(G|¶)]Ï¯U×Ï"
+  },
+  "0x59190d313c4ed1bd8d5c2780c1f439fc79c648ce7e5f6f2457ba3c10e8a45675": {
+    "method": "AddConsumer(address)",
+    "bytes": "Y\u0019\r1<NÑ½\\'Áô9üyÆHÎ~_o$Wº<\u0010è¤Vu"
+  },
+  "0x5983dbc608d463639962272272a1768727afbeefd85d046dfb0b13ee85f10512": {
+    "method": "LOANClaimed(uint256)",
+    "bytes": "YÛÆ\bÔccb'\"r¡v'¯¾ïØ]\u0004mû\u000b\u0013îñ\u0005\u0012"
+  },
+  "0x594ec7b44a013d8f9acb28d0b57d742a9367c7c8601838741bfee9d115e863ec": {
+    "method": "CreateDao(address,string,string,address)",
+    "bytes": "YNÇ´J\u0001=Ë(Ðµ}t*gÇÈ`\u00188t\u001bþéÑ\u0015ècì"
+  },
+  "0x59e37b7da6b2d98a6501a9de41cd81aafe76c61168ea59886662e11a1ab610cd": {
+    "method": "NewFirstNFT(address,uint256)",
+    "bytes": "Yã{}¦²Ùe\u0001©ÞAÍªþvÆ\u0011hêYfbá\u001a\u001a¶\u0010Í"
+  },
+  "0x5949c3cfdfe918364197142d5072940e053b5a639544c356aa59ed16e1b8c9fa": {
+    "method": "Auction(uint256,address,uint256,uint256,uint256,uint256)",
+    "bytes": "YIÃÏßé\u00186A\u0014-Pr\u000e\u0005;ZcDÃVªYí\u0016á¸Éú"
+  },
+  "0x5931a93eeea518d0bc5077cf5bc1c1862e0277a160701fec6383d09edf305fbd": {
+    "method": "FlashLoan(address,uint256,address)",
+    "bytes": "Y1©>î¥\u0018Ð¼PwÏ[ÁÁ.\u0002w¡`p\u001fìcÐß0_½"
+  },
+  "0x595db7d4507294948b4aef69fed3b53f432d249b1d7eab11f15d901776e94dde": {
+    "method": "DistributionTimeSet(uint256)",
+    "bytes": "Y]·ÔPrJïiþÓµ?C-$\u001d~«\u0011ñ]\u0017véMÞ"
+  },
+  "0x59947b80568bcefcf96a9a2061cd82e808a7f3050c394d532f3701c6ebbaa5a1": {
+    "method": "AddressSet(bytes32,address,bool,bytes)",
+    "bytes": "Y{VÎüùj aÍè\b§ó\u0005\f9MS/7\u0001Æëº¥¡"
+  },
+  "0x59f5006b3362147e0c072986a2367a55b44f39e9f2b42f7a3360dcd4a8d8c218": {
+    "method": "CreatePortfolio(address,address)",
+    "bytes": "Yõ\u0000k3b\u0014~\f\u0007)¢6zU´O9éò´/z3`ÜÔ¨ØÂ\u0018"
+  },
+  "0x592c61c5293542ec05642985249f6959dd71f17df2104d20b833070e013a9cdc": {
+    "method": "RecordedData(address,string,string)",
+    "bytes": "Y,aÅ)5Bì\u0005d)$iYÝqñ}ò\u0010M ¸3\u0007\u000e\u0001:Ü"
+  },
+  "0x5941faf59631407c5b6f1cae6e59f2fbc63ecdafc6f7340c51e37cff1c006de0": {
+    "method": "UpdatedJurisdictionImplementation(address)",
+    "bytes": "YAúõ1@|[o\u001c®nYòûÆ>Í¯Æ÷4\fQã|ÿ\u001c\u0000mà"
+  },
+  "0x59e1c055b11194dcdfb37c0c467e84048c0a2931342ec169e6a5cc48009a8151": {
+    "method": "statusChanged(bool)",
+    "bytes": "YáÀU±\u0011Üß³|\fF~\u0004\n)14.Áiæ¥ÌH\u0000Q"
+  },
+  "0x5902c17a20cbd7498a879e9576845a1599c3d103c8bccf59957d1370a569f2c3": {
+    "method": "A2()",
+    "bytes": "Y\u0002Áz Ë×IvZ\u0015ÃÑ\u0003È¼ÏY}\u0013p¥iòÃ"
+  },
+  "0x5970e59782378dab7fb956efea2e82ea8184f7c20831fdc0f18c7462e31d271a": {
+    "method": "UpdateCompanyImplementation(address)",
+    "bytes": "Ypå7«¹Vïê.ê÷Â\b1ýÀñtbã\u001d'\u001a"
+  },
+  "0x59255107a227197b9463edbf1d0859fb8c767bf3ba0acfcf5c63f7c544c8366d": {
+    "method": "StakeOperator(uint256,uint256,uint256)",
+    "bytes": "Y%Q\u0007¢'\u0019{cí¿\u001d\bYûv{óº\nÏÏ\\c÷ÅDÈ6m"
+  },
+  "0x59b2b3bf2d66a1a145ea740e645a94e8d688f328eba6a1cf884eac065d41cc27": {
+    "method": "ProtocolBalanceWithdrawn(bytes32,uint256)",
+    "bytes": "Y²³¿-f¡¡Eêt\u000edZèÖó(ë¦¡ÏN¬\u0006]AÌ'"
+  },
+  "0x59b5e84a232a066482fa1507750cc3939c44852a208ee6394f9d06cf04acbb70": {
+    "method": "NFTWeightChanged(address,uint256,uint256)",
+    "bytes": "YµèJ#*\u0006dú\u0015\u0007u\fÃD* æ9O\u0006Ï\u0004¬»p"
+  },
+  "0x59eb56f0aaebc4c2e1de6e254bc52af79350363a072c9ef59851f0d0861a9642": {
+    "method": "LotteryWin(address,uint256)",
+    "bytes": "YëVðªëÄÂáÞn%KÅ*÷P6:\u0007,õQðÐ\u001aB"
+  },
+  "0x59c807912a77d461f73cc87531567d96f203e6d0df07036b05748a7c1ba627f5": {
+    "method": "SetUpgradeLevelContract(address,address)",
+    "bytes": "YÈ\u0007*wÔa÷<Èu1V}ò\u0003æÐß\u0007\u0003k\u0005t|\u001b¦'õ"
+  },
+  "0x59e23820638b3c0fb85295504b586640cea22fe803c231a689e666ff5b7b1777": {
+    "method": "TemporaryTransfer(bytes32,address,address,uint256)",
+    "bytes": "Yâ8 c<\u000f¸RPKXf@Î¢/è\u0003Â1¦æfÿ[{\u0017w"
+  },
+  "0x5992be17a5a9f2a18327d1b482135cc899ae7556bca7615074ea28984f4738f2": {
+    "method": "MinBridgeOutUpdated(address,uint256)",
+    "bytes": "Y¾\u0017¥©ò¡'Ñ´\u0013\\È®uV¼§aPtê(OG8ò"
+  },
+  "0x59751f0f2a1f9c927e9c573fdb11feb6eb18f6cd7e78f037a45f2b7579b38955": {
+    "method": "number(uint8)",
+    "bytes": "Yu\u001f\u000f*\u001f~W?Û\u0011þ¶ë\u0018öÍ~xð7¤_+uy³U"
+  },
+  "0x599999e3b1327df96cf7ac756ceaa3efbb71b2f020d3ec9b3fc0a30104a9af8f": {
+    "method": "Sold(address,uint256,uint256,address,address)",
+    "bytes": "Yã±2}ùl÷¬ulê£ï»q²ð Óì?À£\u0001\u0004©¯"
+  },
+  "0x592e21b1d67f8a8b1879f52558e1b0d6d9418827943b8056f0396b303460dc42": {
+    "method": "SetAddress(uint256,bytes32,address)",
+    "bytes": "Y.!±Ö\u0018yõ%Xá°ÖÙA';Vð9k04`ÜB"
+  },
+  "0x59079b479806a05dde3d4780015810825149d74c59c2be9211f1c6515a93e500": {
+    "method": "StartingBlockSet(uint256,uint256)",
+    "bytes": "Y\u0007G\u0006 ]Þ=G\u0001X\u0010QI×LYÂ¾\u0011ñÆQZå\u0000"
+  },
+  "0x599e8e456396e530d5a56b7f5cb524182e0633bf96a0b23c91963ce434adbfa2": {
+    "method": "EventBuyInNative(address,uint256[],uint256,uint256)",
+    "bytes": "YEcå0Õ¥k\\µ$\u0018.\u00063¿ ²<<ä4­¿¢"
+  },
+  "0x598c43cfe1bc727b7f402bcab02094c4cca4ba26e134d0921980c2b3cc726ff5": {
+    "method": "EndedAuction(uint256,uint256,address,uint256)",
+    "bytes": "YCÏá¼r{@+Ê° ÄÌ¤º&á4Ð\u0019Â³Ìroõ"
+  },
+  "0x59067e7b528f0e8a322033002f724cf734c75dfebd48337c30ddc8dc943d4d8a": {
+    "method": "GalleonMinted(uint256)",
+    "bytes": "Y\u0006~{R\u000e2 3\u0000/rL÷4Ç]þ½H3|0ÝÈÜ=M"
+  },
+  "0x598ffd60ec9bb38570a25161327ab4139506a1b2690358db19d00b0c8f93e8cb": {
+    "method": "DeveloperWithdraw(address,uint256)",
+    "bytes": "Yý`ì³p¢Qa2z´\u0013\u0006¡²i\u0003XÛ\u0019Ð\u000b\fèË"
+  },
+  "0x5950dd7ec9fb6a378ea1675783f953576cf3f618c4416b45306972f43a53492c": {
+    "method": "SingleLog(string)",
+    "bytes": "YPÝ~Éûj7¡gWùSWlóö\u0018ÄAkE0irô:SI,"
+  },
+  "0x5997714d6a2f56fef41ae8ed89ea7cb894b3070342141e478e19f86bd54debd6": {
+    "method": "SetMaxTxAmount(address,uint256)",
+    "bytes": "YqMj/Vþô\u001aèíê|¸³\u0007\u0003B\u0014\u001eG\u0019økÕMëÖ"
+  },
+  "0x5968bbb803eff2257e522072675cbdfd4df22fd17846580b0e24a02c481c3520": {
+    "method": "OnSetForSaleWithGoalPrice(address,uint256,bool,uint256,uint256)",
+    "bytes": "Yh»¸\u0003ïò%~R rg\\½ýMò/ÑxFX\u000b\u000e$ ,H\u001c5 "
+  },
+  "0x59e7c31ec0377fbe69b55bfcecb50b1ceea30b42d2dab8097fb49aa042e08270": {
+    "method": "DestroyCachedHToken(address)",
+    "bytes": "YçÃ\u001eÀ7¾iµ[üìµ\u000b\u001cî£\u000bBÒÚ¸\t´ Bàp"
+  },
+  "0x597957c4a9b7a19bb3487a9ce814c1df39043c0f7ad4f3c52fe44fdc218d85a3": {
+    "method": "NewOfferCreated(address,uint256,uint256,uint256,uint256,address,address,uint256,uint256)",
+    "bytes": "YyWÄ©·¡³Hzè\u0014Áß9\u0004<\u000fzÔóÅ/äOÜ!£"
+  },
+  "0x590656246c38fffca41d636426cb61c3dce5faa0a4e1b4fb773fb3d131b7e459": {
+    "method": "OpenTradeToAuction(address,uint256,uint256)",
+    "bytes": "Y\u0006V$l8ÿü¤\u001dcd&ËaÃÜåú ¤á´ûw?³Ñ1·äY"
+  },
+  "0x5962a9a131c5d23fef3c429c2bfa8828d1044acaa603694fad153ab04d01518d": {
+    "method": "SemiMinted(address,address,address,uint256,uint256)",
+    "bytes": "Yb©¡1ÅÒ?ï<B+ú(Ñ\u0004JÊ¦\u0003iO­\u0015:°M\u0001Q"
+  },
+  "0x590138e25b7f50564a5864713fcd3a35543ba232f91f5d8f1314eff020b4703d": {
+    "method": "ChainLinkOracleSet(address)",
+    "bytes": "Y\u00018â[PVJXdq?Í:5T;¢2ù\u001f]\u0013\u0014ïð ´p="
+  },
+  "0x594a48269e2d835ac2cc38e240cb7a3e5e5d440ec761911b469dadad2de2b35e": {
+    "method": "RequestedTokenURI(uint256)",
+    "bytes": "YJH&-ZÂÌ8â@Ëz>^]D\u000eÇa\u001bF­­-â³^"
+  },
+  "0x59e598e9ac8f1ab7943ca08671badb8c156340ec3f7f3058873d4979736faf1b": {
+    "method": "collectLog(address[],uint256[])",
+    "bytes": "Yåé¬\u001a·< qºÛ\u0015c@ì?0X=Iyso¯\u001b"
+  },
+  "0x5931a26aea03b2c0e9a12fcf8531853b1cae4d054ea224f50dc5c6558f605dd8": {
+    "method": "SetWhiteSaleActive(bool,uint256)",
+    "bytes": "Y1¢jê\u0003²Àé¡/Ï1;\u001c®M\u0005N¢$õ\rÅÆU`]Ø"
+  },
+  "0x59889dc2ab19bcf26c70fefe26e88573aa33eba0b8b30d89beb6af8ce75f8533": {
+    "method": "ToMint(address,uint256)",
+    "bytes": "YÂ«\u0019¼òlpþþ&èsª3ë ¸³\r¾¶¯ç_3"
+  },
+  "0x59022fe9122dd449d0c3f09ad384df3b5dcbd7a7be43167decfa252abec83cb6": {
+    "method": "configRejected(uint8,uint256,uint256)",
+    "bytes": "Y\u0002/é\u0012-ÔIÐÃðÓß;]Ë×§¾C\u0016}ìú%*¾È<¶"
+  },
+  "0x59a4e309cd3c7f98315488513a3da43b21f9eddcefff7a103b5c4f14ffd01503": {
+    "method": "pathAltered(address,address)",
+    "bytes": "Y¤ã\tÍ<1TQ:=¤;!ùíÜïÿz\u0010;\\O\u0014ÿÐ\u0015\u0003"
+  },
+  "0x598fd268e99b604116465674a153b3bdc4953c6408475d6a80c6ed29289923fe": {
+    "method": "UnlistItemWithToken(address,uint256)",
+    "bytes": "YÒhé`A\u0016FVt¡S³½Ä<d\bG]jÆí)(#þ"
+  },
+  "0x590ab5b12cd1334c437a7bcbb192d911515bf29445a318a8b6327c889f485538": {
+    "method": "LogSettings(uint256,uint256,uint256,bool)",
+    "bytes": "Y\nµ±,Ñ3LCz{Ë±Ù\u0011Q[òE£\u0018¨¶2|HU8"
+  },
+  "0x592c936ba78f2fb81c87f6b616d15a6e4894291520c3b3787b7fa105f05f2b02": {
+    "method": "PeriodSwitched(uint256)",
+    "bytes": "Y,k§/¸\u001cö¶\u0016ÑZnH)\u0015 Ã³x{¡\u0005ð_+\u0002"
+  },
+  "0x5958b5de3d52d2c5e3f755bc586fe5edb3df7d47513a6cb4e077ff6136dc156e": {
+    "method": "LogWithdraw(string,address,address,address,uint256,uint256)",
+    "bytes": "YXµÞ=RÒÅã÷U¼Xoåí³ß}GQ:l´àwÿa6Ü\u0015n"
+  },
+  "0x59ec461f6bfadd522403b2a7df5da4096e64811410c174436afefd7db88b0129": {
+    "method": "ArtworkSealed(uint256)",
+    "bytes": "YìF\u001fkúÝR$\u0003²§ß]¤\tnd\u0014\u0010ÁtCjþý}¸\u0001)"
+  },
+  "0x599c236efc4262ea022de8ec69e20c5bf0c0907c98fedf8cafc04d72e6bca6a3": {
+    "method": "SignerAdded(uint256,address)",
+    "bytes": "Y#nüBbê\u0002-èìiâ\f[ðÀ|þß¯ÀMræ¼¦£"
+  },
+  "0x5998345ff8c821b7770de134c2d1e7da3480a1e24f6049877d091850f9a5e1f9": {
+    "method": "SetArcadiumRouter(address,address)",
+    "bytes": "Y4_øÈ!·w\rá4ÂÑçÚ4¡âO`I}\t\u0018Pù¥áù"
+  },
+  "0x597de9e7e8664f242c6878660e62c532d9ba0e5b194edb95152d14b2334db476": {
+    "method": "ItemDestroyed(uint256)",
+    "bytes": "Y}éçèfO$,hxf\u000ebÅ2Ùº\u000e[\u0019NÛ\u0015-\u0014²3M´v"
+  },
+  "0x59c6516f6bb6e71030d93d9e5e1b13d897d11db4ac071204d8764334e19b880e": {
+    "method": "Burnt(uint256,uint256,uint256,address,uint256)",
+    "bytes": "YÆQok¶ç\u00100Ù=^\u001b\u0013ØÑ\u001d´¬\u0007\u0012\u0004ØvC4á\u000e"
+  },
+  "0x596987f5182ab76662cbd59e1b4b23b4a598eef46775ab1fec454620faeb910e": {
+    "method": "TaquitoMintError(bytes)",
+    "bytes": "Yiõ\u0018*·fbËÕ\u001bK#´¥îôgu«\u001fìEF úë\u000e"
+  },
+  "0x59d7b1e52008dc342c9421dadfc773114b914a65682a4e4b53cf60a970df0d77": {
+    "method": "MarketRemoved(address)",
+    "bytes": "Y×±å \bÜ4,!ÚßÇs\u0011KJeh*NKSÏ`©pß\rw"
+  },
+  "0x592cf017da01b37dd85fca620d2812add97cbc9d5df28702e65fd7e77d969379": {
+    "method": "BuyAsk(uint256,address,uint256)",
+    "bytes": "Y,ð\u0017Ú\u0001³}Ø_Êb\r(\u0012­Ù|¼]ò\u0002æ_×ç}y"
+  },
+  "0x5931885664ced0fc957b95fd35371c3c697206227661a39137f7667acb23400f": {
+    "method": "BridgeTo(uint16,bytes,uint256)",
+    "bytes": "Y1VdÎÐü{ý57\u001c<ir\u0006\"va£7÷fzË#@\u000f"
+  },
+  "0x59cff797773a13d5269a5bb23cdc636f102c95002a8305e19db9a255211cf821": {
+    "method": "AddressChanged(bytes32,address,address)",
+    "bytes": "YÏ÷w:\u0013Õ&[²<Üco\u0010,\u0000*\u0005á¹¢U!\u001cø!"
+  },
+  "0x599d2f02949598ce915333f17844e06787466981d93bcd5c4c08f7baea93a29f": {
+    "method": "Revision(address,address,uint256,string)",
+    "bytes": "Y/\u0002ÎS3ñxDàgFiÙ;Í\\L\b÷ºê¢"
+  },
+  "0x59e57096dac6b94900ce72ded363f98a1c9397c064c69104dc5bfbfaef9d0016": {
+    "method": "LockedPieces(address,uint8)",
+    "bytes": "YåpÚÆ¹I\u0000ÎrÞÓcù\u001cÀdÆ\u0004Ü[ûúï\u0000\u0016"
+  },
+  "0x59c7a36711655e213dab6374c3a54f1273b8189a64ac818ba3fc631b14260efe": {
+    "method": "postCreated(uint256,string,string,uint256,address)",
+    "bytes": "YÇ£g\u0011e^!=«ctÃ¥O\u0012s¸\u0018d¬£üc\u001b\u0014&\u000eþ"
+  },
+  "0x59672081dbf1844e80b555cff97e74038c2331b5eabbc636f2fcd607e84359cb": {
+    "method": "ListingCreated(address,uint256,string,uint256)",
+    "bytes": "Yg ÛñNµUÏù~t\u0003#1µê»Æ6òüÖ\u0007èCYË"
+  },
+  "0x59a407284ae6e2986675fa1400d6498af928ed01f4fd2dd6be4a2a8b4fc35b34": {
+    "method": "CommitAdmin(address)",
+    "bytes": "Y¤\u0007(Jæâfuú\u0014\u0000ÖIù(í\u0001ôý-Ö¾J*OÃ[4"
+  },
+  "0x59ca7d034efc4cfd8f993ccd6f5863ca43a797d414f8bddb948519b0bf58102a": {
+    "method": "AboutToProcessPost(uint256,address)",
+    "bytes": "YÊ}\u0003NüLý<ÍoXcÊC§Ô\u0014ø½Û\u0019°¿X\u0010*"
+  },
+  "0x595fa482d88ee2c43b784f3c32af37d6c88b8a5e6375d1cca14a12507dd6e6cf": {
+    "method": "OrumTokenAddressSet(address)",
+    "bytes": "Y_¤ØâÄ;xO<2¯7ÖÈ^cuÑÌ¡J\u0012P}ÖæÏ"
+  },
+  "0x59d4bb47766c33620820e58ab98b8020eafcffa92254950a9c6fd13a3b0203c9": {
+    "method": "SendAvatar(address,uint256)",
+    "bytes": "YÔ»Gvl3b\b å¹ êüÿ©\"T\noÑ:;\u0002\u0003É"
+  },
+  "0x59ef6c251d20f15e60164e5032dc81900d28bf7e44d7767fec8681019700b129": {
+    "method": "TicketBought(uint256,address,address,uint256,uint256)",
+    "bytes": "Yïl%\u001d ñ^`\u0016NP2Ü\r(¿~D×vì\u0001\u0000±)"
+  },
+  "0x59a09ec4cc6798fdc60dd48919739ef2bf2822ddaaf541d468f00b3dd0ca1187": {
+    "method": "RaffleExtended(uint256)",
+    "bytes": "Y ÄÌgýÆ\rÔ\u0019sò¿(\"ÝªõAÔhð\u000b=ÐÊ\u0011"
+  },
+  "0x5938c350cf85035e79d992c7e72b89e3af37781b6a4e67f1fa1023015c7a4e98": {
+    "method": "TraxxURIUpdated(string)",
+    "bytes": "Y8ÃPÏ\u0003^yÙÇç+ã¯7x\u001bjNgñú\u0010#\u0001\\zN"
+  },
+  "0x5904b667653260d1844d3e882784dc2d8c8ec4a6910c1a2e78ac1b6534de3a99": {
+    "method": "LogAdeptPerSecond(uint256)",
+    "bytes": "Y\u0004¶ge2`ÑM>'Ü-Ä¦\f\u001a.x¬\u001be4Þ:"
+  },
+  "0x59c7b652878dab263031c5476cecdf7bbe499a7acc84375c15957507b3d77dbd": {
+    "method": "InitialOfferingCreated(uint256,uint256,uint256,uint256,uint256)",
+    "bytes": "YÇ¶R«&01ÅGlìß{¾IzÌ7\\\u0015u\u0007³×}½"
+  },
+  "0x59d631535a5e48c1231a728e536ce39dba8d6c7f49905ec570e3db296430e02e": {
+    "method": "Slashed(uint8,uint256,address,uint256)",
+    "bytes": "YÖ1SZ^HÁ#\u001arSlãºlI^ÅpãÛ)d0à."
+  },
+  "0x59696ca7031c7df7a856426d8eb521fa3033d4257b16cd455de5f30590591c7e": {
+    "method": "SafeguardUnstaked(uint256,address)",
+    "bytes": "Yil§\u0003\u001c}÷¨VBmµ!ú03Ô%{\u0016ÍE]åó\u0005Y\u001c~"
+  },
+  "0x59a1fcc936792d84758c29423dd1bb97ee9af15a7d8c33017cf842f867992c3a": {
+    "method": "NewAddressSet(string)",
+    "bytes": "Y¡üÉ6y-u)B=Ñ»îñZ}3\u0001|øBøg,:"
+  },
+  "0x59750b13637aff7a39455c6fb86108b91deab78a6d1046f7bd72cfdfae2f4d90": {
+    "method": "SetMaxGasLimit(uint32)",
+    "bytes": "Yu\u000b\u0013czÿz9E\\o¸a\b¹\u001dê·m\u0010F÷½rÏß®/M"
+  },
+  "0x59918637b45c88e8896129fc8b400ddc6729ae5c8f2590514684dde0f7877ebc": {
+    "method": "SetReferralCommissionRate(address,uint16)",
+    "bytes": "Y7´\\èa)ü@\rÜg)®\\%QFÝà÷~¼"
+  },
+  "0x59e3d61947ca8bf2d075b2e99dd29f02f9be1be5206aa07df0fff70a8b1ca5b9": {
+    "method": "NFTRedeemed(uint256,address,uint256,address,uint256)",
+    "bytes": "YãÖ\u0019GÊòÐu²éÒ\u0002ù¾\u001bå j }ðÿ÷\n\u001c¥¹"
+  },
+  "0x59e36a51ef2e8e13e64329fb6b5fbf7374047b9ea243ba010d54c737a726f8bd": {
+    "method": "updateTraitEvent(uint16,uint8)",
+    "bytes": "YãjQï.\u0013æC)ûk_¿st\u0004{¢Cº\u0001\rTÇ7§&ø½"
+  },
+  "0x593571d613519ccbebeeb78865bc964881b209b55592729f8771be70e692abe5": {
+    "method": "UpdateParameter(bytes32,bytes32,address)",
+    "bytes": "Y5qÖ\u0013QËëî·e¼H²\tµUrq¾pæ«å"
+  },
+  "0x59844d3ce4c9e85afbe8e128be415d54a4ccc4aded73831c8c2ba76bbfffd7c9": {
+    "method": "LogNewListing(uint256,address,uint256,uint256,uint256,uint256)",
+    "bytes": "YM<äÉèZûèá(¾A]T¤ÌÄ­ís\u001c+§k¿ÿ×É"
+  },
+  "0x59400e5eac025a257b0b92610b22221f92c20f26e9f994f4084f8ceb13c9e170": {
+    "method": "UpgradeStakingPool(address,address,uint256)",
+    "bytes": "Y@\u000e^¬\u0002Z%{\u000ba\u000b\"\"\u001fÂ\u000f&éùô\bOë\u0013Éáp"
+  },
+  "0x59dee24cee42a5fd3c1be706cc8906676ac6950d523c17fa522275c74e7b9c75": {
+    "method": "Rented(uint256,address,address,address,uint112,uint112,uint112,uint112,uint32,uint32,uint32,uint32,uint256,uint256)",
+    "bytes": "YÞâLîB¥ý<\u001bç\u0006Ì\u0006gjÆ\rR<\u0017úR\"uÇN{u"
+  },
+  "0x59bd33f4c27cc16a2d74450e1fa43d7896020be9aecea4bee009db9294de8997": {
+    "method": "RemovedFromCreateERC20List(address,address,uint256,uint256)",
+    "bytes": "Y½3ôÂ|Áj-tE\u000e\u001f¤=x\u0002\u000bé®Î¤¾à\tÛÞ"
+  },
+  "0x598d84241bfe93913995b638c1692ad8e8d01110f5bd1af00f0c68e095044c3d": {
+    "method": "RefundCompleted(address[],uint256[])",
+    "bytes": "Y$\u001bþ9¶8Ái*ØèÐ\u0011\u0010õ½\u001að\u000f\fhà\u0004L="
+  },
+  "0x593755a921362ca38a9667232bbd1b4fae6eb5416779a8753309df29e9814533": {
+    "method": "CuratorSharesSold(uint256,uint256,uint256)",
+    "bytes": "Y7U©!6,£g#+½\u001bO®nµAgy¨u3\tß)éE3"
+  },
+  "0x59d2bfd1013bf350eeb51135f672269ad8bd46df9e81070f0eb28b86a26ba719": {
+    "method": "ImgSet(string)",
+    "bytes": "YÒ¿Ñ\u0001;óPîµ\u00115ör&Ø½Fß\u0007\u000f\u000e²¢k§\u0019"
+  },
+  "0x59fe35891f144d049a52e2df1c74193df85cba1de88becc80c84c054fc6780cd": {
+    "method": "CO2Claimed(address,uint256[],uint256[],uint256)",
+    "bytes": "Yþ5\u001f\u0014M\u0004Râß\u001ct\u0019=ø\\º\u001dèìÈ\fÀTügÍ"
+  },
+  "0x59d5a05bfb8a3d14e88a81c130ec28f69aee870537d917e5b1005d232ff0f939": {
+    "method": "PoolEnter(uint256,uint256,uint256)",
+    "bytes": "YÕ [û=\u0014èÁ0ì(öî\u00057Ù\u0017å±\u0000]#/ðù9"
+  },
+  "0x5941c807037e6723454ab14304756e6e99088c0a5461a6d5388361a31f470635": {
+    "method": "WonPrize(address)",
+    "bytes": "YAÈ\u0007\u0003~g#EJ±C\u0004unn\b\nTa¦Õ8a£\u001fG\u00065"
+  },
+  "0x59cdd2ceb554be943da2a830da7ffc7012683afcf9f514b0ab022b48f54dd518": {
+    "method": "Admin1Transferred(address,address)",
+    "bytes": "YÍÒÎµT¾=¢¨0Úüp\u0012h:üùõ\u0014°«\u0002+HõMÕ\u0018"
+  },
+  "0x59caff85665f19781e9212f1f0258af8a76e4e3fcab90f9807908e6c04e220c3": {
+    "method": "recordAirdropPayment(uint256,uint256,uint256,uint256)",
+    "bytes": "YÊÿf_\u0019x\u001e\u0012ñð%ø§nN?Ê¹\u000f\u0007l\u0004â Ã"
+  },
+  "0x594b7f8db30ced6059bb4718346b03a3e6f90fc54d11ab673f9f9d44a21ffecd": {
+    "method": "GetHelp(address,uint256,uint256,uint256)",
+    "bytes": "YK³\fí`Y»G\u00184k\u0003£æù\u000fÅM\u0011«g?D¢\u001fþÍ"
+  },
+  "0x593d111ce731291058cc5dfd92cb1edc16087a6c1dd973530aa59f63093a643a": {
+    "method": "getMoneyForPoolLevelEvent(address,address,uint256,uint256,uint256,uint256)",
+    "bytes": "Y=\u0011\u001cç1)\u0010XÌ]ýË\u001eÜ\u0016\bzl\u001dÙsS\n¥c\t:d:"
+  },
+  "0x59a8e68a7807a36d27fd84ef57fcbde1e447d684610b0159201b61ec0762e078": {
+    "method": "AutoReinvestGoldMatrixFlagSwitch(address,bool)",
+    "bytes": "Y¨æx\u0007£m'ýïWü½áäGÖa\u000b\u0001Y \u001baì\u0007bàx"
+  },
+  "0x59301b18d6b5a2c84e39869d4520a91722e8ced405ac5d9238ec15c2e3d2f24d": {
+    "method": "PoolUnRegistered(address,address)",
+    "bytes": "Y0\u001b\u0018Öµ¢ÈN9E ©\u0017\"èÎÔ\u0005¬]8ì\u0015ÂãÒòM"
+  },
+  "0x5974d6fb3ef1aac30719641515ec9af265aef44e5b52a3c8d3ae860913a784fd": {
+    "method": "DepositedGlp(address,address,uint256,uint256)",
+    "bytes": "YtÖû>ñªÃ\u0007\u0019d\u0015\u0015ìòe®ôN[R£ÈÓ®\t\u0013§ý"
+  },
+  "0x596c08527bf037a7d30b01f257c1ba24ebd2a664cde69f8315accfee1199c668": {
+    "method": "TroveIndexUpdated(address,address,uint256)",
+    "bytes": "Yl\bR{ð7§Ó\u000b\u0001òWÁº$ëÒ¦dÍæ\u0015¬Ïî\u0011Æh"
+  },
+  "0x597c4f48fc399c2e6bc556d2d0931e80d4c210ebc618738587c5d39fd9126d45": {
+    "method": "ExecutedGovernanceTransaction(address,bytes)",
+    "bytes": "Y|OHü9.kÅVÒÐ\u001eÔÂ\u0010ëÆ\u0018sÅÓÙ\u0012mE"
+  },
+  "0x5928fa36137089d200461b1b8492840afb1c250ed4dc142dc2bc16f9ca407489": {
+    "method": "FactoryAddressAdded(address,address)",
+    "bytes": "Y(ú6\u0013pÒ\u0000F\u001b\u001b\nû\u001c%\u000eÔÜ\u0014-Â¼\u0016ùÊ@t"
+  },
+  "0x59882fafc84ba4d09c98e2a119b6a81f646d4e25fb6fa92d2062de5f8725580f": {
+    "method": "SoldPlennyForEth(uint256,uint256,uint256,uint256)",
+    "bytes": "Y/¯ÈK¤Ðâ¡\u0019¶¨\u001fdmN%ûo©- bÞ_%X\u000f"
+  },
+  "0x590fa9051f1ea8476d6422069aa187e0363905fe3608a4e3acd387b3b6884ac6": {
+    "method": "SetYieldLockTime(uint256)",
+    "bytes": "Y\u000f©\u0005\u001f\u001e¨Gmd\"\u0006¡à69\u0005þ6\b¤ã¬Ó³¶JÆ"
+  },
+  "0x59a7eb74f1b35ccc1fe60c548eed9f102c32a325e9d08751ff3a7d08418ed1ee": {
+    "method": "PABMinted(bytes32,uint256,uint256)",
+    "bytes": "Y§ëtñ³\\Ì\u001fæ\fTí\u0010,2£%éÐQÿ:}\bAÑî"
+  },
+  "0x5945751cc632fd266a0c5f8ba03161a49ccb27013d4ce699573e7716e34d52c1": {
+    "method": "TokensV1Deposited(address,uint256)",
+    "bytes": "YEu\u001cÆ2ý&j\f_ 1a¤Ë'\u0001=LæW>w\u0016ãMRÁ"
+  },
+  "0x593587464bd7712feba2a5335c5515d6442b5fa04f5edf0a1d9a187e853cdaaf": {
+    "method": "OrderInfo(address,address,address,address,uint256,uint256,uint256,uint256)",
+    "bytes": "Y5FK×q/ë¢¥3\\U\u0015ÖD+_ O^ß\n\u001d\u0018~<Ú¯"
+  },
+  "0x59bc8a913d49a9626dd6ba5def7fcf12804061c1bb9b8b6db077e1a12cb4b422": {
+    "method": "Bridge(address,address,uint256)",
+    "bytes": "Y¼=I©bmÖº]ïÏ\u0012@aÁ»m°wá¡,´´\""
+  },
+  "0x592e7408ede7c62998110f0dc25b7c5133abe26ec208e0a8a51c01d09ba0b3c4": {
+    "method": "RegisterUser(address,address,uint256,uint256,uint256)",
+    "bytes": "Y.t\bíçÆ)\u0011\u000f\rÂ[|Q3«ânÂ\bà¨¥\u001c\u0001Ð ³Ä"
+  },
+  "0x5941f05603fb6e57172cf4da6a7d2de52d986abd4831cce43825de86dd68977d": {
+    "method": "TokenGrantClaimed(address,bytes32,uint256)",
+    "bytes": "YAðV\u0003ûnW\u0017,ôÚj}-å-j½H1Ìä8%ÞÝh}"
+  },
+  "0x59d6487d7f9fb6f6909e7441a08a42725a685826123104fe912e725c8b997ce6": {
+    "method": "WhitelistAdminAdded(address,address,address)",
+    "bytes": "YÖH}¶ötA BrZhX&\u00121\u0004þ.r\\|æ"
+  },
+  "0x59e0a12e930a83fa907b69f538f673ec8cd09255dd427ba2a031e4860d621bb3": {
+    "method": "setlimitsEff(uint256)",
+    "bytes": "Yà¡.\nú{iõ8ösìÐUÝB{¢ 1ä\rb\u001b³"
+  },
+  "0x59acc6d32d3ce92ee557938642d384c72bca7fe2306f3d980896335412f98b91": {
+    "method": "RemoveAddressToBlacklist(address,address)",
+    "bytes": "Y¬ÆÓ-<é.åWBÓÇ+Êâ0o=\b3T\u0012ù"
+  },
+  "0x5974bf8e1e907d1e230e723b0cf249a1df84ca33841a75c9015842ac327f3861": {
+    "method": "claimTimeoutUpdated(uint256,uint256)",
+    "bytes": "Yt¿\u001e}\u001e#\u000er;\fòI¡ßÊ3\u001auÉ\u0001XB¬28a"
+  },
+  "0x59ba3df0e7cb23332189c544963b1b3ba594de7717433513b59cef4e886aceb9": {
+    "method": "ApeClaimed(uint256,uint256,bool)",
+    "bytes": "Yº=ðçË#3!ÅD;\u001b;¥Þw\u0017C5\u0013µïNjÎ¹"
+  },
+  "0x59ddfdd1bf7e3ea08a07e8aaa1fe2ce9c840fab69fe5ede6ea727a45eb42fc66": {
+    "method": "WooracleUpdated(address)",
+    "bytes": "YÝýÑ¿~> \u0007èª¡þ,éÈ@ú¶åíæêrzEëBüf"
+  },
+  "0x5953889868fa242b09fff1c7818b761f5fce363081fb48804d0c9b4451c9ea0a": {
+    "method": "EmitShoot(address,uint256,address,uint256)",
+    "bytes": "YShú$+\tÿñÇv\u001f_Î60ûHM\fDQÉê\n"
+  },
+  "0x59f77db2594f685c6e0e49bc15bb88b9d134e1a7722ccde3fdf69899e95e173f": {
+    "method": "_ExOrderCreated(string,string,uint256)",
+    "bytes": "Y÷}²YOh\\n\u000eI¼\u0015»¹Ñ4á§r,Íãýöé^\u0017?"
+  },
+  "0x59158d23d62750f16cd67dd3dce5fcfeb193d88db7c46f085a2eac8fa5d8b950": {
+    "method": "TransferToken(address,address,uint256,uint256)",
+    "bytes": "Y\u0015#Ö'PñlÖ}ÓÜåüþ±Ø·Äo\bZ.¬¥Ø¹P"
+  },
+  "0x599e6dd25180262019a2297440c3ca5d90e3fdb763a03e04e1ab11bb0ead154b": {
+    "method": "LogSetLiquidationEngine(address,address)",
+    "bytes": "YmÒQ& \u0019¢)t@ÃÊ]ãý·c >\u0004á«\u0011»\u000e­\u0015K"
+  },
+  "0x5982a2bde3976be33f1c0f42a186dfaba73407fa496eb5d59e435b2641fbf66c": {
+    "method": "CoinOutFailed(uint256,address,uint256)",
+    "bytes": "Y¢½ãkã?\u001c\u000fB¡ß«§4\u0007úInµÕC[&Aûöl"
+  },
+  "0x5933c0de00f4a03bae7915bd497dbfeb4314b64aea55c40485039deb8cd5d212": {
+    "method": "AirdropsEnded()",
+    "bytes": "Y3ÀÞ\u0000ô ;®y\u0015½I}¿ëC\u0014¶JêUÄ\u0004\u0003ëÕÒ\u0012"
+  },
+  "0x598eac83c515ef525efc37796beda3b069e752328e8325fb446f84e6cc7d2242": {
+    "method": "Unblocked(bytes32)",
+    "bytes": "Y¬Å\u0015ïR^ü7ykí£°içR2%ûDoæÌ}\"B"
+  },
+  "0x59f0b8051a7417e410325aa8686c7c34f2dbabef2f0d168ae2753b7a8049f637": {
+    "method": "InvesteeSet(address,uint256)",
+    "bytes": "Yð¸\u0005\u001at\u0017ä\u00102Z¨hl|4òÛ«ï/\r\u0016âu;zIö7"
+  },
+  "0x59efa103f7890150ec059b6a135fa5778b3c1aa26d5575e93407ef71fc7ba6ae": {
+    "method": "LogBatchTransferFromContract(uint256,uint256,uint256)",
+    "bytes": "Yï¡\u0003÷\u0001Pì\u0005j\u0013_¥w<\u001a¢mUué4\u0007ïqü{¦®"
+  },
+  "0x59f1ec21eb30be64a479f79da93a3f192f54c561ee637b5f589e807eb975eb4a": {
+    "method": "baseURIChanged(string)",
+    "bytes": "Yñì!ë0¾d¤y÷©:?\u0019/TÅaîc{_X~¹uëJ"
+  },
+  "0x597b5365dc3d3af18b91942d4cdc48f694f727393a16cf9fe8b337b20ca0244a": {
+    "method": "UpdatedMaxTxLimit(uint256)",
+    "bytes": "Y{SeÜ=:ñ-LÜHö÷'9:\u0016Ïè³7²\f $J"
+  },
+  "0x59f6a3128f8df4aec762b8c4aa5a72278a4748f928c08bbfabeb17f7e39f7b1b": {
+    "method": "WithdrawFunds(uint256,address,uint256)",
+    "bytes": "Yö£\u0012ô®Çb¸ÄªZr'GHù(À¿«ë\u0017÷ã{\u001b"
+  },
+  "0x5935d8987b1a03acbd47140de253d0aaffc50dea2108cd2c0f8f763ac9a7553c": {
+    "method": "updateMintoken(uint256)",
+    "bytes": "Y5Ø{\u001a\u0003¬½G\u0014\râSÐªÿÅ\rê!\bÍ,\u000fv:É§U<"
+  },
+  "0x599e642193fd9c7e5aa2b866eb1398e76c41494e9d5dd4d3da2697ae820b48b8": {
+    "method": "CreateCryptoCreeptoz(address,uint256)",
+    "bytes": "Yd!ý~Z¢¸fë\u0013çlAIN]ÔÓÚ&®\u000bH¸"
+  },
+  "0x59d1019cd45e42153e3067d68ab1d001022eff6387aa4f5dac78cad222c8fba4": {
+    "method": "ChangeRewardToken(address,uint256)",
+    "bytes": "YÑ\u0001Ô^B\u0015>0gÖ±Ð\u0001\u0002.ÿcªO]¬xÊÒ\"Èû¤"
+  },
+  "0x595ee9ffef04d4d652b768860c56905a48f5ab79124bb3b2279df1885536991d": {
+    "method": "OwnershipChanged(address)",
+    "bytes": "Y^éÿï\u0004ÔÖR·h\fVZHõ«y\u0012K³²'ñU6\u001d"
+  },
+  "0x59605b53e14f659c54ea14e141004d9835b42520d52c2480dc16534a44ebc910": {
+    "method": "SetInitFeeAmount(address,uint256)",
+    "bytes": "Y`[SáOeTê\u0014áA\u0000M5´% Õ,$Ü\u0016SJDëÉ\u0010"
+  },
+  "0x59229939e5bbccdf8c5cd35d0d61f4395bf66f22d15c8b7d2cf444e72f3e553f": {
+    "method": "SendTokensForRewards(uint256)",
+    "bytes": "Y\"9å»Ìß\\Ó]\raô9[öo\"Ñ\\},ôDç/>U?"
+  },
+  "0x59a758fc68fe948c0af3d792b99361cb8f3a5070315fd70112309ed168f25742": {
+    "method": "DHRewardClaimed(address)",
+    "bytes": "Y§Xühþ\nó×¹aË:Pp1_×\u0001\u00120ÑhòWB"
+  },
+  "0x59897e3c41eba257908eb1c082bd521406b6a219769716562ade06feed7f63e2": {
+    "method": "MachineGameLiquidityReceived(string,string,address,uint256,uint256)",
+    "bytes": "Y~<Aë¢W±À½R\u0014\u0006¶¢\u0019v\u0016V*Þ\u0006þícâ"
+  },
+  "0x5931fef2ff2072636438afa4d7524d5407b02aaf1ebd8c9c78119efe2ecdf8cb": {
+    "method": "UnlockUpdated(address,uint256,uint256)",
+    "bytes": "Y1þòÿ rcd8¯¤×RMT\u0007°*¯\u001e½x\u0011þ.ÍøË"
+  },
+  "0x59b6b6ad5ec9acd66a9a49a6567b35e79a3ad4ce2d91d733d4f966d9095ff1c6": {
+    "method": "ClaimWithDraw(address,uint256)",
+    "bytes": "Y¶¶­^É¬ÖjI¦V{5ç:ÔÎ-×3ÔùfÙ\t_ñÆ"
+  },
+  "0x594898f0701a8fbcf3e869135bc2a2d8194e98a46765b1f6ef41138fe049ebb8": {
+    "method": "Sell(address,address,uint256,uint256,uint256,uint256,uint256,uint256)",
+    "bytes": "YHðp\u001a¼óèi\u0013[Â¢Ø\u0019N¤ge±öïA\u0013àIë¸"
+  },
+  "0x59aabd199d2751695ba57141a25f9503cd30c281e0f9848bb81f3413faad19f9": {
+    "method": "RewardDecreased(uint256)",
+    "bytes": "Yª½\u0019'Qi[¥qA¢_\u0003Í0Âàù¸\u001f4\u0013ú­\u0019ù"
+  },
+  "0x59dd18e6172d6f262c4b77485b7fe9a2baab0fa7204da57c5c06ab9a3223e00c": {
+    "method": "HeroCreated(uint256,address,uint256)",
+    "bytes": "YÝ\u0018æ\u0017-o&,KwH[é¢º«\u000f§ M¥|\\\u0006«2#à\f"
+  },
+  "0x595a216dcbf780f171bb88fc4258b2683b5e1bc252a2d1741de1b7e63d16361c": {
+    "method": "LockedRewardsDataSet(uint256[],uint256[])",
+    "bytes": "YZ!mË÷ñq»üBX²h;^\u001bÂR¢Ñt\u001dá·æ=\u00166\u001c"
+  },
+  "0x596c008912c0485b2725e499c3959e09be8706fe048e5a077c918b9f55d6445c": {
+    "method": "DepositeKOKU(address,uint256)",
+    "bytes": "Yl\u0000\u0012ÀH['%äÃ\t¾\u0006þ\u0004Z\u0007|UÖD\\"
+  },
+  "0x5978bb824b19af2ac4b9ad1b2c5d1a23c4c4989ed63ea07fc535b2762a14d225": {
+    "method": "DepositUnwinderAdded(address,address)",
+    "bytes": "Yx»K\u0019¯*Ä¹­\u001b,]\u001a#ÄÄÖ> Å5²v*\u0014Ò%"
+  },
+  "0x5961d3a0b2f071e1ca36d1554324bb33bb53a7584289dc1cac160565cdf45bfd": {
+    "method": "DailyTotalAdd(address,uint256)",
+    "bytes": "YaÓ ²ðqáÊ6ÑUC$»3»S§XBÜ\u001c¬\u0016\u0005eÍô[ý"
+  },
+  "0x59d0b9c0e4b02a1d33dd17376eeab7e3fa549fb968706c05c5a70dc7850d4f8f": {
+    "method": "BuybackLowerLimitUpdated(address,uint256,uint256)",
+    "bytes": "YÐ¹Àä°*\u001d3Ý\u00177nê·ãúT¹hpl\u0005Å§\rÇ\rO"
+  },
+  "0x59ccfc4d0cd8839229de7c0c60706770dea0f4cdefa2362f88c8aee846eaa617": {
+    "method": "JackpotWalletDeleted(address)",
+    "bytes": "YÌüM\fØ)Þ|\f`pgpÞ ôÍï¢6/È®èFê¦\u0017"
+  },
+  "0x5982e574cb778844329684a34107b512e3a2413a153fc02af924390158148c6f": {
+    "method": "MinCollateralRatioUpdated(uint256)",
+    "bytes": "YåtËwD2£A\u0007µ\u0012ã¢A:\u0015?À*ù$9\u0001X\u0014o"
+  },
+  "0x592a7cd44d1df86db61282bea195135a9c75c7f03e918975b94a616f50285227": {
+    "method": "SetMaxBatchQuantity(uint256)",
+    "bytes": "Y*|ÔM\u001døm¶\u0012¾¡\u0013ZuÇð>u¹JaoP(R'"
+  },
+  "0x590d9acd000a6c4aaa77205ab7461b482418af607a7f7802d3756a63394ddbb9": {
+    "method": "CatlootOffered(uint256,uint256,address)",
+    "bytes": "Y\rÍ\u0000\nlJªw Z·F\u001bH$\u0018¯`zx\u0002Óujc9MÛ¹"
+  },
+  "0x592993b07849bd4ab51c2de371aea3db52156da6f3cd8476b1c585454b254f48": {
+    "method": "AlphaClaimed(uint256,address,uint256)",
+    "bytes": "Y)°xI½Jµ\u001c-ãq®£ÛR\u0015m¦óÍv±ÅEK%OH"
+  },
+  "0x59c1bbe67943b85e6ff9fcbdd26e968c6df41284a05b05f554fcd1acc2fa0b7c": {
+    "method": "Lock(uint256,uint256,address,address,address,address,uint256)",
+    "bytes": "YÁ»æyC¸^oùü½Ònmô\u0012 [\u0005õTüÑ¬Âú\u000b|"
+  },
+  "0x599a1e3dafcd4613df82eb57fc6441adc06b946e3caff888f3156d96c8c6421c": {
+    "method": "RaffleOpen(uint256,uint256,uint256)",
+    "bytes": "Y\u001e=¯ÍF\u0013ßëWüdA­Àkn<¯øó\u0015mÈÆB\u001c"
+  },
+  "0x59f2fe866dd27a1c2d34115520888c3150365cbc931aab97fa88c4b9ab40b795": {
+    "method": "ExpireKey(uint256)",
+    "bytes": "YòþmÒz\u001c-4\u0011U 1P6\\¼\u001a«úÄ¹«@·"
+  },
+  "0x59942666f77ac7ff85c706c240a3446238e70a3935071fcf7f3735d1b74cdf55": {
+    "method": "PlacementX4(address,address,uint8,uint8,address,bool)",
+    "bytes": "Y&f÷zÇÿÇ\u0006Â@£Db8ç\n95\u0007\u001fÏ75Ñ·LßU"
+  },
+  "0x59eb1bb30970d5ca6074e6c72b07e411e0f12594b5eca2d2ac51fbc09fdf1c47": {
+    "method": "NewM1LKNFTBatchMinted(address,uint256)",
+    "bytes": "Yë\u001b³\tpÕÊ`tæÇ+\u0007ä\u0011àñ%µì¢Ò¬QûÀß\u001cG"
+  },
+  "0x5926c04550435944a3cff7b8d7e66ec761c5b42702f9cd25448b08b329d6146a": {
+    "method": "ServiceOff(address,address,bytes32,uint16,uint256,uint256,uint256)",
+    "bytes": "Y&ÀEPCYD£Ï÷¸×ænÇaÅ´'\u0002ùÍ%D\b³)Ö\u0014j"
+  },
+  "0x59bed9ab5d78073465dd642a9e3e76dfdb7d53bcae9d09df7d0b8f5234d5a806": {
+    "method": "Transacted(address,address,bytes32,address,uint256,bytes)",
+    "bytes": "Y¾Ù«]x\u00074eÝd*>vßÛ}S¼®\tß}\u000bR4Õ¨\u0006"
+  },
+  "0x59de41e1753d0fb0615082b2e19b2fabd0e50af25f1553fe3eb7ed04fc7feaa6": {
+    "method": "ShirtPurchased(address,uint256,uint256)",
+    "bytes": "YÞAáu=\u000f°aP²á/«Ðå\nò_\u0015Sþ>·í\u0004üê¦"
+  },
+  "0x598a0bce0fed6cb7b690e6661079c28db68b41e7ce92e04a1b6387b3aa1c4931": {
+    "method": "ChangedMaxAcceptedTokens(uint256)",
+    "bytes": "Y\u000bÎ\u000fíl·¶æf\u0010yÂ¶AçÎàJ\u001bc³ª\u001cI1"
+  },
+  "0x599d602d4c65b27d8e5b58e993bc9caafd8752b27748a71251870cd01d052c82": {
+    "method": "EClaimTokens(address,uint256,uint256)",
+    "bytes": "Y`-Le²}[Xé¼ªýR²wH§\u0012Q\fÐ\u001d\u0005,"
+  },
+  "0x5991a08bb51d1fc3f552255ed446f040dca378ad3ff91763507b63b185eb5d2e": {
+    "method": "RewardTokenWithdrawn(address,uint256)",
+    "bytes": "Y µ\u001d\u001fÃõR%^ÔFð@Ü£x­?ù\u0017cP{c±ë]."
+  },
+  "0x59472f3e5abe9ecfcb0d72f4334caeb814fd3a06d2b049f049b039d14c663f8c": {
+    "method": "SwapToken(address,uint256,uint256,string)",
+    "bytes": "YG/>Z¾ÏË\rrô3L®¸\u0014ý:\u0006Ò°IðI°9ÑLf?"
+  },
+  "0x59922b9ceb566c3ed3a8907e35273e1c5019b268605267a00e2b6543a0f49eeb": {
+    "method": "InvestorAddedToWhiteList(address,bool,bool,bool)",
+    "bytes": "Y+ëVl>Ó¨~5'>\u001cP\u0019²h`Rg \u000e+eC ôë"
+  },
+  "0x59deacd554197e74391faa5e6baaa6bd06bf1385b4da23a432c91137aba891b4": {
+    "method": "Release(uint256,bytes32,address,uint256,uint256,uint64,uint64,uint128,uint128,string)",
+    "bytes": "YÞ¬ÕT\u0019~t9\u001fª^kª¦½\u0006¿\u0013´Ú#¤2É\u00117«¨´"
+  },
+  "0x59619a9c8219aba9835af4fdfaf7999591e2b484f7c54587ff2aa47e8ddb343c": {
+    "method": "PlanCreated(address,string,uint256)",
+    "bytes": "Ya\u0019«©Zôýú÷â´÷ÅEÿ*¤~Û4<"
+  },
+  "0x596d3746de688a26e019cc6a65c35371a7caccf55d314bbee39bad5dbd29fbd9": {
+    "method": "SetNewWhiteList()",
+    "bytes": "Ym7FÞh&à\u0019ÌjeÃSq§ÊÌõ]1K¾ã­]½)ûÙ"
+  },
+  "0x59a63fde6eb5fad9d430c6aec399af9649d6d6591dbf40d5784bb6e859c81615": {
+    "method": "SaleTimeChanged(uint256,uint256,uint256)",
+    "bytes": "Y¦?ÞnµúÙÔ0Æ®Ã¯IÖÖY\u001d¿@ÕxK¶èYÈ\u0016\u0015"
+  },
+  "0x59bd376f5900a23ba986ea30d4ed9aed2ec4a081167877f4949aabfb69efe8d5": {
+    "method": "OwnershipSet(address,uint256)",
+    "bytes": "Y½7oY\u0000¢;©ê0Ôíí.Ä \u0016xwô«ûiïèÕ"
+  },
+  "0x5928571f7c4b8664d5c71177f8b59393d2a5e88e852e2832dd9afb20f0a049c4": {
+    "method": "PaymentToOwner(uint256,address,address,uint256)",
+    "bytes": "Y(W\u001f|KdÕÇ\u0011wøµÒ¥è.(2Ýû ð IÄ"
+  },
+  "0x595867f1ac6a4103ff3e9a8c21c09c0b2ace12a87ab1e3ba7acf6532d727f156": {
+    "method": "ClaimPromoToken(address,uint256)",
+    "bytes": "YXgñ¬jA\u0003ÿ>!À\u000b*Î\u0012¨z±ãºzÏe2×'ñV"
+  },
+  "0x590b4a8c530facc56aec57841b8bfc939b53770d6756899875fbf6a8ee352451": {
+    "method": "LiquifyEnabledChanged(bool)",
+    "bytes": "Y\u000bJS\u000f¬ÅjìW\u001büSw\rgVuûö¨î5$Q"
+  },
+  "0x595f39ef10c3b539b41f83620205bd2e76334edf0cfda5ed207f10616e867dad": {
+    "method": "LogPoolAddition(address,uint256)",
+    "bytes": "Y_9ï\u0010Ãµ9´\u001fb\u0002\u0005½.v3Nß\fý¥í \u0010an}­"
+  },
+  "0x59284618120d3344285aec7c8efc349ee04ed47daf976da3f715e2c27a415fe0": {
+    "method": "OpenEgg(address,uint256)",
+    "bytes": "Y(F\u0018\u0012\r3D(Zì|ü4àNÔ}¯m£÷\u0015âÂzA_à"
+  },
+  "0x59d66a3b6cbfa0745bc5ae77069c99fa61fbed2fe228b2c21a3fdd416bd5badf": {
+    "method": "BuyInsureAce(uint16[],address,address,address,uint256)",
+    "bytes": "YÖj;l¿ t[Å®w\u0006úaûí/â(²Â\u001a?ÝAkÕºß"
+  },
+  "0x59c07ddb806e4f8958f0b5fbe93551e544398f76b776a98a29473f28c3bf8d93": {
+    "method": "AuctionNFTCanceled(address,uint256,uint256,uint256,bool,address)",
+    "bytes": "YÀ}ÛnOXðµûé5QåD9v·v©)G?(Ã¿"
+  },
+  "0x59e1e4348943de408b89af8ab71e502ea722dd41efd1ff4a3548c60e83e91c60": {
+    "method": "BridgeSupplyCapUpdated(address,uint256)",
+    "bytes": "Yáä4CÞ@¯·\u001eP.§\"ÝAïÑÿJ5HÆ\u000eé\u001c`"
+  },
+  "0x59ca55783ea1d8ffc2259ac3aecc01befc1fd74cd2181d18ead3e1c0d70de91f": {
+    "method": "NewJobId(bytes32)",
+    "bytes": "YÊUx>¡ØÿÂ%Ã®Ì\u0001¾ü\u001f×LÒ\u0018\u001d\u0018êÓáÀ×\ré\u001f"
+  },
+  "0x59c0422c484ae5502249fd758097d16508ef0e61b5f7f962bef8145a58701287": {
+    "method": "NFTDepositRequested(address,address,uint8,address,uint256,uint96)",
+    "bytes": "YÀB,HJåP\"IýuÑe\bï\u000eaµ÷ùb¾ø\u0014ZXp\u0012"
+  },
+  "0x59b5bb55a9be423a9d2f031dec45d685a732c27ff0467434fcf2522381917aa0": {
+    "method": "SwitchLiquidity(bool)",
+    "bytes": "Yµ»U©¾B:/\u0003\u001dìEÖ§2ÂðFt4üòR#z "
+  },
+  "0x595bc32e5728c63c01ea315b1551197d7ef1f90e53baf942ecb565882b12224e": {
+    "method": "UnpausePresale()",
+    "bytes": "Y[Ã.W(Æ<\u0001ê1[\u0015Q\u0019}~ñù\u000eSºùBìµe+\u0012\"N"
+  },
+  "0x590c6e081618339003246b8d7ec617890bdfa16dfe9ff58eb9b7bd1a0c88d442": {
+    "method": "RoleGranted(bytes32,bytes,bytes)",
+    "bytes": "Y\fn\b\u0016\u00183\u0003$k~Æ\u0017\u000bß¡mþõ¹·½\u001a\fÔB"
+  },
+  "0x594b81ffc01a01def316e03576a466fc2dede091ee93f41e697236d2b09f9edd": {
+    "method": "DeityDividerSelected(uint256,uint256)",
+    "bytes": "YKÿÀ\u001a\u0001Þó\u0016à5v¤fü-íàîô\u001eir6Ò°Ý"
+  },
+  "0x59d6715dc7dbafa61b6c844a65b5f4daa073b3e3e6db2fdc30a624b78761c606": {
+    "method": "AutoAccepted(uint256,uint256)",
+    "bytes": "YÖq]ÇÛ¯¦\u001blJeµôÚ s³ãæÛ/Ü0¦$·aÆ\u0006"
+  },
+  "0x59e4c7dbd418bc687b1aaf622eda444927c703ec5f792246897a4118f4fe132e": {
+    "method": "GSNFeeCharged(address,bytes4,uint256)",
+    "bytes": "YäÇÛÔ\u0018¼h{\u001a¯b.ÚDI'Ç\u0003ì_y\"FzA\u0018ôþ\u0013."
+  },
+  "0x59ebbb6d5831589f511e0478565d869eff6d1b14ea42cb164054c3ee78ac7513": {
+    "method": "Tokenized(address,uint256)",
+    "bytes": "Yë»mX1XQ\u001e\u0004xV]ÿm\u001b\u0014êBË\u0016@TÃîx¬u\u0013"
+  },
+  "0x592ea7ac4fb5e2f7e173909c02098f1b6c93c0c6c174ba7f7dfa8412a5ca0af7": {
+    "method": "tokenBid(uint256,address,uint256,uint256)",
+    "bytes": "Y.§¬Oµâ÷ás\u0002\t\u001blÀÆÁtº}ú\u0012¥Ê\n÷"
+  },
+  "0x5908fbfce7f3dc02258cdab41b7a2e98ee1255701343310be10cff22c194ddad": {
+    "method": "NFTcreated(address,uint256,uint256,uint256)",
+    "bytes": "Y\bûüçóÜ\u0002%Ú´\u001bz.î\u0012Up\u0013C1\u000bá\fÿ\"ÁÝ­"
+  },
+  "0x590d70f1f3f1063f809b4c86f7187d3f04850146c3df8b63e43dd3639cee8b50": {
+    "method": "ValueInvalid()",
+    "bytes": "Y\rpñóñ\u0006?L÷\u0018}?\u0004\u0001FÃßcä=ÓcîP"
+  },
+  "0x59e6ed9763627e3e789b8223beff9ba5ea236d9247d2dbd78b7ba2f27731ff9c": {
+    "method": "eventMintWorkerData(address,uint256,uint16,uint8,uint16)",
+    "bytes": "Yæícb~>x#¾ÿ¥ê#mGÒÛ×{¢òw1ÿ"
+  },
+  "0x59a9350977452c5240699f57f18b5915cd0440a56f08820a38b9f2432a82ba3e": {
+    "method": "StopSwapUpdated(bool)",
+    "bytes": "Y©5\twE,R@iWñY\u0015Í\u0004@¥o\b\n8¹òC*º>"
+  },
+  "0x59bee3445660d9e7f2716c215c531d52fe1e78778d7a3bc0e519b23484cb1f84": {
+    "method": "QuestAssigned(uint256,uint256)",
+    "bytes": "Y¾ãDV`Ùçòql!\\S\u001dRþ\u001exwz;Àå\u0019²4Ë\u001f"
+  },
+  "0x59a9fc89bca7c7127d15a38ca45a6809f10035d69b4c28756da7d6deece6cf7a": {
+    "method": "IsReferralOnSet(bool)",
+    "bytes": "Y©ü¼§Ç\u0012}\u0015£¤Zh\tñ\u00005ÖL(um§ÖÞìæÏz"
+  },
+  "0x591a9e136c1a8e0f8caf6a4c922c2994da526e59ee4c4ddbd84206b78f996ba9": {
+    "method": "WalletObserverEventBuy(address,address,address)",
+    "bytes": "Y\u001a\u0013l\u001a\u000f¯jL,)ÚRnYîLMÛØB\u0006·k©"
+  },
+  "0x597d78e167f3058c6275a09c20080a14e9030b500479d7aaf346aa3c575387da": {
+    "method": "mint(address,uint256,uint256,bytes32[])",
+    "bytes": "Y}xágó\u0005bu  \b\n\u0014é\u0003\u000bP\u0004y×ªóFª<WSÚ"
+  },
+  "0x598647f85e77eee222d1b8aa427177d95c8c9780629a9c83709588662221673a": {
+    "method": "bid(uint256,uint256)",
+    "bytes": "YGø^wîâ\"Ñ¸ªBqwÙ\\bpf\"!g:"
+  },
+  "0x59545c981f6380604ebc25911ef7315d4175b9ab6c0fbf03409eb3b17220bb51": {
+    "method": "ArtifactDeposited(address,uint256,uint256)",
+    "bytes": "YT\\\u001fc`N¼%\u001e÷1]Au¹«l\u000f¿\u0003@³±r »Q"
+  },
+  "0x59d00172f87047625649c02c83b421737a0a8672ed94dfc03a4873cfa48d6818": {
+    "method": "ForgeNFT(address,uint256,uint256)",
+    "bytes": "YÐ\u0001røpGbVIÀ,´!sz\nríßÀ:HsÏ¤h\u0018"
+  },
+  "0x59d99870e982e0a451b9c4d6574eb0a9c588985c3cf98401bf0e15f30429032e": {
+    "method": "ClaimedTokend(uint256,address)",
+    "bytes": "YÙpéà¤Q¹ÄÖWN°©Å\\<ù\u0001¿\u000e\u0015ó\u0004)\u0003."
+  },
+  "0x595cb200f38fcdbf73429ffce272e53b2e923c231b2059ce20d1f4909cff1bec": {
+    "method": "RollbackStatus(uint256,uint256,bool)",
+    "bytes": "Y\\²\u0000óÍ¿sBüârå;.<#\u001b YÎ Ñôÿ\u001bì"
+  },
+  "0x59056afed767866d7c194cf26e24ebe16974ef943cccb729452e9adc265a9ac7": {
+    "method": "SinglePubkeyRegistered(uint256)",
+    "bytes": "Y\u0005jþ×gm|\u0019Lòn$ëáitï<Ì·)E.Ü&ZÇ"
+  },
+  "0x59b0ee15e8562a0c6aa6dcbffcd4deec4ed1692895fe875be4324b7bb2a2d8b1": {
+    "method": "SetSettlementFeeNumerator(uint256,uint256,uint256,uint256)",
+    "bytes": "Y°î\u0015èV*\fj¦Ü¿üÔÞìNÑi(þ[ä2K{²¢Ø±"
+  },
+  "0x59285d415ca3479a702fa8987375d549c02c15133e222f923714ee49f20ebea5": {
+    "method": "breed(address)",
+    "bytes": "Y(]A\\£Gp/¨suÕIÀ,\u0015\u0013>\"/7\u0014îIò\u000e¾¥"
+  },
+  "0x59bbd62d243c636a58987cf828b90ce66cbdf1476d4c45f0f7543455273e057b": {
+    "method": "ReserveCurrencyInitialSupplyChanged(uint256,uint256)",
+    "bytes": "Y»Ö-$<cjX|ø(¹\fæl½ñGmLEð÷T4U'>\u0005{"
+  },
+  "0x597d9ec1c0f09d8f56d0b3f56341c15994e75761684793ccabd70b686d8d8c00": {
+    "method": "BOOKING(address,uint256)",
+    "bytes": "Y}ÁÀðVÐ³õcAÁYçWahGÌ«×\u000bhm\u0000"
+  },
+  "0x590a28276c49d8e3330ea50d9aecd411b93e2975bdd22901f10eebbbda2e192a": {
+    "method": "TikiDividendEnabledUpdated(bool)",
+    "bytes": "Y\n('lIØã3\u000e¥\rìÔ\u0011¹>)u½Ò)\u0001ñ\u000eë»Ú.\u0019*"
+  },
+  "0x59c74f273c839e73d98898819d4187b7528e06c78b96615bbe489c2b8bafaae0": {
+    "method": "BusdReceived(uint256)",
+    "bytes": "YÇO'<sÙA·R\u0006Ça[¾H+¯ªà"
+  },
+  "0x59c0185881271a0f53d43e6ab9310091408f9e0ff9ae2512613de800f26b8de4": {
+    "method": "REFUND(uint256,address,uint256,bytes1,uint256)",
+    "bytes": "YÀ\u0018X'\u001a\u000fSÔ>j¹1\u0000@\u000fù®%\u0012a=è\u0000òkä"
+  },
+  "0x592b472c246e7e43fd7c7ebd0f82da9d79823cf2788cb0c399dad92f5a0e7e79": {
+    "method": "MoreLowbBorrowed(address,uint256)",
+    "bytes": "Y+G,$n~Cý|~½\u000fÚy<òx°ÃÚÙ/Z\u000e~y"
+  },
+  "0x5963aae6075252ffce07b8c6e9fb9e42ad33ab08a0a7682f7047e64c97ce80da": {
+    "method": "PaymentReceivedFor(uint256,address,address,uint256,uint256)",
+    "bytes": "Ycªæ\u0007RRÿÎ\u0007¸ÆéûB­3«\b §h/pGæLÎÚ"
+  },
+  "0x599151c6e9f1ed8b2de669bf7bd0a5c881f744dbcc52441714f32989d9bc1473": {
+    "method": "BuildHouse(address,uint256,uint256,uint256)",
+    "bytes": "YQÆéñí-æi¿{Ð¥È÷DÛÌRD\u0017\u0014ó)Ù¼\u0014s"
+  },
+  "0x59341fd9fe84dddaacc025207c52915cdd5930372e08d980153d051c1716bd01": {
+    "method": "initFarmed(address,address,address,uint256,uint256,uint256)",
+    "bytes": "Y4\u001fÙþÝÚ¬À% |R\\ÝY07.\bÙ\u0015=\u0005\u001c\u0017\u0016½\u0001"
+  },
+  "0x59340c0c03231a6d0e9dde1e5b52fa9e6c4e57f60e27bbea895e893748bd9736": {
+    "method": "UserLeaderUpdated(address,address)",
+    "bytes": "Y4\f\f\u0003#\u001am\u000eÞ\u001e[RúlNWö\u000e'»ê^7H½6"
+  },
+  "0x59144fae6782469925d34ec1274aca7e5447d26e930b84a1d7f099569a4e7ac5": {
+    "method": "Earned(string)",
+    "bytes": "Y\u0014O®gF%ÓNÁ'JÊ~TGÒn\u000b¡×ðVNzÅ"
+  },
+  "0x597143501432b8883a3f0bff51656762735f58ce0d55dbb3396336d63ad0d448": {
+    "method": "EmissionEnded(uint256)",
+    "bytes": "YqCP\u00142¸:?\u000bÿQegbs_XÎ\rUÛ³9c6Ö:ÐÔH"
+  },
+  "0x59ebd6be8e70e726f46bd031bbc4c0f9427c413f0cf64b276e70dd7e436d3333": {
+    "method": "OrderSuccessful(bytes32,address,uint256,uint256,address)",
+    "bytes": "YëÖ¾pç&ôkÐ1»ÄÀùB|A?\föK'npÝ~Cm33"
+  },
+  "0x59965f8a2f079119e2e6192e8168d1d5d9776e7ea2ef765193cf18c6cf43b142": {
+    "method": "PresaleEnabledUpdated(bool)",
+    "bytes": "Y_/\u0007\u0019âæ\u0019.hÑÕÙwn~¢ïvQÏ\u0018ÆÏC±B"
+  },
+  "0x593b22e3d52905f8d4420932e0d05c7c127c96deebc4787075d232472bf909e9": {
+    "method": "NftStateAdded(uint8,uint256,uint256)",
+    "bytes": "Y;\"ãÕ)\u0005øÔB\t2àÐ\\|\u0012|ÞëÄxpuÒ2G+ù\té"
+  },
+  "0x59876c75b8531375d1b404df44056ffc4ac021762a1e22442aab547085a1771d": {
+    "method": "CreatedContent(uint256,address,address)",
+    "bytes": "Ylu¸S\u0013uÑ´\u0004ßD\u0005oüJÀ!v*\u001e\"D*«Tp¡w\u001d"
+  },
+  "0x59afb3c1ebefcfdba6f5c42d4b4d39c54e042f3a845a583a0117adde2e305a8c": {
+    "method": "ProposalCreated(uint256,uint256,bytes,uint256,uint256,uint256,uint256)",
+    "bytes": "Y¯³ÁëïÏÛ¦õÄ-KM9ÅN\u0004/:ZX:\u0001\u0017­Þ.0Z"
+  },
+  "0x590722df1ce8045cc934759c8253e9beeb1d2a660d1da814fc2ffcebab99f873": {
+    "method": "BurnCanceled(bytes32)",
+    "bytes": "Y\u0007\"ß\u001cè\u0004\\É4uSé¾ë\u001d*f\r\u001d¨\u0014ü/üë«øs"
+  },
+  "0x595b50df358a6541a92d0cc266890bd0fceb23c097d223ad0d93d205fba06542": {
+    "method": "OnAuctionUpdate(uint256,uint256,uint256,uint256)",
+    "bytes": "Y[Pß5eA©-\fÂf\u000bÐüë#ÀÒ#­\rÒ\u0005û eB"
+  },
+  "0x5912df26a1b0605572860e6b304fb802d17b80e06c29fd87a95ce48673182261": {
+    "method": "OnUpdateLimits(uint256,uint256)",
+    "bytes": "Y\u0012ß&¡°`Ur\u000ek0O¸\u0002Ñ{àl)ý©\\äs\u0018\"a"
+  },
+  "0x59991d170bd25c6ea1710e02f8c17e9b813f6d293006cdd0961ad916d39ffd9e": {
+    "method": "PetDelisted(uint256)",
+    "bytes": "Y\u001d\u0017\u000bÒ\\n¡q\u000e\u0002øÁ~?m)0\u0006ÍÐ\u001aÙ\u0016Óý"
+  },
+  "0x5908732fb1164e1b0f98a7eb8c5814b98db599149ce64d2b215219282ea8cc98": {
+    "method": "Depth3(bool,uint256)",
+    "bytes": "Y\bs/±\u0016N\u001b\u000f§ëX\u0014¹µ\u0014æM+!R\u0019(.¨Ì"
+  },
+  "0x59479572df91d69eab9879f3d0498fdbe0c805dfd212c01170ed7f9e79c69568": {
+    "method": "RarityAdded(uint8,string)",
+    "bytes": "YGrßÖ«yóÐIÛàÈ\u0005ßÒ\u0012À\u0011píyÆh"
+  },
+  "0x590cf1032653b22fe20f861b8bd6e2e16e71c44763fbf70d5b4e713d297224d1": {
+    "method": "SetRate(uint32,uint32)",
+    "bytes": "Y\fñ\u0003&S²/â\u000f\u001bÖâánqÄGcû÷\r[Nq=)r$Ñ"
+  },
+  "0x59f9d80706292c3bb36ed6bc211e665b305e25433bcd21adb686815fba5a9d0b": {
+    "method": "Injection(uint256)",
+    "bytes": "YùØ\u0007\u0006),;³nÖ¼!\u001ef[0^%C;Í!­¶_ºZ\u000b"
+  },
+  "0x59bc66521d14ad7c0d0709bc417253f3aba8d240b53140d821eedb53a5c620d3": {
+    "method": "UpdatedFurnace(address)",
+    "bytes": "Y¼fR\u001d\u0014­|\r\u0007\t¼ArSó«¨Ò@µ1@Ø!îÛS¥Æ Ó"
+  },
+  "0x599a18eff3bc0a4853148ba1136973314393f9ee43df183b1f1aed5d289c9c61": {
+    "method": "FundDistributors(uint256,uint256,uint256,uint256)",
+    "bytes": "Y\u0018ïó¼\nHS\u0014¡\u0013is1CùîCß\u0018;\u001f\u001aí](a"
+  },
+  "0x5998f12fe9332603ffeda0abbc2ea68418dfad46909149aa0f4fcbd1d8f7c620": {
+    "method": "NewDeposit(address,uint8,uint256,uint256)",
+    "bytes": "Yñ/é3&\u0003ÿí «¼.¦\u0018ß­FIª\u000fOËÑØ÷Æ "
+  },
+  "0x5917114cad46f22bdea11095aa1eb147d783beceaa6c9920fd7eea1290b6d877": {
+    "method": "SubtractValueEvent(address,address,uint256)",
+    "bytes": "Y\u0017\u0011L­Fò+Þ¡\u0010ª\u001e±G×¾Îªl ý~ê\u0012¶Øw"
+  },
+  "0x592f87baef2f1c92a7b806ace1e82bcd3de9df20883aaea40ee37987e78466f9": {
+    "method": "DeliverClaim(address,address,address,uint256)",
+    "bytes": "Y/ºï/\u001c§¸\u0006¬áè+Í=éß :®¤\u000eãyçfù"
+  },
+  "0x59327fa227d3fcc72b61eb5e7083cd72b448c22d7ea96849f4655db8de22d639": {
+    "method": "NewPulse(uint256,uint256,bytes32)",
+    "bytes": "Y2¢'ÓüÇ+aë^pÍr´HÂ-~©hIôe]¸Þ\"Ö9"
+  },
+  "0x59972710323ed59d3149039074a08693afb758da9bff6e959e96801bdf411a12": {
+    "method": "StakingRewardCreated(address,uint256,uint256,uint256,uint256,uint256)",
+    "bytes": "Y'\u00102>Õ1I\u0003t ¯·XÚÿn\u001bßA\u001a\u0012"
+  },
+  "0x593fe8a553afce2380090e91ae47c2fec1b30ea9e49bcd0359724b5c32f2b6b3": {
+    "method": "UpdateRevertTransfersInLockUpPeriod(address,bool)",
+    "bytes": "Y?è¥S¯Î#\t\u000e®GÂþÁ³\u000e©äÍ\u0003YrK\\2ò¶³"
+  },
+  "0x59f3c5da125c878150b1d86b9b10cf0e198a04aa990c15916c382fb087329bcc": {
+    "method": "MatchSettled(bytes32)",
+    "bytes": "YóÅÚ\u0012\\P±Øk\u0010Ï\u000e\u0019\u0004ª\f\u0015l8/°2Ì"
+  },
+  "0x59639e2233af1f4ac0862b99f0599792a7658c203b739e6fa0d5687929eb0b61": {
+    "method": "VaultsUpdated(address,address,address)",
+    "bytes": "Yc\"3¯\u001fJÀ+ðY§e ;so Õhy)ë\u000ba"
+  },
+  "0x590d17f7c7a85da5e48f0ebfcf7ca4f0c9e226d795167675b0b53fb599a7d2c3": {
+    "method": "PoolIdRemoved(uint256)",
+    "bytes": "Y\r\u0017÷Ç¨]¥ä\u000e¿Ï|¤ðÉâ&×\u0016vu°µ?µ§ÒÃ"
+  },
+  "0x596455b6c747701dc43a20e6ef9c517ba7ae79a78dfe915b797c530c2acbe7ce": {
+    "method": "RestrictionDurationChanged(uint256)",
+    "bytes": "YdU¶ÇGp\u001dÄ: æïQ{§®y§þ[y|S\f*ËçÎ"
+  },
+  "0x595dad6bef5d4eb1515a18179883be0531df45389689be937bf22e17c83b3d00": {
+    "method": "UpdateFinalBlock(address,uint256)",
+    "bytes": "Y]­kï]N±QZ\u0018\u0017¾\u00051ßE8¾{ò.\u0017È;=\u0000"
+  },
+  "0x595cd27b62af24092ae2d5497be2f8807863b770713cf70254dbebc7c6f4c7c7": {
+    "method": "Topup(address,address,uint256)",
+    "bytes": "Y\\Ò{b¯$\t*âÕI{âøxc·pq<÷\u0002TÛëÇÆôÇÇ"
+  },
+  "0x595092aff5ad09b0f689921199a5d57414c0d4d4e57e5bd2d2e031f75347e5cc": {
+    "method": "TokensBurn(address,uint256)",
+    "bytes": "YP¯õ­\t°ö\u0011¥Õt\u0014ÀÔÔå~[ÒÒà1÷SGåÌ"
+  },
+  "0x5940b3e4196e0af34b25de54a6476219b7065395349f15fb84006511fd962d32": {
+    "method": "LogChangeSigningAddress(address)",
+    "bytes": "Y@³ä\u0019n\nóK%ÞT¦Gb\u0019·\u0006S4\u0015û\u0000e\u0011ý-2"
+  },
+  "0x59599e0147d1e88579fba3dfe68adfb7c6be3cbcf032595091f6578b060faa33": {
+    "method": "PendingTransferRefundedByExpiration(uint256,address)",
+    "bytes": "YY\u0001GÑèyû£ßæß·Æ¾<¼ð2YPöW\u0006\u000fª3"
+  },
+  "0x5954de30398e29be0e90810a97f722f6bae4cd39e050e4942fcc930329cdd4f2": {
+    "method": "KMUpdated(uint256,address,uint256)",
+    "bytes": "YTÞ09)¾\u000e\n÷\"öºäÍ9àPä/Ì\u0003)ÍÔò"
+  },
+  "0x594eb3541dcc9e4f21339e57e6edce0604a45017506cb41edaaff08d5920e3b5": {
+    "method": "TrustVerifyAnchor(address)",
+    "bytes": "YN³T\u001dÌO!3WæíÎ\u0006\u0004¤P\u0017Pl´\u001eÚ¯ðY ãµ"
+  },
+  "0x592415846ad1aa0c702b2baaa55dfa43ce9a466c6559cb6335204df6c901694a": {
+    "method": "TrackerCreated()",
+    "bytes": "Y$\u0015jÑª\fp++ª¥]úCÎFleYËc5 MöÉ\u0001iJ"
+  },
+  "0x593d4357ba175077da53c295b9e4aae41dabbe52de6d223ed1518b4e4637fad6": {
+    "method": "DirectSaleCreated(address,uint256,uint256)",
+    "bytes": "Y=CWº\u0017PwÚSÂ¹äªä\u001d«¾RÞm\">ÑQNF7úÖ"
+  },
+  "0x5985cde7e74fdda8a92b05491d26a6b037849a85dbce661449fc9cecc307403c": {
+    "method": "OPPT_Blacklisted(address)",
+    "bytes": "YÍççOÝ¨©+\u0005I\u001d&¦°7ÛÎf\u0014IüìÃ\u0007@<"
+  },
+  "0x594d4e6d6062b7a177faf580cbdca7aae305685396c11b584227f5025c9ad4c6": {
+    "method": "AirdropFinished(uint256,address[])",
+    "bytes": "YMNm`b·¡wúõËÜ§ªã\u0005hSÁ\u001bXB'õ\u0002\\ÔÆ"
+  },
+  "0x599fb3769528e3b715dcbdfb3eadab099652838f9390904be9cc2e0168954114": {
+    "method": "IglooUnpaired(uint256)",
+    "bytes": "Y³v(ã·\u0015Ü½û>­«\tRKéÌ.\u0001hA\u0014"
+  },
+  "0x59994f7bed7ab9b9c914efb2b3467ee88e9a9b45afc792c3493d0b3583448154": {
+    "method": "NftWithdrawal(address,uint256)",
+    "bytes": "YO{íz¹¹É\u0014ï²³F~èE¯ÇÃI=\u000b5DT"
+  },
+  "0x5959e9fbc5b42ab31702a9038d4329b08cc67277eaad89e9639d8380c7cfeb43": {
+    "method": "OfferCreated(uint256,string,string,uint256)",
+    "bytes": "YYéûÅ´*³\u0017\u0002©\u0003C)°Ærwê­écÇÏëC"
+  },
+  "0x591e38851e23344946047e99c34f1453b4f8b6d6e2783ca638f8b16ca4abdbd3": {
+    "method": "BridgingToEndPerformed(address,address,address,uint256)",
+    "bytes": "Y\u001e8\u001e#4IF\u0004~ÃO\u0014S´ø¶Öâx<¦8ø±l¤«ÛÓ"
+  },
+  "0x59e4c9bb1559d5420398abdcb1a7eb97cc4a7e27b2ae810b8d7f44fbc2327ffa": {
+    "method": "RandomseedFulfilmentSuccess(uint256,bytes32,uint256)",
+    "bytes": "YäÉ»\u0015YÕB\u0003«Ü±§ëÌJ~'²®\u000bDûÂ2ú"
+  },
+  "0x59fbc492410222fd5803043dcf102d8ed6d571422e60c83d398b8f2686b7505c": {
+    "method": "RebaseReportInitiated(uint256)",
+    "bytes": "YûÄA\u0002\"ýX\u0003\u0004=Ï\u0010-ÖÕqB.`È=9&·P\\"
+  },
+  "0x59bd7a2f1ca7d783d3d0d1773604f4d63255404cbbb4bedf6bf09e5ea294414d": {
+    "method": "CreatedGTNFT(uint256,string)",
+    "bytes": "Y½z/\u001c§×ÓÐÑw6\u0004ôÖ2U@L»´¾ßkð^¢AM"
+  },
+  "0x595b8fc8e8b1acbfb8694b03a08fac4cfb668b916edf8a214b9430531e4203f9": {
+    "method": "TokenWithdrawnFromPurchasesHandler(address,uint256,uint256)",
+    "bytes": "Y[Èè±¬¿¸iK\u0003 ¬Lûfnß!K0S\u001eB\u0003ù"
+  },
+  "0x597cf231de011d0c1fb0be77fc3449d8a2e0c239eed996c9021a7a699fadf769": {
+    "method": "SetWithdrawFeePeriod(uint256)",
+    "bytes": "Y|ò1Þ\u0001\u001d\f\u001f°¾wü4IØ¢àÂ9îÙÉ\u0002\u001azi­÷i"
+  },
+  "0x59da5bc5affb656f2bcff13381137d1677c26eb089d66122bf36794013e10f35": {
+    "method": "arraysDynamic(uint256[],address[],bool[])",
+    "bytes": "YÚ[Å¯ûeo+Ïñ3\u0013}\u0016wÂn°Öa\"¿6y@\u0013á\u000f5"
+  },
+  "0x59731b4e829e31c2c70e4d48fad959c939860467bc680a53c698a0e805d01add": {
+    "method": "UpdateTokenWhitelistLog(address,address)",
+    "bytes": "Ys\u001bN1ÂÇ\u000eMHúÙYÉ9\u0004g¼h\nSÆ è\u0005Ð\u001aÝ"
+  },
+  "0x59c6a2aea8cca4a75288fc86bccb4d5130371c7e63eb43090b0bdc2bd566a446": {
+    "method": "TriggeredCall(address,address,uint256,bytes,bytes)",
+    "bytes": "YÆ¢®¨Ì¤§Rü¼ËMQ07\u001c~cëC\t\u000b\u000bÜ+Õf¤F"
+  },
+  "0x590ba68a12d65ef409e2805559d1df1c2e572d83d3251d3c1a5fd0e19df10952": {
+    "method": "NewBid(uint256,uint256,uint256,address)",
+    "bytes": "Y\u000b¦\u0012Ö^ô\tâUYÑß\u001c.W-Ó%\u001d<\u001a_Ðáñ\tR"
+  },
+  "0x5988b3df3495bd77e3aea1be20b1e7a4750ef0d9a31fbc97a5b18d1c76b0a5d4": {
+    "method": "CancelStack(address,uint256,bytes32)",
+    "bytes": "Y³ß4½wã®¡¾ ±ç¤u\u000eðÙ£\u001f¼¥±\u001cv°¥Ô"
+  },
+  "0x59e8338caf229e1a42e04872a316d44c6cbae9d57dda07745a30f510423f1b5b": {
+    "method": "Drained(uint256,uint256,uint256)",
+    "bytes": "Yè3¯\"\u001aBàHr£\u0016ÔLlºéÕ}Ú\u0007tZ0õ\u0010B?\u001b["
+  },
+  "0x5943d8bbb473c65eed1b4ad82640bcccc600402b638b63b90ee8a20ecde1be7b": {
+    "method": "BountyAmountUpdate(uint256)",
+    "bytes": "YCØ»´sÆ^í\u001bJØ&@¼ÌÆ\u0000@+cc¹\u000eè¢\u000eÍá¾{"
+  },
+  "0x591335385a6b2ae17850e0f977f7e6f680b33515e10b3770a171d6ba6c749169": {
+    "method": "ContractEarnings(uint256,uint256,string)",
+    "bytes": "Y\u001358Zk*áxPàùw÷æö³5\u0015á\u000b7p¡qÖºlti"
+  },
+  "0x59d43ea646b9ef7fa91a063ea2f40141a8efcb99596245e5230ed49cc994e135": {
+    "method": "eSetRuleData(uint256,uint256,uint256,uint256,address,address,bool,bool,uint256)",
+    "bytes": "YÔ>¦F¹ï©\u001a\u0006>¢ô\u0001A¨ïËYbEå#\u000eÔÉá5"
+  },
+  "0x598d88df7b669519a42fc5fbda762f0ebfa7151aa6dec9307ecabb7f331739d2": {
+    "method": "LeviathanUnwrapped(uint256)",
+    "bytes": "Yß{f\u0019¤/ÅûÚv/\u000e¿§\u0015\u001a¦ÞÉ0~Ê»3\u00179Ò"
+  },
+  "0x593a828ed4fba31d01a050f24d9bdbdc7ef9084280e88b39be6b68c565f16400": {
+    "method": "CityPurchased(uint256,address,uint256)",
+    "bytes": "Y:Ôû£\u001d\u0001 PòMÛÜ~ù\bBè9¾khÅeñd\u0000"
+  },
+  "0x593c5f2d44bd154e5a2757aedc9b2fce2253be4ef310125ec7e5b962b30b515e": {
+    "method": "EarlyAdopter(address,uint256,uint256)",
+    "bytes": "Y<_-D½\u0015NZ'W®Ü/Î\"S¾Nó\u0010\u0012^Çå¹b³\u000bQ^"
+  },
+  "0x596fedda579f1f112db492a84dd35c6770886843b38385b17af2e007af1e04fb": {
+    "method": "BrokerAdd(address)",
+    "bytes": "YoíÚW\u001f\u0011-´¨MÓ\\gphC³±zòà\u0007¯\u001e\u0004û"
+  },
+  "0x595e3ccb51e818ccd483a63f4403422a7c2a016b457bdf155c5ec6f6a1c1042f": {
+    "method": "PresalerSubmitted(address)",
+    "bytes": "Y^<ËQè\u0018ÌÔ¦?D\u0003B*|*\u0001kE{ß\u0015\\^Æö¡Á\u0004/"
+  },
+  "0x59a711b6608d234f8bbce6257dd2dd12154b00cc23503149fd99ddf0d6980ffe": {
+    "method": "ContributionWithdrawn(address,uint256,uint256)",
+    "bytes": "Y§\u0011¶`#O¼æ%}ÒÝ\u0012\u0015K\u0000Ì#P1IýÝðÖ\u000fþ"
+  },
+  "0x59a8aec89ad87feec7574127f0b7e1bc5884579d0a8580df7fac6bfccda3d876": {
+    "method": "TestCalc(uint256,uint256,uint256,uint256)",
+    "bytes": "Y¨®ÈØîÇWA'ð·á¼XW\nß¬küÍ£Øv"
+  },
+  "0x591f8a8eec5f816ebad652d603381439aec11229373d0e570181d223970350c0": {
+    "method": "DividendReceived(uint256,address,uint256)",
+    "bytes": "Y\u001fì_nºÖRÖ\u00038\u00149®Á\u0012)7=\u000eW\u0001Ò#\u0003PÀ"
+  },
+  "0x59ae058b814fd9ef4fc477fc77469013fe420011c8b4a21fdc165dee6d14a465": {
+    "method": "AddVersion(string)",
+    "bytes": "Y®\u0005OÙïOÄwüwF\u0013þB\u0000\u0011È´¢\u001fÜ\u0016]îm\u0014¤e"
+  },
+  "0x59c10418bdb8f464f1f7f5f59e4106a3c80594e6214f16817c83c5afc8f16e19": {
+    "method": "lostMoneyForLevelEvent(address,address,uint256,uint256,address)",
+    "bytes": "YÁ\u0004\u0018½¸ôdñ÷õõA\u0006£È\u0005æ!O\u0016|Å¯Èñn\u0019"
+  },
+  "0x59db93bc99b9f7969498ee07cf8b31f5dd3c7b7c4dec295bd27c025ecafc8d20": {
+    "method": "VersionUpdated(uint256)",
+    "bytes": "YÛ¼¹÷î\u0007Ï1õÝ<{|Mì)[Ò|\u0002^Êü "
+  },
+  "0x59b6e23042dfefafafa899667cb1e787123539b9e36d6650f4933f351612c917": {
+    "method": "CollateralizationOracleUpdate(address,address,address)",
+    "bytes": "Y¶â0Bßï¯¯¨f|±ç\u001259¹ãmfPô?5\u0016\u0012É\u0017"
+  },
+  "0x595222b54f6575265d6c78b412892d01797c855ce48bec8ff4240a20fb4f1446": {
+    "method": "ReturnToken(address,uint256,uint256,uint256)",
+    "bytes": "YR\"µOeu&]lx´\u0012-\u0001y|\\äìô$\n ûO\u0014F"
+  },
+  "0x59f7fca722a3783470a597106f0cfad5d88bffd06f200951e95f7622f3a23b83": {
+    "method": "Contributed(uint256)",
+    "bytes": "Y÷ü§\"£x4p¥\u0010o\fúÕØÿÐo \tQé_v\"ó¢;"
+  },
+  "0x59505209f9dd2c55cb5070cab446e24b1b16ebd1501e22c0a709da0102527361": {
+    "method": "ErrorNotHandled(bytes)",
+    "bytes": "YPR\tùÝ,UËPpÊ´FâK\u001b\u0016ëÑP\u001e\"À§\tÚ\u0001\u0002Rsa"
+  },
+  "0x594c7a1753e9997a119d5384bcf2c79eb041566feac9c4ec9a88b521c17958c7": {
+    "method": "Birth(address,uint64,uint16,uint256)",
+    "bytes": "YLz\u0017Séz\u0011S¼òÇ°AVoêÉÄìµ!ÁyXÇ"
+  },
+  "0x59f94987fb6cc2cf3e20cd6124c21b73d0a97aac461a329a97c362e642a39429": {
+    "method": "EtheriaGlobalBidCreated(string,uint256,uint256,address)",
+    "bytes": "YùIûlÂÏ> Ía$Â\u001bsÐ©z¬F\u001a2ÃbæB£)"
+  },
+  "0x59aee10a182c49d9f99f11ce9e7eac21ff5c85878c9a52a91f4be25c9a4e0f40": {
+    "method": "Commented(address,string,uint256)",
+    "bytes": "Y®á\n\u0018,IÙù\u0011Î~¬!ÿ\\R©\u001fKâ\\N\u000f@"
+  },
+  "0x594899bfc4094ef3335085557c2e57c64265c8e44a94caae962cfa3d74dbc18a": {
+    "method": "DecreaseLiquidity(uint256,uint256,uint256)",
+    "bytes": "YH¿Ä\tNó3PU|.WÆBeÈäJÊ®,ú=tÛÁ"
+  },
+  "0x59b0d5d9200fb66f12c9f448956ac79eadeda7ead3fa5d13e178650f9f0e68a9": {
+    "method": "BookingUpdated(uint256,address)",
+    "bytes": "Y°ÕÙ \u000f¶o\u0012ÉôHjÇ­í§êÓú]\u0013áxe\u000f\u000eh©"
+  },
+  "0x597e5ffe42b5e974e99f3092d7cb7a4f4d27e4601e776971e3d50fb828fa4521": {
+    "method": "RefCheckouted(address,uint256)",
+    "bytes": "Y~_þBµété0×ËzOM'ä`\u001ewiqãÕ\u000f¸(úE!"
+  },
+  "0x59cd55c0f9323588cb0b1a71d5fc513491d9c2efbb09b0e5f19a00ac3c9ac6c9": {
+    "method": "Burn(address,address,address,address,uint256,uint256,uint256)",
+    "bytes": "YÍUÀù25Ë\u000b\u001aqÕüQ4ÙÂï»\t°åñ\u0000¬<ÆÉ"
+  },
+  "0x59397fa3b16ace9d5bb4841253423be95f06cdca24a50068b5ee6b4c20a65d48": {
+    "method": "MintLand(address,uint256,uint256)",
+    "bytes": "Y9£±jÎ[´\u0012SB;é_\u0006ÍÊ$¥\u0000hµîkL ¦]H"
+  },
+  "0x59fb7b4b7ca21c11355b2b8ca0e702c0655d76717e46e9c6a3c497bf60805c31": {
+    "method": "ChangeSupply(uint256)",
+    "bytes": "Yû{K|¢\u001c\u00115[+ ç\u0002Àe]vq~FéÆ£Ä¿`\\1"
+  },
+  "0x59038313da412805a1ade6c8ee0467e095b37a41855abd3d8ba6c3638dbb0f3d": {
+    "method": "SummonMoloch(address,address)",
+    "bytes": "Y\u0003\u0013ÚA(\u0005¡­æÈî\u0004gà³zAZ½=¦Ãc»\u000f="
+  },
+  "0x59d523a2022d5461d27f80ff3cfbb1ae84b1edf5dca5e7034c18fa61117a01ba": {
+    "method": "proven(address,bool)",
+    "bytes": "YÕ#¢\u0002-TaÒÿ<û±®±íõÜ¥ç\u0003L\u0018úa\u0011z\u0001º"
+  },
+  "0x599ad14f54fc682c42f9ca90321a8a5ae972fadb112a719d2913fa6d0424d36f": {
+    "method": "TicketPurchase(address,uint256,uint256,uint256)",
+    "bytes": "YÑOTüh,BùÊ2\u001aZérúÛ\u0011*q)\u0013úm\u0004$Óo"
+  },
+  "0x59abbc1e1d1acfc45b97b4281b896756d85300f729bcfeea7a952337af1c94a5": {
+    "method": "RejectedPaymentToFreezingedAddr(address,address,uint256)",
+    "bytes": "Y«¼\u001e\u001d\u001aÏÄ[´(\u001bgVØS\u0000÷)¼þêz#7¯\u001c¥"
+  },
+  "0x595696acb9f53e3a9c40ba3eb3e0f2152b4ec0a549ec80832e48f4ab3e72fa58": {
+    "method": "PairTrusted(address,bool)",
+    "bytes": "YV¬¹õ>:@º>³àò\u0015+NÀ¥Iì.Hô«>rúX"
+  },
+  "0x59ecc691ace820e72142daf38a4483b103f494aa5e52478c28218c186d7b1092": {
+    "method": "LogStartPreIcoStage(uint256)",
+    "bytes": "YìÆ¬è ç!BÚóD±\u0003ôª^RG(!\u0018m{\u0010"
+  },
+  "0x5998a692901c98bc4a7dd88a9aee1eb36464008fd7c594a1b5a70d41e664bf1a": {
+    "method": "TransferToCon(address,address,uint256,bytes)",
+    "bytes": "Y¦\u001c¼J}Øî\u001e³dd\u0000×Å¡µ§\rAæd¿\u001a"
+  },
+  "0x59778b16fbd6f923f224d9757f4189608ebab388600fb8de39c7642a9737f7b4": {
+    "method": "UpdatedLastRequest(uint256)",
+    "bytes": "Yw\u0016ûÖù#ò$ÙuA`º³`\u000f¸Þ9Çd*7÷´"
+  },
+  "0x5918a95fd00afb5898499bd5beade1619e98655d2b4ff6e0f6a4347f0a69c127": {
+    "method": "Minted(bytes32,uint256,address,bytes32)",
+    "bytes": "Y\u0018©_Ð\nûXIÕ¾­áae]+Oöàö¤4\niÁ'"
+  },
+  "0x5902e340d3beb16edfe7f3c321712a34d088d9739b2c513b5438f6f2111cf241": {
+    "method": "UpdatedVerifiedOffchainAssetBalance(int256)",
+    "bytes": "Y\u0002ã@Ó¾±nßçóÃ!q*4ÐÙs,Q;T8öò\u0011\u001còA"
+  },
+  "0x59d513e7efd4dd31544855938bf1602ae4ef19b5b6b5499a7dd0d0bf1770bbde": {
+    "method": "CreditLineRequestedToBorrower(bytes32,address,address)",
+    "bytes": "YÕ\u0013çïÔÝ1THUñ`*äï\u0019µ¶µI}ÐÐ¿\u0017p»Þ"
+  },
+  "0x5910ec49ffa84fc10b381290a16016078d481bceab7fc51d122ffee19995ba2f": {
+    "method": "NFTRequestMade(address,string,bytes32)",
+    "bytes": "Y\u0010ìIÿ¨OÁ\u000b8\u0012¡`\u0016\u0007H\u001bÎ«Å\u001d\u0012/þáº/"
+  },
+  "0x598db110c31345e2c4418fa8a5d4e125f3526f24b214150e19d76e5889ed120b": {
+    "method": "ExchangeTracking(bytes32,bytes32,uint256,uint256)",
+    "bytes": "Y±\u0010Ã\u0013EâÄA¨¥Ôá%óRo$²\u0014\u0015\u000e\u0019×nXí\u0012\u000b"
+  },
+  "0x5918d9e493e9602e9982595f75cec7d21fda0272b9fcc59abd6894bc63131b6e": {
+    "method": "NewPositionSettled(uint256,address,uint256)",
+    "bytes": "Y\u0018Ùäé`.Y_uÎÇÒ\u001fÚ\u0002r¹üÅ½h¼c\u0013\u001bn"
+  },
+  "0x59a2048114f4aa638916aeeda8d12fa749e723ed40481f3e50ceaad740058b59": {
+    "method": "holderValidated(address)",
+    "bytes": "Y¢\u0004\u0014ôªc\u0016®í¨Ñ/§Iç#í@H\u001f>PÎª×@\u0005Y"
+  },
+  "0x59800d968fcce138300a0019410b4b75041610d65b3cdc5f31656b03ed14912e": {
+    "method": "Frozen(bool)",
+    "bytes": "Y\rÌá80\n\u0000\u0019A\u000bKu\u0004\u0016\u0010Ö[<Ü_1ek\u0003í\u0014."
+  },
+  "0x59aae1e79819b39072bc13c558a9d4506e05306fcbfce9108c59d0733f340330": {
+    "method": "CaseUpdated(uint32,uint32)",
+    "bytes": "Yªáç\u0019³r¼\u0013ÅX©ÔPn\u00050oËüé\u0010YÐs?4\u00030"
+  },
+  "0x59ed71cf6709f335833a80c1f63849e2d521190eb53c283858f22a8d452d23f5": {
+    "method": "ContributorAdded(address,uint256,uint256)",
+    "bytes": "YíqÏg\tó5:Áö8IâÕ!\u0019\u000eµ<(8Xò*E-#õ"
+  },
+  "0x599b244d21db9af3e5c0ec6cd4af8b4c6085c9ac647c72f008f8c40d0d7cd1be": {
+    "method": "ChangeSetupCost(uint256,uint256)",
+    "bytes": "Y$M!ÛóåÀìlÔ¯L`É¬d|rð\bøÄ\r\r|Ñ¾"
+  },
+  "0x594f63cff1382171b2861c510465af6d0687e7e537981b8acd332546421b7c0a": {
+    "method": "LogAddStableCoin(address)",
+    "bytes": "YOcÏñ8!q²\u001cQ\u0004e¯m\u0006çå7\u001bÍ3%FB\u001b|\n"
+  },
+  "0x597b42a3df9ed710ba8c0f6c3cf3f0a7eedf9a566ddb48962d280f1438fe854f": {
+    "method": "LogSetFeeRate(uint256,uint256)",
+    "bytes": "Y{B£ß×\u0010º\u000fl<óð§îßVmÛH-(\u000f\u00148þO"
+  },
+  "0x59f806ea201943b2381f6f6815cce9340f4346344c7ba1fb0963c6f04b2ca1e6": {
+    "method": "LogSetConverter(address,address)",
+    "bytes": "Yø\u0006ê \u0019C²8\u001foh\u0015Ìé4\u000fCF4L{¡û\tcÆðK,¡æ"
+  },
+  "0x597602340a0879d75e390493912810b59876b6fab232164ae49ebe06328c5759": {
+    "method": "boughtTokens(address,uint256)",
+    "bytes": "Yv\u00024\n\by×^9\u0004(\u0010µv¶ú²2\u0016Jä¾\u00062WY"
+  },
+  "0x5947d963a514d8a7b9462ea2718d901e6b56a1458b8899e200a1f48262dcd6a8": {
+    "method": "Proposal(address,uint256)",
+    "bytes": "YGÙc¥\u0014Ø§¹F.¢q\u001ekV¡Eâ\u0000¡ôbÜÖ¨"
+  },
+  "0x59ce6256507da20a008aa4f06f7a4690e99c008a908bf46abe9407444b5444d7": {
+    "method": "PoolMigrationBlockExtended(uint256,uint256,uint256)",
+    "bytes": "YÎbVP}¢\n\u0000¤ðozFé\u0000ôj¾\u0007DKTD×"
+  },
+  "0x59fb13f7f8e0e42ab14ddf13ce1aebeb1474c6c26fe816e079e3fe60d51e1e4b": {
+    "method": "AntiSnipingFailsafeSetTo(bool)",
+    "bytes": "Yû\u0013÷øàä*±Mß\u0013Î\u001aëë\u0014tÆÂoè\u0016àyãþ`Õ\u001e\u001eK"
+  },
+  "0x5914a10b6fcd05041971c38c07080f256ccf3ad27a90a5e7d3da57e61d697fc4": {
+    "method": "AddToEvent(address,address,address,uint256,uint256)",
+    "bytes": "Y\u0014¡\u000boÍ\u0005\u0004\u0019qÃ\u0007\b\u000f%lÏ:Òz¥çÓÚWæ\u001diÄ"
+  },
+  "0x59543b7f82735782aa5bdb97dff40ff288d4548a5865da513b40e4088e2ee77e": {
+    "method": "ProfitLossChanged(address,address,address,uint256,int256,uint256,int256,int256,int256,uint256)",
+    "bytes": "YT;sWª[Ûßô\u000fòÔTXeÚQ;@ä\b.ç~"
+  },
+  "0x59ff1c5e8a691bbfdd4acd20ca4355bd3e0878914814bc6d035bd1584d34135d": {
+    "method": "StartSale(uint256)",
+    "bytes": "Yÿ\u001c^i\u001b¿ÝJÍ ÊCU½>\bxH\u0014¼m\u0003[ÑXM4\u0013]"
+  },
+  "0x5972028664ef94f91d3223e269e09eda01f35a81b7cf13014b7f9c64e9b07586": {
+    "method": "InsuranceDeposit(address,address,uint256)",
+    "bytes": "Yr\u0002dïù\u001d2#âiàÚ\u0001óZ·Ï\u0013\u0001Kdé°u"
+  },
+  "0x594dfe7a0ac05308c58eecc07ec71a10ff80f1595f6a0a29e9b297b932c29ae2": {
+    "method": "ShardCreated(uint256,address,string,string,uint256,uint256,uint256,address)",
+    "bytes": "YMþz\nÀS\bÅìÀ~Ç\u001a\u0010ÿñY_j\n)é²¹2Ââ"
+  },
+  "0x59df04bd51ea0829a640c9b6be1da5e33d4d15160663510284a2b896670c305b": {
+    "method": "CrossOvercollateralizedBorrow(address,address,uint256,address,uint256)",
+    "bytes": "Yß\u0004½Qê\b)¦@É¶¾\u001d¥ã=M\u0015\u0016\u0006cQ\u0002¢¸g\f0["
+  },
+  "0x59544bee92bf2b253a972a2287d60d36384a1d8c66c6b62b5fda5c1454d6e0fe": {
+    "method": "MinterAddition(address)",
+    "bytes": "YTKî¿+%:*\"Ö\r68J\u001dfÆ¶+_Ú\\\u0014TÖàþ"
+  },
+  "0x5952e800de5564aff4cc315e219327cf6d706cbba481d1613c32f4b1aa17dcdd": {
+    "method": "VestingTokensClaimed(address,uint256)",
+    "bytes": "YRè\u0000ÞUd¯ôÌ1^!'Ïmpl»¤Ña<2ô±ª\u0017ÜÝ"
+  },
+  "0x59701e51a4d517a14949d661e114667d35adbc98fbe9af54033857a5fe6386e8": {
+    "method": "Clamied(uint256)",
+    "bytes": "Yp\u001eQ¤Õ\u0017¡IIÖaá\u0014f}5­¼ûé¯T\u00038W¥þcè"
+  },
+  "0x5939dbfa32553f04c0be47e1d8d934b5ca72597d7c5f2916d993738bfcf2dcfe": {
+    "method": "NewMultisig(address,address,uint256)",
+    "bytes": "Y9Ûú2U?\u0004À¾GáØÙ4µÊrY}|_)\u0016ÙsüòÜþ"
+  },
+  "0x59ec6f88ff21c824a2a4b0337ce4622ee369a27292f5303fca5aa10cafaefd44": {
+    "method": "addedData(string,string)",
+    "bytes": "Yìoÿ!È$¢¤°3|äb.ãi¢rõ0?ÊZ¡\f¯®ýD"
+  },
+  "0x59a16347c52aa7799837debc05b3239fcd98e42a25f056fc005364304fd9f721": {
+    "method": "LiquidityLauncherCreated(address,address,address)",
+    "bytes": "Y¡cGÅ*§y7Þ¼\u0005³#Íä*%ðVü\u0000Sd0OÙ÷!"
+  },
+  "0x5963bc032df6df35b4474b6d37ca039d1724ac732c473b2db7640d4c7e496eee": {
+    "method": "SetStakingPoolWallet(address,address)",
+    "bytes": "Yc¼\u0003-öß5´GKm7Ê\u0003\u0017$¬s,G;-·d\rL~Inî"
+  },
+  "0x5942e033d058d46e4269ccd9ab9a1a97ec2b2a95c5137a504fe4e1a67b4b6ae1": {
+    "method": "FreezeToken(bytes32)",
+    "bytes": "YBà3ÐXÔnBiÌÙ«\u001aì+*Å\u0013zPOäá¦{Kjá"
+  },
+  "0x59cc51b6b7601a171c376803cec950d480385ea3486ba0c34e0b7bdb44833472": {
+    "method": "Cure(bytes32)",
+    "bytes": "YÌQ¶·`\u001a\u0017\u001c7h\u0003ÎÉPÔ8^£Hk ÃN\u000b{ÛD4r"
+  },
+  "0x598b8e71f3c1b3025b420cd65cfdd62c1e8e6bedea2f756c76dee0299e96c5b5": {
+    "method": "deposit(uint256[])",
+    "bytes": "YqóÁ³\u0002[B\fÖ\\ýÖ,\u001ekíê/ulvÞà)Åµ"
+  },
+  "0x598e6fd66db42f2c8400265f78d7fe123fa8b761219f08ed13f307c8fa71ce48": {
+    "method": "Dispute(bool)",
+    "bytes": "YoÖm´/,\u0000&_x×þ\u0012?¨·a!\bí\u0013ó\u0007ÈúqÎH"
+  },
+  "0x59cf3173348e96a353c3a278a1c16a9f98e6a645892c978b34cc79b72fc50a43": {
+    "method": "Reclaim(uint256)",
+    "bytes": "YÏ1s4£SÃ¢x¡Ájæ¦E,4Ìy·/Å\nC"
+  },
+  "0x59999a36ee4b7f1f7380bf39f0b3e1ee427750abcb65fa7451fac1c3b98f8aa6": {
+    "method": "LogWhitelistBasketFactory(address)",
+    "bytes": "Y6îK\u001fs¿9ð³áîBwP«ËeútQúÁÃ¹¦"
+  },
+  "0x59fca9eb78c6bb3cb320ea90d62a52f2356f49576cef6d1c3276f9dfa758ef17": {
+    "method": "adminAdded(address,address,string)",
+    "bytes": "Yü©ëxÆ»<³ êÖ*Rò5oIWlïm\u001c2vùß§Xï\u0017"
+  },
+  "0x59d359735635b99aaf11c882d93a2f2f949912e109fc1ef284eff6f0df02ed4a": {
+    "method": "Status(bool,uint256,uint256)",
+    "bytes": "YÓYsV5¹¯\u0011ÈÙ://\u0012á\tü\u001eòïöðß\u0002íJ"
+  },
+  "0x59afeb7f3e5c29f03bfefc293e60bffaf10910e8b770791cbb26556ccb500254": {
+    "method": "ViewAccountEvent(string,string,string,string,string,address)",
+    "bytes": "Y¯ë>\\)ð;þü)>`¿úñ\t\u0010è·py\u001c»&UlËP\u0002T"
+  },
+  "0x596b3acad3954126f9cd5659152e0abf28f5e4c8ed617821eb7f7f4830b6bdda": {
+    "method": "MinDelayReducedChange(uint256,uint256)",
+    "bytes": "Yk:ÊÓA&ùÍVY\u0015.\n¿(õäÈíax!ëH0¶½Ú"
+  },
+  "0x5966c9aab74624140b4b0dc07f460306a66444d1d821f964914c5e8eec2d5636": {
+    "method": "WinnerSelected3(address,uint256)",
+    "bytes": "YfÉª·F$\u0014\u000bK\rÀF\u0003\u0006¦dDÑØ!ùdL^ì-V6"
+  },
+  "0x59af9edfa20366259b09ca690b4dd1da09876365cb2e81ceb2fd6ab2c88a8078": {
+    "method": "DevRewardPctUpdated(uint256)",
+    "bytes": "Y¯ß¢\u0003f%\tÊi\u000bMÑÚ\tceË.Î²ýj²Èx"
+  },
+  "0x59b49bee4a4ff2ba044c7b12ced4b69cbbe96cfa3a2e8cf99058aef3a2e0e4fb": {
+    "method": "OracleFulfilRequest(address,bytes32,address)",
+    "bytes": "Y´îJOòº\u0004L{\u0012ÎÔ¶»élú:.ùX®ó¢àäû"
+  },
+  "0x59d9936814ee6b246a55c35fa187192f956dda7c54cb8b718df247851cc47385": {
+    "method": "WinnerGame(address,uint256)",
+    "bytes": "YÙh\u0014îk$jUÃ_¡\u0019/mÚ|TËqòG\u001cÄs"
+  },
+  "0x59bbb3b184484f7aee32610ae2eefe7aa42cb6d5024ce8b77abd908902646068": {
+    "method": "WithdrawCreated(address,uint256,uint256)",
+    "bytes": "Y»³±HOzî2a\nâîþz¤,¶Õ\u0002Lè·z½\u0002d`h"
+  },
+  "0x59c33f94fc6c106ef0583145db590ce5a452add776c94e9d97507bcdf4e2137f": {
+    "method": "PriceUpdate(uint256,address)",
+    "bytes": "YÃ?ül\u0010nðX1EÛY\få¤R­×vÉNP{Íôâ\u0013"
+  },
+  "0x59294a5afbc06d52df3c4e22551f3296d86d0146606b4b0a849b241d8e0a7e01": {
+    "method": "GameDestroyed(bytes32)",
+    "bytes": "Y)JZûÀmRß<N\"U\u001f2Øm\u0001F`kK\n$\u001d\n~\u0001"
+  },
+  "0x59ac3a754fd6bbe3f5606cdc9976f608cff31389ed8686f2f1049b36201f60b5": {
+    "method": "ExitClaimed(bytes32,address,address,uint256)",
+    "bytes": "Y¬:uOÖ»ãõ`lÜvö\bÏó\u0013íòñ\u00046 \u001f`µ"
+  },
+  "0x59bda7a025e0397805ac03450a6c4573ebe0234b1e1a1ff8f6f3f5d97ad1bc42": {
+    "method": "SecretUpdated(bytes32)",
+    "bytes": "Y½§ %à9x\u0005¬\u0003E\nlEsëà#K\u001e\u001a\u001føöóõÙzÑ¼B"
+  },
+  "0x596abb6b9f8bd0bf59c16b4bd5484bf9839249cba82f4bbc01fb070e8aed3f17": {
+    "method": "redeemNftEvent(uint256,address)",
+    "bytes": "Yj»kÐ¿YÁkKÕHKùIË¨/K¼\u0001û\u0007\u000eí?\u0017"
+  },
+  "0x591c156756eb2b51d8ed102ef097b1f92cd5b53142e51f0d793bd0edebdfd2de": {
+    "method": "ExcessPaymentTokensWithdrawn(address,address,uint256)",
+    "bytes": "Y\u001c\u0015gVë+QØí\u0010.ð±ù,Õµ1Bå\u001f\ry;ÐíëßÒÞ"
+  },
+  "0x59bb05c3a63993e6a6c07e437a05711740b92da3605ff92cb60656ffeb55fa4e": {
+    "method": "JackpotWon(address,string,uint256,uint256)",
+    "bytes": "Y»\u0005Ã¦9æ¦À~Cz\u0005q\u0017@¹-£`_ù,¶\u0006VÿëUúN"
+  },
+  "0x592b5b6fd3d7372232b38f4c313d455ea9f5ce6b5d5120cc987440ab6cc260d1": {
+    "method": "CancelBet(address,bytes32)",
+    "bytes": "Y+[oÓ×7\"2³L1=E^©õÎk]Q Ìt@«lÂ`Ñ"
+  },
+  "0x59894e8808eb0d183d848bc9f8a44635e565338dff2a57383c11f3e3221542df": {
+    "method": "NewSubscriptionAdded(uint256,address,uint256,uint256)",
+    "bytes": "YN\bë\r\u0018=Éø¤F5åe3ÿ*W8<\u0011óã\"\u0015Bß"
+  },
+  "0x59d9e41a74ddfb8399cd449961c1cb8293b02ac79ac7d2cc910f99ac422dea04": {
+    "method": "TRLabWalletSet(address)",
+    "bytes": "YÙä\u001atÝûÍDaÁË°*ÇÇÒÌ\u000f¬B-ê\u0004"
+  },
+  "0x59b53f26e58d1f6705a879655e2683956628af8737c8dfb153581a3e5f0b629c": {
+    "method": "RoundFired(string,bytes32,uint256,uint256)",
+    "bytes": "Yµ?&å\u001fg\u0005¨ye^&f(¯7Èß±SX\u001a>_\u000bb"
+  },
+  "0x5913aea070bf41949db04b93b957be919b85c45978e0b4c8b6491fbc8515dfc6": {
+    "method": "ChildCreatedERC721Cap(address,string,string,uint256)",
+    "bytes": "Y\u0013® p¿A°K¹W¾ÄYxà´È¶I\u001f¼\u0015ßÆ"
+  },
+  "0x5990f8b2cf26c9d4f79454991777d8e9e2fddfeb497799463864b4166be19d8c": {
+    "method": "AuctionMade(address,uint256,address)",
+    "bytes": "Yø²Ï&ÉÔ÷T\u0017wØéâýßëIwF8d´\u0016ká"
+  },
+  "0x595c5a9418c2ea607b802dfdeac0ce122b959c5eb469f9c0bf86c1e262e7c72f": {
+    "method": "LogRecipientAdded(address,uint256)",
+    "bytes": "Y\\Z\u0018Âê`{-ýêÀÎ\u0012+^´iùÀ¿ÁâbçÇ/"
+  },
+  "0x59306929bb99a7fbb8d74dd40400b7fdb4a756252b83513ad365891a9645acdb": {
+    "method": "bubbleNameChange(address,uint256,string)",
+    "bytes": "Y0i)»§û¸×MÔ\u0004\u0000·ý´§V%+Q:Óe\u001aE¬Û"
+  },
+  "0x59b102e7f1843977539183f1e544cf57812b563afc95eb0d90bc716f7cf49297": {
+    "method": "Donated(address,address,string)",
+    "bytes": "Y±\u0002çñ9wSñåDÏW+V:üë\r¼qo|ô"
+  },
+  "0x59f50092905e19b01a1048366270dc11a0574e56aaf31befbb34f3a4574522e7": {
+    "method": "Purchase(string,string,uint8,uint256,address)",
+    "bytes": "Yõ\u0000^\u0019°\u001a\u0010H6bpÜ\u0011 WNVªó\u001bï»4ó¤WE\"ç"
+  },
+  "0x597b1a247675b523c58ea9ea38f2e9a71a123f7ff605c744e562a3fea8c95276": {
+    "method": "StoreChangeDefaultToken(uint256,address)",
+    "bytes": "Y{\u001a$vuµ#Å©ê8òé§\u001a\u0012?ö\u0005ÇDåb£þ¨ÉRv"
+  },
+  "0x5949f486964b9062c1b5d09ce263b19e66864cd9ff78b15688085cddc87b78ce": {
+    "method": "LayerTransfer(uint16,uint16,bytes)",
+    "bytes": "YIôKbÁµÐâc±fLÙÿx±V\b\\ÝÈ{xÎ"
+  },
+  "0x59e331596c2f4ad4e68dde10fb2b9f32ef6b786f476b632b99edbd6d004d2ea1": {
+    "method": "PoolRecordAdd(bytes32,bytes32,uint256,string,string,uint256)",
+    "bytes": "Yã1Yl/JÔæÞ\u0010û+2ïkxoGkc+í½m\u0000M.¡"
+  },
+  "0x59e04c3f0d44b7caf6e8ef854b61d9a51cf1960d7a88ff6356cc5e946b4b5832": {
+    "method": "Received(address,uint256,string)",
+    "bytes": "YàL?\rD·ÊöèïKaÙ¥\u001cñ\rzÿcVÌ^kKX2"
+  },
+  "0x596ff9651e48f92f1b65437e158b46d1ebb1627ff156ad2e1807bd908bddedcd": {
+    "method": "Swap(address,uint256,uint256,uint256,uint256,address,string)",
+    "bytes": "Yoùe\u001eHù/\u001beC~\u0015FÑë±bñV­.\u0018\u0007½ÝíÍ"
+  },
+  "0x59968bcc678d760e59399355e5a0556b1e6a0bf61f168db4b1577e26c4f4ee8f": {
+    "method": "PoolCreated(bytes32,address,address,address,address,address,uint256,uint256,uint256,uint256)",
+    "bytes": "YÌgv\u000eY9Uå Uk\u001ej\u000bö\u001f\u0016´±W~&Äôî"
+  },
+  "0x596ccebbe592529a27e5321c3f5edb42a587f577d62bfef7eba5264ac5724d3c": {
+    "method": "SplitToken(address,address,uint256,uint256[],uint256[])",
+    "bytes": "YlÎ»åR'å2\u001c?^ÛB¥õwÖ+þ÷ë¥&JÅrM<"
+  },
+  "0x59bfc682b673f8cbf945f1e454df9334834abf7dfe7f92237ca29ecb9b436600": {
+    "method": "FundsRecovered(address,uint256)",
+    "bytes": "Y¿Æ¶søËùEñäTß4J¿}þ#|¢ËCf\u0000"
+  },
+  "0x59c79d79be0fadf59fe689b6952b7ebe90201a3a1f00d4a31982377890bc6046": {
+    "method": "Debit(address,uint256)",
+    "bytes": "YÇy¾\u000f­õæ¶+~¾ \u001a:\u001f\u0000Ô£\u00197x¼`F"
+  },
+  "0x5905edf405227ac25471b2d65b4b1719c5d816af9e96875f051d9e1c246bf814": {
+    "method": "AdminUpdateSecondaryRoyalty(uint256)",
+    "bytes": "Y\u0005íô\u0005\"zÂTq²Ö[K\u0017\u0019ÅØ\u0016¯_\u0005\u001d\u001c$kø\u0014"
+  },
+  "0x59fd934695ccd6b38985622aa2218b8c60cb9cf79579931886923ab44e77556c": {
+    "method": "NewFamepayCampaignCreated(address,address,address,uint256,uint256,uint256,uint256,uint256,uint256,uint256,uint256,uint256,string)",
+    "bytes": "YýFÌÖ³b*¢!`Ë÷y\u0018:´NwUl"
+  },
+  "0x592d8fba044f9498232ce6c14dc7eb3a60f723f4d6731918aea4f6ae0c081044": {
+    "method": "Stake(address,address,address,uint256,uint256)",
+    "bytes": "Y-º\u0004O#,æÁMÇë:`÷#ôÖs\u0019\u0018®¤ö®\f\b\u0010D"
+  },
+  "0x59617e84cd4a4d47c34c76f190da73d3a6a0236e0770dcba41851db53f336f57": {
+    "method": "SystemPaused(bool)",
+    "bytes": "Ya~ÍJMGÃLvñÚsÓ¦ #n\u0007pÜºA\u001dµ?3oW"
+  },
+  "0x597c1787844f03ee34bde4efad1ab1746cee1880e8d9eef850e322c46245b200": {
+    "method": "TokensPurchasing(address,address,uint256)",
+    "bytes": "Y|\u0017O\u0003î4½äï­\u001a±tlî\u0018èÙîøPã\"ÄbE²\u0000"
+  },
+  "0x59c8d9073fba9d63e36d4e61599664a0c184d40d91ad7e5c4b0e4fa0d5331381": {
+    "method": "ChangePackName(uint256,string)",
+    "bytes": "YÈÙ\u0007?ºcãmNaYd ÁÔ\r­~\\K\u000eO Õ3\u0013"
+  },
+  "0x59f3ed6c490025a2a4c7822cc65a459e77fee0d0d3159064952a48ceed2ca2a5": {
+    "method": "debuga(bytes)",
+    "bytes": "YóílI\u0000%¢¤Ç,ÆZEwþàÐÓ\u0015d*HÎí,¢¥"
+  },
+  "0x5961cdd921554aa969c64fc6d7c3e411d5128da77772035c14f23f58fab04caf": {
+    "method": "AgreementCreated(address,string)",
+    "bytes": "YaÍÙ!UJ©iÆOÆ×Ãä\u0011Õ\u0012§wr\u0003\\\u0014ò?Xú°L¯"
+  },
+  "0x597440e65d8cdea1298e19df50e115bda25508180452d87a7f4f99195fb843a4": {
+    "method": "Donation(address,address,uint256)",
+    "bytes": "Yt@æ]Þ¡)\u0019ßPá\u0015½¢U\b\u0018\u0004RØzO\u0019_¸C¤"
+  },
+  "0x59c1add5dd9df8133d58f74360eaa2af72096fc4752c789bd5858ae3d4cb1203": {
+    "method": "CreateMultipleAuctions(uint256[],uint256[],address)",
+    "bytes": "YÁ­ÕÝø\u0013=X÷C`ê¢¯r\toÄu,xÕãÔË\u0012\u0003"
+  },
+  "0x596e5ff4197d4a01b2406d4c0717653cbc9166cf6ab2bdf78272eb99d191a093": {
+    "method": "SurplusAuctionSettled(uint64,address)",
+    "bytes": "Yn_ô\u0019}J\u0001²@mL\u0007\u0017e<¼fÏj²½÷rëÑ "
+  },
+  "0x59458ec7a253c016b2624d10e97f84bf170ff8af158a4eff7331a34fac7cbcab": {
+    "method": "ContributionCollectorCreated(address)",
+    "bytes": "YEÇ¢SÀ\u0016²bM\u0010é¿\u0017\u000fø¯\u0015Nÿs1£O¬|¼«"
+  },
+  "0x59d11713a8801e3ba782d59e757fbcef75ca2ecabce8ccd06a0827941230b9f2": {
+    "method": "NodeOperatorStakingLimitSet(uint256,uint64)",
+    "bytes": "YÑ\u0017\u0013¨\u001e;§Õu¼ïuÊ.Ê¼èÌÐj\b'\u00120¹ò"
+  },
+  "0x59394a9dad6d755c0a4f06421118bb52b49ff946870e9ab26fe4547dd5c3d632": {
+    "method": "PrizePoolAdded(address)",
+    "bytes": "Y9J­mu\\\nO\u0006B\u0011\u0018»R´ùF\u000e²oäT}ÕÃÖ2"
+  },
+  "0x591096cb038d4de0c25c31b68b3abbacea17ec77a97e8c06fc2ef9682ad49541": {
+    "method": "ForkReceived(address,address,uint256)",
+    "bytes": "Y\u0010Ë\u0003MàÂ\\1¶:»¬ê\u0017ìw©~\u0006ü.ùh*ÔA"
+  },
+  "0x594ca4a8d3bf89659e9a62c1d0068dbcaf816cb22b8884a135631aafc03b7cf8": {
+    "method": "InvestorJoin(uint256,uint256)",
+    "bytes": "YL¤¨Ó¿ebÁÐ\u0006¼¯l²+¡5c\u001a¯À;|ø"
+  },
+  "0x59184da93971657061c8fdb55f885e42b2b69c3c25be12122258536062d640f3": {
+    "method": "Unpack(address,uint256)",
+    "bytes": "Y\u0018M©9qepaÈýµ_^B²¶<%¾\u0012\u0012\"XS`bÖ@ó"
+  },
+  "0x59753da1431f56a73035508c2029f46383ad079d13c1fd070f36df456e7268fc": {
+    "method": "BridgeOut(address,address,address,uint256,uint256,string)",
+    "bytes": "Yu=¡C\u001fV§05P )ôc­\u0007\u0013Áý\u0007\u000f6ßEnrhü"
+  },
+  "0x59bc251d51fbd86fa4f647dbe164db72ec22dcdcfd0e6f12b30cd1eee8e1bc43": {
+    "method": "UpdateSingle(address,address,uint256,uint256)",
+    "bytes": "Y¼%\u001dQûØo¤öGÛádÛrì\"ÜÜý\u000eo\u0012³\fÑîèá¼C"
+  },
+  "0x591e0232798675e699c31a9d8e576c56d046c9dacb203b5fd683346d134e78a2": {
+    "method": "WithdrewServiceProviderStake(address,uint256,uint256)",
+    "bytes": "Y\u001e\u00022yuæÃ\u001aWlVÐFÉÚË ;_Ö4m\u0013Nx¢"
+  },
+  "0x595a281849d9c4714247a1cf8d337aca918ea2e471cc57dc926d53df356aae90": {
+    "method": "LogRestaurantDepositFunds(address,uint256)",
+    "bytes": "YZ(\u0018IÙÄqBG¡Ï3zÊ¢äqÌWÜmSß5j®"
+  },
+  "0x59624856105ba18a675e5cda2cf39fa311e4a13197beabb4978c562f65d7be05": {
+    "method": "StakingAdded(address,address)",
+    "bytes": "YbHV\u0010[¡g^\\Ú,ó£\u0011ä¡1¾«´V/e×¾\u0005"
+  },
+  "0x593e15623f532f149247fc36c3b5cc4483916d3bbdf67d5168f742ab66b5faf8": {
+    "method": "RequestedRandomness(bytes32,uint256)",
+    "bytes": "Y>\u0015b?S/\u0014Gü6ÃµÌDm;½ö}Qh÷B«fµúø"
+  },
+  "0x5936e8d801894090b0f58436dadf0e1f90008a0f8260732d26fd60b51a2da3d1": {
+    "method": "InfluencerSigned(string,address)",
+    "bytes": "Y6èØ\u0001@°õ6Úß\u000e\u001f\u0000\u000f`s-&ý`µ\u001a-£Ñ"
+  },
+  "0x59947caed30468f05766809ea3c8dd63b96a8725586811da4ff05a1b51361775": {
+    "method": "MintedToken(uint256,address)",
+    "bytes": "Y|®Ó\u0004hðWf£ÈÝc¹j%Xh\u0011ÚOðZ\u001bQ6\u0017u"
+  },
+  "0x59d3ce47d6ad6c6003cef97d136155b29d88653eb355c8bed6e03fbf694570ca": {
+    "method": "Activate()",
+    "bytes": "YÓÎGÖ­l`\u0003Îù}\u0013aU²e>³UÈ¾Öà?¿iEpÊ"
+  },
+  "0x598921d66bd810b2e4f2ae0baa396628375daabbca2b029d6429576d94df638b": {
+    "method": "modifyShoesBornFromEvent(bytes32,string,address)",
+    "bytes": "Y!ÖkØ\u0010²äò®\u000bª9f(7]ª»Ê+\u0002d)Wmßc"
+  },
+  "0x5910d0b06d5b6cf4a55816a77f9d0a2f503457ea8a5cabfb1a5ff5118f348434": {
+    "method": "ValidatedHash(bytes32,address,uint256)",
+    "bytes": "Y\u0010Ð°m[lô¥X\u0016§\n/P4Wê\\«û\u001a_õ\u001144"
+  },
+  "0x59e16b922ce5d94cc6b2db6b42d1a6bc2dd08e71fbdd512f43c7750f6a045a25": {
+    "method": "NewQueue(address,address,address,address,uint256,uint256,uint256)",
+    "bytes": "Yák,åÙLÆ²ÛkBÑ¦¼-ÐqûÝQ/CÇu\u000fj\u0004Z%"
+  },
+  "0x593e31e306c198bef259d839f7c6dc4ff7fc10c07f76fab193a210b03704105f": {
+    "method": "DescriptorLocked()",
+    "bytes": "Y>1ã\u0006Á¾òYØ9÷ÆÜO÷ü\u0010Àvú±¢\u0010°7\u0004\u0010_"
+  },
+  "0x59ddb566404993e748fdc3da241718b61d81c73da529e072eac145af1f8c097d": {
+    "method": "OfferUpdate(uint256,address,uint256,uint256,uint256,bool)",
+    "bytes": "YÝµf@IçHýÃÚ$\u0017\u0018¶\u001dÇ=¥)àrêÁE¯\u001f\t}"
+  },
+  "0x592b495d7274e5fe90184f5c064783f930fc0a31ba860fac6a185948b3bfbc95": {
+    "method": "HunterRewardPaid(address,uint256[],uint256)",
+    "bytes": "Y+I]rtåþ\u0018O\\\u0006Gù0ü\n1º\u000f¬j\u0018YH³¿¼"
+  },
+  "0x5959a9ca933cf27172f81bbfd7254841aa5a11c6c237a5dcf0eb07b3e07780ac": {
+    "method": "PoolCreated(address,address,uint24,uint160,address)",
+    "bytes": "YY©Ê<òqrø\u001b¿×%HAªZ\u0011ÆÂ7¥Üðë\u0007³àw¬"
+  },
+  "0x594c091fded0306cf1bf72ebf396116d5ab9ce736177f19bcebd74b1a15dcee9": {
+    "method": "LongUintBooleanString(uint256,bool,string)",
+    "bytes": "YL\t\u001fÞÐ0lñ¿rëó\u0011mZ¹ÎsawñÎ½t±¡]Îé"
+  },
+  "0x59e991c9182b121cfe2ecb3352bd9fb2bcb8961699b902f2967300da4b1ebca2": {
+    "method": "BytesEventReturnsBytes(bytes)",
+    "bytes": "YéÉ\u0018+\u0012\u001cþ.Ë3R½²¼¸\u0016¹\u0002òs\u0000ÚK\u001e¼¢"
+  },
+  "0x59e6464009842325ce1f2ed33f6c3bab1017d2cbfd1f197954d43bcbbff4e609": {
+    "method": "Split(address,uint256,uint64,address,bytes)",
+    "bytes": "YæF@\t#%Î\u001f.Ó?l;«\u0010\u0017ÒËý\u001f\u0019yTÔ;Ë¿ôæ\t"
+  },
+  "0x59ef73569c755a1f7aa95892a50cd7f8124ea2c34c2965d69c4d3c3e5cc1d808": {
+    "method": "onClaim(address,uint256,uint256)",
+    "bytes": "YïsVuZ\u001fz©X¥\f×ø\u0012N¢ÃL)eÖM<>\\ÁØ\b"
+  },
+  "0x59e34d25faa37287ec8737cf33782970d9cbe689320470c3f50461a2918537fa": {
+    "method": "burnLockLP(uint256)",
+    "bytes": "YãM%ú£rì7Ï3x)pÙËæ2\u0004pÃõ\u0004a¢7ú"
+  },
+  "0x59ee970f5b28ebafebe6b5c0b6e43a9c66ae921f7d273677552b0eec5fad4ea4": {
+    "method": "ParameterSet(bytes32,int128)",
+    "bytes": "Yî\u000f[(ë¯ëæµÀ¶ä:f®\u001f}'6wU+\u000eì_­N¤"
+  },
+  "0x5988e4c12f4844b895de0739f562558435dca9602fd8b970720ee3cf8dff39be": {
+    "method": "Exchange(address,uint256)",
+    "bytes": "YäÁ/HD¸Þ\u00079õbU5Ü©`/Ø¹pr\u000eãÏÿ9¾"
+  },
+  "0x59daf8b22ebd0afd80ebea713d2f9adeb251ba1fd664775e326936b48c17ff47": {
+    "method": "BuyerFunded(address,uint8,uint8)",
+    "bytes": "YÚø².½\nýëêq=/Þ²Qº\u001fÖdw^2i6´\u0017ÿG"
+  },
+  "0x59701ed6f46ff3f5c94b1b741d5b3f2968eb7a0ae31d2cf2a3a9f2153d18b514": {
+    "method": "BurnRate(uint256)",
+    "bytes": "Yp\u001eÖôoóõÉK\u001bt\u001d[?)hëz\nã\u001d,ò£©ò\u0015=\u0018µ\u0014"
+  },
+  "0x59b976ecaced329630e954a021fbd9593894ff5a7480e5d7351e73cecbf285f1": {
+    "method": "IcoFinished(bool)",
+    "bytes": "Y¹vì¬í20éT !ûÙY8ÿZtå×5\u001esÎËòñ"
+  },
+  "0x593eae32baa13087e4ace6c5bdb2bca644d29310634cb44a78f0f2a640c6af0e": {
+    "method": "Stopped(bool)",
+    "bytes": "Y>®2º¡0ä¬æÅ½²¼¦DÒ\u0010cL´Jxðò¦@Æ¯\u000e"
+  },
+  "0x5942a9a3968c7d49fc51c027041544ea295f5c1e395d6d8aa35c4369959f8ed9": {
+    "method": "Delivered(address,uint256)",
+    "bytes": "YB©£}IüQÀ'\u0004\u0015Dê)_\\\u001e9]m£\\CiÙ"
+  },
+  "0x590e4b56e9e11eeec961dbbb248740c7f6b1aff7bd715dc75c76323bb2995e21": {
+    "method": "logRevokeOwners(address)",
+    "bytes": "Y\u000eKVéá\u001eîÉaÛ»$@Çö±¯÷½q]Ç\\v2;²^!"
+  },
+  "0x59c59c8e275f72009c9d3888e219b184c849059b6d837730b8457dba910282ed": {
+    "method": "chg_setting(address,uint256,uint256,string,uint256)",
+    "bytes": "YÅ'_r\u00008â\u0019±ÈI\u0005mw0¸E}º\u0002í"
+  },
+  "0x59693255bedc2974b761b077cd2fdb47b3bde759f64b247f599c6941525655e1": {
+    "method": "UpdateInterest(uint256,uint256,uint256,uint256,uint256,uint256)",
+    "bytes": "Yi2U¾Ü)t·a°wÍ/ÛG³½çYöK$YiARVUá"
+  },
+  "0x590b975c6c0ad07291052d35e354944ebed986091d40026a932b3b6d122e753c": {
+    "method": "LogSetRoot(address)",
+    "bytes": "Y\u000b\\l\nÐr\u0005-5ãTN¾Ù\t\u001d@\u0002j+;m\u0012.u<"
+  },
+  "0x596f738dc354130d81c0f6e14514648e2a413c234ab6eb5ad5ac09acce3a11e6": {
+    "method": "ERC20TimedDeposited(address,address,address,uint256,uint256,bytes32,uint64,uint64,uint128)",
+    "bytes": "YosÃT\u0013\rÀöáE\u0014d*A<#J¶ëZÕ¬\t¬Î:\u0011æ"
+  },
+  "0x5998feb874e6089317765439db6575c0ba1c29ba0084c05f3c61be5cbd74cb8c": {
+    "method": "TokensSwapped(address,uint256,uint256,uint256)",
+    "bytes": "Yþ¸tæ\b\u0017vT9ÛeuÀº\u001c)º\u0000À_<a¾\\½tË"
+  },
+  "0x594ac0b4ca8d0faa4c24b7ed4da22de236720d3eaf3ea347542cff512938d37e": {
+    "method": "SaleLive(bool)",
+    "bytes": "YJÀ´Ê\u000fªL$·íM¢-â6r\r>¯>£GT,ÿQ)8Ó~"
+  },
+  "0x5900e3398d3e5e6e5698f1e0cb3db105f6b4a407f6146b9694caa6565bb74000": {
+    "method": "CommittedWithdraw(address,uint256)",
+    "bytes": "Y\u0000ã9>^nVñàË=±\u0005ö´¤\u0007ö\u0014kÊ¦V[·@\u0000"
+  },
+  "0x5902a87e2f61c98fadcab864e16010ae1cab745036ad291abdb59e953d05fb84": {
+    "method": "LogNewProvableQuery(bytes32)",
+    "bytes": "Y\u0002¨~/aÉ­Ê¸dá`\u0010®\u001c«tP6­)\u001a½µ=\u0005û"
+  },
+  "0x59d43bb3a5cac84d885c3d79ea13a6304bc47ce11345e3d0967ea7fb78e8a2da": {
+    "method": "TgeFinalized(address,uint256)",
+    "bytes": "YÔ;³¥ÊÈM\\=yê\u0013¦0KÄ|á\u0013EãÐ~§ûxè¢Ú"
+  },
+  "0x593171216ffbd6e0978810ccdef97ed96268f918700d3bc5982980ca38ef27ab": {
+    "method": "DeliverETH(address,uint256,string,bytes32)",
+    "bytes": "Y1q!oûÖà\u0010ÌÞù~Ùbhù\u0018p\r;Å)Ê8ï'«"
+  },
+  "0x59a6118db2ed38f046e84b9bc0f48d65c6032d1b994ba54df0a7e8d77a4886ab": {
+    "method": "NyanFundAddressSet(address)",
+    "bytes": "Y¦\u0011²í8ðFèKÀôeÆ\u0003-\u001bK¥Mð§è×zH«"
+  },
+  "0x59b3ffce759ec92c629beee27554d8fbc2ca1a05020fa0cf500c890c172094be": {
+    "method": "NewRebaseMintPercent(uint256,uint256)",
+    "bytes": "Y³ÿÎuÉ,bîâuTØûÂÊ\u001a\u0005\u0002\u000f ÏP\f\f\u0017 ¾"
+  },
+  "0x59062170a285eb80e8c6b8ced60428442a51910635005233fc4ce084a475845e": {
+    "method": "TokensDeposited(address,uint256)",
+    "bytes": "Y\u0006!p¢ëèÆ¸ÎÖ\u0004(D*Q\u00065\u0000R3üLà¤u^"
+  },
+  "0x59150ca680a8e022464c7b4f5317dc2a06d8d1059d9f63558f0b1512160ac8d8": {
+    "method": "Burned(uint96)",
+    "bytes": "Y\u0015\f¦¨à\"FL{OS\u0017Ü*\u0006ØÑ\u0005cU\u000b\u0015\u0012\u0016\nÈØ"
+  },
+  "0x59f4075f2e15b9eccc021515e30268c23a96102dc64145d23667ae5eceeee1fc": {
+    "method": "event_senderAddress(address)",
+    "bytes": "Yô\u0007_.\u0015¹ìÌ\u0002\u0015\u0015ã\u0002hÂ:\u0010-ÆAEÒ6g®^Îîáü"
+  },
+  "0x59fdca5c5019c8bddf5b408b17992d0fce838508a49ac6a398c8e06e645cfdf8": {
+    "method": "FeeAdded(uint256)",
+    "bytes": "YýÊ\\P\u0019È½ß[@\u0017-\u000fÎ\b¤Æ£Èànd\\ýø"
+  },
+  "0x599913da78d12a0667f3ed7084589b1891cf88967ed8d8659c7c6df1bfad757a": {
+    "method": "HouseBidEntered(uint256,uint256,address)",
+    "bytes": "Y\u0013ÚxÑ*\u0006góípX\u0018Ï~ØØe|mñ¿­uz"
+  },
+  "0x5988b0a8d3b8ed2d9961af381f4cf0619bd49b20e1e5c8db63322f6d0b789360": {
+    "method": "LogNewWave(uint256)",
+    "bytes": "Y°¨Ó¸í-a¯8\u001fLðaÔ áåÈÛc2/m\u000bx`"
+  },
+  "0x59ef01fe78d3fc1c160166232974b181fec44779581bc204884bcd3e8201210d": {
+    "method": "FrozenFunds(address,bool,bool)",
+    "bytes": "Yï\u0001þxÓü\u001c\u0016\u0001f#)t±þÄGyX\u001bÂ\u0004KÍ>\u0001!\r"
+  },
+  "0x59bcba6a5d1ea8b61f7c2656523dda11af2309da936f882649a821ac51a44ec9": {
+    "method": "WarriorBurned(uint256,address)",
+    "bytes": "Y¼ºj]\u001e¨¶\u001f|&VR=Ú\u0011¯#\tÚo&I¨!¬Q¤NÉ"
+  },
+  "0x594fd22b20a17265cf2b4459acd7f1b6fa11f6a0046fa052bba6ef7f1ee95392": {
+    "method": "AddEmployeeReimbursement(uint256,uint256)",
+    "bytes": "YOÒ+ ¡reÏ+DY¬×ñ¶ú\u0011ö \u0004o R»¦ï\u001eéS"
+  },
+  "0x596dec17e17fa1094abbd97b66d083dcbb9d349993e12e9bfc3de443eb60a4ea": {
+    "method": "LogNewOraclizeQuery(uint256,bytes32,string)",
+    "bytes": "Ymì\u0017á¡\tJ»Ù{fÐÜ»4á.ü=äCë`¤ê"
+  },
+  "0x592c878e6add7d4d1ceb88871d699a1f9655424e4cd45f0ca7ad9f98526f2868": {
+    "method": "LogStepAdvanced()",
+    "bytes": "Y,jÝ}M\u001cë\u001di\u001fUBNLÔ_\f§­Ro(h"
+  },
+  "0x59ac404e6cef764888b008ebe66559133957e1b3e94afc4fda6dbdf4d0aec139": {
+    "method": "change_TokenReward(uint256)",
+    "bytes": "Y¬@NlïvH°\bëæeY\u00139Wá³éJüOÚm½ôÐ®Á9"
+  },
+  "0x59c3fbcae88f30e9b0e35c132a7f68c53231dffa4722f197c7ecb0ee013eee60": {
+    "method": "LiquidityPoolRemoved(address)",
+    "bytes": "YÃûÊè0é°ã\\\u0013*hÅ21ßúG\"ñÇì°î\u0001>î`"
+  },
+  "0x599f1c845a3e9ff375e1e3c7e61a6ff2faac7ed7e9cc45db40fd2b73f5384504": {
+    "method": "SetWalletLockTimeoutEvent(uint256,uint256)",
+    "bytes": "Y\u001cZ>óuáãÇæ\u001aoòú¬~×éÌEÛ@ý+sõ8E\u0004"
+  },
+  "0x59901f31ae2f183042d33e59b8b37be57d21ddf6351ebf066ee2eace7229bdfa": {
+    "method": "DrawDown(address,uint256)",
+    "bytes": "Y\u001f1®/\u00180BÓ>Y¸³{å}!Ýö5\u001e¿\u0006nâêÎr)½ú"
+  },
+  "0x5971311cfa292989b086cf10b6ca4dc2d6c428c262b89123aae6caa40a056f96": {
+    "method": "log_named_string(bytes32,string)",
+    "bytes": "Yq1\u001cú))°Ï\u0010¶ÊMÂÖÄ(Âb¸#ªæÊ¤\n\u0005o"
+  },
+  "0x592e92600f81bca159cf247000cb9debfab4e6304196acdec35ff158ea7955d3": {
+    "method": "FeeRecipientChanged(uint256,address)",
+    "bytes": "Y.`\u000f¼¡YÏ$p\u0000Ëëú´æ0A¬ÞÃ_ñXêyUÓ"
+  },
+  "0x5923958ad0a0f9e2754b81ea1c7483dcdd7481e51b34ee4846bdaa6d5403c345": {
+    "method": "UpgradeCardBought(address,uint256)",
+    "bytes": "Y#Ð ùâuKê\u001ctÜÝtå\u001b4îHF½ªmT\u0003ÃE"
+  },
+  "0x59e6b60a96d536a1234254c1c9b3736ff8fad332c8090c7a86c93507b7673102": {
+    "method": "BurnTransferred(address,address)",
+    "bytes": "Yæ¶\nÕ6¡#BTÁÉ³soøúÓ2È\t\fzÉ5\u0007·g1\u0002"
+  },
+  "0x5962f8af633c4df1ab230096f773a514ee5adf7785c621ecdcdb764cb7f6e391": {
+    "method": "BorrowerOperationsAddressSet(address)",
+    "bytes": "Ybø¯c<Mñ«#\u0000÷s¥\u0014îZßwÆ!ìÜÛvL·öã"
+  },
+  "0x599ee9afb9798933a30754540e2e9a79f77c4a29f3487d7ca59faa095e354694": {
+    "method": "TileOfferCreated(uint16,address,uint256,uint256)",
+    "bytes": "Yé¯¹y3£\u0007TT\u000e.y÷|J)óH}|¥ª\t^5F"
+  },
+  "0x5905265be09e3f6f7813c1dce4febfad76d4b3a46288aa344d2531532c3519c9": {
+    "method": "onBuyAndDistribute(address,bytes32,uint256,uint256,uint256,address,bytes32,uint256,uint256,uint256)",
+    "bytes": "Y\u0005&[à?ox\u0013ÁÜäþ¿­vÔ³¤bª4M%1S,5\u0019É"
+  },
+  "0x599a298163e1678bb1c676052a8930bf0b8a1261ed6e01b8a2391e55f7000102": {
+    "method": "AddAuthorization(address)",
+    "bytes": "Y)cág±Æv\u0005*0¿\u000b\u0012aín\u0001¸¢9\u001eU÷\u0000\u0001\u0002"
+  },
+  "0x5983a6f0983ae2018b8c82983c69fe2a90b8b9b3571055977e3967a36f6da3ff": {
+    "method": "DripTokensBurned(address,uint256)",
+    "bytes": "Y¦ð:â\u0001<iþ*¸¹³W\u0010U~9g£om£ÿ"
+  },
+  "0x594c8ac201c8fe17b45304242a716cc8c4a5227a5440c3e19304906b2e217fb4": {
+    "method": "BuyArt(uint256,uint256,address)",
+    "bytes": "YLÂ\u0001Èþ\u0017´S\u0004$*qlÈÄ¥\"zT@Ãá\u0004k.!´"
+  },
+  "0x59dfe0cb0c2ca886f38478780683af126e4c05ba43ee640cb971eb7c736a3b0a": {
+    "method": "FeeRecipientChange(address)",
+    "bytes": "YßàË\f,¨óxx\u0006¯\u0012nL\u0005ºCîd\f¹që|sj;\n"
+  },
+  "0x59cbf1251d8592510b5a3df66c42ab0664604d319dcd3202a097a04a1cfbda08": {
+    "method": "GetETH(address,uint256)",
+    "bytes": "YËñ%\u001dQ\u000bZ=ölB«\u0006d`M1Í2\u0002  J\u001cûÚ\b"
+  },
+  "0x598c2941e1d126a56daa8263b130d6972c6914f8b3dbffe165eba3ee763ddb0b": {
+    "method": "ChangeFeesTo(address)",
+    "bytes": "Y)AáÑ&¥mªc±0Ö,i\u0014ø³Ûÿáeë£îv=Û\u000b"
+  },
+  "0x59a55455fb2332116ca78fe864f670ef66bae65460339946369d37fc255cbdb8": {
+    "method": "OfferReleased(uint256)",
+    "bytes": "Y¥TUû#2\u0011l§èdöpïfºæT`3F67ü%\\½¸"
+  },
+  "0x59881db7faab6be2f6a166f7eec1e5f780480402a21de0442ee7cf7471492d3d": {
+    "method": "smartSwapExactOut(address,address,uint256,uint256,uint256,uint256,uint256)",
+    "bytes": "Y\u001d·ú«kâö¡f÷îÁå÷H\u0004\u0002¢\u001dàD.çÏtqI-="
+  },
+  "0x59b80d4302bc83a07f620ef9d79233045917d21e5d0c1df5439813c15060fe10": {
+    "method": "SwapAndMarket(uint256,uint256)",
+    "bytes": "Y¸\rC\u0002¼ b\u000eù×3\u0004Y\u0017Ò\u001e]\f\u001dõC\u0013ÁP`þ\u0010"
+  },
+  "0x595d60aa1774bc64c02f2c4dd248d2d3630d36a9beb7673e6d2932bcd18c32c7": {
+    "method": "UpdateDEXAddress(address,address,address)",
+    "bytes": "Y]`ª\u0017t¼dÀ/,MÒHÒÓc\r6©¾·g>m)2¼Ñ2Ç"
+  },
+  "0x59e0e5d80fa1c40408d166a8a47c1f6768233e46ec0e9214c4fc0b40ff3c2a27": {
+    "method": "GateManagerDeposit(address,uint256)",
+    "bytes": "YàåØ\u000f¡Ä\u0004\bÑf¨¤|\u001fgh#>Fì\u000e\u0014Äü\u000b@ÿ<*'"
+  },
+  "0x596f4db485f9f39633eefcb1b04b10114fc6bc60e5feff327e5b2cace874129f": {
+    "method": "ReserveRateMantissaSet(uint256)",
+    "bytes": "YoM´ùó3îü±°K\u0010\u0011OÆ¼`åþÿ2~[,¬èt\u0012"
+  },
+  "0x5983cdcaa370320b76fe01a3a32a0430e6a13b9f47a55e806afb13b5aef95a12": {
+    "method": "ProxyCreated(address,address,address)",
+    "bytes": "YÍÊ£p2\u000bvþ\u0001££*\u00040æ¡;G¥^jû\u0013µ®ùZ\u0012"
+  },
+  "0x59926e0a78d12238b668b31c8e3f6ece235a59a00ede111d883e255b68c4d048": {
+    "method": "GuardRemoved(address)",
+    "bytes": "Yn\nxÑ\"8¶h³\u001c?nÎ#ZY \u000eÞ\u0011\u001d>%[hÄÐH"
+  },
+  "0x5916eae62a26d1d6886b9b49e48e7cb2a5827c44c1931af79753813537efca63": {
+    "method": "StakingPool(address,address,uint256)",
+    "bytes": "Y\u0016êæ*&ÑÖkIä|²¥|DÁ\u001a÷S57ïÊc"
+  },
+  "0x59c3a0b60c6ab7deb62e1440c9e72441db6db7dfe514dba8cb18e60c0d896efa": {
+    "method": "RemoveLiquidity(address,uint256,uint256,uint256)",
+    "bytes": "YÃ ¶\fj·Þ¶.\u0014@Éç$AÛm·ßå\u0014Û¨Ë\u0018æ\f\rnú"
+  },
+  "0x5947dcd896bf7adcd0f742773ed3f73fde605805e0a7d12465766b5842864179": {
+    "method": "LogNewPolicy(bytes32)",
+    "bytes": "YGÜØ¿zÜÐ÷Bw>Ó÷?Þ`X\u0005à§Ñ$evkXBAy"
+  },
+  "0x5979c04b0d7f0107e1fb66acd8a8950f758e0591c1915a39536e4cf9e6b54cfd": {
+    "method": "LogOffspringBuy(address,uint256,uint256)",
+    "bytes": "YyÀK\r\u0001\u0007áûf¬Ø¨\u000fu\u0005ÁZ9SnLùæµLý"
+  },
+  "0x59602036a4d5ddc6d26a204732c88deed66e3cbd4e5bd29fb7d85ca6eca3b212": {
+    "method": "ProductCreated(uint256,uint256,uint256,uint256,uint256,uint256,bool)",
+    "bytes": "Y` 6¤ÕÝÆÒj G2ÈîÖn<½N[Ò·Ø\\¦ì£²\u0012"
+  },
+  "0x595a30f13a69b616c4d568e2a2b7875fdfe86e4300a049953c76ee278f8f3f10": {
+    "method": "RateChanged(uint256)",
+    "bytes": "YZ0ñ:i¶\u0016ÄÕhâ¢·_ßènC\u0000 I<vî'?\u0010"
+  },
+  "0x59227f56942fcd5fe78dd366aa59cdd5ecbb894c6831fa56efd4c21d850ae1d5": {
+    "method": "FaucetCreated(address,address,string,uint256)",
+    "bytes": "Y\"V/Í_çÓfªYÍÕì»Lh1úVïÔÂ\u001d\náÕ"
+  },
+  "0x59daab319a95b82a6772172dea8fab7fffda8ae925f3056832bf511c0f7afbe3": {
+    "method": "CoinsAdded(address,uint32,uint256)",
+    "bytes": "YÚ«1¸*gr\u0017-ê«ÿÚé%ó\u0005h2¿Q\u001c\u000fzûã"
+  },
+  "0x593f3a6ca687633736d25531fb6f6fc7bd990ef6f1b7fb2c69cdf35a246e372e": {
+    "method": "AllMarkingsProcessed(address,uint256,uint256,uint256)",
+    "bytes": "Y?:l¦c76ÒU1ûooÇ½\u000eöñ·û,iÍóZ$n7."
+  },
+  "0x5910d98777ae0099b0b7e784c91b69d802e8f349faed86d7b8484d95a26337bb": {
+    "method": "ProposalMoment(address,uint256,uint256)",
+    "bytes": "Y\u0010Ùw®\u0000°·çÉ\u001biØ\u0002èóIúí×¸HM¢c7»"
+  },
+  "0x593b9ffd2a1fa1116d89d881015d00e5180b3d2eb7546c2eae1d4de3413dcd3e": {
+    "method": "createdBet(address,string)",
+    "bytes": "Y;ý*\u001f¡\u0011mØ\u0001]\u0000å\u0018\u000b=.·Tl.®\u001dMãA=Í>"
+  },
+  "0x5906a2091185df1fc9aec1f6075d226ea7936b2dac0fbd8718beb5e65e2ca57a": {
+    "method": "NewService(string,address,uint256)",
+    "bytes": "Y\u0006¢\t\u0011ß\u001fÉ®Áö\u0007]\"n§k-¬\u000f½\u0018¾µæ^,¥z"
+  },
+  "0x59c2edee20e1156b2d5d0d006ac843ed49ca044ce77be4aa26cba19c64f220be": {
+    "method": "CrowdsaleContribution(address,uint256,uint256)",
+    "bytes": "YÂíî á\u0015k-]\r\u0000jÈCíIÊ\u0004Lç{äª&Ë¡dò ¾"
+  },
+  "0x59e798dd1d3a9153861118fd83fbf10d33d3d30467f7649ac8da2a453a742014": {
+    "method": "TokenActivated()",
+    "bytes": "YçÝ\u001d:S\u0011\u0018ýûñ\r3ÓÓ\u0004g÷dÈÚ*E:t \u0014"
+  },
+  "0x59607a2b26de9cec195f2d07833fd103d142795d3d3b8eff92a531e1094e76a3": {
+    "method": "UserBinded(address,uint256,address,bool)",
+    "bytes": "Y`z+&Þì\u0019_-\u0007?Ñ\u0003ÑBy]=;ÿ¥1á\tNv£"
+  },
+  "0x595c41e099d15f4d0f565f1b87aa8fb57e170df1529b44ac81cb590be84845cb": {
+    "method": "ChangeOfOwnership(address)",
+    "bytes": "Y\\AàÑ_M\u000fV_\u001bªµ~\u0017\rñRD¬ËY\u000bèHEË"
+  },
+  "0x592c0f09c8591a0b30a4d4749fd1d0ba8dcd9b590c62a5bb2eed020e77bddee5": {
+    "method": "onLotteryFinalized(uint32)",
+    "bytes": "Y,\u000f\tÈY\u001a\u000b0¤ÔtÑÐºÍY\fb¥».í\u0002\u000ew½Þå"
+  },
+  "0x592f21e95a0a573f736250f196f612789f2ed3890302a4e270895ad03dbebdfa": {
+    "method": "ConsensusFormed(string,string,uint256,uint256)",
+    "bytes": "Y/!éZ\nW?sbPñö\u0012x.Ó\u0003\u0002¤âpZÐ=¾½ú"
+  },
+  "0x596b573906218d3411850b26a6b437d6c4522fdb43d2d2386263f86d50b8b151": {
+    "method": "CollectProtocol(address,address,uint128,uint128)",
+    "bytes": "YkW9\u0006!4\u0011\u000b&¦´7ÖÄR/ÛCÒÒ8bcømP¸±Q"
+  },
+  "0x5948780118f41f7c4577ae4619d5cbd064057bd8562d9f7b7e60324053375c00": {
+    "method": "MinTokensBeforeSwapUpdated(uint256)",
+    "bytes": "YHx\u0001\u0018ô\u001f|Ew®F\u0019ÕËÐd\u0005{ØV-{~`2@S7\\\u0000"
+  },
+  "0x59822dc2d999f6f0618e8b0db5cfc8496084574c769b09609d9b5f4394a310b6": {
+    "method": "AccountLoanLimitUpdated(uint256)",
+    "bytes": "Y-ÂÙöða\rµÏÈI`WLv\t`_C£\u0010¶"
+  },
+  "0x59c3746e635078efc737fb3f37dd8188203b8df10bbad35878a7d156f4f51c41": {
+    "method": "Executed(bytes32,address)",
+    "bytes": "YÃtncPxïÇ7û?7Ý ;ñ\u000bºÓXx§ÑVôõ\u001cA"
+  },
+  "0x590bbc0fc16915a85269a48f74783c39842b7ae9eceb7c295c95dbe8b3ec7331": {
+    "method": "onAffiliatePayout(uint256,address,bytes32,uint256,uint256,uint256,uint256)",
+    "bytes": "Y\u000b¼\u000fÁi\u0015¨Ri¤tx<9+zéìë|)\\Ûè³ìs1"
+  },
+  "0x59cfd0cd754bc5748b6770e94a4ffa5f678d885cb899dcfadc5734edb97c67ab": {
+    "method": "TroveCreated(address,uint256)",
+    "bytes": "YÏÐÍuKÅtgpéJOú_g\\¸ÜúÜW4í¹|g«"
+  },
+  "0x594ae021f7ce477644648fbf16215189f3d80a93a772c52f7d6fa9e2050013cb": {
+    "method": "DidLCJoin(bytes32,uint256,uint256)",
+    "bytes": "YJà!÷ÎGvDd¿\u0016!QóØ\n§rÅ/}o©â\u0005\u0000\u0013Ë"
+  },
+  "0x597b23690eff5a748e9caeb1673aca23d360fa4591de869f7dfd0ce30408e0b5": {
+    "method": "HorseInStud(uint256,uint256,uint256,uint256)",
+    "bytes": "Y{#i\u000eÿZt®±g:Ê#Ó`úEÞ}ý\fã\u0004\bàµ"
+  },
+  "0x591fcdfe59cccb0276eb7a1aca5309fb037c1e16cbde40e5787cdfc0fee00ba6": {
+    "method": "cancelTransaction(address,uint256,string,bytes,uint256)",
+    "bytes": "Y\u001fÍþYÌË\u0002vëz\u001aÊS\tû\u0003|\u001e\u0016ËÞ@åx|ßÀþà\u000b¦"
+  },
+  "0x5949b91c49ef1f9e84fa6e8d35ca00a4b055e9796b98a6cb3b4c549800be26d2": {
+    "method": "Redeem(address,address,address,uint48,uint256,uint256)",
+    "bytes": "YI¹\u001cIï\u001fún5Ê\u0000¤°Uéyk¦Ë;LT\u0000¾&Ò"
+  },
+  "0x59a9a8027b9c87b961e254899821c9a276b5efc35d1f7409ea4f291470f1629a": {
+    "method": "TokensBridgingInitiated(address,address,uint256,bytes32)",
+    "bytes": "Y©¨\u0002{¹aâT!É¢vµïÃ]\u001ft\têO)\u0014pñb"
+  },
+  "0x59d6590e225b81befe259af056324092801080acbb7feab310eb34678871f327": {
+    "method": "IdentityRemoved(address,address)",
+    "bytes": "YÖY\u000e\"[¾þ%ðV2@\u0010¬»ê³\u0010ë4gqó'"
+  },
+  "0x59e5f43a99755584cd4e889f272771ef68103f7514450d102c97a474852c456e": {
+    "method": "mintAndAttemptSwap(address,uint256,uint256,uint256)",
+    "bytes": "Yåô:uUÍN''qïh\u0010?u\u0014E\r\u0010,¤t,En"
+  },
+  "0x59900455c3bfedd9d98d96c1cda9bdf2d735c0273facbaef7b0df905de9c2611": {
+    "method": "QuestionAdded(address)",
+    "bytes": "Y\u0004UÃ¿íÙÙÁÍ©½ò×5À'?¬ºï{\rù\u0005Þ&\u0011"
+  },
+  "0x596caf56044b55fb8c4ca640089bbc2b63cae3e978b851f5745cbb7c5b288e02": {
+    "method": "RecoverToVault(address,address,uint256)",
+    "bytes": "Yl¯V\u0004KUûL¦@\b¼+cÊãéx¸Qõt\\»|[(\u0002"
+  },
+  "0x599d8e5a83cffb867d051598c4d70e805d59802d8081c1c7d6dffc5b6aca2b89": {
+    "method": "RefundsEnabled()",
+    "bytes": "YZÏû}\u0005\u0015Ä×\u000e]Y-ÁÇÖßü[jÊ+"
+  },
+  "0x59ebeb90bc63057b6515673c3ecf9438e5058bca0f92585014eced636878c9a5": {
+    "method": "Open()",
+    "bytes": "Yëë¼c\u0005{e\u0015g<>Ï8å\u0005Ê\u000fXP\u0014ìíchxÉ¥"
+  }
+}
